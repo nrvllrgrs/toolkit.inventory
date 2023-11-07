@@ -1,0 +1,19 @@
+{
+    "name": "ToolkitEditor.Inventory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b1b76fcec1f18ad4ebeece865cb4b15b",
+        "GUID:4f6675837be5f1d45a32fb1920bd0217"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
