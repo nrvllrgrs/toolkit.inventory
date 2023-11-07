@@ -14,11 +14,437 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.DropEntryDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.DropEntryDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.InventoryEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.InventoryEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.ItemTypeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.ItemTypeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.LootEntryDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.LootEntryDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.LootTableEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.LootTableEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.VisualScripting.Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.VisualScripting.Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.BaseSlot-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.BaseSlot-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.Currency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.CurrencyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.CurrencyEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.CurrencySlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.CurrencySlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.CurrencyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.CurrencyType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.DropEntry.AmountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.DropEntry.AmountType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.DropEntry.DropType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.DropEntry.DropType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.DropEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.DropEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemSlot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemType.DismantleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemType.DismantleMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemType.Ingredient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemType.Ingredient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemType.Price.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemType.Price.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemType.Scrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemType.Scrap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.Loot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.Loot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.LootEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.LootEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.LootTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.LootTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.Recipes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.Recipes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""

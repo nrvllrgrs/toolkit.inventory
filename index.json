@@ -1,22 +1,222 @@
 {
+  "api/ToolkitEditor.Inventory.DropEntryDrawer.html": {
+    "href": "api/ToolkitEditor.Inventory.DropEntryDrawer.html",
+    "title": "Class DropEntryDrawer | Inventory Toolkit | 1.0.0",
+    "keywords": "Class DropEntryDrawer Namespace ToolkitEditor.Inventory public class DropEntryDrawer : PropertyDrawer Inheritance object DropEntryDrawer Derived LootEntryDrawer Methods DrawDropGUI(ref Rect, SerializedProperty) protected void DrawDropGUI(ref Rect position, SerializedProperty property) Parameters position Rect property SerializedProperty GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Inventory.InventoryEditor.html": {
+    "href": "api/ToolkitEditor.Inventory.InventoryEditor.html",
+    "title": "Class InventoryEditor | Inventory Toolkit | 1.0.0",
+    "keywords": "Class InventoryEditor Namespace ToolkitEditor.Inventory public class InventoryEditor : BaseToolkitEditor Inheritance object InventoryEditor Fields m_allowAdd protected SerializedProperty m_allowAdd Field Value SerializedProperty m_currencies protected SerializedProperty m_currencies Field Value SerializedProperty m_encumbranceWeight protected SerializedProperty m_encumbranceWeight Field Value SerializedProperty m_items protected SerializedProperty m_items Field Value SerializedProperty m_onCurrencySlotChanged protected SerializedProperty m_onCurrencySlotChanged Field Value SerializedProperty m_onEncumbranceChanged protected SerializedProperty m_onEncumbranceChanged Field Value SerializedProperty m_onItemSlotChanged protected SerializedProperty m_onItemSlotChanged Field Value SerializedProperty m_useEncumbrance protected SerializedProperty m_useEncumbrance Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Inventory.ItemTypeEditor.html": {
+    "href": "api/ToolkitEditor.Inventory.ItemTypeEditor.html",
+    "title": "Class ItemTypeEditor | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemTypeEditor Namespace ToolkitEditor.Inventory public class ItemTypeEditor : Editor Inheritance object ItemTypeEditor Fields m_color protected SerializedProperty m_color Field Value SerializedProperty m_description protected SerializedProperty m_description Field Value SerializedProperty m_dismantleMode protected SerializedProperty m_dismantleMode Field Value SerializedProperty m_icon protected SerializedProperty m_icon Field Value SerializedProperty m_id protected SerializedProperty m_id Field Value SerializedProperty m_ingredients protected SerializedProperty m_ingredients Field Value SerializedProperty m_itemType protected ItemType m_itemType Field Value ItemType m_maxStack protected SerializedProperty m_maxStack Field Value SerializedProperty m_name protected SerializedProperty m_name Field Value SerializedProperty m_parent protected SerializedProperty m_parent Field Value SerializedProperty m_price protected SerializedProperty m_price Field Value SerializedProperty m_scraps protected SerializedProperty m_scraps Field Value SerializedProperty m_sellFactor protected SerializedProperty m_sellFactor Field Value SerializedProperty m_sellable protected SerializedProperty m_sellable Field Value SerializedProperty m_spawner protected SerializedProperty m_spawner Field Value SerializedProperty m_weight protected SerializedProperty m_weight Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Inventory.LootEntryDrawer.html": {
+    "href": "api/ToolkitEditor.Inventory.LootEntryDrawer.html",
+    "title": "Class LootEntryDrawer | Inventory Toolkit | 1.0.0",
+    "keywords": "Class LootEntryDrawer Namespace ToolkitEditor.Inventory public class LootEntryDrawer : DropEntryDrawer Inheritance object DropEntryDrawer LootEntryDrawer Inherited Members DropEntryDrawer.DrawDropGUI(ref Rect, SerializedProperty) Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Inventory.LootTableEditor.html": {
+    "href": "api/ToolkitEditor.Inventory.LootTableEditor.html",
+    "title": "Class LootTableEditor | Inventory Toolkit | 1.0.0",
+    "keywords": "Class LootTableEditor Namespace ToolkitEditor.Inventory public class LootTableEditor : Editor Inheritance object LootTableEditor Fields m_items protected SerializedProperty m_items Field Value SerializedProperty m_lootTable protected LootTable m_lootTable Field Value LootTable m_noDropRate protected SerializedProperty m_noDropRate Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Inventory.VisualScripting.Setup.html": {
+    "href": "api/ToolkitEditor.Inventory.VisualScripting.Setup.html",
+    "title": "Class Setup | Inventory Toolkit | 1.0.0",
+    "keywords": "Class Setup Namespace ToolkitEditor.Inventory.VisualScripting public static class Setup Inheritance object Setup Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Do() public static void Do()"
+  },
+  "api/ToolkitEditor.Inventory.VisualScripting.html": {
+    "href": "api/ToolkitEditor.Inventory.VisualScripting.html",
+    "title": "Namespace ToolkitEditor.Inventory.VisualScripting | Inventory Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.Inventory.VisualScripting Classes Setup"
+  },
+  "api/ToolkitEditor.Inventory.html": {
+    "href": "api/ToolkitEditor.Inventory.html",
+    "title": "Namespace ToolkitEditor.Inventory | Inventory Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.Inventory Classes DropEntryDrawer InventoryEditor ItemTypeEditor LootEntryDrawer LootTableEditor"
+  },
+  "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html": {
+    "href": "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html",
+    "title": "Class BaseInventoryEventArgs<T> | Inventory Toolkit | 1.0.0",
+    "keywords": "Class BaseInventoryEventArgs<T> Namespace ToolkitEngine.Inventory public abstract class BaseInventoryEventArgs<T> : EventArgs Type Parameters T Inheritance object EventArgs BaseInventoryEventArgs<T> Derived CurrencyEventArgs ItemEventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BaseInventoryEventArgs(Inventory, T) public BaseInventoryEventArgs(Inventory inventory, T slot) Parameters inventory Inventory slot T BaseInventoryEventArgs(Inventory, T, int) public BaseInventoryEventArgs(Inventory inventory, T slot, int delta) Parameters inventory Inventory slot T delta int Properties delta public int delta { get; } Property Value int inventory public Inventory inventory { get; set; } Property Value Inventory slot public T slot { get; } Property Value T"
+  },
+  "api/ToolkitEngine.Inventory.BaseSlot-1.html": {
+    "href": "api/ToolkitEngine.Inventory.BaseSlot-1.html",
+    "title": "Class BaseSlot<T> | Inventory Toolkit | 1.0.0",
+    "keywords": "Class BaseSlot<T> Namespace ToolkitEngine.Inventory public abstract class BaseSlot<T> where T : ScriptableObject Type Parameters T Inheritance object BaseSlot<T> Derived CurrencySlot ItemSlot Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_amount protected int m_amount Field Value int m_slotType protected T m_slotType Field Value T Properties amount Current number of items in stack public virtual int amount { get; protected set; } Property Value int slotType public T slotType { get; } Property Value T Methods AddToStack(int) public void AddToStack(int amount = 1) Parameters amount int Clear() public virtual void Clear() InvokeSlotChanged(int) protected abstract void InvokeSlotChanged(int delta) Parameters delta int RemoveFromStack(int) public void RemoveFromStack(int amount = 1) Parameters amount int Set(T, int) public void Set(T slotType, int amount = 1) Parameters slotType T amount int SplitStack(out T) public bool SplitStack(out T splitStack) Parameters splitStack T Returns bool"
+  },
+  "api/ToolkitEngine.Inventory.Currency.html": {
+    "href": "api/ToolkitEngine.Inventory.Currency.html",
+    "title": "Class Currency | Inventory Toolkit | 1.0.0",
+    "keywords": "Class Currency Namespace ToolkitEngine.Inventory public class Currency : MonoBehaviour Inheritance object Currency Properties amount public int amount { get; set; } Property Value int currencyType public CurrencyType currencyType { get; } Property Value CurrencyType"
+  },
+  "api/ToolkitEngine.Inventory.CurrencyEventArgs.html": {
+    "href": "api/ToolkitEngine.Inventory.CurrencyEventArgs.html",
+    "title": "Class CurrencyEventArgs | Inventory Toolkit | 1.0.0",
+    "keywords": "Class CurrencyEventArgs Namespace ToolkitEngine.Inventory public class CurrencyEventArgs : BaseInventoryEventArgs<CurrencySlot> Inheritance object EventArgs BaseInventoryEventArgs<CurrencySlot> CurrencyEventArgs Inherited Members BaseInventoryEventArgs<CurrencySlot>.inventory BaseInventoryEventArgs<CurrencySlot>.slot BaseInventoryEventArgs<CurrencySlot>.delta EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CurrencyEventArgs(Inventory, CurrencySlot) public CurrencyEventArgs(Inventory inventory, CurrencySlot slot) Parameters inventory Inventory slot CurrencySlot CurrencyEventArgs(Inventory, CurrencySlot, int) public CurrencyEventArgs(Inventory inventory, CurrencySlot slot, int delta) Parameters inventory Inventory slot CurrencySlot delta int"
+  },
+  "api/ToolkitEngine.Inventory.CurrencySlot.html": {
+    "href": "api/ToolkitEngine.Inventory.CurrencySlot.html",
+    "title": "Class CurrencySlot | Inventory Toolkit | 1.0.0",
+    "keywords": "Class CurrencySlot Namespace ToolkitEngine.Inventory [Serializable] public class CurrencySlot : BaseSlot<CurrencyType> Inheritance object BaseSlot<CurrencyType> CurrencySlot Inherited Members BaseSlot<CurrencyType>.m_slotType BaseSlot<CurrencyType>.m_amount BaseSlot<CurrencyType>.slotType BaseSlot<CurrencyType>.amount BaseSlot<CurrencyType>.Clear() BaseSlot<CurrencyType>.Set(CurrencyType, int) BaseSlot<CurrencyType>.AddToStack(int) BaseSlot<CurrencyType>.RemoveFromStack(int) BaseSlot<CurrencyType>.SplitStack(out CurrencyType) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CurrencySlot() public CurrencySlot() CurrencySlot(CurrencyType, int) public CurrencySlot(CurrencyType source, int amount) Parameters source CurrencyType amount int Methods InvokeSlotChanged(int) protected override void InvokeSlotChanged(int delta) Parameters delta int Events SlotChanged public event EventHandler<CurrencyEventArgs> SlotChanged Event Type EventHandler<CurrencyEventArgs>"
+  },
+  "api/ToolkitEngine.Inventory.CurrencyType.html": {
+    "href": "api/ToolkitEngine.Inventory.CurrencyType.html",
+    "title": "Class CurrencyType | Inventory Toolkit | 1.0.0",
+    "keywords": "Class CurrencyType Namespace ToolkitEngine.Inventory public class CurrencyType : ScriptableObject Inheritance object CurrencyType Properties color public Color color { get; } Property Value Color description public string description { get; } Property Value string icon public Sprite icon { get; } Property Value Sprite id public string id { get; } Property Value string name public string name { get; } Property Value string Methods Equals(object) public override bool Equals(object other) Parameters other object Returns bool GetHashCode() public override int GetHashCode() Returns int"
+  },
+  "api/ToolkitEngine.Inventory.DropEntry.AmountType.html": {
+    "href": "api/ToolkitEngine.Inventory.DropEntry.AmountType.html",
+    "title": "Enum DropEntry.AmountType | Inventory Toolkit | 1.0.0",
+    "keywords": "Enum DropEntry.AmountType Namespace ToolkitEngine.Inventory public enum DropEntry.AmountType Fields Constant = 0 Range = 1"
+  },
+  "api/ToolkitEngine.Inventory.DropEntry.DropType.html": {
+    "href": "api/ToolkitEngine.Inventory.DropEntry.DropType.html",
+    "title": "Enum DropEntry.DropType | Inventory Toolkit | 1.0.0",
+    "keywords": "Enum DropEntry.DropType Namespace ToolkitEngine.Inventory public enum DropEntry.DropType Fields Currency = 1 Item = 0 LootTable = 2"
+  },
+  "api/ToolkitEngine.Inventory.DropEntry.html": {
+    "href": "api/ToolkitEngine.Inventory.DropEntry.html",
+    "title": "Class DropEntry | Inventory Toolkit | 1.0.0",
+    "keywords": "Class DropEntry Namespace ToolkitEngine.Inventory [Serializable] public class DropEntry Inheritance object DropEntry Derived LootEntry Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_amount protected int m_amount Field Value int m_amountType protected DropEntry.AmountType m_amountType Field Value DropEntry.AmountType m_currency protected CurrencyType m_currency Field Value CurrencyType m_dropType protected DropEntry.DropType m_dropType Field Value DropEntry.DropType m_item protected ItemType m_item Field Value ItemType m_lootTable protected LootTable m_lootTable Field Value LootTable m_maxAmount protected int m_maxAmount Field Value int m_minAmount protected int m_minAmount Field Value int"
+  },
+  "api/ToolkitEngine.Inventory.Inventory.html": {
+    "href": "api/ToolkitEngine.Inventory.Inventory.html",
+    "title": "Class Inventory | Inventory Toolkit | 1.0.0",
+    "keywords": "Class Inventory Namespace ToolkitEngine.Inventory public class Inventory : MonoBehaviour Inheritance object Inventory Properties allowAdd public bool allowAdd { get; set; } Property Value bool currencies public CurrencySlot[] currencies { get; } Property Value CurrencySlot[] isEncumbered public bool isEncumbered { get; } Property Value bool items public ItemSlot[] items { get; } Property Value ItemSlot[] onCurrencySlotChanged public UnityEvent<CurrencyEventArgs> onCurrencySlotChanged { get; } Property Value UnityEvent<CurrencyEventArgs> onEncumbranceChanged public UnityEvent<Inventory, bool> onEncumbranceChanged { get; } Property Value UnityEvent<Inventory, bool> onItemSlotChanged public UnityEvent<ItemEventArgs> onItemSlotChanged { get; } Property Value UnityEvent<ItemEventArgs> weight public float weight { get; } Property Value float Methods AddCurrency(Currency, bool) public void AddCurrency(Currency source, bool emptySource = false) Parameters source Currency emptySource bool AddCurrency(CurrencyType, int) public void AddCurrency(CurrencyType currencyType, int amount = 1) Parameters currencyType CurrencyType amount int AddItem(ItemType, int, out int) public bool AddItem(ItemType itemType, int count, out int overflow) Parameters itemType ItemType count int overflow int Returns bool Buy(ItemType) public bool Buy(ItemType itemType) Parameters itemType ItemType Returns bool Buy(ItemType, SpawnedAction, params object[]) public bool Buy(ItemType itemType, SpawnedAction onSpawnedAction, params object[] args) Parameters itemType ItemType onSpawnedAction SpawnedAction args object[] Returns bool Buy(ItemType, out int) public bool Buy(ItemType itemType, out int overflow) Parameters itemType ItemType overflow int Returns bool Buy(ItemType, Transform, SpawnedAction, params object[]) public bool Buy(ItemType itemType, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters itemType ItemType parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Buy(ItemType, Transform, bool, SpawnedAction, params object[]) public bool Buy(ItemType itemType, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters itemType ItemType parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Buy(ItemType, Vector3, Quaternion, SpawnedAction, params object[]) public bool Buy(ItemType itemType, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters itemType ItemType position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Buy(ItemType, Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Buy(ItemType itemType, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters itemType ItemType position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool CanBuy(ItemType) public bool CanBuy(ItemType itemType) Parameters itemType ItemType Returns bool ClearItems() public void ClearItems() GetCurrencyTotal(CurrencyType) public int GetCurrencyTotal(CurrencyType currencyType) Parameters currencyType CurrencyType Returns int GetItemTotal(ItemType) public int GetItemTotal(ItemType itemType) Parameters itemType ItemType Returns int Sell(ItemType) public bool Sell(ItemType itemType) Parameters itemType ItemType Returns bool TryRemoveCurrency(CurrencyType, int) public bool TryRemoveCurrency(CurrencyType currencyType, int amount = 1) Parameters currencyType CurrencyType amount int Returns bool TryRemoveItem(ItemSlot, int) public bool TryRemoveItem(ItemSlot slot, int amount = 1) Parameters slot ItemSlot amount int Returns bool TryRemoveItem(ItemType, int) public bool TryRemoveItem(ItemType item, int amount = 1) Parameters item ItemType amount int Returns bool"
+  },
+  "api/ToolkitEngine.Inventory.Item.html": {
+    "href": "api/ToolkitEngine.Inventory.Item.html",
+    "title": "Class Item | Inventory Toolkit | 1.0.0",
+    "keywords": "Class Item Namespace ToolkitEngine.Inventory public class Item : MonoBehaviour Inheritance object Item Properties amount public int amount { get; set; } Property Value int itemType public ItemType itemType { get; } Property Value ItemType Methods Dismantle() public bool Dismantle() Returns bool Dismantle(Inventory, out int[]) public bool Dismantle(Inventory inventory, out int[] overflows) Parameters inventory Inventory overflows int[] Returns bool Dismantle(Transform, bool, SpawnedAction, params object[]) public bool Dismantle(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Dismantle(Vector3, Quaternion, SpawnedAction, params object[]) public bool Dismantle(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Dismantle(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool"
+  },
+  "api/ToolkitEngine.Inventory.ItemEventArgs.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemEventArgs.html",
+    "title": "Class ItemEventArgs | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemEventArgs Namespace ToolkitEngine.Inventory public class ItemEventArgs : BaseInventoryEventArgs<ItemSlot> Inheritance object EventArgs BaseInventoryEventArgs<ItemSlot> ItemEventArgs Inherited Members BaseInventoryEventArgs<ItemSlot>.inventory BaseInventoryEventArgs<ItemSlot>.slot BaseInventoryEventArgs<ItemSlot>.delta EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ItemEventArgs(Inventory, ItemSlot) public ItemEventArgs(Inventory inventory, ItemSlot slot) Parameters inventory Inventory slot ItemSlot ItemEventArgs(Inventory, ItemSlot, int) public ItemEventArgs(Inventory inventory, ItemSlot slot, int delta) Parameters inventory Inventory slot ItemSlot delta int Properties weightDelta public float weightDelta { get; } Property Value float"
+  },
+  "api/ToolkitEngine.Inventory.ItemSlot.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemSlot.html",
+    "title": "Class ItemSlot | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemSlot Namespace ToolkitEngine.Inventory [Serializable] public class ItemSlot : BaseSlot<ItemType> Inheritance object BaseSlot<ItemType> ItemSlot Inherited Members BaseSlot<ItemType>.m_slotType BaseSlot<ItemType>.m_amount BaseSlot<ItemType>.slotType BaseSlot<ItemType>.Set(ItemType, int) BaseSlot<ItemType>.AddToStack(int) BaseSlot<ItemType>.RemoveFromStack(int) BaseSlot<ItemType>.SplitStack(out ItemType) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ItemSlot() public ItemSlot() ItemSlot(ItemType, int) public ItemSlot(ItemType source, int amount) Parameters source ItemType amount int Properties amount Current number of items in stack public override int amount { protected set; } Property Value int id public string id { get; } Property Value string weight public float weight { get; } Property Value float Methods CanAdd(int) public bool CanAdd(int amountToAdd) Parameters amountToAdd int Returns bool CanAdd(int, out int) public bool CanAdd(int amountToAdd, out int amountRemaining) Parameters amountToAdd int amountRemaining int Returns bool Clear() public override void Clear() InvokeSlotChanged(int) protected override void InvokeSlotChanged(int delta) Parameters delta int Events SlotChanged public event EventHandler<ItemEventArgs> SlotChanged Event Type EventHandler<ItemEventArgs>"
+  },
+  "api/ToolkitEngine.Inventory.ItemType.DismantleMode.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemType.DismantleMode.html",
+    "title": "Enum ItemType.DismantleMode | Inventory Toolkit | 1.0.0",
+    "keywords": "Enum ItemType.DismantleMode Namespace ToolkitEngine.Inventory public enum ItemType.DismantleMode Fields Ingredients = 1 None = 0 Scrap = 2"
+  },
+  "api/ToolkitEngine.Inventory.ItemType.Ingredient.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemType.Ingredient.html",
+    "title": "Class ItemType.Ingredient | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemType.Ingredient Namespace ToolkitEngine.Inventory [Serializable] public class ItemType.Ingredient Inheritance object ItemType.Ingredient Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields amount public int amount Field Value int item public ItemType item Field Value ItemType"
+  },
+  "api/ToolkitEngine.Inventory.ItemType.Price.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemType.Price.html",
+    "title": "Class ItemType.Price | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemType.Price Namespace ToolkitEngine.Inventory [Serializable] public class ItemType.Price Inheritance object ItemType.Price Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields amount public int amount Field Value int currency public CurrencyType currency Field Value CurrencyType"
+  },
+  "api/ToolkitEngine.Inventory.ItemType.Scrap.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemType.Scrap.html",
+    "title": "Class ItemType.Scrap | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemType.Scrap Namespace ToolkitEngine.Inventory [Serializable] public class ItemType.Scrap Inheritance object ItemType.Scrap Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields amount public int amount Field Value int item public ItemType item Field Value ItemType reclaimPercent public float reclaimPercent Field Value float"
+  },
+  "api/ToolkitEngine.Inventory.ItemType.html": {
+    "href": "api/ToolkitEngine.Inventory.ItemType.html",
+    "title": "Class ItemType | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemType Namespace ToolkitEngine.Inventory public class ItemType : ScriptableObject Inheritance object ItemType Properties buyPrice public ItemType.Price buyPrice { get; } Property Value ItemType.Price color public Color color { get; } Property Value Color craftable public bool craftable { get; } Property Value bool description public string description { get; } Property Value string dismantlable public bool dismantlable { get; } Property Value bool icon public Sprite icon { get; } Property Value Sprite id public string id { get; } Property Value string ingredients public ItemType.Ingredient[] ingredients { get; } Property Value Ingredient[] maxStack public int maxStack { get; } Property Value int name public string name { get; } Property Value string parent public ItemType parent { get; } Property Value ItemType sellFactor public float sellFactor { get; } Property Value float sellPrice public ItemType.Price sellPrice { get; } Property Value ItemType.Price sellable Indicates whether item can be sold public bool sellable { get; } Property Value bool weight public float weight { get; } Property Value float Methods Buy(Inventory) public bool Buy(Inventory inventory) Parameters inventory Inventory Returns bool Buy(Inventory, SpawnedAction, params object[]) public bool Buy(Inventory inventory, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory onSpawnedAction SpawnedAction args object[] Returns bool Buy(Inventory, out int) Buy item type, adding it to inventory and removing the necessary currencies public bool Buy(Inventory inventory, out int overflow) Parameters inventory Inventory overflow int Returns bool Buy(Inventory, Transform, SpawnedAction, params object[]) public bool Buy(Inventory inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Buy(Inventory, Transform, bool, SpawnedAction, params object[]) public bool Buy(Inventory inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Buy(Inventory, Vector3, Quaternion, SpawnedAction, params object[]) public bool Buy(Inventory inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Buy(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Buy(Inventory inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool CanBuy(Inventory) public bool CanBuy(Inventory inventory) Parameters inventory Inventory Returns bool CanCraft(IEnumerable<Item>) public bool CanCraft(IEnumerable<Item> items) Parameters items IEnumerable<Item> Returns bool CanCraft(Inventory) public bool CanCraft(Inventory inventory) Parameters inventory Inventory Returns bool Craft(IEnumerable<Item>, Inventory, out int) public bool Craft(IEnumerable<Item> items, Inventory inventory, out int overflow) Parameters items IEnumerable<Item> inventory Inventory overflow int Returns bool Craft(IEnumerable<Item>, Transform, SpawnedAction, params object[]) public bool Craft(IEnumerable<Item> items, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters items IEnumerable<Item> parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Craft(IEnumerable<Item>, Transform, bool, SpawnedAction, params object[]) public bool Craft(IEnumerable<Item> items, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters items IEnumerable<Item> parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Craft(IEnumerable<Item>, Vector3, Quaternion, SpawnedAction, params object[]) public bool Craft(IEnumerable<Item> items, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters items IEnumerable<Item> position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Craft(IEnumerable<Item>, Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Craft(IEnumerable<Item> items, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters items IEnumerable<Item> position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Craft(Inventory, out int) public bool Craft(Inventory inventory, out int overflow) Parameters inventory Inventory overflow int Returns bool Craft(Inventory, Transform, SpawnedAction, params object[]) public bool Craft(Inventory inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Craft(Inventory, Transform, bool, SpawnedAction, params object[]) public bool Craft(Inventory inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Craft(Inventory, Vector3, Quaternion, SpawnedAction, params object[]) public bool Craft(Inventory inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Craft(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Craft(Inventory inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters inventory Inventory position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Dismantle(Inventory, out int[]) public bool Dismantle(Inventory inventory, out int[] overflows) Parameters inventory Inventory overflows int[] Returns bool Dismantle(Transform, SpawnedAction, params object[]) public bool Dismantle(Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Dismantle(Transform, bool, SpawnedAction, params object[]) public bool Dismantle(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Returns bool Dismantle(Vector3, Quaternion, SpawnedAction, params object[]) public bool Dismantle(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Returns bool Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[]) public bool Dismantle(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Equals(object) public override bool Equals(object other) Parameters other object Returns bool GetHashCode() public override int GetHashCode() Returns int Instantiate(SpawnedAction, params object[]) public void Instantiate(SpawnedAction onSpawnedAction, params object[] args) Parameters onSpawnedAction SpawnedAction args object[] Instantiate(Transform, SpawnedAction, params object[]) public bool Instantiate(Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform onSpawnedAction SpawnedAction args object[] Returns bool Instantiate(Transform, bool, SpawnedAction, params object[]) public void Instantiate(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args) Parameters parent Transform instantiateInWorldSpace bool onSpawnedAction SpawnedAction args object[] Instantiate(Vector3, Quaternion, SpawnedAction, params object[]) public void Instantiate(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion onSpawnedAction SpawnedAction args object[] Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[]) public void Instantiate(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args) Parameters position Vector3 rotation Quaternion parent Transform onSpawnedAction SpawnedAction args object[] IsSubtypeOf(ItemType) Determines whether item is a subtype of specified ItemType public bool IsSubtypeOf(ItemType itemType) Parameters itemType ItemType ItemType to compare with current type Returns bool Returns true if current type is descendant of itemType; otherwise false IsSupertypeOf(ItemType) Determines whether item is a supertype of specified ItemType public bool IsSupertypeOf(ItemType itemType) Parameters itemType ItemType ItemType to compare with current type Returns bool Returns true if current type is ancestor of itemType; otherwise false Sell(Inventory) public bool Sell(Inventory inventory) Parameters inventory Inventory Returns bool"
+  },
+  "api/ToolkitEngine.Inventory.Loot.html": {
+    "href": "api/ToolkitEngine.Inventory.Loot.html",
+    "title": "Class Loot | Inventory Toolkit | 1.0.0",
+    "keywords": "Class Loot Namespace ToolkitEngine.Inventory public class Loot : MonoBehaviour Inheritance object Loot"
+  },
+  "api/ToolkitEngine.Inventory.LootEntry.html": {
+    "href": "api/ToolkitEngine.Inventory.LootEntry.html",
+    "title": "Class LootEntry | Inventory Toolkit | 1.0.0",
+    "keywords": "Class LootEntry Namespace ToolkitEngine.Inventory [Serializable] public class LootEntry : DropEntry, IWeightedItem<LootEntry> Inheritance object DropEntry LootEntry Implements IWeightedItem<LootEntry> Inherited Members DropEntry.m_dropType DropEntry.m_item DropEntry.m_currency DropEntry.m_lootTable DropEntry.m_amountType DropEntry.m_amount DropEntry.m_minAmount DropEntry.m_maxAmount object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields m_rate protected float m_rate Field Value float Properties item public LootEntry item { get; } Property Value LootEntry weight public float weight { get; } Property Value float"
+  },
+  "api/ToolkitEngine.Inventory.LootTable.html": {
+    "href": "api/ToolkitEngine.Inventory.LootTable.html",
+    "title": "Class LootTable | Inventory Toolkit | 1.0.0",
+    "keywords": "Class LootTable Namespace ToolkitEngine.Inventory public class LootTable : ScriptableObject Inheritance object LootTable Properties totalRates public float totalRates { get; } Property Value float"
+  },
+  "api/ToolkitEngine.Inventory.Recipes.html": {
+    "href": "api/ToolkitEngine.Inventory.Recipes.html",
+    "title": "Class Recipes | Inventory Toolkit | 1.0.0",
+    "keywords": "Class Recipes Namespace ToolkitEngine.Inventory public class Recipes : ScriptableObject Inheritance object Recipes Properties items public ItemType[] items { get; } Property Value ItemType[] Methods GetRecipesByAllIngredients(IEnumerable<ItemType>) public ItemType[] GetRecipesByAllIngredients(IEnumerable<ItemType> itemTypes) Parameters itemTypes IEnumerable<ItemType> Returns ItemType[] GetRecipesByAllIngredients(IEnumerable<Item>) public ItemType[] GetRecipesByAllIngredients(IEnumerable<Item> items) Parameters items IEnumerable<Item> Returns ItemType[] GetRecipesByAllIngredients(Inventory) public ItemType[] GetRecipesByAllIngredients(Inventory inventory) Parameters inventory Inventory Returns ItemType[] GetRecipesByAnyIngredient(IEnumerable<ItemType>) public ItemType[] GetRecipesByAnyIngredient(IEnumerable<ItemType> itemTypes) Parameters itemTypes IEnumerable<ItemType> Returns ItemType[] GetRecipesByAnyIngredient(IEnumerable<Item>) public ItemType[] GetRecipesByAnyIngredient(IEnumerable<Item> items) Parameters items IEnumerable<Item> Returns ItemType[] GetRecipesByAnyIngredient(Inventory) public ItemType[] GetRecipesByAnyIngredient(Inventory inventory) Parameters inventory Inventory Returns ItemType[]"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html",
+    "title": "Class BaseCurrencyEventUnit | Inventory Toolkit | 1.0.0",
+    "keywords": "Class BaseCurrencyEventUnit Namespace ToolkitEngine.Inventory.VisualScripting public abstract class BaseCurrencyEventUnit : BaseEventUnit<CurrencyEventArgs> Inheritance object BaseCurrencyEventUnit Derived OnCurrencySlotChanged"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html",
+    "title": "Class BaseItemEventUnit | Inventory Toolkit | 1.0.0",
+    "keywords": "Class BaseItemEventUnit Namespace ToolkitEngine.Inventory.VisualScripting public abstract class BaseItemEventUnit : BaseEventUnit<ItemEventArgs> Inheritance object BaseItemEventUnit Derived OnItemSlotChanged"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html",
+    "title": "Class EventHooks | Inventory Toolkit | 1.0.0",
+    "keywords": "Class EventHooks Namespace ToolkitEngine.Inventory.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnCurrencySlotChanged public const string OnCurrencySlotChanged = \"OnCurrencySlotChanged\" Field Value string OnItemSlotChanged public const string OnItemSlotChanged = \"OnItemSlotChanged\" Field Value string"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html",
+    "title": "Class OnCurrencySlotChanged | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnCurrencySlotChanged Namespace ToolkitEngine.Inventory.VisualScripting public class OnCurrencySlotChanged : BaseCurrencyEventUnit Inheritance object BaseCurrencyEventUnit OnCurrencySlotChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html",
+    "title": "Class OnCurrencySlotChangedMessageListener | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnCurrencySlotChangedMessageListener Namespace ToolkitEngine.Inventory.VisualScripting public class OnCurrencySlotChangedMessageListener : MessageListener Inheritance object OnCurrencySlotChangedMessageListener"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html",
+    "title": "Class OnItemSlotChanged | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnItemSlotChanged Namespace ToolkitEngine.Inventory.VisualScripting public class OnItemSlotChanged : BaseItemEventUnit Inheritance object BaseItemEventUnit OnItemSlotChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.html",
+    "title": "Class OnItemSlotChangedMessageListener | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnItemSlotChangedMessageListener Namespace ToolkitEngine.Inventory.VisualScripting public class OnItemSlotChangedMessageListener : MessageListener Inheritance object OnItemSlotChangedMessageListener"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.html",
+    "title": "Namespace ToolkitEngine.Inventory.VisualScripting | Inventory Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Inventory.VisualScripting Classes BaseCurrencyEventUnit BaseItemEventUnit EventHooks OnCurrencySlotChanged OnCurrencySlotChangedMessageListener OnItemSlotChanged OnItemSlotChangedMessageListener"
+  },
+  "api/ToolkitEngine.Inventory.html": {
+    "href": "api/ToolkitEngine.Inventory.html",
+    "title": "Namespace ToolkitEngine.Inventory | Inventory Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Inventory Classes BaseInventoryEventArgs<T> BaseSlot<T> Currency CurrencyEventArgs CurrencySlot CurrencyType DropEntry Inventory Item ItemEventArgs ItemSlot ItemType ItemType.Ingredient ItemType.Price ItemType.Scrap Loot LootEntry LootTable Recipes Enums DropEntry.AmountType DropEntry.DropType ItemType.DismantleMode"
+  },
   "api/index.html": {
     "href": "api/index.html",
-    "title": "| |",
+    "title": "| Inventory Toolkit | 1.0.0",
     "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "| Inventory Toolkit | 1.0.0",
+    "keywords": ""
   },
   "index.html": {
     "href": "index.html",
-    "title": "| |",
+    "title": "| Inventory Toolkit | 1.0.0",
     "keywords": "This page redirects to the manual."
   },
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
-    "title": "| |",
+    "title": "| Inventory Toolkit | 1.0.0",
     "keywords": "MIT License Copyright (c) 2023 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "toolkit.inventory | |",
+    "title": "toolkit.inventory | Inventory Toolkit | 1.0.0",
     "keywords": "toolkit.inventory"
   }
 }

@@ -1,0 +1,2026 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ItemType
+ | Inventory Toolkit | 1.0.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ItemType
+ | Inventory Toolkit | 1.0.0 ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.inventory/new/master/apiSpec/new?filename=ToolkitEngine_Inventory_ItemType.md&amp;value=---%0Auid%3A%20ToolkitEngine.Inventory.ItemType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ToolkitEngine.Inventory.ItemType">
+
+
+
+  <h1 id="ToolkitEngine_Inventory_ItemType" data-uid="ToolkitEngine.Inventory.ItemType" class="text-break">
+    Class ItemType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.Inventory.html">Inventory</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemType : ScriptableObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ItemType</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_buyPrice_" data-uid="ToolkitEngine.Inventory.ItemType.buyPrice*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_buyPrice" data-uid="ToolkitEngine.Inventory.ItemType.buyPrice">
+  buyPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemType.Price buyPrice { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a>.<a class="xref" href="ToolkitEngine.Inventory.ItemType.Price.html">Price</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_color_" data-uid="ToolkitEngine.Inventory.ItemType.color*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_color" data-uid="ToolkitEngine.Inventory.ItemType.color">
+  color
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color color { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_craftable_" data-uid="ToolkitEngine.Inventory.ItemType.craftable*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_craftable" data-uid="ToolkitEngine.Inventory.ItemType.craftable">
+  craftable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool craftable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_description_" data-uid="ToolkitEngine.Inventory.ItemType.description*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_description" data-uid="ToolkitEngine.Inventory.ItemType.description">
+  description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string description { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_dismantlable_" data-uid="ToolkitEngine.Inventory.ItemType.dismantlable*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_dismantlable" data-uid="ToolkitEngine.Inventory.ItemType.dismantlable">
+  dismantlable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool dismantlable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_icon_" data-uid="ToolkitEngine.Inventory.ItemType.icon*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_icon" data-uid="ToolkitEngine.Inventory.ItemType.icon">
+  icon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite icon { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Sprite</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_id_" data-uid="ToolkitEngine.Inventory.ItemType.id*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_id" data-uid="ToolkitEngine.Inventory.ItemType.id">
+  id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_ingredients_" data-uid="ToolkitEngine.Inventory.ItemType.ingredients*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_ingredients" data-uid="ToolkitEngine.Inventory.ItemType.ingredients">
+  ingredients
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemType.Ingredient[] ingredients { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemType.Ingredient.html">Ingredient</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_maxStack_" data-uid="ToolkitEngine.Inventory.ItemType.maxStack*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_maxStack" data-uid="ToolkitEngine.Inventory.ItemType.maxStack">
+  maxStack
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxStack { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_name_" data-uid="ToolkitEngine.Inventory.ItemType.name*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_name" data-uid="ToolkitEngine.Inventory.ItemType.name">
+  name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_parent_" data-uid="ToolkitEngine.Inventory.ItemType.parent*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_parent" data-uid="ToolkitEngine.Inventory.ItemType.parent">
+  parent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemType parent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_sellFactor_" data-uid="ToolkitEngine.Inventory.ItemType.sellFactor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_sellFactor" data-uid="ToolkitEngine.Inventory.ItemType.sellFactor">
+  sellFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sellFactor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_sellPrice_" data-uid="ToolkitEngine.Inventory.ItemType.sellPrice*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_sellPrice" data-uid="ToolkitEngine.Inventory.ItemType.sellPrice">
+  sellPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemType.Price sellPrice { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a>.<a class="xref" href="ToolkitEngine.Inventory.ItemType.Price.html">Price</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_sellable_" data-uid="ToolkitEngine.Inventory.ItemType.sellable*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_sellable" data-uid="ToolkitEngine.Inventory.ItemType.sellable">
+  sellable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether item can be sold</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool sellable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_weight_" data-uid="ToolkitEngine.Inventory.ItemType.weight*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_weight" data-uid="ToolkitEngine.Inventory.ItemType.weight">
+  weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float weight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory)">
+  Buy(Inventory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,SpawnedAction,System.Object[])">
+  Buy(Inventory, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,System.Int32@)">
+  Buy(Inventory, out int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Buy item type, adding it to inventory and removing the necessary currencies</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory, out int overflow)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>overflow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Transform,SpawnedAction,System.Object[])">
+  Buy(Inventory, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Transform,System.Boolean,SpawnedAction,System.Object[])">
+  Buy(Inventory, Transform, bool, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>instantiateInWorldSpace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,SpawnedAction,System.Object[])">
+  Buy(Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Buy_" data-uid="ToolkitEngine.Inventory.ItemType.Buy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
+  Buy(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Buy(Inventory inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_CanBuy_" data-uid="ToolkitEngine.Inventory.ItemType.CanBuy*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_CanBuy_ToolkitEngine_Inventory_Inventory_" data-uid="ToolkitEngine.Inventory.ItemType.CanBuy(ToolkitEngine.Inventory.Inventory)">
+  CanBuy(Inventory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanBuy(Inventory inventory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_CanCraft_" data-uid="ToolkitEngine.Inventory.ItemType.CanCraft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_CanCraft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__" data-uid="ToolkitEngine.Inventory.ItemType.CanCraft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})">
+  CanCraft(IEnumerable&lt;Item&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanCraft(IEnumerable&lt;Item&gt; items)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_CanCraft_" data-uid="ToolkitEngine.Inventory.ItemType.CanCraft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_CanCraft_ToolkitEngine_Inventory_Inventory_" data-uid="ToolkitEngine.Inventory.ItemType.CanCraft(ToolkitEngine.Inventory.Inventory)">
+  CanCraft(Inventory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanCraft(Inventory inventory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__ToolkitEngine_Inventory_Inventory_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},ToolkitEngine.Inventory.Inventory,System.Int32@)">
+  Craft(IEnumerable&lt;Item&gt;, Inventory, out int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L388"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(IEnumerable&lt;Item&gt; items, Inventory inventory, out int overflow)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>overflow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,SpawnedAction,System.Object[])">
+  Craft(IEnumerable&lt;Item&gt;, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(IEnumerable&lt;Item&gt; items, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,System.Boolean,SpawnedAction,System.Object[])">
+  Craft(IEnumerable&lt;Item&gt;, Transform, bool, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(IEnumerable&lt;Item&gt; items, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>instantiateInWorldSpace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,SpawnedAction,System.Object[])">
+  Craft(IEnumerable&lt;Item&gt;, Vector3, Quaternion, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(IEnumerable&lt;Item&gt; items, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
+  Craft(IEnumerable&lt;Item&gt;, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(IEnumerable&lt;Item&gt; items, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,System.Int32@)">
+  Craft(Inventory, out int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(Inventory inventory, out int overflow)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>overflow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Transform,SpawnedAction,System.Object[])">
+  Craft(Inventory, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(Inventory inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Transform,System.Boolean,SpawnedAction,System.Object[])">
+  Craft(Inventory, Transform, bool, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(Inventory inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>instantiateInWorldSpace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,SpawnedAction,System.Object[])">
+  Craft(Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(Inventory inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Craft_" data-uid="ToolkitEngine.Inventory.ItemType.Craft*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
+  Craft(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Craft(Inventory inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Dismantle_" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_ToolkitEngine_Inventory_Inventory_System_Int32____" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(ToolkitEngine.Inventory.Inventory,System.Int32[]@)">
+  Dismantle(Inventory, out int[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Dismantle(Inventory inventory, out int[] overflows)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+    <dt><code>overflows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Dismantle_" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Transform,SpawnedAction,System.Object[])">
+  Dismantle(Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L520"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Dismantle(Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Dismantle_" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Transform,System.Boolean,SpawnedAction,System.Object[])">
+  Dismantle(Transform, bool, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L525"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Dismantle(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>instantiateInWorldSpace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Dismantle_" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,SpawnedAction,System.Object[])">
+  Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Dismantle(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Dismantle_" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
+  Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L504"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Dismantle(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Equals_" data-uid="ToolkitEngine.Inventory.ItemType.Equals*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Equals_System_Object_" data-uid="ToolkitEngine.Inventory.ItemType.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_GetHashCode_" data-uid="ToolkitEngine.Inventory.ItemType.GetHashCode*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_GetHashCode" data-uid="ToolkitEngine.Inventory.ItemType.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Instantiate_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction,System.Object[])">
+  Instantiate(SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Instantiate(SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Instantiate_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Transform,SpawnedAction,System.Object[])">
+  Instantiate(Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Instantiate(Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Instantiate_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean,SpawnedAction,System.Object[])">
+  Instantiate(Transform, bool, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Instantiate(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>instantiateInWorldSpace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Instantiate_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,SpawnedAction,System.Object[])">
+  Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Instantiate(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Instantiate_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
+  Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Instantiate(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>onSpawnedAction</code> <span class="xref">SpawnedAction</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_IsSubtypeOf_" data-uid="ToolkitEngine.Inventory.ItemType.IsSubtypeOf*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_IsSubtypeOf_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.IsSubtypeOf(ToolkitEngine.Inventory.ItemType)">
+  IsSubtypeOf(ItemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether item is a subtype of specified ItemType</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSubtypeOf(ItemType itemType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemType</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd><p>ItemType to compare with current type</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Returns true if current type is descendant of itemType; otherwise false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_IsSupertypeOf_" data-uid="ToolkitEngine.Inventory.ItemType.IsSupertypeOf*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_IsSupertypeOf_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.IsSupertypeOf(ToolkitEngine.Inventory.ItemType)">
+  IsSupertypeOf(ItemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether item is a supertype of specified ItemType</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSupertypeOf(ItemType itemType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemType</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd><p>ItemType to compare with current type</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Returns true if current type is ancestor of itemType; otherwise false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Sell_" data-uid="ToolkitEngine.Inventory.ItemType.Sell*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Sell_ToolkitEngine_Inventory_Inventory_" data-uid="ToolkitEngine.Inventory.ItemType.Sell(ToolkitEngine.Inventory.Inventory)">
+  Sell(Inventory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Sell(Inventory inventory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nrvllrgrs" target="_blank">nrvllrgrs</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

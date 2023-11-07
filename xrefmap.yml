@@ -1,3 +1,2395 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: ToolkitEditor.Inventory
+  name: ToolkitEditor.Inventory
+  href: api/ToolkitEditor.Inventory.html
+  commentId: N:ToolkitEditor.Inventory
+  fullName: ToolkitEditor.Inventory
+  nameWithType: ToolkitEditor.Inventory
+- uid: ToolkitEditor.Inventory.DropEntryDrawer
+  name: DropEntryDrawer
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html
+  commentId: T:ToolkitEditor.Inventory.DropEntryDrawer
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer
+  nameWithType: DropEntryDrawer
+- uid: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(Rect@,SerializedProperty)
+  name: DrawDropGUI(ref Rect, SerializedProperty)
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_DrawDropGUI_Rect__SerializedProperty_
+  commentId: M:ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(Rect@,SerializedProperty)
+  name.vb: DrawDropGUI(Rect, SerializedProperty)
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(ref Rect, SerializedProperty)
+  fullName.vb: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(Rect, SerializedProperty)
+  nameWithType: DropEntryDrawer.DrawDropGUI(ref Rect, SerializedProperty)
+  nameWithType.vb: DropEntryDrawer.DrawDropGUI(Rect, SerializedProperty)
+- uid: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI*
+  name: DrawDropGUI
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_DrawDropGUI_
+  commentId: Overload:ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI
+  nameWithType: DropEntryDrawer.DrawDropGUI
+- uid: ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: DropEntryDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight
+  nameWithType: DropEntryDrawer.GetPropertyHeight
+- uid: ToolkitEditor.Inventory.DropEntryDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.Inventory.DropEntryDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: DropEntryDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.Inventory.DropEntryDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_OnGUI_
+  commentId: Overload:ToolkitEditor.Inventory.DropEntryDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.DropEntryDrawer.OnGUI
+  nameWithType: DropEntryDrawer.OnGUI
+- uid: ToolkitEditor.Inventory.InventoryEditor
+  name: InventoryEditor
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html
+  commentId: T:ToolkitEditor.Inventory.InventoryEditor
+  fullName: ToolkitEditor.Inventory.InventoryEditor
+  nameWithType: InventoryEditor
+- uid: ToolkitEditor.Inventory.InventoryEditor.DrawEvents
+  name: DrawEvents()
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_DrawEvents
+  commentId: M:ToolkitEditor.Inventory.InventoryEditor.DrawEvents
+  fullName: ToolkitEditor.Inventory.InventoryEditor.DrawEvents()
+  nameWithType: InventoryEditor.DrawEvents()
+- uid: ToolkitEditor.Inventory.InventoryEditor.DrawEvents*
+  name: DrawEvents
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_DrawEvents_
+  commentId: Overload:ToolkitEditor.Inventory.InventoryEditor.DrawEvents
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.InventoryEditor.DrawEvents
+  nameWithType: InventoryEditor.DrawEvents
+- uid: ToolkitEditor.Inventory.InventoryEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_DrawProperties
+  commentId: M:ToolkitEditor.Inventory.InventoryEditor.DrawProperties
+  fullName: ToolkitEditor.Inventory.InventoryEditor.DrawProperties()
+  nameWithType: InventoryEditor.DrawProperties()
+- uid: ToolkitEditor.Inventory.InventoryEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Inventory.InventoryEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.InventoryEditor.DrawProperties
+  nameWithType: InventoryEditor.DrawProperties
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_allowAdd
+  name: m_allowAdd
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_allowAdd
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_allowAdd
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_allowAdd
+  nameWithType: InventoryEditor.m_allowAdd
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_currencies
+  name: m_currencies
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_currencies
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_currencies
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_currencies
+  nameWithType: InventoryEditor.m_currencies
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_encumbranceWeight
+  name: m_encumbranceWeight
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_encumbranceWeight
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_encumbranceWeight
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_encumbranceWeight
+  nameWithType: InventoryEditor.m_encumbranceWeight
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_items
+  name: m_items
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_items
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_items
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_items
+  nameWithType: InventoryEditor.m_items
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_onCurrencySlotChanged
+  name: m_onCurrencySlotChanged
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_onCurrencySlotChanged
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_onCurrencySlotChanged
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_onCurrencySlotChanged
+  nameWithType: InventoryEditor.m_onCurrencySlotChanged
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_onEncumbranceChanged
+  name: m_onEncumbranceChanged
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_onEncumbranceChanged
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_onEncumbranceChanged
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_onEncumbranceChanged
+  nameWithType: InventoryEditor.m_onEncumbranceChanged
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_onItemSlotChanged
+  name: m_onItemSlotChanged
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_onItemSlotChanged
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_onItemSlotChanged
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_onItemSlotChanged
+  nameWithType: InventoryEditor.m_onItemSlotChanged
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
+  name: m_useEncumbrance
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_useEncumbrance
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
+  nameWithType: InventoryEditor.m_useEncumbrance
+- uid: ToolkitEditor.Inventory.ItemTypeEditor
+  name: ItemTypeEditor
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html
+  commentId: T:ToolkitEditor.Inventory.ItemTypeEditor
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor
+  nameWithType: ItemTypeEditor
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_OnInspectorGUI
+  commentId: M:ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI()
+  nameWithType: ItemTypeEditor.OnInspectorGUI()
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_OnInspectorGUI_
+  commentId: Overload:ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
+  nameWithType: ItemTypeEditor.OnInspectorGUI
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_color
+  name: m_color
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_color
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_color
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_color
+  nameWithType: ItemTypeEditor.m_color
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_description
+  name: m_description
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_description
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_description
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_description
+  nameWithType: ItemTypeEditor.m_description
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_dismantleMode
+  name: m_dismantleMode
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_dismantleMode
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_dismantleMode
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_dismantleMode
+  nameWithType: ItemTypeEditor.m_dismantleMode
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_icon
+  name: m_icon
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_icon
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_icon
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_icon
+  nameWithType: ItemTypeEditor.m_icon
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_id
+  name: m_id
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_id
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_id
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_id
+  nameWithType: ItemTypeEditor.m_id
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_ingredients
+  name: m_ingredients
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_ingredients
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_ingredients
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_ingredients
+  nameWithType: ItemTypeEditor.m_ingredients
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_itemType
+  name: m_itemType
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_itemType
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_itemType
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_itemType
+  nameWithType: ItemTypeEditor.m_itemType
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_maxStack
+  name: m_maxStack
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_maxStack
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_maxStack
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_maxStack
+  nameWithType: ItemTypeEditor.m_maxStack
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_name
+  name: m_name
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_name
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_name
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_name
+  nameWithType: ItemTypeEditor.m_name
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_parent
+  name: m_parent
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_parent
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_parent
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_parent
+  nameWithType: ItemTypeEditor.m_parent
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_price
+  name: m_price
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_price
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_price
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_price
+  nameWithType: ItemTypeEditor.m_price
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_scraps
+  name: m_scraps
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_scraps
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_scraps
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_scraps
+  nameWithType: ItemTypeEditor.m_scraps
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_sellFactor
+  name: m_sellFactor
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_sellFactor
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_sellFactor
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_sellFactor
+  nameWithType: ItemTypeEditor.m_sellFactor
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_sellable
+  name: m_sellable
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_sellable
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_sellable
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_sellable
+  nameWithType: ItemTypeEditor.m_sellable
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_spawner
+  name: m_spawner
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_spawner
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_spawner
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_spawner
+  nameWithType: ItemTypeEditor.m_spawner
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_weight
+  name: m_weight
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_weight
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_weight
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_weight
+  nameWithType: ItemTypeEditor.m_weight
+- uid: ToolkitEditor.Inventory.LootEntryDrawer
+  name: LootEntryDrawer
+  href: api/ToolkitEditor.Inventory.LootEntryDrawer.html
+  commentId: T:ToolkitEditor.Inventory.LootEntryDrawer
+  fullName: ToolkitEditor.Inventory.LootEntryDrawer
+  nameWithType: LootEntryDrawer
+- uid: ToolkitEditor.Inventory.LootEntryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.Inventory.LootEntryDrawer.html#ToolkitEditor_Inventory_LootEntryDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.Inventory.LootEntryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.Inventory.LootEntryDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: LootEntryDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEditor.Inventory.LootEntryDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEditor.Inventory.LootEntryDrawer.html#ToolkitEditor_Inventory_LootEntryDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEditor.Inventory.LootEntryDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.LootEntryDrawer.GetPropertyHeight
+  nameWithType: LootEntryDrawer.GetPropertyHeight
+- uid: ToolkitEditor.Inventory.LootEntryDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEditor.Inventory.LootEntryDrawer.html#ToolkitEditor_Inventory_LootEntryDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEditor.Inventory.LootEntryDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEditor.Inventory.LootEntryDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: LootEntryDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEditor.Inventory.LootEntryDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEditor.Inventory.LootEntryDrawer.html#ToolkitEditor_Inventory_LootEntryDrawer_OnGUI_
+  commentId: Overload:ToolkitEditor.Inventory.LootEntryDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.LootEntryDrawer.OnGUI
+  nameWithType: LootEntryDrawer.OnGUI
+- uid: ToolkitEditor.Inventory.LootTableEditor
+  name: LootTableEditor
+  href: api/ToolkitEditor.Inventory.LootTableEditor.html
+  commentId: T:ToolkitEditor.Inventory.LootTableEditor
+  fullName: ToolkitEditor.Inventory.LootTableEditor
+  nameWithType: LootTableEditor
+- uid: ToolkitEditor.Inventory.LootTableEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/ToolkitEditor.Inventory.LootTableEditor.html#ToolkitEditor_Inventory_LootTableEditor_OnInspectorGUI
+  commentId: M:ToolkitEditor.Inventory.LootTableEditor.OnInspectorGUI
+  fullName: ToolkitEditor.Inventory.LootTableEditor.OnInspectorGUI()
+  nameWithType: LootTableEditor.OnInspectorGUI()
+- uid: ToolkitEditor.Inventory.LootTableEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/ToolkitEditor.Inventory.LootTableEditor.html#ToolkitEditor_Inventory_LootTableEditor_OnInspectorGUI_
+  commentId: Overload:ToolkitEditor.Inventory.LootTableEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.LootTableEditor.OnInspectorGUI
+  nameWithType: LootTableEditor.OnInspectorGUI
+- uid: ToolkitEditor.Inventory.LootTableEditor.m_items
+  name: m_items
+  href: api/ToolkitEditor.Inventory.LootTableEditor.html#ToolkitEditor_Inventory_LootTableEditor_m_items
+  commentId: F:ToolkitEditor.Inventory.LootTableEditor.m_items
+  fullName: ToolkitEditor.Inventory.LootTableEditor.m_items
+  nameWithType: LootTableEditor.m_items
+- uid: ToolkitEditor.Inventory.LootTableEditor.m_lootTable
+  name: m_lootTable
+  href: api/ToolkitEditor.Inventory.LootTableEditor.html#ToolkitEditor_Inventory_LootTableEditor_m_lootTable
+  commentId: F:ToolkitEditor.Inventory.LootTableEditor.m_lootTable
+  fullName: ToolkitEditor.Inventory.LootTableEditor.m_lootTable
+  nameWithType: LootTableEditor.m_lootTable
+- uid: ToolkitEditor.Inventory.LootTableEditor.m_noDropRate
+  name: m_noDropRate
+  href: api/ToolkitEditor.Inventory.LootTableEditor.html#ToolkitEditor_Inventory_LootTableEditor_m_noDropRate
+  commentId: F:ToolkitEditor.Inventory.LootTableEditor.m_noDropRate
+  fullName: ToolkitEditor.Inventory.LootTableEditor.m_noDropRate
+  nameWithType: LootTableEditor.m_noDropRate
+- uid: ToolkitEditor.Inventory.VisualScripting
+  name: ToolkitEditor.Inventory.VisualScripting
+  href: api/ToolkitEditor.Inventory.VisualScripting.html
+  commentId: N:ToolkitEditor.Inventory.VisualScripting
+  fullName: ToolkitEditor.Inventory.VisualScripting
+  nameWithType: ToolkitEditor.Inventory.VisualScripting
+- uid: ToolkitEditor.Inventory.VisualScripting.Setup
+  name: Setup
+  href: api/ToolkitEditor.Inventory.VisualScripting.Setup.html
+  commentId: T:ToolkitEditor.Inventory.VisualScripting.Setup
+  fullName: ToolkitEditor.Inventory.VisualScripting.Setup
+  nameWithType: Setup
+- uid: ToolkitEditor.Inventory.VisualScripting.Setup.Do
+  name: Do()
+  href: api/ToolkitEditor.Inventory.VisualScripting.Setup.html#ToolkitEditor_Inventory_VisualScripting_Setup_Do
+  commentId: M:ToolkitEditor.Inventory.VisualScripting.Setup.Do
+  fullName: ToolkitEditor.Inventory.VisualScripting.Setup.Do()
+  nameWithType: Setup.Do()
+- uid: ToolkitEditor.Inventory.VisualScripting.Setup.Do*
+  name: Do
+  href: api/ToolkitEditor.Inventory.VisualScripting.Setup.html#ToolkitEditor_Inventory_VisualScripting_Setup_Do_
+  commentId: Overload:ToolkitEditor.Inventory.VisualScripting.Setup.Do
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.VisualScripting.Setup.Do
+  nameWithType: Setup.Do
+- uid: ToolkitEngine.Inventory
+  name: ToolkitEngine.Inventory
+  href: api/ToolkitEngine.Inventory.html
+  commentId: N:ToolkitEngine.Inventory
+  fullName: ToolkitEngine.Inventory
+  nameWithType: ToolkitEngine.Inventory
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1
+  name: BaseInventoryEventArgs<T>
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html
+  commentId: T:ToolkitEngine.Inventory.BaseInventoryEventArgs`1
+  name.vb: BaseInventoryEventArgs(Of T)
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T)
+  nameWithType: BaseInventoryEventArgs<T>
+  nameWithType.vb: BaseInventoryEventArgs(Of T)
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.#ctor(ToolkitEngine.Inventory.Inventory,`0)
+  name: BaseInventoryEventArgs(Inventory, T)
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1__ctor_ToolkitEngine_Inventory_Inventory__0_
+  commentId: M:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.#ctor(ToolkitEngine.Inventory.Inventory,`0)
+  name.vb: New(Inventory, T)
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.BaseInventoryEventArgs(ToolkitEngine.Inventory.Inventory, T)
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).New(ToolkitEngine.Inventory.Inventory, T)
+  nameWithType: BaseInventoryEventArgs<T>.BaseInventoryEventArgs(Inventory, T)
+  nameWithType.vb: BaseInventoryEventArgs(Of T).New(Inventory, T)
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.#ctor(ToolkitEngine.Inventory.Inventory,`0,System.Int32)
+  name: BaseInventoryEventArgs(Inventory, T, int)
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1__ctor_ToolkitEngine_Inventory_Inventory__0_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.#ctor(ToolkitEngine.Inventory.Inventory,`0,System.Int32)
+  name.vb: New(Inventory, T, Integer)
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.BaseInventoryEventArgs(ToolkitEngine.Inventory.Inventory, T, int)
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).New(ToolkitEngine.Inventory.Inventory, T, Integer)
+  nameWithType: BaseInventoryEventArgs<T>.BaseInventoryEventArgs(Inventory, T, int)
+  nameWithType.vb: BaseInventoryEventArgs(Of T).New(Inventory, T, Integer)
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.#ctor*
+  name: BaseInventoryEventArgs
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.BaseInventoryEventArgs
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).New
+  nameWithType: BaseInventoryEventArgs<T>.BaseInventoryEventArgs
+  nameWithType.vb: BaseInventoryEventArgs(Of T).New
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.delta
+  name: delta
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1_delta
+  commentId: P:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.delta
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.delta
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).delta
+  nameWithType: BaseInventoryEventArgs<T>.delta
+  nameWithType.vb: BaseInventoryEventArgs(Of T).delta
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.delta*
+  name: delta
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1_delta_
+  commentId: Overload:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.delta
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.delta
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).delta
+  nameWithType: BaseInventoryEventArgs<T>.delta
+  nameWithType.vb: BaseInventoryEventArgs(Of T).delta
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.inventory
+  name: inventory
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1_inventory
+  commentId: P:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.inventory
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.inventory
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).inventory
+  nameWithType: BaseInventoryEventArgs<T>.inventory
+  nameWithType.vb: BaseInventoryEventArgs(Of T).inventory
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.inventory*
+  name: inventory
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1_inventory_
+  commentId: Overload:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.inventory
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.inventory
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).inventory
+  nameWithType: BaseInventoryEventArgs<T>.inventory
+  nameWithType.vb: BaseInventoryEventArgs(Of T).inventory
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.slot
+  name: slot
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1_slot
+  commentId: P:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.slot
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.slot
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).slot
+  nameWithType: BaseInventoryEventArgs<T>.slot
+  nameWithType.vb: BaseInventoryEventArgs(Of T).slot
+- uid: ToolkitEngine.Inventory.BaseInventoryEventArgs`1.slot*
+  name: slot
+  href: api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html#ToolkitEngine_Inventory_BaseInventoryEventArgs_1_slot_
+  commentId: Overload:ToolkitEngine.Inventory.BaseInventoryEventArgs`1.slot
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseInventoryEventArgs<T>.slot
+  fullName.vb: ToolkitEngine.Inventory.BaseInventoryEventArgs(Of T).slot
+  nameWithType: BaseInventoryEventArgs<T>.slot
+  nameWithType.vb: BaseInventoryEventArgs(Of T).slot
+- uid: ToolkitEngine.Inventory.BaseSlot`1
+  name: BaseSlot<T>
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html
+  commentId: T:ToolkitEngine.Inventory.BaseSlot`1
+  name.vb: BaseSlot(Of T)
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T)
+  nameWithType: BaseSlot<T>
+  nameWithType.vb: BaseSlot(Of T)
+- uid: ToolkitEngine.Inventory.BaseSlot`1.AddToStack(System.Int32)
+  name: AddToStack(int)
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_AddToStack_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.BaseSlot`1.AddToStack(System.Int32)
+  name.vb: AddToStack(Integer)
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.AddToStack(int)
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).AddToStack(Integer)
+  nameWithType: BaseSlot<T>.AddToStack(int)
+  nameWithType.vb: BaseSlot(Of T).AddToStack(Integer)
+- uid: ToolkitEngine.Inventory.BaseSlot`1.AddToStack*
+  name: AddToStack
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_AddToStack_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.AddToStack
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.AddToStack
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).AddToStack
+  nameWithType: BaseSlot<T>.AddToStack
+  nameWithType.vb: BaseSlot(Of T).AddToStack
+- uid: ToolkitEngine.Inventory.BaseSlot`1.Clear
+  name: Clear()
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_Clear
+  commentId: M:ToolkitEngine.Inventory.BaseSlot`1.Clear
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.Clear()
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).Clear()
+  nameWithType: BaseSlot<T>.Clear()
+  nameWithType.vb: BaseSlot(Of T).Clear()
+- uid: ToolkitEngine.Inventory.BaseSlot`1.Clear*
+  name: Clear
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_Clear_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.Clear
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.Clear
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).Clear
+  nameWithType: BaseSlot<T>.Clear
+  nameWithType.vb: BaseSlot(Of T).Clear
+- uid: ToolkitEngine.Inventory.BaseSlot`1.InvokeSlotChanged(System.Int32)
+  name: InvokeSlotChanged(int)
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_InvokeSlotChanged_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.BaseSlot`1.InvokeSlotChanged(System.Int32)
+  name.vb: InvokeSlotChanged(Integer)
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.InvokeSlotChanged(int)
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).InvokeSlotChanged(Integer)
+  nameWithType: BaseSlot<T>.InvokeSlotChanged(int)
+  nameWithType.vb: BaseSlot(Of T).InvokeSlotChanged(Integer)
+- uid: ToolkitEngine.Inventory.BaseSlot`1.InvokeSlotChanged*
+  name: InvokeSlotChanged
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_InvokeSlotChanged_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.InvokeSlotChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.InvokeSlotChanged
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).InvokeSlotChanged
+  nameWithType: BaseSlot<T>.InvokeSlotChanged
+  nameWithType.vb: BaseSlot(Of T).InvokeSlotChanged
+- uid: ToolkitEngine.Inventory.BaseSlot`1.RemoveFromStack(System.Int32)
+  name: RemoveFromStack(int)
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_RemoveFromStack_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.BaseSlot`1.RemoveFromStack(System.Int32)
+  name.vb: RemoveFromStack(Integer)
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.RemoveFromStack(int)
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).RemoveFromStack(Integer)
+  nameWithType: BaseSlot<T>.RemoveFromStack(int)
+  nameWithType.vb: BaseSlot(Of T).RemoveFromStack(Integer)
+- uid: ToolkitEngine.Inventory.BaseSlot`1.RemoveFromStack*
+  name: RemoveFromStack
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_RemoveFromStack_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.RemoveFromStack
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.RemoveFromStack
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).RemoveFromStack
+  nameWithType: BaseSlot<T>.RemoveFromStack
+  nameWithType.vb: BaseSlot(Of T).RemoveFromStack
+- uid: ToolkitEngine.Inventory.BaseSlot`1.Set(`0,System.Int32)
+  name: Set(T, int)
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_Set__0_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.BaseSlot`1.Set(`0,System.Int32)
+  name.vb: Set(T, Integer)
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.Set(T, int)
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).Set(T, Integer)
+  nameWithType: BaseSlot<T>.Set(T, int)
+  nameWithType.vb: BaseSlot(Of T).Set(T, Integer)
+- uid: ToolkitEngine.Inventory.BaseSlot`1.Set*
+  name: Set
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_Set_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.Set
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.Set
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).Set
+  nameWithType: BaseSlot<T>.Set
+  nameWithType.vb: BaseSlot(Of T).Set
+- uid: ToolkitEngine.Inventory.BaseSlot`1.SplitStack(`0@)
+  name: SplitStack(out T)
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_SplitStack__0__
+  commentId: M:ToolkitEngine.Inventory.BaseSlot`1.SplitStack(`0@)
+  name.vb: SplitStack(T)
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.SplitStack(out T)
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).SplitStack(T)
+  nameWithType: BaseSlot<T>.SplitStack(out T)
+  nameWithType.vb: BaseSlot(Of T).SplitStack(T)
+- uid: ToolkitEngine.Inventory.BaseSlot`1.SplitStack*
+  name: SplitStack
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_SplitStack_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.SplitStack
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.SplitStack
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).SplitStack
+  nameWithType: BaseSlot<T>.SplitStack
+  nameWithType.vb: BaseSlot(Of T).SplitStack
+- uid: ToolkitEngine.Inventory.BaseSlot`1.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_amount
+  commentId: P:ToolkitEngine.Inventory.BaseSlot`1.amount
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.amount
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).amount
+  nameWithType: BaseSlot<T>.amount
+  nameWithType.vb: BaseSlot(Of T).amount
+- uid: ToolkitEngine.Inventory.BaseSlot`1.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_amount_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.amount
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).amount
+  nameWithType: BaseSlot<T>.amount
+  nameWithType.vb: BaseSlot(Of T).amount
+- uid: ToolkitEngine.Inventory.BaseSlot`1.m_amount
+  name: m_amount
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_m_amount
+  commentId: F:ToolkitEngine.Inventory.BaseSlot`1.m_amount
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.m_amount
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).m_amount
+  nameWithType: BaseSlot<T>.m_amount
+  nameWithType.vb: BaseSlot(Of T).m_amount
+- uid: ToolkitEngine.Inventory.BaseSlot`1.m_slotType
+  name: m_slotType
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_m_slotType
+  commentId: F:ToolkitEngine.Inventory.BaseSlot`1.m_slotType
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.m_slotType
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).m_slotType
+  nameWithType: BaseSlot<T>.m_slotType
+  nameWithType.vb: BaseSlot(Of T).m_slotType
+- uid: ToolkitEngine.Inventory.BaseSlot`1.slotType
+  name: slotType
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_slotType
+  commentId: P:ToolkitEngine.Inventory.BaseSlot`1.slotType
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.slotType
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).slotType
+  nameWithType: BaseSlot<T>.slotType
+  nameWithType.vb: BaseSlot(Of T).slotType
+- uid: ToolkitEngine.Inventory.BaseSlot`1.slotType*
+  name: slotType
+  href: api/ToolkitEngine.Inventory.BaseSlot-1.html#ToolkitEngine_Inventory_BaseSlot_1_slotType_
+  commentId: Overload:ToolkitEngine.Inventory.BaseSlot`1.slotType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.BaseSlot<T>.slotType
+  fullName.vb: ToolkitEngine.Inventory.BaseSlot(Of T).slotType
+  nameWithType: BaseSlot<T>.slotType
+  nameWithType.vb: BaseSlot(Of T).slotType
+- uid: ToolkitEngine.Inventory.Currency
+  name: Currency
+  href: api/ToolkitEngine.Inventory.Currency.html
+  commentId: T:ToolkitEngine.Inventory.Currency
+  fullName: ToolkitEngine.Inventory.Currency
+  nameWithType: Currency
+- uid: ToolkitEngine.Inventory.Currency.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.Currency.html#ToolkitEngine_Inventory_Currency_amount
+  commentId: P:ToolkitEngine.Inventory.Currency.amount
+  fullName: ToolkitEngine.Inventory.Currency.amount
+  nameWithType: Currency.amount
+- uid: ToolkitEngine.Inventory.Currency.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.Currency.html#ToolkitEngine_Inventory_Currency_amount_
+  commentId: Overload:ToolkitEngine.Inventory.Currency.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Currency.amount
+  nameWithType: Currency.amount
+- uid: ToolkitEngine.Inventory.Currency.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.Currency.html#ToolkitEngine_Inventory_Currency_currencyType
+  commentId: P:ToolkitEngine.Inventory.Currency.currencyType
+  fullName: ToolkitEngine.Inventory.Currency.currencyType
+  nameWithType: Currency.currencyType
+- uid: ToolkitEngine.Inventory.Currency.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.Currency.html#ToolkitEngine_Inventory_Currency_currencyType_
+  commentId: Overload:ToolkitEngine.Inventory.Currency.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Currency.currencyType
+  nameWithType: Currency.currencyType
+- uid: ToolkitEngine.Inventory.CurrencyEventArgs
+  name: CurrencyEventArgs
+  href: api/ToolkitEngine.Inventory.CurrencyEventArgs.html
+  commentId: T:ToolkitEngine.Inventory.CurrencyEventArgs
+  fullName: ToolkitEngine.Inventory.CurrencyEventArgs
+  nameWithType: CurrencyEventArgs
+- uid: ToolkitEngine.Inventory.CurrencyEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.CurrencySlot)
+  name: CurrencyEventArgs(Inventory, CurrencySlot)
+  href: api/ToolkitEngine.Inventory.CurrencyEventArgs.html#ToolkitEngine_Inventory_CurrencyEventArgs__ctor_ToolkitEngine_Inventory_Inventory_ToolkitEngine_Inventory_CurrencySlot_
+  commentId: M:ToolkitEngine.Inventory.CurrencyEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.CurrencySlot)
+  name.vb: New(Inventory, CurrencySlot)
+  fullName: ToolkitEngine.Inventory.CurrencyEventArgs.CurrencyEventArgs(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.CurrencySlot)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyEventArgs.New(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.CurrencySlot)
+  nameWithType: CurrencyEventArgs.CurrencyEventArgs(Inventory, CurrencySlot)
+  nameWithType.vb: CurrencyEventArgs.New(Inventory, CurrencySlot)
+- uid: ToolkitEngine.Inventory.CurrencyEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.CurrencySlot,System.Int32)
+  name: CurrencyEventArgs(Inventory, CurrencySlot, int)
+  href: api/ToolkitEngine.Inventory.CurrencyEventArgs.html#ToolkitEngine_Inventory_CurrencyEventArgs__ctor_ToolkitEngine_Inventory_Inventory_ToolkitEngine_Inventory_CurrencySlot_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencyEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.CurrencySlot,System.Int32)
+  name.vb: New(Inventory, CurrencySlot, Integer)
+  fullName: ToolkitEngine.Inventory.CurrencyEventArgs.CurrencyEventArgs(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.CurrencySlot, int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyEventArgs.New(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.CurrencySlot, Integer)
+  nameWithType: CurrencyEventArgs.CurrencyEventArgs(Inventory, CurrencySlot, int)
+  nameWithType.vb: CurrencyEventArgs.New(Inventory, CurrencySlot, Integer)
+- uid: ToolkitEngine.Inventory.CurrencyEventArgs.#ctor*
+  name: CurrencyEventArgs
+  href: api/ToolkitEngine.Inventory.CurrencyEventArgs.html#ToolkitEngine_Inventory_CurrencyEventArgs__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyEventArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.CurrencyEventArgs.CurrencyEventArgs
+  fullName.vb: ToolkitEngine.Inventory.CurrencyEventArgs.New
+  nameWithType: CurrencyEventArgs.CurrencyEventArgs
+  nameWithType.vb: CurrencyEventArgs.New
+- uid: ToolkitEngine.Inventory.CurrencySlot
+  name: CurrencySlot
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html
+  commentId: T:ToolkitEngine.Inventory.CurrencySlot
+  fullName: ToolkitEngine.Inventory.CurrencySlot
+  nameWithType: CurrencySlot
+- uid: ToolkitEngine.Inventory.CurrencySlot.#ctor
+  name: CurrencySlot()
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot__ctor
+  commentId: M:ToolkitEngine.Inventory.CurrencySlot.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.CurrencySlot.CurrencySlot()
+  fullName.vb: ToolkitEngine.Inventory.CurrencySlot.New()
+  nameWithType: CurrencySlot.CurrencySlot()
+  nameWithType.vb: CurrencySlot.New()
+- uid: ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: CurrencySlot(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: New(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.CurrencySlot.CurrencySlot(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencySlot.New(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: CurrencySlot.CurrencySlot(CurrencyType, int)
+  nameWithType.vb: CurrencySlot.New(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.CurrencySlot.#ctor*
+  name: CurrencySlot
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencySlot.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.CurrencySlot.CurrencySlot
+  fullName.vb: ToolkitEngine.Inventory.CurrencySlot.New
+  nameWithType: CurrencySlot.CurrencySlot
+  nameWithType.vb: CurrencySlot.New
+- uid: ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged(System.Int32)
+  name: InvokeSlotChanged(int)
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot_InvokeSlotChanged_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged(System.Int32)
+  name.vb: InvokeSlotChanged(Integer)
+  fullName: ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged(int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged(Integer)
+  nameWithType: CurrencySlot.InvokeSlotChanged(int)
+  nameWithType.vb: CurrencySlot.InvokeSlotChanged(Integer)
+- uid: ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged*
+  name: InvokeSlotChanged
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot_InvokeSlotChanged_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged
+  nameWithType: CurrencySlot.InvokeSlotChanged
+- uid: ToolkitEngine.Inventory.CurrencySlot.SlotChanged
+  name: SlotChanged
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot_SlotChanged
+  commentId: E:ToolkitEngine.Inventory.CurrencySlot.SlotChanged
+  fullName: ToolkitEngine.Inventory.CurrencySlot.SlotChanged
+  nameWithType: CurrencySlot.SlotChanged
+- uid: ToolkitEngine.Inventory.CurrencyType
+  name: CurrencyType
+  href: api/ToolkitEngine.Inventory.CurrencyType.html
+  commentId: T:ToolkitEngine.Inventory.CurrencyType
+  fullName: ToolkitEngine.Inventory.CurrencyType
+  nameWithType: CurrencyType
+- uid: ToolkitEngine.Inventory.CurrencyType.Equals(System.Object)
+  name: Equals(object)
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_Equals_System_Object_
+  commentId: M:ToolkitEngine.Inventory.CurrencyType.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ToolkitEngine.Inventory.CurrencyType.Equals(object)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyType.Equals(Object)
+  nameWithType: CurrencyType.Equals(object)
+  nameWithType.vb: CurrencyType.Equals(Object)
+- uid: ToolkitEngine.Inventory.CurrencyType.Equals*
+  name: Equals
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_Equals_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.Equals
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.Equals
+  nameWithType: CurrencyType.Equals
+- uid: ToolkitEngine.Inventory.CurrencyType.GetHashCode
+  name: GetHashCode()
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_GetHashCode
+  commentId: M:ToolkitEngine.Inventory.CurrencyType.GetHashCode
+  fullName: ToolkitEngine.Inventory.CurrencyType.GetHashCode()
+  nameWithType: CurrencyType.GetHashCode()
+- uid: ToolkitEngine.Inventory.CurrencyType.GetHashCode*
+  name: GetHashCode
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_GetHashCode_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.GetHashCode
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.GetHashCode
+  nameWithType: CurrencyType.GetHashCode
+- uid: ToolkitEngine.Inventory.CurrencyType.color
+  name: color
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_color
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.color
+  fullName: ToolkitEngine.Inventory.CurrencyType.color
+  nameWithType: CurrencyType.color
+- uid: ToolkitEngine.Inventory.CurrencyType.color*
+  name: color
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_color_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.color
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.color
+  nameWithType: CurrencyType.color
+- uid: ToolkitEngine.Inventory.CurrencyType.description
+  name: description
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_description
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.description
+  fullName: ToolkitEngine.Inventory.CurrencyType.description
+  nameWithType: CurrencyType.description
+- uid: ToolkitEngine.Inventory.CurrencyType.description*
+  name: description
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_description_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.description
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.description
+  nameWithType: CurrencyType.description
+- uid: ToolkitEngine.Inventory.CurrencyType.icon
+  name: icon
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_icon
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.icon
+  fullName: ToolkitEngine.Inventory.CurrencyType.icon
+  nameWithType: CurrencyType.icon
+- uid: ToolkitEngine.Inventory.CurrencyType.icon*
+  name: icon
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_icon_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.icon
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.icon
+  nameWithType: CurrencyType.icon
+- uid: ToolkitEngine.Inventory.CurrencyType.id
+  name: id
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_id
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.id
+  fullName: ToolkitEngine.Inventory.CurrencyType.id
+  nameWithType: CurrencyType.id
+- uid: ToolkitEngine.Inventory.CurrencyType.id*
+  name: id
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_id_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.id
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.id
+  nameWithType: CurrencyType.id
+- uid: ToolkitEngine.Inventory.CurrencyType.name
+  name: name
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_name
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.name
+  fullName: ToolkitEngine.Inventory.CurrencyType.name
+  nameWithType: CurrencyType.name
+- uid: ToolkitEngine.Inventory.CurrencyType.name*
+  name: name
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_name_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.name
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.name
+  nameWithType: CurrencyType.name
+- uid: ToolkitEngine.Inventory.DropEntry
+  name: DropEntry
+  href: api/ToolkitEngine.Inventory.DropEntry.html
+  commentId: T:ToolkitEngine.Inventory.DropEntry
+  fullName: ToolkitEngine.Inventory.DropEntry
+  nameWithType: DropEntry
+- uid: ToolkitEngine.Inventory.DropEntry.AmountType
+  name: DropEntry.AmountType
+  href: api/ToolkitEngine.Inventory.DropEntry.AmountType.html
+  commentId: T:ToolkitEngine.Inventory.DropEntry.AmountType
+  fullName: ToolkitEngine.Inventory.DropEntry.AmountType
+  nameWithType: DropEntry.AmountType
+- uid: ToolkitEngine.Inventory.DropEntry.AmountType.Constant
+  name: Constant
+  href: api/ToolkitEngine.Inventory.DropEntry.AmountType.html#ToolkitEngine_Inventory_DropEntry_AmountType_Constant
+  commentId: F:ToolkitEngine.Inventory.DropEntry.AmountType.Constant
+  fullName: ToolkitEngine.Inventory.DropEntry.AmountType.Constant
+  nameWithType: DropEntry.AmountType.Constant
+- uid: ToolkitEngine.Inventory.DropEntry.AmountType.Range
+  name: Range
+  href: api/ToolkitEngine.Inventory.DropEntry.AmountType.html#ToolkitEngine_Inventory_DropEntry_AmountType_Range
+  commentId: F:ToolkitEngine.Inventory.DropEntry.AmountType.Range
+  fullName: ToolkitEngine.Inventory.DropEntry.AmountType.Range
+  nameWithType: DropEntry.AmountType.Range
+- uid: ToolkitEngine.Inventory.DropEntry.DropType
+  name: DropEntry.DropType
+  href: api/ToolkitEngine.Inventory.DropEntry.DropType.html
+  commentId: T:ToolkitEngine.Inventory.DropEntry.DropType
+  fullName: ToolkitEngine.Inventory.DropEntry.DropType
+  nameWithType: DropEntry.DropType
+- uid: ToolkitEngine.Inventory.DropEntry.DropType.Currency
+  name: Currency
+  href: api/ToolkitEngine.Inventory.DropEntry.DropType.html#ToolkitEngine_Inventory_DropEntry_DropType_Currency
+  commentId: F:ToolkitEngine.Inventory.DropEntry.DropType.Currency
+  fullName: ToolkitEngine.Inventory.DropEntry.DropType.Currency
+  nameWithType: DropEntry.DropType.Currency
+- uid: ToolkitEngine.Inventory.DropEntry.DropType.Item
+  name: Item
+  href: api/ToolkitEngine.Inventory.DropEntry.DropType.html#ToolkitEngine_Inventory_DropEntry_DropType_Item
+  commentId: F:ToolkitEngine.Inventory.DropEntry.DropType.Item
+  fullName: ToolkitEngine.Inventory.DropEntry.DropType.Item
+  nameWithType: DropEntry.DropType.Item
+- uid: ToolkitEngine.Inventory.DropEntry.DropType.LootTable
+  name: LootTable
+  href: api/ToolkitEngine.Inventory.DropEntry.DropType.html#ToolkitEngine_Inventory_DropEntry_DropType_LootTable
+  commentId: F:ToolkitEngine.Inventory.DropEntry.DropType.LootTable
+  fullName: ToolkitEngine.Inventory.DropEntry.DropType.LootTable
+  nameWithType: DropEntry.DropType.LootTable
+- uid: ToolkitEngine.Inventory.DropEntry.m_amount
+  name: m_amount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_amount
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_amount
+  fullName: ToolkitEngine.Inventory.DropEntry.m_amount
+  nameWithType: DropEntry.m_amount
+- uid: ToolkitEngine.Inventory.DropEntry.m_amountType
+  name: m_amountType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_amountType
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_amountType
+  fullName: ToolkitEngine.Inventory.DropEntry.m_amountType
+  nameWithType: DropEntry.m_amountType
+- uid: ToolkitEngine.Inventory.DropEntry.m_currency
+  name: m_currency
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_currency
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_currency
+  fullName: ToolkitEngine.Inventory.DropEntry.m_currency
+  nameWithType: DropEntry.m_currency
+- uid: ToolkitEngine.Inventory.DropEntry.m_dropType
+  name: m_dropType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_dropType
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_dropType
+  fullName: ToolkitEngine.Inventory.DropEntry.m_dropType
+  nameWithType: DropEntry.m_dropType
+- uid: ToolkitEngine.Inventory.DropEntry.m_item
+  name: m_item
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_item
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_item
+  fullName: ToolkitEngine.Inventory.DropEntry.m_item
+  nameWithType: DropEntry.m_item
+- uid: ToolkitEngine.Inventory.DropEntry.m_lootTable
+  name: m_lootTable
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_lootTable
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_lootTable
+  fullName: ToolkitEngine.Inventory.DropEntry.m_lootTable
+  nameWithType: DropEntry.m_lootTable
+- uid: ToolkitEngine.Inventory.DropEntry.m_maxAmount
+  name: m_maxAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_maxAmount
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_maxAmount
+  fullName: ToolkitEngine.Inventory.DropEntry.m_maxAmount
+  nameWithType: DropEntry.m_maxAmount
+- uid: ToolkitEngine.Inventory.DropEntry.m_minAmount
+  name: m_minAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_minAmount
+  commentId: F:ToolkitEngine.Inventory.DropEntry.m_minAmount
+  fullName: ToolkitEngine.Inventory.DropEntry.m_minAmount
+  nameWithType: DropEntry.m_minAmount
+- uid: ToolkitEngine.Inventory.Inventory
+  name: Inventory
+  href: api/ToolkitEngine.Inventory.Inventory.html
+  commentId: T:ToolkitEngine.Inventory.Inventory
+  fullName: ToolkitEngine.Inventory.Inventory
+  nameWithType: Inventory
+- uid: ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.Currency,System.Boolean)
+  name: AddCurrency(Currency, bool)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddCurrency_ToolkitEngine_Inventory_Currency_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.Currency,System.Boolean)
+  name.vb: AddCurrency(Currency, Boolean)
+  fullName: ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.Currency, bool)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.Currency, Boolean)
+  nameWithType: Inventory.AddCurrency(Currency, bool)
+  nameWithType.vb: Inventory.AddCurrency(Currency, Boolean)
+- uid: ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: AddCurrency(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddCurrency_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: AddCurrency(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.AddCurrency(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: Inventory.AddCurrency(CurrencyType, int)
+  nameWithType.vb: Inventory.AddCurrency(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.Inventory.AddCurrency*
+  name: AddCurrency
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddCurrency_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.AddCurrency
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.AddCurrency
+  nameWithType: Inventory.AddCurrency
+- uid: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32@)
+  name: AddItem(ItemType, int, out int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32@)
+  name.vb: AddItem(ItemType, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType, int, out int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType, Integer, Integer)
+  nameWithType: Inventory.AddItem(ItemType, int, out int)
+  nameWithType.vb: Inventory.AddItem(ItemType, Integer, Integer)
+- uid: ToolkitEngine.Inventory.Inventory.AddItem*
+  name: AddItem
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.AddItem
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.AddItem
+  nameWithType: Inventory.AddItem
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType)
+  name: Buy(ItemType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType)
+  nameWithType: Inventory.Buy(ItemType)
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,SpawnedAction,System.Object[])
+  name: Buy(ItemType, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,SpawnedAction,System.Object[])
+  name.vb: Buy(ItemType, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, SpawnedAction, ParamArray Object())
+  nameWithType: Inventory.Buy(ItemType, SpawnedAction, params object[])
+  nameWithType.vb: Inventory.Buy(ItemType, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,System.Int32@)
+  name: Buy(ItemType, out int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,System.Int32@)
+  name.vb: Buy(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, out int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: Inventory.Buy(ItemType, out int)
+  nameWithType.vb: Inventory.Buy(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Transform,SpawnedAction,System.Object[])
+  name: Buy(ItemType, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Transform,SpawnedAction,System.Object[])
+  name.vb: Buy(ItemType, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: Inventory.Buy(ItemType, Transform, SpawnedAction, params object[])
+  nameWithType.vb: Inventory.Buy(ItemType, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Buy(ItemType, Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Buy(ItemType, Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: Inventory.Buy(ItemType, Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: Inventory.Buy(ItemType, Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Buy(ItemType, Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Buy(ItemType, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: Inventory.Buy(ItemType, Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: Inventory.Buy(ItemType, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Buy(ItemType, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Buy(ItemType, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: Inventory.Buy(ItemType, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: Inventory.Buy(ItemType, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Inventory.Buy*
+  name: Buy
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.Buy
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.Buy
+  nameWithType: Inventory.Buy
+- uid: ToolkitEngine.Inventory.Inventory.CanBuy(ToolkitEngine.Inventory.ItemType)
+  name: CanBuy(ItemType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_CanBuy_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.CanBuy(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.Inventory.CanBuy(ToolkitEngine.Inventory.ItemType)
+  nameWithType: Inventory.CanBuy(ItemType)
+- uid: ToolkitEngine.Inventory.Inventory.CanBuy*
+  name: CanBuy
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_CanBuy_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.CanBuy
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.CanBuy
+  nameWithType: Inventory.CanBuy
+- uid: ToolkitEngine.Inventory.Inventory.ClearItems
+  name: ClearItems()
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_ClearItems
+  commentId: M:ToolkitEngine.Inventory.Inventory.ClearItems
+  fullName: ToolkitEngine.Inventory.Inventory.ClearItems()
+  nameWithType: Inventory.ClearItems()
+- uid: ToolkitEngine.Inventory.Inventory.ClearItems*
+  name: ClearItems
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_ClearItems_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.ClearItems
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.ClearItems
+  nameWithType: Inventory.ClearItems
+- uid: ToolkitEngine.Inventory.Inventory.GetCurrencyTotal(ToolkitEngine.Inventory.CurrencyType)
+  name: GetCurrencyTotal(CurrencyType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetCurrencyTotal_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.GetCurrencyTotal(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.Inventory.GetCurrencyTotal(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: Inventory.GetCurrencyTotal(CurrencyType)
+- uid: ToolkitEngine.Inventory.Inventory.GetCurrencyTotal*
+  name: GetCurrencyTotal
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetCurrencyTotal_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.GetCurrencyTotal
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.GetCurrencyTotal
+  nameWithType: Inventory.GetCurrencyTotal
+- uid: ToolkitEngine.Inventory.Inventory.GetItemTotal(ToolkitEngine.Inventory.ItemType)
+  name: GetItemTotal(ItemType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetItemTotal_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.GetItemTotal(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.Inventory.GetItemTotal(ToolkitEngine.Inventory.ItemType)
+  nameWithType: Inventory.GetItemTotal(ItemType)
+- uid: ToolkitEngine.Inventory.Inventory.GetItemTotal*
+  name: GetItemTotal
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetItemTotal_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.GetItemTotal
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.GetItemTotal
+  nameWithType: Inventory.GetItemTotal
+- uid: ToolkitEngine.Inventory.Inventory.Sell(ToolkitEngine.Inventory.ItemType)
+  name: Sell(ItemType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Sell_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.Sell(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.Inventory.Sell(ToolkitEngine.Inventory.ItemType)
+  nameWithType: Inventory.Sell(ItemType)
+- uid: ToolkitEngine.Inventory.Inventory.Sell*
+  name: Sell
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Sell_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.Sell
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.Sell
+  nameWithType: Inventory.Sell
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveCurrency(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: TryRemoveCurrency(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveCurrency_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Inventory.TryRemoveCurrency(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: TryRemoveCurrency(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveCurrency(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.TryRemoveCurrency(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: Inventory.TryRemoveCurrency(CurrencyType, int)
+  nameWithType.vb: Inventory.TryRemoveCurrency(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveCurrency*
+  name: TryRemoveCurrency
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveCurrency_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.TryRemoveCurrency
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveCurrency
+  nameWithType: Inventory.TryRemoveCurrency
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemSlot,System.Int32)
+  name: TryRemoveItem(ItemSlot, int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_ItemSlot_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemSlot,System.Int32)
+  name.vb: TryRemoveItem(ItemSlot, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemSlot, int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemSlot, Integer)
+  nameWithType: Inventory.TryRemoveItem(ItemSlot, int)
+  nameWithType.vb: Inventory.TryRemoveItem(ItemSlot, Integer)
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name: TryRemoveItem(ItemType, int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_ItemType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name.vb: TryRemoveItem(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemType, int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: Inventory.TryRemoveItem(ItemType, int)
+  nameWithType.vb: Inventory.TryRemoveItem(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveItem*
+  name: TryRemoveItem
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveItem_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.TryRemoveItem
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveItem
+  nameWithType: Inventory.TryRemoveItem
+- uid: ToolkitEngine.Inventory.Inventory.allowAdd
+  name: allowAdd
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_allowAdd
+  commentId: P:ToolkitEngine.Inventory.Inventory.allowAdd
+  fullName: ToolkitEngine.Inventory.Inventory.allowAdd
+  nameWithType: Inventory.allowAdd
+- uid: ToolkitEngine.Inventory.Inventory.allowAdd*
+  name: allowAdd
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_allowAdd_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.allowAdd
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.allowAdd
+  nameWithType: Inventory.allowAdd
+- uid: ToolkitEngine.Inventory.Inventory.currencies
+  name: currencies
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_currencies
+  commentId: P:ToolkitEngine.Inventory.Inventory.currencies
+  fullName: ToolkitEngine.Inventory.Inventory.currencies
+  nameWithType: Inventory.currencies
+- uid: ToolkitEngine.Inventory.Inventory.currencies*
+  name: currencies
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_currencies_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.currencies
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.currencies
+  nameWithType: Inventory.currencies
+- uid: ToolkitEngine.Inventory.Inventory.isEncumbered
+  name: isEncumbered
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_isEncumbered
+  commentId: P:ToolkitEngine.Inventory.Inventory.isEncumbered
+  fullName: ToolkitEngine.Inventory.Inventory.isEncumbered
+  nameWithType: Inventory.isEncumbered
+- uid: ToolkitEngine.Inventory.Inventory.isEncumbered*
+  name: isEncumbered
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_isEncumbered_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.isEncumbered
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.isEncumbered
+  nameWithType: Inventory.isEncumbered
+- uid: ToolkitEngine.Inventory.Inventory.items
+  name: items
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_items
+  commentId: P:ToolkitEngine.Inventory.Inventory.items
+  fullName: ToolkitEngine.Inventory.Inventory.items
+  nameWithType: Inventory.items
+- uid: ToolkitEngine.Inventory.Inventory.items*
+  name: items
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_items_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.items
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.items
+  nameWithType: Inventory.items
+- uid: ToolkitEngine.Inventory.Inventory.onCurrencySlotChanged
+  name: onCurrencySlotChanged
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_onCurrencySlotChanged
+  commentId: P:ToolkitEngine.Inventory.Inventory.onCurrencySlotChanged
+  fullName: ToolkitEngine.Inventory.Inventory.onCurrencySlotChanged
+  nameWithType: Inventory.onCurrencySlotChanged
+- uid: ToolkitEngine.Inventory.Inventory.onCurrencySlotChanged*
+  name: onCurrencySlotChanged
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_onCurrencySlotChanged_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.onCurrencySlotChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.onCurrencySlotChanged
+  nameWithType: Inventory.onCurrencySlotChanged
+- uid: ToolkitEngine.Inventory.Inventory.onEncumbranceChanged
+  name: onEncumbranceChanged
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_onEncumbranceChanged
+  commentId: P:ToolkitEngine.Inventory.Inventory.onEncumbranceChanged
+  fullName: ToolkitEngine.Inventory.Inventory.onEncumbranceChanged
+  nameWithType: Inventory.onEncumbranceChanged
+- uid: ToolkitEngine.Inventory.Inventory.onEncumbranceChanged*
+  name: onEncumbranceChanged
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_onEncumbranceChanged_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.onEncumbranceChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.onEncumbranceChanged
+  nameWithType: Inventory.onEncumbranceChanged
+- uid: ToolkitEngine.Inventory.Inventory.onItemSlotChanged
+  name: onItemSlotChanged
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_onItemSlotChanged
+  commentId: P:ToolkitEngine.Inventory.Inventory.onItemSlotChanged
+  fullName: ToolkitEngine.Inventory.Inventory.onItemSlotChanged
+  nameWithType: Inventory.onItemSlotChanged
+- uid: ToolkitEngine.Inventory.Inventory.onItemSlotChanged*
+  name: onItemSlotChanged
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_onItemSlotChanged_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.onItemSlotChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.onItemSlotChanged
+  nameWithType: Inventory.onItemSlotChanged
+- uid: ToolkitEngine.Inventory.Inventory.weight
+  name: weight
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_weight
+  commentId: P:ToolkitEngine.Inventory.Inventory.weight
+  fullName: ToolkitEngine.Inventory.Inventory.weight
+  nameWithType: Inventory.weight
+- uid: ToolkitEngine.Inventory.Inventory.weight*
+  name: weight
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_weight_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.weight
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.weight
+  nameWithType: Inventory.weight
+- uid: ToolkitEngine.Inventory.Item
+  name: Item
+  href: api/ToolkitEngine.Inventory.Item.html
+  commentId: T:ToolkitEngine.Inventory.Item
+  fullName: ToolkitEngine.Inventory.Item
+  nameWithType: Item
+- uid: ToolkitEngine.Inventory.Item.Dismantle
+  name: Dismantle()
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle
+  commentId: M:ToolkitEngine.Inventory.Item.Dismantle
+  fullName: ToolkitEngine.Inventory.Item.Dismantle()
+  nameWithType: Item.Dismantle()
+- uid: ToolkitEngine.Inventory.Item.Dismantle(ToolkitEngine.Inventory.Inventory,System.Int32[]@)
+  name: Dismantle(Inventory, out int[])
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle_ToolkitEngine_Inventory_Inventory_System_Int32____
+  commentId: M:ToolkitEngine.Inventory.Item.Dismantle(ToolkitEngine.Inventory.Inventory,System.Int32[]@)
+  name.vb: Dismantle(Inventory, Integer())
+  fullName: ToolkitEngine.Inventory.Item.Dismantle(ToolkitEngine.Inventory.Inventory, out int[])
+  fullName.vb: ToolkitEngine.Inventory.Item.Dismantle(ToolkitEngine.Inventory.Inventory, Integer())
+  nameWithType: Item.Dismantle(Inventory, out int[])
+  nameWithType.vb: Item.Dismantle(Inventory, Integer())
+- uid: ToolkitEngine.Inventory.Item.Dismantle(Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Dismantle(Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle_Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Item.Dismantle(Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Item.Dismantle(Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Item.Dismantle(Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: Item.Dismantle(Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: Item.Dismantle(Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Item.Dismantle(Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle_Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Item.Dismantle(Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Item.Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Item.Dismantle(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: Item.Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: Item.Dismantle(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Item.Dismantle(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.Item.Dismantle(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.Item.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.Item.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: Item.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: Item.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.Item.Dismantle*
+  name: Dismantle
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle_
+  commentId: Overload:ToolkitEngine.Inventory.Item.Dismantle
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.Dismantle
+  nameWithType: Item.Dismantle
+- uid: ToolkitEngine.Inventory.Item.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_amount
+  commentId: P:ToolkitEngine.Inventory.Item.amount
+  fullName: ToolkitEngine.Inventory.Item.amount
+  nameWithType: Item.amount
+- uid: ToolkitEngine.Inventory.Item.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_amount_
+  commentId: Overload:ToolkitEngine.Inventory.Item.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.amount
+  nameWithType: Item.amount
+- uid: ToolkitEngine.Inventory.Item.itemType
+  name: itemType
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_itemType
+  commentId: P:ToolkitEngine.Inventory.Item.itemType
+  fullName: ToolkitEngine.Inventory.Item.itemType
+  nameWithType: Item.itemType
+- uid: ToolkitEngine.Inventory.Item.itemType*
+  name: itemType
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_itemType_
+  commentId: Overload:ToolkitEngine.Inventory.Item.itemType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.itemType
+  nameWithType: Item.itemType
+- uid: ToolkitEngine.Inventory.ItemEventArgs
+  name: ItemEventArgs
+  href: api/ToolkitEngine.Inventory.ItemEventArgs.html
+  commentId: T:ToolkitEngine.Inventory.ItemEventArgs
+  fullName: ToolkitEngine.Inventory.ItemEventArgs
+  nameWithType: ItemEventArgs
+- uid: ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.ItemSlot)
+  name: ItemEventArgs(Inventory, ItemSlot)
+  href: api/ToolkitEngine.Inventory.ItemEventArgs.html#ToolkitEngine_Inventory_ItemEventArgs__ctor_ToolkitEngine_Inventory_Inventory_ToolkitEngine_Inventory_ItemSlot_
+  commentId: M:ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.ItemSlot)
+  name.vb: New(Inventory, ItemSlot)
+  fullName: ToolkitEngine.Inventory.ItemEventArgs.ItemEventArgs(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.ItemSlot)
+  fullName.vb: ToolkitEngine.Inventory.ItemEventArgs.New(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.ItemSlot)
+  nameWithType: ItemEventArgs.ItemEventArgs(Inventory, ItemSlot)
+  nameWithType.vb: ItemEventArgs.New(Inventory, ItemSlot)
+- uid: ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.ItemSlot,System.Int32)
+  name: ItemEventArgs(Inventory, ItemSlot, int)
+  href: api/ToolkitEngine.Inventory.ItemEventArgs.html#ToolkitEngine_Inventory_ItemEventArgs__ctor_ToolkitEngine_Inventory_Inventory_ToolkitEngine_Inventory_ItemSlot_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.ItemSlot,System.Int32)
+  name.vb: New(Inventory, ItemSlot, Integer)
+  fullName: ToolkitEngine.Inventory.ItemEventArgs.ItemEventArgs(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.ItemSlot, int)
+  fullName.vb: ToolkitEngine.Inventory.ItemEventArgs.New(ToolkitEngine.Inventory.Inventory, ToolkitEngine.Inventory.ItemSlot, Integer)
+  nameWithType: ItemEventArgs.ItemEventArgs(Inventory, ItemSlot, int)
+  nameWithType.vb: ItemEventArgs.New(Inventory, ItemSlot, Integer)
+- uid: ToolkitEngine.Inventory.ItemEventArgs.#ctor*
+  name: ItemEventArgs
+  href: api/ToolkitEngine.Inventory.ItemEventArgs.html#ToolkitEngine_Inventory_ItemEventArgs__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.ItemEventArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.ItemEventArgs.ItemEventArgs
+  fullName.vb: ToolkitEngine.Inventory.ItemEventArgs.New
+  nameWithType: ItemEventArgs.ItemEventArgs
+  nameWithType.vb: ItemEventArgs.New
+- uid: ToolkitEngine.Inventory.ItemEventArgs.weightDelta
+  name: weightDelta
+  href: api/ToolkitEngine.Inventory.ItemEventArgs.html#ToolkitEngine_Inventory_ItemEventArgs_weightDelta
+  commentId: P:ToolkitEngine.Inventory.ItemEventArgs.weightDelta
+  fullName: ToolkitEngine.Inventory.ItemEventArgs.weightDelta
+  nameWithType: ItemEventArgs.weightDelta
+- uid: ToolkitEngine.Inventory.ItemEventArgs.weightDelta*
+  name: weightDelta
+  href: api/ToolkitEngine.Inventory.ItemEventArgs.html#ToolkitEngine_Inventory_ItemEventArgs_weightDelta_
+  commentId: Overload:ToolkitEngine.Inventory.ItemEventArgs.weightDelta
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemEventArgs.weightDelta
+  nameWithType: ItemEventArgs.weightDelta
+- uid: ToolkitEngine.Inventory.ItemSlot
+  name: ItemSlot
+  href: api/ToolkitEngine.Inventory.ItemSlot.html
+  commentId: T:ToolkitEngine.Inventory.ItemSlot
+  fullName: ToolkitEngine.Inventory.ItemSlot
+  nameWithType: ItemSlot
+- uid: ToolkitEngine.Inventory.ItemSlot.#ctor
+  name: ItemSlot()
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.ItemSlot.ItemSlot()
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.New()
+  nameWithType: ItemSlot.ItemSlot()
+  nameWithType.vb: ItemSlot.New()
+- uid: ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name: ItemSlot(ItemType, int)
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name.vb: New(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.ItemSlot.ItemSlot(ToolkitEngine.Inventory.ItemType, int)
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.New(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: ItemSlot.ItemSlot(ItemType, int)
+  nameWithType.vb: ItemSlot.New(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.ItemSlot.#ctor*
+  name: ItemSlot
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.ItemSlot.ItemSlot
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.New
+  nameWithType: ItemSlot.ItemSlot
+  nameWithType.vb: ItemSlot.New
+- uid: ToolkitEngine.Inventory.ItemSlot.CanAdd(System.Int32)
+  name: CanAdd(int)
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_CanAdd_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.CanAdd(System.Int32)
+  name.vb: CanAdd(Integer)
+  fullName: ToolkitEngine.Inventory.ItemSlot.CanAdd(int)
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.CanAdd(Integer)
+  nameWithType: ItemSlot.CanAdd(int)
+  nameWithType.vb: ItemSlot.CanAdd(Integer)
+- uid: ToolkitEngine.Inventory.ItemSlot.CanAdd(System.Int32,System.Int32@)
+  name: CanAdd(int, out int)
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_CanAdd_System_Int32_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.CanAdd(System.Int32,System.Int32@)
+  name.vb: CanAdd(Integer, Integer)
+  fullName: ToolkitEngine.Inventory.ItemSlot.CanAdd(int, out int)
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.CanAdd(Integer, Integer)
+  nameWithType: ItemSlot.CanAdd(int, out int)
+  nameWithType.vb: ItemSlot.CanAdd(Integer, Integer)
+- uid: ToolkitEngine.Inventory.ItemSlot.CanAdd*
+  name: CanAdd
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_CanAdd_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.CanAdd
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.CanAdd
+  nameWithType: ItemSlot.CanAdd
+- uid: ToolkitEngine.Inventory.ItemSlot.Clear
+  name: Clear()
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_Clear
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.Clear
+  fullName: ToolkitEngine.Inventory.ItemSlot.Clear()
+  nameWithType: ItemSlot.Clear()
+- uid: ToolkitEngine.Inventory.ItemSlot.Clear*
+  name: Clear
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_Clear_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.Clear
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.Clear
+  nameWithType: ItemSlot.Clear
+- uid: ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged(System.Int32)
+  name: InvokeSlotChanged(int)
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_InvokeSlotChanged_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged(System.Int32)
+  name.vb: InvokeSlotChanged(Integer)
+  fullName: ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged(int)
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged(Integer)
+  nameWithType: ItemSlot.InvokeSlotChanged(int)
+  nameWithType.vb: ItemSlot.InvokeSlotChanged(Integer)
+- uid: ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged*
+  name: InvokeSlotChanged
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_InvokeSlotChanged_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged
+  nameWithType: ItemSlot.InvokeSlotChanged
+- uid: ToolkitEngine.Inventory.ItemSlot.SlotChanged
+  name: SlotChanged
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_SlotChanged
+  commentId: E:ToolkitEngine.Inventory.ItemSlot.SlotChanged
+  fullName: ToolkitEngine.Inventory.ItemSlot.SlotChanged
+  nameWithType: ItemSlot.SlotChanged
+- uid: ToolkitEngine.Inventory.ItemSlot.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_amount
+  commentId: P:ToolkitEngine.Inventory.ItemSlot.amount
+  fullName: ToolkitEngine.Inventory.ItemSlot.amount
+  nameWithType: ItemSlot.amount
+- uid: ToolkitEngine.Inventory.ItemSlot.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_amount_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.amount
+  nameWithType: ItemSlot.amount
+- uid: ToolkitEngine.Inventory.ItemSlot.id
+  name: id
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_id
+  commentId: P:ToolkitEngine.Inventory.ItemSlot.id
+  fullName: ToolkitEngine.Inventory.ItemSlot.id
+  nameWithType: ItemSlot.id
+- uid: ToolkitEngine.Inventory.ItemSlot.id*
+  name: id
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_id_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.id
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.id
+  nameWithType: ItemSlot.id
+- uid: ToolkitEngine.Inventory.ItemSlot.weight
+  name: weight
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_weight
+  commentId: P:ToolkitEngine.Inventory.ItemSlot.weight
+  fullName: ToolkitEngine.Inventory.ItemSlot.weight
+  nameWithType: ItemSlot.weight
+- uid: ToolkitEngine.Inventory.ItemSlot.weight*
+  name: weight
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_weight_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.weight
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.weight
+  nameWithType: ItemSlot.weight
+- uid: ToolkitEngine.Inventory.ItemType
+  name: ItemType
+  href: api/ToolkitEngine.Inventory.ItemType.html
+  commentId: T:ToolkitEngine.Inventory.ItemType
+  fullName: ToolkitEngine.Inventory.ItemType
+  nameWithType: ItemType
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory)
+  name: Buy(Inventory)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory)
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory)
+  nameWithType: ItemType.Buy(Inventory)
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,SpawnedAction,System.Object[])
+  name: Buy(Inventory, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,SpawnedAction,System.Object[])
+  name.vb: Buy(Inventory, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Buy(Inventory, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Buy(Inventory, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,System.Int32@)
+  name: Buy(Inventory, out int)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,System.Int32@)
+  name.vb: Buy(Inventory, Integer)
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, out int)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Integer)
+  nameWithType: ItemType.Buy(Inventory, out int)
+  nameWithType.vb: ItemType.Buy(Inventory, Integer)
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Transform,SpawnedAction,System.Object[])
+  name: Buy(Inventory, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Transform,SpawnedAction,System.Object[])
+  name.vb: Buy(Inventory, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Buy(Inventory, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Buy(Inventory, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Buy(Inventory, Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Buy(Inventory, Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Buy(Inventory, Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Buy(Inventory, Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Buy(Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Buy(Inventory, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Buy(Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Buy(Inventory, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Buy(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Buy(Inventory, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Buy(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Buy(Inventory, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Buy*
+  name: Buy
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Buy_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Buy
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Buy
+  nameWithType: ItemType.Buy
+- uid: ToolkitEngine.Inventory.ItemType.CanBuy(ToolkitEngine.Inventory.Inventory)
+  name: CanBuy(Inventory)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_CanBuy_ToolkitEngine_Inventory_Inventory_
+  commentId: M:ToolkitEngine.Inventory.ItemType.CanBuy(ToolkitEngine.Inventory.Inventory)
+  fullName: ToolkitEngine.Inventory.ItemType.CanBuy(ToolkitEngine.Inventory.Inventory)
+  nameWithType: ItemType.CanBuy(Inventory)
+- uid: ToolkitEngine.Inventory.ItemType.CanBuy*
+  name: CanBuy
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_CanBuy_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.CanBuy
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.CanBuy
+  nameWithType: ItemType.CanBuy
+- uid: ToolkitEngine.Inventory.ItemType.CanCraft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})
+  name: CanCraft(IEnumerable<Item>)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_CanCraft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__
+  commentId: M:ToolkitEngine.Inventory.ItemType.CanCraft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})
+  name.vb: CanCraft(IEnumerable(Of Item))
+  fullName: ToolkitEngine.Inventory.ItemType.CanCraft(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.CanCraft(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item))
+  nameWithType: ItemType.CanCraft(IEnumerable<Item>)
+  nameWithType.vb: ItemType.CanCraft(IEnumerable(Of Item))
+- uid: ToolkitEngine.Inventory.ItemType.CanCraft(ToolkitEngine.Inventory.Inventory)
+  name: CanCraft(Inventory)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_CanCraft_ToolkitEngine_Inventory_Inventory_
+  commentId: M:ToolkitEngine.Inventory.ItemType.CanCraft(ToolkitEngine.Inventory.Inventory)
+  fullName: ToolkitEngine.Inventory.ItemType.CanCraft(ToolkitEngine.Inventory.Inventory)
+  nameWithType: ItemType.CanCraft(Inventory)
+- uid: ToolkitEngine.Inventory.ItemType.CanCraft*
+  name: CanCraft
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_CanCraft_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.CanCraft
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.CanCraft
+  nameWithType: ItemType.CanCraft
+- uid: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},ToolkitEngine.Inventory.Inventory,System.Int32@)
+  name: Craft(IEnumerable<Item>, Inventory, out int)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__ToolkitEngine_Inventory_Inventory_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},ToolkitEngine.Inventory.Inventory,System.Int32@)
+  name.vb: Craft(IEnumerable(Of Item), Inventory, Integer)
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>, ToolkitEngine.Inventory.Inventory, out int)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item), ToolkitEngine.Inventory.Inventory, Integer)
+  nameWithType: ItemType.Craft(IEnumerable<Item>, Inventory, out int)
+  nameWithType.vb: ItemType.Craft(IEnumerable(Of Item), Inventory, Integer)
+- uid: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,SpawnedAction,System.Object[])
+  name: Craft(IEnumerable<Item>, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,SpawnedAction,System.Object[])
+  name.vb: Craft(IEnumerable(Of Item), Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item), Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(IEnumerable<Item>, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(IEnumerable(Of Item), Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Craft(IEnumerable<Item>, Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Craft(IEnumerable(Of Item), Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>, Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item), Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(IEnumerable<Item>, Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(IEnumerable(Of Item), Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Craft(IEnumerable<Item>, Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Craft(IEnumerable(Of Item), Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>, Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item), Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(IEnumerable<Item>, Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(IEnumerable(Of Item), Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Craft(IEnumerable<Item>, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Craft(IEnumerable(Of Item), Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item), Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(IEnumerable<Item>, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(IEnumerable(Of Item), Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,System.Int32@)
+  name: Craft(Inventory, out int)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,System.Int32@)
+  name.vb: Craft(Inventory, Integer)
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, out int)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Integer)
+  nameWithType: ItemType.Craft(Inventory, out int)
+  nameWithType.vb: ItemType.Craft(Inventory, Integer)
+- uid: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Transform,SpawnedAction,System.Object[])
+  name: Craft(Inventory, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Transform,SpawnedAction,System.Object[])
+  name.vb: Craft(Inventory, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(Inventory, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(Inventory, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Craft(Inventory, Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Craft(Inventory, Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(Inventory, Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(Inventory, Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Craft(Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Craft(Inventory, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(Inventory, Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(Inventory, Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Craft(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_Inventory_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Craft(Inventory, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.Inventory, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Craft(Inventory, Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Craft(Inventory, Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Craft*
+  name: Craft
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Craft_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Craft
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Craft
+  nameWithType: ItemType.Craft
+- uid: ToolkitEngine.Inventory.ItemType.Dismantle(ToolkitEngine.Inventory.Inventory,System.Int32[]@)
+  name: Dismantle(Inventory, out int[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Dismantle_ToolkitEngine_Inventory_Inventory_System_Int32____
+  commentId: M:ToolkitEngine.Inventory.ItemType.Dismantle(ToolkitEngine.Inventory.Inventory,System.Int32[]@)
+  name.vb: Dismantle(Inventory, Integer())
+  fullName: ToolkitEngine.Inventory.ItemType.Dismantle(ToolkitEngine.Inventory.Inventory, out int[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Dismantle(ToolkitEngine.Inventory.Inventory, Integer())
+  nameWithType: ItemType.Dismantle(Inventory, out int[])
+  nameWithType.vb: ItemType.Dismantle(Inventory, Integer())
+- uid: ToolkitEngine.Inventory.ItemType.Dismantle(Transform,SpawnedAction,System.Object[])
+  name: Dismantle(Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Dismantle_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Dismantle(Transform,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Dismantle(Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Dismantle(Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Dismantle(Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Dismantle(Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Dismantle(Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Dismantle(Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Dismantle_Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Dismantle(Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Dismantle(Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Dismantle(Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Dismantle(Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Dismantle(Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Dismantle_Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Dismantle(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Dismantle(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Dismantle_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Dismantle(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Dismantle(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Dismantle*
+  name: Dismantle
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Dismantle_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Dismantle
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Dismantle
+  nameWithType: ItemType.Dismantle
+- uid: ToolkitEngine.Inventory.ItemType.DismantleMode
+  name: ItemType.DismantleMode
+  href: api/ToolkitEngine.Inventory.ItemType.DismantleMode.html
+  commentId: T:ToolkitEngine.Inventory.ItemType.DismantleMode
+  fullName: ToolkitEngine.Inventory.ItemType.DismantleMode
+  nameWithType: ItemType.DismantleMode
+- uid: ToolkitEngine.Inventory.ItemType.DismantleMode.Ingredients
+  name: Ingredients
+  href: api/ToolkitEngine.Inventory.ItemType.DismantleMode.html#ToolkitEngine_Inventory_ItemType_DismantleMode_Ingredients
+  commentId: F:ToolkitEngine.Inventory.ItemType.DismantleMode.Ingredients
+  fullName: ToolkitEngine.Inventory.ItemType.DismantleMode.Ingredients
+  nameWithType: ItemType.DismantleMode.Ingredients
+- uid: ToolkitEngine.Inventory.ItemType.DismantleMode.None
+  name: None
+  href: api/ToolkitEngine.Inventory.ItemType.DismantleMode.html#ToolkitEngine_Inventory_ItemType_DismantleMode_None
+  commentId: F:ToolkitEngine.Inventory.ItemType.DismantleMode.None
+  fullName: ToolkitEngine.Inventory.ItemType.DismantleMode.None
+  nameWithType: ItemType.DismantleMode.None
+- uid: ToolkitEngine.Inventory.ItemType.DismantleMode.Scrap
+  name: Scrap
+  href: api/ToolkitEngine.Inventory.ItemType.DismantleMode.html#ToolkitEngine_Inventory_ItemType_DismantleMode_Scrap
+  commentId: F:ToolkitEngine.Inventory.ItemType.DismantleMode.Scrap
+  fullName: ToolkitEngine.Inventory.ItemType.DismantleMode.Scrap
+  nameWithType: ItemType.DismantleMode.Scrap
+- uid: ToolkitEngine.Inventory.ItemType.Equals(System.Object)
+  name: Equals(object)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Equals_System_Object_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ToolkitEngine.Inventory.ItemType.Equals(object)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Equals(Object)
+  nameWithType: ItemType.Equals(object)
+  nameWithType.vb: ItemType.Equals(Object)
+- uid: ToolkitEngine.Inventory.ItemType.Equals*
+  name: Equals
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Equals_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Equals
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Equals
+  nameWithType: ItemType.Equals
+- uid: ToolkitEngine.Inventory.ItemType.GetHashCode
+  name: GetHashCode()
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_GetHashCode
+  commentId: M:ToolkitEngine.Inventory.ItemType.GetHashCode
+  fullName: ToolkitEngine.Inventory.ItemType.GetHashCode()
+  nameWithType: ItemType.GetHashCode()
+- uid: ToolkitEngine.Inventory.ItemType.GetHashCode*
+  name: GetHashCode
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_GetHashCode_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.GetHashCode
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.GetHashCode
+  nameWithType: ItemType.GetHashCode
+- uid: ToolkitEngine.Inventory.ItemType.Ingredient
+  name: ItemType.Ingredient
+  href: api/ToolkitEngine.Inventory.ItemType.Ingredient.html
+  commentId: T:ToolkitEngine.Inventory.ItemType.Ingredient
+  fullName: ToolkitEngine.Inventory.ItemType.Ingredient
+  nameWithType: ItemType.Ingredient
+- uid: ToolkitEngine.Inventory.ItemType.Ingredient.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.ItemType.Ingredient.html#ToolkitEngine_Inventory_ItemType_Ingredient_amount
+  commentId: F:ToolkitEngine.Inventory.ItemType.Ingredient.amount
+  fullName: ToolkitEngine.Inventory.ItemType.Ingredient.amount
+  nameWithType: ItemType.Ingredient.amount
+- uid: ToolkitEngine.Inventory.ItemType.Ingredient.item
+  name: item
+  href: api/ToolkitEngine.Inventory.ItemType.Ingredient.html#ToolkitEngine_Inventory_ItemType_Ingredient_item
+  commentId: F:ToolkitEngine.Inventory.ItemType.Ingredient.item
+  fullName: ToolkitEngine.Inventory.ItemType.Ingredient.item
+  nameWithType: ItemType.Ingredient.item
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction,System.Object[])
+  name: Instantiate(SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction,System.Object[])
+  name.vb: Instantiate(SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Instantiate(SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Instantiate(SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Transform,SpawnedAction,System.Object[])
+  name: Instantiate(Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Transform,SpawnedAction,System.Object[])
+  name.vb: Instantiate(Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Instantiate(Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Instantiate(Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean,SpawnedAction,System.Object[])
+  name: Instantiate(Transform, bool, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Transform_System_Boolean_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean,SpawnedAction,System.Object[])
+  name.vb: Instantiate(Transform, Boolean, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, bool, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, Boolean, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Instantiate(Transform, bool, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Instantiate(Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,SpawnedAction,System.Object[])
+  name: Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,SpawnedAction,System.Object[])
+  name.vb: Instantiate(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name: Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
+  name.vb: Instantiate(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+  nameWithType: ItemType.Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[])
+  nameWithType.vb: ItemType.Instantiate(Vector3, Quaternion, Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate*
+  name: Instantiate
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Instantiate
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate
+  nameWithType: ItemType.Instantiate
+- uid: ToolkitEngine.Inventory.ItemType.IsSubtypeOf(ToolkitEngine.Inventory.ItemType)
+  name: IsSubtypeOf(ItemType)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_IsSubtypeOf_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemType.IsSubtypeOf(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.ItemType.IsSubtypeOf(ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemType.IsSubtypeOf(ItemType)
+- uid: ToolkitEngine.Inventory.ItemType.IsSubtypeOf*
+  name: IsSubtypeOf
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_IsSubtypeOf_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.IsSubtypeOf
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.IsSubtypeOf
+  nameWithType: ItemType.IsSubtypeOf
+- uid: ToolkitEngine.Inventory.ItemType.IsSupertypeOf(ToolkitEngine.Inventory.ItemType)
+  name: IsSupertypeOf(ItemType)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_IsSupertypeOf_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemType.IsSupertypeOf(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.ItemType.IsSupertypeOf(ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemType.IsSupertypeOf(ItemType)
+- uid: ToolkitEngine.Inventory.ItemType.IsSupertypeOf*
+  name: IsSupertypeOf
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_IsSupertypeOf_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.IsSupertypeOf
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.IsSupertypeOf
+  nameWithType: ItemType.IsSupertypeOf
+- uid: ToolkitEngine.Inventory.ItemType.Price
+  name: ItemType.Price
+  href: api/ToolkitEngine.Inventory.ItemType.Price.html
+  commentId: T:ToolkitEngine.Inventory.ItemType.Price
+  fullName: ToolkitEngine.Inventory.ItemType.Price
+  nameWithType: ItemType.Price
+- uid: ToolkitEngine.Inventory.ItemType.Price.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.ItemType.Price.html#ToolkitEngine_Inventory_ItemType_Price_amount
+  commentId: F:ToolkitEngine.Inventory.ItemType.Price.amount
+  fullName: ToolkitEngine.Inventory.ItemType.Price.amount
+  nameWithType: ItemType.Price.amount
+- uid: ToolkitEngine.Inventory.ItemType.Price.currency
+  name: currency
+  href: api/ToolkitEngine.Inventory.ItemType.Price.html#ToolkitEngine_Inventory_ItemType_Price_currency
+  commentId: F:ToolkitEngine.Inventory.ItemType.Price.currency
+  fullName: ToolkitEngine.Inventory.ItemType.Price.currency
+  nameWithType: ItemType.Price.currency
+- uid: ToolkitEngine.Inventory.ItemType.Scrap
+  name: ItemType.Scrap
+  href: api/ToolkitEngine.Inventory.ItemType.Scrap.html
+  commentId: T:ToolkitEngine.Inventory.ItemType.Scrap
+  fullName: ToolkitEngine.Inventory.ItemType.Scrap
+  nameWithType: ItemType.Scrap
+- uid: ToolkitEngine.Inventory.ItemType.Scrap.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.ItemType.Scrap.html#ToolkitEngine_Inventory_ItemType_Scrap_amount
+  commentId: F:ToolkitEngine.Inventory.ItemType.Scrap.amount
+  fullName: ToolkitEngine.Inventory.ItemType.Scrap.amount
+  nameWithType: ItemType.Scrap.amount
+- uid: ToolkitEngine.Inventory.ItemType.Scrap.item
+  name: item
+  href: api/ToolkitEngine.Inventory.ItemType.Scrap.html#ToolkitEngine_Inventory_ItemType_Scrap_item
+  commentId: F:ToolkitEngine.Inventory.ItemType.Scrap.item
+  fullName: ToolkitEngine.Inventory.ItemType.Scrap.item
+  nameWithType: ItemType.Scrap.item
+- uid: ToolkitEngine.Inventory.ItemType.Scrap.reclaimPercent
+  name: reclaimPercent
+  href: api/ToolkitEngine.Inventory.ItemType.Scrap.html#ToolkitEngine_Inventory_ItemType_Scrap_reclaimPercent
+  commentId: F:ToolkitEngine.Inventory.ItemType.Scrap.reclaimPercent
+  fullName: ToolkitEngine.Inventory.ItemType.Scrap.reclaimPercent
+  nameWithType: ItemType.Scrap.reclaimPercent
+- uid: ToolkitEngine.Inventory.ItemType.Sell(ToolkitEngine.Inventory.Inventory)
+  name: Sell(Inventory)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Sell_ToolkitEngine_Inventory_Inventory_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Sell(ToolkitEngine.Inventory.Inventory)
+  fullName: ToolkitEngine.Inventory.ItemType.Sell(ToolkitEngine.Inventory.Inventory)
+  nameWithType: ItemType.Sell(Inventory)
+- uid: ToolkitEngine.Inventory.ItemType.Sell*
+  name: Sell
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Sell_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Sell
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Sell
+  nameWithType: ItemType.Sell
+- uid: ToolkitEngine.Inventory.ItemType.buyPrice
+  name: buyPrice
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_buyPrice
+  commentId: P:ToolkitEngine.Inventory.ItemType.buyPrice
+  fullName: ToolkitEngine.Inventory.ItemType.buyPrice
+  nameWithType: ItemType.buyPrice
+- uid: ToolkitEngine.Inventory.ItemType.buyPrice*
+  name: buyPrice
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_buyPrice_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.buyPrice
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.buyPrice
+  nameWithType: ItemType.buyPrice
+- uid: ToolkitEngine.Inventory.ItemType.color
+  name: color
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_color
+  commentId: P:ToolkitEngine.Inventory.ItemType.color
+  fullName: ToolkitEngine.Inventory.ItemType.color
+  nameWithType: ItemType.color
+- uid: ToolkitEngine.Inventory.ItemType.color*
+  name: color
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_color_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.color
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.color
+  nameWithType: ItemType.color
+- uid: ToolkitEngine.Inventory.ItemType.craftable
+  name: craftable
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_craftable
+  commentId: P:ToolkitEngine.Inventory.ItemType.craftable
+  fullName: ToolkitEngine.Inventory.ItemType.craftable
+  nameWithType: ItemType.craftable
+- uid: ToolkitEngine.Inventory.ItemType.craftable*
+  name: craftable
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_craftable_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.craftable
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.craftable
+  nameWithType: ItemType.craftable
+- uid: ToolkitEngine.Inventory.ItemType.description
+  name: description
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_description
+  commentId: P:ToolkitEngine.Inventory.ItemType.description
+  fullName: ToolkitEngine.Inventory.ItemType.description
+  nameWithType: ItemType.description
+- uid: ToolkitEngine.Inventory.ItemType.description*
+  name: description
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_description_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.description
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.description
+  nameWithType: ItemType.description
+- uid: ToolkitEngine.Inventory.ItemType.dismantlable
+  name: dismantlable
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_dismantlable
+  commentId: P:ToolkitEngine.Inventory.ItemType.dismantlable
+  fullName: ToolkitEngine.Inventory.ItemType.dismantlable
+  nameWithType: ItemType.dismantlable
+- uid: ToolkitEngine.Inventory.ItemType.dismantlable*
+  name: dismantlable
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_dismantlable_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.dismantlable
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.dismantlable
+  nameWithType: ItemType.dismantlable
+- uid: ToolkitEngine.Inventory.ItemType.icon
+  name: icon
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_icon
+  commentId: P:ToolkitEngine.Inventory.ItemType.icon
+  fullName: ToolkitEngine.Inventory.ItemType.icon
+  nameWithType: ItemType.icon
+- uid: ToolkitEngine.Inventory.ItemType.icon*
+  name: icon
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_icon_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.icon
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.icon
+  nameWithType: ItemType.icon
+- uid: ToolkitEngine.Inventory.ItemType.id
+  name: id
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_id
+  commentId: P:ToolkitEngine.Inventory.ItemType.id
+  fullName: ToolkitEngine.Inventory.ItemType.id
+  nameWithType: ItemType.id
+- uid: ToolkitEngine.Inventory.ItemType.id*
+  name: id
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_id_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.id
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.id
+  nameWithType: ItemType.id
+- uid: ToolkitEngine.Inventory.ItemType.ingredients
+  name: ingredients
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_ingredients
+  commentId: P:ToolkitEngine.Inventory.ItemType.ingredients
+  fullName: ToolkitEngine.Inventory.ItemType.ingredients
+  nameWithType: ItemType.ingredients
+- uid: ToolkitEngine.Inventory.ItemType.ingredients*
+  name: ingredients
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_ingredients_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.ingredients
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.ingredients
+  nameWithType: ItemType.ingredients
+- uid: ToolkitEngine.Inventory.ItemType.maxStack
+  name: maxStack
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_maxStack
+  commentId: P:ToolkitEngine.Inventory.ItemType.maxStack
+  fullName: ToolkitEngine.Inventory.ItemType.maxStack
+  nameWithType: ItemType.maxStack
+- uid: ToolkitEngine.Inventory.ItemType.maxStack*
+  name: maxStack
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_maxStack_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.maxStack
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.maxStack
+  nameWithType: ItemType.maxStack
+- uid: ToolkitEngine.Inventory.ItemType.name
+  name: name
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_name
+  commentId: P:ToolkitEngine.Inventory.ItemType.name
+  fullName: ToolkitEngine.Inventory.ItemType.name
+  nameWithType: ItemType.name
+- uid: ToolkitEngine.Inventory.ItemType.name*
+  name: name
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_name_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.name
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.name
+  nameWithType: ItemType.name
+- uid: ToolkitEngine.Inventory.ItemType.parent
+  name: parent
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_parent
+  commentId: P:ToolkitEngine.Inventory.ItemType.parent
+  fullName: ToolkitEngine.Inventory.ItemType.parent
+  nameWithType: ItemType.parent
+- uid: ToolkitEngine.Inventory.ItemType.parent*
+  name: parent
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_parent_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.parent
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.parent
+  nameWithType: ItemType.parent
+- uid: ToolkitEngine.Inventory.ItemType.sellFactor
+  name: sellFactor
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellFactor
+  commentId: P:ToolkitEngine.Inventory.ItemType.sellFactor
+  fullName: ToolkitEngine.Inventory.ItemType.sellFactor
+  nameWithType: ItemType.sellFactor
+- uid: ToolkitEngine.Inventory.ItemType.sellFactor*
+  name: sellFactor
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellFactor_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.sellFactor
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.sellFactor
+  nameWithType: ItemType.sellFactor
+- uid: ToolkitEngine.Inventory.ItemType.sellPrice
+  name: sellPrice
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellPrice
+  commentId: P:ToolkitEngine.Inventory.ItemType.sellPrice
+  fullName: ToolkitEngine.Inventory.ItemType.sellPrice
+  nameWithType: ItemType.sellPrice
+- uid: ToolkitEngine.Inventory.ItemType.sellPrice*
+  name: sellPrice
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellPrice_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.sellPrice
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.sellPrice
+  nameWithType: ItemType.sellPrice
+- uid: ToolkitEngine.Inventory.ItemType.sellable
+  name: sellable
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellable
+  commentId: P:ToolkitEngine.Inventory.ItemType.sellable
+  fullName: ToolkitEngine.Inventory.ItemType.sellable
+  nameWithType: ItemType.sellable
+- uid: ToolkitEngine.Inventory.ItemType.sellable*
+  name: sellable
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellable_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.sellable
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.sellable
+  nameWithType: ItemType.sellable
+- uid: ToolkitEngine.Inventory.ItemType.weight
+  name: weight
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_weight
+  commentId: P:ToolkitEngine.Inventory.ItemType.weight
+  fullName: ToolkitEngine.Inventory.ItemType.weight
+  nameWithType: ItemType.weight
+- uid: ToolkitEngine.Inventory.ItemType.weight*
+  name: weight
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_weight_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.weight
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.weight
+  nameWithType: ItemType.weight
+- uid: ToolkitEngine.Inventory.Loot
+  name: Loot
+  href: api/ToolkitEngine.Inventory.Loot.html
+  commentId: T:ToolkitEngine.Inventory.Loot
+  fullName: ToolkitEngine.Inventory.Loot
+  nameWithType: Loot
+- uid: ToolkitEngine.Inventory.LootEntry
+  name: LootEntry
+  href: api/ToolkitEngine.Inventory.LootEntry.html
+  commentId: T:ToolkitEngine.Inventory.LootEntry
+  fullName: ToolkitEngine.Inventory.LootEntry
+  nameWithType: LootEntry
+- uid: ToolkitEngine.Inventory.LootEntry.item
+  name: item
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry_item
+  commentId: P:ToolkitEngine.Inventory.LootEntry.item
+  fullName: ToolkitEngine.Inventory.LootEntry.item
+  nameWithType: LootEntry.item
+- uid: ToolkitEngine.Inventory.LootEntry.item*
+  name: item
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry_item_
+  commentId: Overload:ToolkitEngine.Inventory.LootEntry.item
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootEntry.item
+  nameWithType: LootEntry.item
+- uid: ToolkitEngine.Inventory.LootEntry.m_rate
+  name: m_rate
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry_m_rate
+  commentId: F:ToolkitEngine.Inventory.LootEntry.m_rate
+  fullName: ToolkitEngine.Inventory.LootEntry.m_rate
+  nameWithType: LootEntry.m_rate
+- uid: ToolkitEngine.Inventory.LootEntry.weight
+  name: weight
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry_weight
+  commentId: P:ToolkitEngine.Inventory.LootEntry.weight
+  fullName: ToolkitEngine.Inventory.LootEntry.weight
+  nameWithType: LootEntry.weight
+- uid: ToolkitEngine.Inventory.LootEntry.weight*
+  name: weight
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry_weight_
+  commentId: Overload:ToolkitEngine.Inventory.LootEntry.weight
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootEntry.weight
+  nameWithType: LootEntry.weight
+- uid: ToolkitEngine.Inventory.LootTable
+  name: LootTable
+  href: api/ToolkitEngine.Inventory.LootTable.html
+  commentId: T:ToolkitEngine.Inventory.LootTable
+  fullName: ToolkitEngine.Inventory.LootTable
+  nameWithType: LootTable
+- uid: ToolkitEngine.Inventory.LootTable.totalRates
+  name: totalRates
+  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_totalRates
+  commentId: P:ToolkitEngine.Inventory.LootTable.totalRates
+  fullName: ToolkitEngine.Inventory.LootTable.totalRates
+  nameWithType: LootTable.totalRates
+- uid: ToolkitEngine.Inventory.LootTable.totalRates*
+  name: totalRates
+  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_totalRates_
+  commentId: Overload:ToolkitEngine.Inventory.LootTable.totalRates
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootTable.totalRates
+  nameWithType: LootTable.totalRates
+- uid: ToolkitEngine.Inventory.Recipes
+  name: Recipes
+  href: api/ToolkitEngine.Inventory.Recipes.html
+  commentId: T:ToolkitEngine.Inventory.Recipes
+  fullName: ToolkitEngine.Inventory.Recipes
+  nameWithType: Recipes
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.ItemType})
+  name: GetRecipesByAllIngredients(IEnumerable<ItemType>)
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAllIngredients_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_ItemType__
+  commentId: M:ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.ItemType})
+  name.vb: GetRecipesByAllIngredients(IEnumerable(Of ItemType))
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.ItemType>)
+  fullName.vb: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.ItemType))
+  nameWithType: Recipes.GetRecipesByAllIngredients(IEnumerable<ItemType>)
+  nameWithType.vb: Recipes.GetRecipesByAllIngredients(IEnumerable(Of ItemType))
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})
+  name: GetRecipesByAllIngredients(IEnumerable<Item>)
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAllIngredients_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__
+  commentId: M:ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})
+  name.vb: GetRecipesByAllIngredients(IEnumerable(Of Item))
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>)
+  fullName.vb: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item))
+  nameWithType: Recipes.GetRecipesByAllIngredients(IEnumerable<Item>)
+  nameWithType.vb: Recipes.GetRecipesByAllIngredients(IEnumerable(Of Item))
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(ToolkitEngine.Inventory.Inventory)
+  name: GetRecipesByAllIngredients(Inventory)
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAllIngredients_ToolkitEngine_Inventory_Inventory_
+  commentId: M:ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(ToolkitEngine.Inventory.Inventory)
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients(ToolkitEngine.Inventory.Inventory)
+  nameWithType: Recipes.GetRecipesByAllIngredients(Inventory)
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients*
+  name: GetRecipesByAllIngredients
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAllIngredients_
+  commentId: Overload:ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAllIngredients
+  nameWithType: Recipes.GetRecipesByAllIngredients
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.ItemType})
+  name: GetRecipesByAnyIngredient(IEnumerable<ItemType>)
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAnyIngredient_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_ItemType__
+  commentId: M:ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.ItemType})
+  name.vb: GetRecipesByAnyIngredient(IEnumerable(Of ItemType))
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.ItemType>)
+  fullName.vb: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.ItemType))
+  nameWithType: Recipes.GetRecipesByAnyIngredient(IEnumerable<ItemType>)
+  nameWithType.vb: Recipes.GetRecipesByAnyIngredient(IEnumerable(Of ItemType))
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})
+  name: GetRecipesByAnyIngredient(IEnumerable<Item>)
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAnyIngredient_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__
+  commentId: M:ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})
+  name.vb: GetRecipesByAnyIngredient(IEnumerable(Of Item))
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.Item>)
+  fullName.vb: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.Item))
+  nameWithType: Recipes.GetRecipesByAnyIngredient(IEnumerable<Item>)
+  nameWithType.vb: Recipes.GetRecipesByAnyIngredient(IEnumerable(Of Item))
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(ToolkitEngine.Inventory.Inventory)
+  name: GetRecipesByAnyIngredient(Inventory)
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAnyIngredient_ToolkitEngine_Inventory_Inventory_
+  commentId: M:ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(ToolkitEngine.Inventory.Inventory)
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient(ToolkitEngine.Inventory.Inventory)
+  nameWithType: Recipes.GetRecipesByAnyIngredient(Inventory)
+- uid: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient*
+  name: GetRecipesByAnyIngredient
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_GetRecipesByAnyIngredient_
+  commentId: Overload:ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Recipes.GetRecipesByAnyIngredient
+  nameWithType: Recipes.GetRecipesByAnyIngredient
+- uid: ToolkitEngine.Inventory.Recipes.items
+  name: items
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_items
+  commentId: P:ToolkitEngine.Inventory.Recipes.items
+  fullName: ToolkitEngine.Inventory.Recipes.items
+  nameWithType: Recipes.items
+- uid: ToolkitEngine.Inventory.Recipes.items*
+  name: items
+  href: api/ToolkitEngine.Inventory.Recipes.html#ToolkitEngine_Inventory_Recipes_items_
+  commentId: Overload:ToolkitEngine.Inventory.Recipes.items
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Recipes.items
+  nameWithType: Recipes.items
+- uid: ToolkitEngine.Inventory.VisualScripting
+  name: ToolkitEngine.Inventory.VisualScripting
+  href: api/ToolkitEngine.Inventory.VisualScripting.html
+  commentId: N:ToolkitEngine.Inventory.VisualScripting
+  fullName: ToolkitEngine.Inventory.VisualScripting
+  nameWithType: ToolkitEngine.Inventory.VisualScripting
+- uid: ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit
+  name: BaseCurrencyEventUnit
+  href: api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit
+  fullName: ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit
+  nameWithType: BaseCurrencyEventUnit
+- uid: ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit
+  name: BaseItemEventUnit
+  href: api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit
+  fullName: ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit
+  nameWithType: BaseItemEventUnit
+- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks
+  name: EventHooks
+  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.EventHooks
+  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks
+  nameWithType: EventHooks
+- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnCurrencySlotChanged
+  name: OnCurrencySlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnCurrencySlotChanged
+  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnCurrencySlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnCurrencySlotChanged
+  nameWithType: EventHooks.OnCurrencySlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemSlotChanged
+  name: OnItemSlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnItemSlotChanged
+  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemSlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemSlotChanged
+  nameWithType: EventHooks.OnItemSlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged
+  name: OnCurrencySlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged
+  nameWithType: OnCurrencySlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnCurrencySlotChanged_MessageListenerType
+  commentId: P:ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.MessageListenerType
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.MessageListenerType
+  nameWithType: OnCurrencySlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnCurrencySlotChanged_MessageListenerType_
+  commentId: Overload:ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.MessageListenerType
+  nameWithType: OnCurrencySlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener
+  name: OnCurrencySlotChangedMessageListener
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener
+  nameWithType: OnCurrencySlotChangedMessageListener
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged
+  name: OnItemSlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged
+  nameWithType: OnItemSlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnItemSlotChanged_MessageListenerType
+  commentId: P:ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.MessageListenerType
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.MessageListenerType
+  nameWithType: OnItemSlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnItemSlotChanged_MessageListenerType_
+  commentId: Overload:ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.MessageListenerType
+  nameWithType: OnItemSlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener
+  name: OnItemSlotChangedMessageListener
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener
+  nameWithType: OnItemSlotChangedMessageListener
