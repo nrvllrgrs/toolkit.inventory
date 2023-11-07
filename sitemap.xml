@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/index.html</loc>
+    <lastmod>2023-11-07T08:19:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.inventory/index.html</loc>
+    <lastmod>2023-11-07T08:19:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.inventory/license/LICENSE.html</loc>
+    <lastmod>2023-11-07T08:19:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.inventory/manual/index.html</loc>
+    <lastmod>2023-11-07T08:19:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
