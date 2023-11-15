@@ -1,35 +1,62 @@
+using System;
+using System.Collections.Generic;
+using ToolkitEngine.Inventory;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEditor;
-using Unity.VisualScripting;
 
 namespace ToolkitEditor.Inventory.VisualScripting
 {
+    [InitializeOnLoad]
     public static class Setup
     {
-        [MenuItem("Window/Toolkit/Visual Scripting/Setup Inventory")]
-        public static void Do()
+        static Setup()
         {
-            bool dirty = false;
-            var config = BoltCore.Configuration;
+			bool dirty = false;
+			var config = BoltCore.Configuration;
 
-			foreach (var type in typeof(ToolkitEngine.Inventory.Inventory).Assembly.GetTypes())
-            {
-                if (!config.typeOptions.Contains(type))
-                {
-                    config.typeOptions.Add(type);
-                    dirty = true;
+			var assemblyName = new LooseAssemblyName("ToolkitEngine.Inventory");
+			if (!config.assemblyOptions.Contains(assemblyName))
+			{
+				config.assemblyOptions.Add(assemblyName);
+				dirty = true;
+			}
 
-                    Debug.LogFormat("Adding {0} to Visual Scripting type options.", type.FullName);
-                }
-            }
+			var types = new List<Type>()
+			{
+				typeof(ToolkitEngine.Inventory.Inventory),
+				typeof(ItemSlot),
+				typeof(ItemEventArgs),
+				typeof(ItemType),
+				typeof(Item),
+				typeof(CurrencySlot),
+				typeof(CurrencyEventArgs),
+				typeof(Currency),
+				typeof(CurrencyType),
+				typeof(LootTable),
+				typeof(LootEntry),
+				typeof(Loot),
+				typeof(Recipes),
+			};
 
-            if (dirty)
-            {
-                var metadata = config.GetMetadata(nameof(config.typeOptions));
-                metadata.Save();
-                Codebase.UpdateSettings();
-                UnitBase.Rebuild();
-            }
+			foreach (var type in types)
+			{
+				if (!config.typeOptions.Contains(type))
+				{
+					config.typeOptions.Add(type);
+					dirty = true;
+
+					Debug.LogFormat("Adding {0} to Visual Scripting type options.", type.FullName);
+				}
+			}
+
+			if (dirty)
+			{
+				var metadata = config.GetMetadata(nameof(config.typeOptions));
+				metadata.Save();
+				Codebase.UpdateSettings();
+				UnitBase.Rebuild();
+			}
 		}
-	}
+    }
 }
