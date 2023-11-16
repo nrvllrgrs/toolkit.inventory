@@ -289,6 +289,11 @@ namespace ToolkitEngine.Inventory
             m_onItemSlotChanged?.Invoke(e);
         }
 
+        public bool HasItem(ItemType itemType)
+        {
+            return GetItemTotal(itemType) > 0;
+        }
+
         public int GetItemTotal(ItemType itemType)
         {
             return m_items.Where(x => x.id == itemType.id)
