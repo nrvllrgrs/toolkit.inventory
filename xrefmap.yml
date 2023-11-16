@@ -1099,6 +1099,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.GetItemTotal
   nameWithType: Inventory.GetItemTotal
+- uid: ToolkitEngine.Inventory.Inventory.HasItem(ToolkitEngine.Inventory.ItemType)
+  name: HasItem(ItemType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_HasItem_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.HasItem(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.Inventory.HasItem(ToolkitEngine.Inventory.ItemType)
+  nameWithType: Inventory.HasItem(ItemType)
+- uid: ToolkitEngine.Inventory.Inventory.HasItem*
+  name: HasItem
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_HasItem_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.HasItem
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.HasItem
+  nameWithType: Inventory.HasItem
 - uid: ToolkitEngine.Inventory.Inventory.Sell(ToolkitEngine.Inventory.ItemType)
   name: Sell(ItemType)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Sell_ToolkitEngine_Inventory_ItemType_
