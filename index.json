@@ -152,17 +152,17 @@
   "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html": {
     "href": "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html",
     "title": "Class BaseCurrencyEventUnit | Inventory Toolkit | 1.0.0",
-    "keywords": "Class BaseCurrencyEventUnit Namespace ToolkitEngine.Inventory.VisualScripting public abstract class BaseCurrencyEventUnit : BaseEventUnit<CurrencyEventArgs> Inheritance object BaseCurrencyEventUnit Derived OnCurrencySlotChanged"
+    "keywords": "Class BaseCurrencyEventUnit Namespace ToolkitEngine.Inventory.VisualScripting public abstract class BaseCurrencyEventUnit : BaseEventUnit<CurrencyEventArgs> Inheritance object BaseCurrencyEventUnit Derived OnCurrencySlotChanged OnInventoryCurrencySlotChanged"
   },
   "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html": {
     "href": "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html",
     "title": "Class BaseItemEventUnit | Inventory Toolkit | 1.0.0",
-    "keywords": "Class BaseItemEventUnit Namespace ToolkitEngine.Inventory.VisualScripting public abstract class BaseItemEventUnit : BaseEventUnit<ItemEventArgs> Inheritance object BaseItemEventUnit Derived OnItemSlotChanged"
+    "keywords": "Class BaseItemEventUnit Namespace ToolkitEngine.Inventory.VisualScripting public abstract class BaseItemEventUnit : BaseEventUnit<ItemEventArgs> Inheritance object BaseItemEventUnit Derived OnInventoryItemSlotChanged OnItemCollected OnItemSlotChanged"
   },
   "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html": {
     "href": "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html",
     "title": "Class EventHooks | Inventory Toolkit | 1.0.0",
-    "keywords": "Class EventHooks Namespace ToolkitEngine.Inventory.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnCurrencySlotChanged public const string OnCurrencySlotChanged = \"OnCurrencySlotChanged\" Field Value string OnItemSlotChanged public const string OnItemSlotChanged = \"OnItemSlotChanged\" Field Value string"
+    "keywords": "Class EventHooks Namespace ToolkitEngine.Inventory.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnInventoryCurrencySlotChanged public const string OnInventoryCurrencySlotChanged = \"OnInventoryCurrencySlotChanged\" Field Value string OnInventoryItemSlotChanged public const string OnInventoryItemSlotChanged = \"OnInventoryItemSlotChanged\" Field Value string OnItemCollected public const string OnItemCollected = \"OnItemCollected\" Field Value string"
   },
   "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html": {
     "href": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html",
@@ -173,6 +173,36 @@
     "href": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html",
     "title": "Class OnCurrencySlotChangedMessageListener | Inventory Toolkit | 1.0.0",
     "keywords": "Class OnCurrencySlotChangedMessageListener Namespace ToolkitEngine.Inventory.VisualScripting public class OnCurrencySlotChangedMessageListener : MessageListener Inheritance object OnCurrencySlotChangedMessageListener"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html",
+    "title": "Class OnInventoryCurrencySlotChanged | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnInventoryCurrencySlotChanged Namespace ToolkitEngine.Inventory.VisualScripting public class OnInventoryCurrencySlotChanged : BaseCurrencyEventUnit Inheritance object BaseCurrencyEventUnit OnInventoryCurrencySlotChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener.html",
+    "title": "Class OnInventoryCurrencySlotChangedMessageListener | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnInventoryCurrencySlotChangedMessageListener Namespace ToolkitEngine.Inventory.VisualScripting public class OnInventoryCurrencySlotChangedMessageListener : MessageListener Inheritance object OnInventoryCurrencySlotChangedMessageListener"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html",
+    "title": "Class OnInventoryItemSlotChanged | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnInventoryItemSlotChanged Namespace ToolkitEngine.Inventory.VisualScripting public class OnInventoryItemSlotChanged : BaseItemEventUnit Inheritance object BaseItemEventUnit OnInventoryItemSlotChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener.html",
+    "title": "Class OnInventoryItemSlotChangedMessageListener | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnInventoryItemSlotChangedMessageListener Namespace ToolkitEngine.Inventory.VisualScripting public class OnInventoryItemSlotChangedMessageListener : MessageListener Inheritance object OnInventoryItemSlotChangedMessageListener"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html",
+    "title": "Class OnItemCollected | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnItemCollected Namespace ToolkitEngine.Inventory.VisualScripting public class OnItemCollected : BaseItemEventUnit Inheritance object BaseItemEventUnit OnItemCollected Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener.html": {
+    "href": "api/ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener.html",
+    "title": "Class OnItemCollectedMessageListener | Inventory Toolkit | 1.0.0",
+    "keywords": "Class OnItemCollectedMessageListener Namespace ToolkitEngine.Inventory.VisualScripting public class OnItemCollectedMessageListener : MessageListener Inheritance object OnItemCollectedMessageListener"
   },
   "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html": {
     "href": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html",
@@ -187,7 +217,7 @@
   "api/ToolkitEngine.Inventory.VisualScripting.html": {
     "href": "api/ToolkitEngine.Inventory.VisualScripting.html",
     "title": "Namespace ToolkitEngine.Inventory.VisualScripting | Inventory Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEngine.Inventory.VisualScripting Classes BaseCurrencyEventUnit BaseItemEventUnit EventHooks OnCurrencySlotChanged OnCurrencySlotChangedMessageListener OnItemSlotChanged OnItemSlotChangedMessageListener"
+    "keywords": "Namespace ToolkitEngine.Inventory.VisualScripting Classes BaseCurrencyEventUnit BaseItemEventUnit EventHooks OnCurrencySlotChanged OnCurrencySlotChangedMessageListener OnInventoryCurrencySlotChanged OnInventoryCurrencySlotChangedMessageListener OnInventoryItemSlotChanged OnInventoryItemSlotChangedMessageListener OnItemCollected OnItemCollectedMessageListener OnItemSlotChanged OnItemSlotChangedMessageListener"
   },
   "api/ToolkitEngine.Inventory.html": {
     "href": "api/ToolkitEngine.Inventory.html",

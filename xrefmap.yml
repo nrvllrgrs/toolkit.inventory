@@ -2355,18 +2355,24 @@ references:
   commentId: T:ToolkitEngine.Inventory.VisualScripting.EventHooks
   fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks
   nameWithType: EventHooks
-- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnCurrencySlotChanged
-  name: OnCurrencySlotChanged
-  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnCurrencySlotChanged
-  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnCurrencySlotChanged
-  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnCurrencySlotChanged
-  nameWithType: EventHooks.OnCurrencySlotChanged
-- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemSlotChanged
-  name: OnItemSlotChanged
-  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnItemSlotChanged
-  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemSlotChanged
-  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemSlotChanged
-  nameWithType: EventHooks.OnItemSlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnInventoryCurrencySlotChanged
+  name: OnInventoryCurrencySlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnInventoryCurrencySlotChanged
+  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnInventoryCurrencySlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnInventoryCurrencySlotChanged
+  nameWithType: EventHooks.OnInventoryCurrencySlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnInventoryItemSlotChanged
+  name: OnInventoryItemSlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnInventoryItemSlotChanged
+  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnInventoryItemSlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnInventoryItemSlotChanged
+  nameWithType: EventHooks.OnInventoryItemSlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemCollected
+  name: OnItemCollected
+  href: api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html#ToolkitEngine_Inventory_VisualScripting_EventHooks_OnItemCollected
+  commentId: F:ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemCollected
+  fullName: ToolkitEngine.Inventory.VisualScripting.EventHooks.OnItemCollected
+  nameWithType: EventHooks.OnItemCollected
 - uid: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged
   name: OnCurrencySlotChanged
   href: api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html
@@ -2392,6 +2398,81 @@ references:
   commentId: T:ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener
   fullName: ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener
   nameWithType: OnCurrencySlotChangedMessageListener
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged
+  name: OnInventoryCurrencySlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged
+  nameWithType: OnInventoryCurrencySlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnInventoryCurrencySlotChanged_MessageListenerType
+  commentId: P:ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.MessageListenerType
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.MessageListenerType
+  nameWithType: OnInventoryCurrencySlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnInventoryCurrencySlotChanged_MessageListenerType_
+  commentId: Overload:ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.MessageListenerType
+  nameWithType: OnInventoryCurrencySlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener
+  name: OnInventoryCurrencySlotChangedMessageListener
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener
+  nameWithType: OnInventoryCurrencySlotChangedMessageListener
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged
+  name: OnInventoryItemSlotChanged
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged
+  nameWithType: OnInventoryItemSlotChanged
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnInventoryItemSlotChanged_MessageListenerType
+  commentId: P:ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.MessageListenerType
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.MessageListenerType
+  nameWithType: OnInventoryItemSlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html#ToolkitEngine_Inventory_VisualScripting_OnInventoryItemSlotChanged_MessageListenerType_
+  commentId: Overload:ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.MessageListenerType
+  nameWithType: OnInventoryItemSlotChanged.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener
+  name: OnInventoryItemSlotChangedMessageListener
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener
+  nameWithType: OnInventoryItemSlotChangedMessageListener
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemCollected
+  name: OnItemCollected
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnItemCollected
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemCollected
+  nameWithType: OnItemCollected
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemCollected.MessageListenerType
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html#ToolkitEngine_Inventory_VisualScripting_OnItemCollected_MessageListenerType
+  commentId: P:ToolkitEngine.Inventory.VisualScripting.OnItemCollected.MessageListenerType
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemCollected.MessageListenerType
+  nameWithType: OnItemCollected.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemCollected.MessageListenerType*
+  name: MessageListenerType
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html#ToolkitEngine_Inventory_VisualScripting_OnItemCollected_MessageListenerType_
+  commentId: Overload:ToolkitEngine.Inventory.VisualScripting.OnItemCollected.MessageListenerType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemCollected.MessageListenerType
+  nameWithType: OnItemCollected.MessageListenerType
+- uid: ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener
+  name: OnItemCollectedMessageListener
+  href: api/ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener.html
+  commentId: T:ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener
+  fullName: ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener
+  nameWithType: OnItemCollectedMessageListener
 - uid: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged
   name: OnItemSlotChanged
   href: api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html
