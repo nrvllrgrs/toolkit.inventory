@@ -20,6 +20,8 @@ namespace ToolkitEditor.Inventory.VisualScripting
 			{
 				config.assemblyOptions.Add(assemblyName);
 				dirty = true;
+
+				Debug.LogFormat("Adding {0} to Visual Scripting assembly options.", assemblyName);
 			}
 
 			var types = new List<Type>()

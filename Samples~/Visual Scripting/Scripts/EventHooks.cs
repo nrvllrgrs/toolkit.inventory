@@ -2,7 +2,11 @@ namespace ToolkitEngine.Inventory.VisualScripting
 {
     public static class EventHooks
     {
-        public const string OnCurrencySlotChanged = nameof(OnCurrencySlotChanged);
-        public const string OnItemSlotChanged = nameof(OnItemSlotChanged);
+        // Inventory
+        public const string OnInventoryCurrencySlotChanged = nameof(OnInventoryCurrencySlotChanged);
+        public const string OnInventoryItemSlotChanged = nameof(OnInventoryItemSlotChanged);
+
+        // Item
+        public const string OnItemCollected = nameof(OnItemCollected);
     }
 }
