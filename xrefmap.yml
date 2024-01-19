@@ -99,12 +99,12 @@ references:
   commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_encumbranceWeight
   fullName: ToolkitEditor.Inventory.InventoryEditor.m_encumbranceWeight
   nameWithType: InventoryEditor.m_encumbranceWeight
-- uid: ToolkitEditor.Inventory.InventoryEditor.m_infiniteSlots
-  name: m_infiniteSlots
-  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_infiniteSlots
-  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_infiniteSlots
-  fullName: ToolkitEditor.Inventory.InventoryEditor.m_infiniteSlots
-  nameWithType: InventoryEditor.m_infiniteSlots
+- uid: ToolkitEditor.Inventory.InventoryEditor.m_expandSlots
+  name: m_expandSlots
+  href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_expandSlots
+  commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_expandSlots
+  fullName: ToolkitEditor.Inventory.InventoryEditor.m_expandSlots
+  nameWithType: InventoryEditor.m_expandSlots
 - uid: ToolkitEditor.Inventory.InventoryEditor.m_items
   name: m_items
   href: api/ToolkitEditor.Inventory.InventoryEditor.html#ToolkitEditor_Inventory_InventoryEditor_m_items
@@ -940,12 +940,6 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.AddCurrency
   nameWithType: Inventory.AddCurrency
-- uid: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item)
-  name: AddItem(Item)
-  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_Item_
-  commentId: M:ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item)
-  fullName: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item)
-  nameWithType: Inventory.AddItem(Item)
 - uid: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item,System.Int32@)
   name: AddItem(Item, out int)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_Item_System_Int32__
@@ -955,15 +949,6 @@ references:
   fullName.vb: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item, Integer)
   nameWithType: Inventory.AddItem(Item, out int)
   nameWithType.vb: Inventory.AddItem(Item, Integer)
-- uid: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32)
-  name: AddItem(ItemType, int)
-  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_ItemType_System_Int32_
-  commentId: M:ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32)
-  name.vb: AddItem(ItemType, Integer)
-  fullName: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType, int)
-  fullName.vb: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType, Integer)
-  nameWithType: Inventory.AddItem(ItemType, int)
-  nameWithType.vb: Inventory.AddItem(ItemType, Integer)
 - uid: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32@)
   name: AddItem(ItemType, int, out int)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32__
@@ -1166,6 +1151,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.TryRemoveItem
   nameWithType: Inventory.TryRemoveItem
+- uid: ToolkitEngine.Inventory.Inventory.allowAdd
+  name: allowAdd
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_allowAdd
+  commentId: P:ToolkitEngine.Inventory.Inventory.allowAdd
+  fullName: ToolkitEngine.Inventory.Inventory.allowAdd
+  nameWithType: Inventory.allowAdd
+- uid: ToolkitEngine.Inventory.Inventory.allowAdd*
+  name: allowAdd
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_allowAdd_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.allowAdd
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.allowAdd
+  nameWithType: Inventory.allowAdd
 - uid: ToolkitEngine.Inventory.Inventory.currencies
   name: currencies
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_currencies
@@ -1179,19 +1177,6 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.currencies
   nameWithType: Inventory.currencies
-- uid: ToolkitEngine.Inventory.Inventory.infiniteSlots
-  name: infiniteSlots
-  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_infiniteSlots
-  commentId: P:ToolkitEngine.Inventory.Inventory.infiniteSlots
-  fullName: ToolkitEngine.Inventory.Inventory.infiniteSlots
-  nameWithType: Inventory.infiniteSlots
-- uid: ToolkitEngine.Inventory.Inventory.infiniteSlots*
-  name: infiniteSlots
-  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_infiniteSlots_
-  commentId: Overload:ToolkitEngine.Inventory.Inventory.infiniteSlots
-  isSpec: "True"
-  fullName: ToolkitEngine.Inventory.Inventory.infiniteSlots
-  nameWithType: Inventory.infiniteSlots
 - uid: ToolkitEngine.Inventory.Inventory.isEncumbered
   name: isEncumbered
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_isEncumbered
