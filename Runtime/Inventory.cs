@@ -77,8 +77,8 @@ namespace ToolkitEngine.Inventory
         [SerializeField]
         private List<ItemSlot> m_items;
 
-        [SerializeField, Tooltip("Indicates whether inventory can have infinite slots.")]
-        private bool m_infiniteSlots = false;
+        [SerializeField, Tooltip("Indicates whether new slots can be added when out of room.")]
+        private bool m_expandSlots = true;
 
         [SerializeField]
         private bool m_useEncumbrance;
@@ -127,15 +127,13 @@ namespace ToolkitEngine.Inventory
             }
         }
 
-        /// <summary>
-        /// Indicates whether inventory is currently encumbered.
-        /// </summary>
 		public bool isEncumbered => m_weight > m_encumbranceWeight;
 
-		/// <summary>
-		/// Indicates whether inventory can have infinite slots.
-		/// </summary>
-		public bool infiniteSlots => m_infiniteSlots;
+		public bool allowAdd
+        {
+            get => m_expandSlots;
+            set => m_expandSlots = value;
+        }
 
         public UnityEvent<CurrencyEventArgs> onCurrencySlotChanged => m_onCurrencySlotChanged;
         public UnityEvent<ItemEventArgs> onItemSlotChanged => m_onItemSlotChanged;
@@ -289,30 +287,29 @@ namespace ToolkitEngine.Inventory
             m_onItemSlotChanged?.Invoke(e);
         }
 
-        public bool HasItem(ItemType itemType)
-        {
-            return GetItemTotal(itemType) > 0;
-        }
-
         public int GetItemTotal(ItemType itemType)
         {
             return m_items.Where(x => x.id == itemType.id)
                 .Sum(x => x.amount);
         }
 
-        public bool AddItem(Item item)
+        public bool HasItem(ItemType itemType)
         {
-            return AddItem(item, out int overflow);
+            if (itemType == null)
+                return false;
+
+            foreach (var slot in m_items)
+            {
+                if (Equals(slot.id, itemType.id) && slot.amount > 0)
+                    return true;
+            }
+
+            return false;
         }
 
-        public bool AddItem(Item item, out int overflow)
+        public void AddItem(Item item, out int overflow)
         {
-            return AddItem(item.itemType, item.amount, out overflow);
-        }
-
-        public bool AddItem(ItemType itemType, int count)
-        {
-            return AddItem(itemType, count, out int overflow);
+            AddItem(item.itemType, item.amount, out overflow);
         }
 
         public bool AddItem(ItemType itemType, int count, out int overflow)
@@ -340,34 +337,37 @@ namespace ToolkitEngine.Inventory
                     return true;
             }
 
-            if (!m_infiniteSlots)
+            foreach (var slot in m_items.Where(x => x.id == string.Empty))
             {
-                foreach (var slot in m_items.Where(x => x.id == string.Empty))
-                {
-                    int fillCount = Mathf.Min(count, itemType.maxStack);
-                    slot.Set(itemType, fillCount);
-                    count -= fillCount;
+                int fillCount = Mathf.Min(count, itemType.maxStack);
+                slot.Set(itemType, fillCount);
+                count -= fillCount;
 
-                    if (count == 0)
-                        return true;
-                }
+                if (count == 0)
+                    return true;
             }
-            else
-            {
-                while (count > 0)
-                {
-                    var slot = new ItemSlot(itemType, Mathf.Min(count, itemType.maxStack));
-                    slot.SlotChanged += ItemSlot_SlotChanged;
-					weight += slot.weight;
 
+			if (m_expandSlots)
+			{
+                int slotCount = Mathf.CeilToInt(count / itemType.maxStack);
+				for (int i = 0; i < slotCount; ++i)
+                {
+                    // Add new slot to inventory
+                    var slot = new ItemSlot(itemType, 0);
+					slot.SlotChanged += ItemSlot_SlotChanged;
+					weight += slot.weight;
 					m_items.Add(slot);
 
-                    // Don't forget to decrement to exit loop
+                    // Add items to slot
+                    slot.AddToStack(Mathf.Min(count, itemType.maxStack));
                     count -= slot.amount;
                 }
-            }
 
-            overflow = count;
+				overflow = 0;
+                return true;
+			}
+
+			overflow = count;
             return initialCount != count;
         }
 
@@ -376,13 +376,6 @@ namespace ToolkitEngine.Inventory
             if (amount <= slot.amount)
             {
                 slot.RemoveFromStack(amount);
-
-                if (m_infiniteSlots && slot.amount == 0)
-                {
-                    slot.SlotChanged -= ItemSlot_SlotChanged;
-                    m_items.Remove(slot);
-                }
-
                 return true;
             }
             return false;
