@@ -861,6 +861,84 @@ references:
   commentId: F:ToolkitEngine.Inventory.DropEntry.DropType.LootTable
   fullName: ToolkitEngine.Inventory.DropEntry.DropType.LootTable
   nameWithType: DropEntry.DropType.LootTable
+- uid: ToolkitEngine.Inventory.DropEntry.GetAmount
+  name: GetAmount()
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetAmount
+  commentId: M:ToolkitEngine.Inventory.DropEntry.GetAmount
+  fullName: ToolkitEngine.Inventory.DropEntry.GetAmount()
+  nameWithType: DropEntry.GetAmount()
+- uid: ToolkitEngine.Inventory.DropEntry.GetAmount*
+  name: GetAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetAmount_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.GetAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.GetAmount
+  nameWithType: DropEntry.GetAmount
+- uid: ToolkitEngine.Inventory.DropEntry.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amount
+  commentId: P:ToolkitEngine.Inventory.DropEntry.amount
+  fullName: ToolkitEngine.Inventory.DropEntry.amount
+  nameWithType: DropEntry.amount
+- uid: ToolkitEngine.Inventory.DropEntry.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amount_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.amount
+  nameWithType: DropEntry.amount
+- uid: ToolkitEngine.Inventory.DropEntry.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_currencyType
+  commentId: P:ToolkitEngine.Inventory.DropEntry.currencyType
+  fullName: ToolkitEngine.Inventory.DropEntry.currencyType
+  nameWithType: DropEntry.currencyType
+- uid: ToolkitEngine.Inventory.DropEntry.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_currencyType_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.currencyType
+  nameWithType: DropEntry.currencyType
+- uid: ToolkitEngine.Inventory.DropEntry.dropType
+  name: dropType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_dropType
+  commentId: P:ToolkitEngine.Inventory.DropEntry.dropType
+  fullName: ToolkitEngine.Inventory.DropEntry.dropType
+  nameWithType: DropEntry.dropType
+- uid: ToolkitEngine.Inventory.DropEntry.dropType*
+  name: dropType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_dropType_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.dropType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.dropType
+  nameWithType: DropEntry.dropType
+- uid: ToolkitEngine.Inventory.DropEntry.itemType
+  name: itemType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_itemType
+  commentId: P:ToolkitEngine.Inventory.DropEntry.itemType
+  fullName: ToolkitEngine.Inventory.DropEntry.itemType
+  nameWithType: DropEntry.itemType
+- uid: ToolkitEngine.Inventory.DropEntry.itemType*
+  name: itemType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_itemType_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.itemType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.itemType
+  nameWithType: DropEntry.itemType
+- uid: ToolkitEngine.Inventory.DropEntry.lootTable
+  name: lootTable
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_lootTable
+  commentId: P:ToolkitEngine.Inventory.DropEntry.lootTable
+  fullName: ToolkitEngine.Inventory.DropEntry.lootTable
+  nameWithType: DropEntry.lootTable
+- uid: ToolkitEngine.Inventory.DropEntry.lootTable*
+  name: lootTable
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_lootTable_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.lootTable
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.lootTable
+  nameWithType: DropEntry.lootTable
 - uid: ToolkitEngine.Inventory.DropEntry.m_amount
   name: m_amount
   href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_m_amount
@@ -909,6 +987,32 @@ references:
   commentId: F:ToolkitEngine.Inventory.DropEntry.m_minAmount
   fullName: ToolkitEngine.Inventory.DropEntry.m_minAmount
   nameWithType: DropEntry.m_minAmount
+- uid: ToolkitEngine.Inventory.DropEntry.maxAmount
+  name: maxAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_maxAmount
+  commentId: P:ToolkitEngine.Inventory.DropEntry.maxAmount
+  fullName: ToolkitEngine.Inventory.DropEntry.maxAmount
+  nameWithType: DropEntry.maxAmount
+- uid: ToolkitEngine.Inventory.DropEntry.maxAmount*
+  name: maxAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_maxAmount_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.maxAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.maxAmount
+  nameWithType: DropEntry.maxAmount
+- uid: ToolkitEngine.Inventory.DropEntry.minAmount
+  name: minAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_minAmount
+  commentId: P:ToolkitEngine.Inventory.DropEntry.minAmount
+  fullName: ToolkitEngine.Inventory.DropEntry.minAmount
+  nameWithType: DropEntry.minAmount
+- uid: ToolkitEngine.Inventory.DropEntry.minAmount*
+  name: minAmount
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_minAmount_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.minAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.minAmount
+  nameWithType: DropEntry.minAmount
 - uid: ToolkitEngine.Inventory.Inventory
   name: Inventory
   href: api/ToolkitEngine.Inventory.Inventory.html
@@ -940,6 +1044,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.AddCurrency
   nameWithType: Inventory.AddCurrency
+- uid: ToolkitEngine.Inventory.Inventory.AddDrop(ToolkitEngine.Inventory.DropEntry)
+  name: AddDrop(DropEntry)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddDrop_ToolkitEngine_Inventory_DropEntry_
+  commentId: M:ToolkitEngine.Inventory.Inventory.AddDrop(ToolkitEngine.Inventory.DropEntry)
+  fullName: ToolkitEngine.Inventory.Inventory.AddDrop(ToolkitEngine.Inventory.DropEntry)
+  nameWithType: Inventory.AddDrop(DropEntry)
+- uid: ToolkitEngine.Inventory.Inventory.AddDrop*
+  name: AddDrop
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddDrop_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.AddDrop
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.AddDrop
+  nameWithType: Inventory.AddDrop
 - uid: ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item,System.Int32@)
   name: AddItem(Item, out int)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_Item_System_Int32__
@@ -2178,6 +2295,19 @@ references:
   commentId: T:ToolkitEngine.Inventory.Loot
   fullName: ToolkitEngine.Inventory.Loot
   nameWithType: Loot
+- uid: ToolkitEngine.Inventory.Loot.Generate
+  name: Generate()
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_Generate
+  commentId: M:ToolkitEngine.Inventory.Loot.Generate
+  fullName: ToolkitEngine.Inventory.Loot.Generate()
+  nameWithType: Loot.Generate()
+- uid: ToolkitEngine.Inventory.Loot.Generate*
+  name: Generate
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_Generate_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.Generate
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.Generate
+  nameWithType: Loot.Generate
 - uid: ToolkitEngine.Inventory.LootEntry
   name: LootEntry
   href: api/ToolkitEngine.Inventory.LootEntry.html
@@ -2222,6 +2352,22 @@ references:
   commentId: T:ToolkitEngine.Inventory.LootTable
   fullName: ToolkitEngine.Inventory.LootTable
   nameWithType: LootTable
+- uid: ToolkitEngine.Inventory.LootTable.Get(System.Int32)
+  name: Get(int)
+  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_Get_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootTable.Get(System.Int32)
+  name.vb: Get(Integer)
+  fullName: ToolkitEngine.Inventory.LootTable.Get(int)
+  fullName.vb: ToolkitEngine.Inventory.LootTable.Get(Integer)
+  nameWithType: LootTable.Get(int)
+  nameWithType.vb: LootTable.Get(Integer)
+- uid: ToolkitEngine.Inventory.LootTable.Get*
+  name: Get
+  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_Get_
+  commentId: Overload:ToolkitEngine.Inventory.LootTable.Get
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootTable.Get
+  nameWithType: LootTable.Get
 - uid: ToolkitEngine.Inventory.LootTable.totalRates
   name: totalRates
   href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_totalRates
