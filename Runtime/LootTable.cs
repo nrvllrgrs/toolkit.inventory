@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -24,10 +25,21 @@ namespace ToolkitEngine.Inventory
 
         #region Methods
 
-        //public object[] Get(int picks = 1)
-        //{
+        public DropEntry[] Get(int amount = 1)
+        {
+            List<DropEntry> drops = new();
 
-        //}
+            float cachedTotalRates = totalRates;
+			for (int i = 0; i < amount; ++i)
+            {
+                if (Random.Range(0f, cachedTotalRates) <= m_noDropRate)
+                    continue;
+
+                drops.Add(m_items.WeightedRandom());
+            }
+
+            return drops.ToArray();
+        }
 
         #endregion
     }
@@ -35,7 +47,7 @@ namespace ToolkitEngine.Inventory
     [System.Serializable]
     public class DropEntry
     {
-        #region Enmerators
+        #region Enumerators
 
         public enum DropType
         {
@@ -79,9 +91,38 @@ namespace ToolkitEngine.Inventory
         protected int m_maxAmount = 1;
 
         #endregion
-    }
 
-    [System.Serializable]
+        #region Properties
+
+        public DropType dropType => m_dropType;
+        public ItemType itemType => m_item;
+        public CurrencyType currencyType => m_currency;
+        public LootTable lootTable => m_lootTable;
+        public int amount => m_amount;
+        public int minAmount => m_minAmount;
+        public int maxAmount => m_maxAmount;
+
+		#endregion
+
+		#region Methods
+
+		public int GetAmount()
+		{
+			switch (m_amountType)
+			{
+				case AmountType.Constant:
+					return m_amount;
+
+				case AmountType.Range:
+					return Random.Range(m_minAmount, m_maxAmount);
+			}
+			return 0;
+		}
+
+		#endregion
+	}
+
+	[System.Serializable]
     public class LootEntry : DropEntry, IWeightedItem<LootEntry>
     {
         #region Fields

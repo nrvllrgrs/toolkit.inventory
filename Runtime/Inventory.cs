@@ -411,5 +411,35 @@ namespace ToolkitEngine.Inventory
         }
 
 		#endregion
+
+		#region Drop Methods
+
+		public void AddDrop(DropEntry drop)
+		{
+			if (drop == null)
+				return;
+
+			int amount = drop.GetAmount();
+
+			switch (drop.dropType)
+			{
+				case DropType.Item:
+					AddItem(drop.itemType, amount, out int overflow);
+					break;
+
+				case DropType.Currency:
+					AddCurrency(drop.currencyType, amount);
+					break;
+
+				case DropType.LootTable:
+					foreach (var loot in drop.lootTable.Get(amount))
+					{
+						AddDrop(loot);
+					}
+					break;
+			}
+		}
+
+		#endregion
 	}
 }

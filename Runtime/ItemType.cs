@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using Sirenix.OdinInspector;
 using Random = UnityEngine.Random;
 
 namespace ToolkitEngine.Inventory
@@ -23,7 +22,7 @@ namespace ToolkitEngine.Inventory
 
         #region Fields
 
-        [SerializeField, ReadOnly]
+        [SerializeField]
         private string m_id = Guid.NewGuid().ToString();
 
         [SerializeField]

@@ -21,10 +21,10 @@ namespace ToolkitEngine.Inventory
 
         #region Methods
 
-        //public object[] Generate()
-        //{
-
-        //}
+        public DropEntry[] Generate()
+        {
+            return m_lootTable.Get(m_picks);
+        }
 
         #endregion
     }
