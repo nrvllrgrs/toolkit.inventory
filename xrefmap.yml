@@ -1453,6 +1453,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Item.itemType
   nameWithType: Item.itemType
+- uid: ToolkitEngine.Inventory.Item.onCollected
+  name: onCollected
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_onCollected
+  commentId: P:ToolkitEngine.Inventory.Item.onCollected
+  fullName: ToolkitEngine.Inventory.Item.onCollected
+  nameWithType: Item.onCollected
+- uid: ToolkitEngine.Inventory.Item.onCollected*
+  name: onCollected
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_onCollected_
+  commentId: Overload:ToolkitEngine.Inventory.Item.onCollected
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.onCollected
+  nameWithType: Item.onCollected
 - uid: ToolkitEngine.Inventory.ItemEventArgs
   name: ItemEventArgs
   href: api/ToolkitEngine.Inventory.ItemEventArgs.html
