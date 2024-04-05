@@ -1,73 +1,83 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace ToolkitEngine.Inventory
 {
-    public class Item : MonoBehaviour
-    {
-        #region Fields
+	public class Item : MonoBehaviour
+	{
+		#region Fields
 
-        [SerializeField]
-        private ItemType m_itemType;
+		[SerializeField]
+		private ItemType m_itemType;
 
-        [SerializeField, Min(1)]
-        private int m_amount = 1;
+		[SerializeField, Min(1)]
+		private int m_amount = 1;
 
-        #endregion
+		#endregion
 
-        #region Properties
+		#region Events
 
-        public ItemType itemType => m_itemType;
+		[SerializeField]
+		private UnityEvent<ItemEventArgs> m_onCollected;
 
-        public int amount
-        {
-            get => m_amount;
-            set => m_amount = value;
-        }
+		#endregion
 
-        #endregion
+		#region Properties
 
-        #region Dismantle Methods
+		public ItemType itemType => m_itemType;
 
-        public bool Dismantle()
-        {
-            return Dismantle(transform.position, transform.rotation, null);
-        }
+		public int amount
+		{
+			get => m_amount;
+			set => m_amount = value;
+		}
 
-        public bool Dismantle(Inventory inventory, out int[] overflows)
-        {
-            if (m_itemType.Dismantle(inventory, out overflows))
-            {
-                Destroy(gameObject);
-                return true;
-            }
-            return false;
-        }
+		public UnityEvent<ItemEventArgs> onCollected => m_onCollected;
+
+		#endregion
+
+		#region Dismantle Methods
+
+		public bool Dismantle()
+		{
+			return Dismantle(transform.position, transform.rotation, null);
+		}
+
+		public bool Dismantle(Inventory inventory, out int[] overflows)
+		{
+			if (m_itemType.Dismantle(inventory, out overflows))
+			{
+				Destroy(gameObject);
+				return true;
+			}
+			return false;
+		}
 
 		public bool Dismantle(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)
-        {
-            return Dismantle(position, rotation, null, onSpawnedAction, args);
-        }
+		{
+			return Dismantle(position, rotation, null, onSpawnedAction, args);
+		}
 
 		public bool Dismantle(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
 		{
-            if (m_itemType.Dismantle(position, rotation, parent, onSpawnedAction, args))
-            {
-                Destroy(gameObject);
-                return true;
-            }
-            return false;
-        }
+			if (m_itemType.Dismantle(position, rotation, parent, onSpawnedAction, args))
+			{
+				Destroy(gameObject);
+				return true;
+			}
+			return false;
+		}
 
-        public bool Dismantle(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)
-        {
-            if (m_itemType.Dismantle(parent, instantiateInWorldSpace, onSpawnedAction, args))
-            {
-                Destroy(gameObject);
-                return true;
-            }
-            return false;
-        }
+		public bool Dismantle(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)
+		{
+			if (m_itemType.Dismantle(parent, instantiateInWorldSpace, onSpawnedAction, args))
+			{
+				Destroy(gameObject);
+				return true;
+			}
+			return false;
+		}
 
-        #endregion
-    }
+		#endregion
+	}
 }

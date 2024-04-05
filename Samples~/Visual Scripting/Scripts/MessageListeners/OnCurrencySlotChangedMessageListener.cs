@@ -8,7 +8,7 @@ namespace ToolkitEngine.Inventory.VisualScripting
 	{
 		private void Start() => GetComponent<Inventory>()?.onCurrencySlotChanged.AddListener((value) =>
 		{
-			EventBus.Trigger(EventHooks.OnCurrencySlotChanged, gameObject, value);
+			EventBus.Trigger(EventHooks.OnInventoryCurrencySlotChanged, gameObject, value);
 		});
 	}
 }
