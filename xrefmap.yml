@@ -135,6 +135,56 @@ references:
   commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
   fullName: ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
   nameWithType: InventoryEditor.m_useEncumbrance
+- uid: ToolkitEditor.Inventory.ItemEditor
+  name: ItemEditor
+  href: api/ToolkitEditor.Inventory.ItemEditor.html
+  commentId: T:ToolkitEditor.Inventory.ItemEditor
+  fullName: ToolkitEditor.Inventory.ItemEditor
+  nameWithType: ItemEditor
+- uid: ToolkitEditor.Inventory.ItemEditor.DrawEvents
+  name: DrawEvents()
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_DrawEvents
+  commentId: M:ToolkitEditor.Inventory.ItemEditor.DrawEvents
+  fullName: ToolkitEditor.Inventory.ItemEditor.DrawEvents()
+  nameWithType: ItemEditor.DrawEvents()
+- uid: ToolkitEditor.Inventory.ItemEditor.DrawEvents*
+  name: DrawEvents
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_DrawEvents_
+  commentId: Overload:ToolkitEditor.Inventory.ItemEditor.DrawEvents
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ItemEditor.DrawEvents
+  nameWithType: ItemEditor.DrawEvents
+- uid: ToolkitEditor.Inventory.ItemEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_DrawProperties
+  commentId: M:ToolkitEditor.Inventory.ItemEditor.DrawProperties
+  fullName: ToolkitEditor.Inventory.ItemEditor.DrawProperties()
+  nameWithType: ItemEditor.DrawProperties()
+- uid: ToolkitEditor.Inventory.ItemEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Inventory.ItemEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ItemEditor.DrawProperties
+  nameWithType: ItemEditor.DrawProperties
+- uid: ToolkitEditor.Inventory.ItemEditor.m_amount
+  name: m_amount
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_m_amount
+  commentId: F:ToolkitEditor.Inventory.ItemEditor.m_amount
+  fullName: ToolkitEditor.Inventory.ItemEditor.m_amount
+  nameWithType: ItemEditor.m_amount
+- uid: ToolkitEditor.Inventory.ItemEditor.m_itemType
+  name: m_itemType
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_m_itemType
+  commentId: F:ToolkitEditor.Inventory.ItemEditor.m_itemType
+  fullName: ToolkitEditor.Inventory.ItemEditor.m_itemType
+  nameWithType: ItemEditor.m_itemType
+- uid: ToolkitEditor.Inventory.ItemEditor.m_onCollected
+  name: m_onCollected
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_m_onCollected
+  commentId: F:ToolkitEditor.Inventory.ItemEditor.m_onCollected
+  fullName: ToolkitEditor.Inventory.ItemEditor.m_onCollected
+  nameWithType: ItemEditor.m_onCollected
 - uid: ToolkitEditor.Inventory.ItemTypeEditor
   name: ItemTypeEditor
   href: api/ToolkitEditor.Inventory.ItemTypeEditor.html

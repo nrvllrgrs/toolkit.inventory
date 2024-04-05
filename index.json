@@ -9,6 +9,11 @@
     "title": "Class InventoryEditor | Inventory Toolkit | 1.0.0",
     "keywords": "Class InventoryEditor Namespace ToolkitEditor.Inventory public class InventoryEditor : BaseToolkitEditor Inheritance object InventoryEditor Fields m_currencies protected SerializedProperty m_currencies Field Value SerializedProperty m_encumbranceWeight protected SerializedProperty m_encumbranceWeight Field Value SerializedProperty m_expandSlots protected SerializedProperty m_expandSlots Field Value SerializedProperty m_items protected SerializedProperty m_items Field Value SerializedProperty m_onCurrencySlotChanged protected SerializedProperty m_onCurrencySlotChanged Field Value SerializedProperty m_onEncumbranceChanged protected SerializedProperty m_onEncumbranceChanged Field Value SerializedProperty m_onItemSlotChanged protected SerializedProperty m_onItemSlotChanged Field Value SerializedProperty m_useEncumbrance protected SerializedProperty m_useEncumbrance Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
   },
+  "api/ToolkitEditor.Inventory.ItemEditor.html": {
+    "href": "api/ToolkitEditor.Inventory.ItemEditor.html",
+    "title": "Class ItemEditor | Inventory Toolkit | 1.0.0",
+    "keywords": "Class ItemEditor Namespace ToolkitEditor.Inventory public class ItemEditor : BaseToolkitEditor Inheritance object ItemEditor Fields m_amount protected SerializedProperty m_amount Field Value SerializedProperty m_itemType protected SerializedProperty m_itemType Field Value SerializedProperty m_onCollected protected SerializedProperty m_onCollected Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
   "api/ToolkitEditor.Inventory.ItemTypeEditor.html": {
     "href": "api/ToolkitEditor.Inventory.ItemTypeEditor.html",
     "title": "Class ItemTypeEditor | Inventory Toolkit | 1.0.0",
@@ -37,7 +42,7 @@
   "api/ToolkitEditor.Inventory.html": {
     "href": "api/ToolkitEditor.Inventory.html",
     "title": "Namespace ToolkitEditor.Inventory | Inventory Toolkit | 1.0.0",
-    "keywords": "Namespace ToolkitEditor.Inventory Classes DropEntryDrawer InventoryEditor ItemTypeEditor LootEntryDrawer LootTableEditor"
+    "keywords": "Namespace ToolkitEditor.Inventory Classes DropEntryDrawer InventoryEditor ItemEditor ItemTypeEditor LootEntryDrawer LootTableEditor"
   },
   "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html": {
     "href": "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html",
