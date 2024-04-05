@@ -423,15 +423,15 @@ namespace ToolkitEngine.Inventory
 
 			switch (drop.dropType)
 			{
-				case DropType.Item:
+				case DropEntry.DropType.Item:
 					AddItem(drop.itemType, amount, out int overflow);
 					break;
 
-				case DropType.Currency:
+				case DropEntry.DropType.Currency:
 					AddCurrency(drop.currencyType, amount);
 					break;
 
-				case DropType.LootTable:
+				case DropEntry.DropType.LootTable:
 					foreach (var loot in drop.lootTable.Get(amount))
 					{
 						AddDrop(loot);

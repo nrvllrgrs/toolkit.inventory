@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using Sirenix.OdinInspector;
+using NaughtyAttributes;
 
 namespace ToolkitEngine.Inventory
 {
