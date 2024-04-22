@@ -1,14 +1,14 @@
 {
-    "name": "ToolkitEditor.Inventory.VisualScripting",
+    "name": "ToolkitEngine.Inventory.VisualScripting",
     "rootNamespace": "",
     "references": [
+        "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45",
         "GUID:b1b76fcec1f18ad4ebeece865cb4b15b",
-        "GUID:6b56aec30d63c4b4596f92e860b91e71",
-        "GUID:3f1f571dedb44f84b9692faef46a67d8"
+        "GUID:21b0c8d1703a94250bfac916590cea4f",
+        "GUID:ea715009a4efd4c6cbc85be3ae097dd3",
+        "GUID:315d634a9ac6d460a9515f5a56be6311"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
