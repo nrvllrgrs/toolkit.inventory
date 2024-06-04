@@ -94,7 +94,14 @@ namespace ToolkitEngine.Inventory
 	[Serializable]
     public class ItemSlot : BaseSlot<ItemType>
     {
-        #region Events
+		#region Fields
+
+		[SerializeField, Tooltip("Indicates whether Slot Type is maintained when amount becomes 0.")]
+		protected bool m_locked;
+
+		#endregion
+
+		#region Events
 
 		public event EventHandler<ItemEventArgs> SlotChanged;
 
@@ -110,6 +117,7 @@ namespace ToolkitEngine.Inventory
 		}
 
         public float weight => m_slotType.weight * m_amount;
+		public bool locked => m_locked;
 
 		#endregion
 
@@ -122,9 +130,14 @@ namespace ToolkitEngine.Inventory
 
 		// Constructor for occupied slot
 		public ItemSlot(ItemType source, int amount)
-        {
-            Set(source, amount);
-        }
+			: this(source, amount, false)
+        { }
+
+		public ItemSlot(ItemType source, int amount, bool locked)
+		{
+			Set(source, amount);
+			m_locked = locked;
+		}
 
         #endregion
 
@@ -149,7 +162,10 @@ namespace ToolkitEngine.Inventory
 		public override void Clear()
 		{
 			base.Clear();
-			m_slotType = null;
+			if (!m_locked)
+			{
+				m_slotType = null;
+			}
 		}
 
 		#endregion

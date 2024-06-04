@@ -287,6 +287,8 @@ namespace ToolkitEngine.Inventory
             m_onItemSlotChanged?.Invoke(e);
         }
 
+        public int GetItemTotal() => m_items.Sum(x => x.amount);
+
         public int GetItemTotal(ItemType itemType)
         {
             return m_items.Where(x => x.id == itemType.id)
@@ -307,20 +309,46 @@ namespace ToolkitEngine.Inventory
             return false;
         }
 
-        public void AddItem(Item item, out int overflow)
+        public int IndexOf(ItemSlot slot) => m_items.IndexOf(slot);
+
+        public int IndexOf(ItemType item, bool hasAmount = false)
         {
-            AddItem(item.itemType, item.amount, out overflow);
+            for (int i = 0; i < m_items.Count; ++i)
+            {
+                if (m_items[i].id == item.id
+                    && !hasAmount || m_items[i].amount > 0)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
 
+        public ItemSlot FirstEmptyOrDefault() => FirstEmptyOrDefault(null);
+
+		public ItemSlot FirstEmptyOrDefault(ItemType item)
+        {
+            if (item == null)
+            {
+                return m_items.FirstOrDefault(x => x.amount == 0);
+            }
+            return m_items.FirstOrDefault(x => Equals(x.id, item.id) && x.amount == 0);
+        }
+
+        public bool AddItem(Item item, out int overflow)
+        {
+            return AddItem(item.itemType, item.amount, out overflow);
+        }
+        
         public bool AddItem(ItemType itemType, int count, out int overflow)
         {
             int initialCount = count;
             overflow = 0;
 
-            // trying to fill existing slots before moving to empty slots
+            // Try to fill existing slots before moving to empty slots
             foreach (var slot in m_items.Where(x => x.id == itemType.id))
             {
-                // enough room in the slot
+                // Enough room in the slot
                 if (slot.CanAdd(count, out int remaining))
                 {
                     slot.AddToStack(count);
@@ -329,7 +357,7 @@ namespace ToolkitEngine.Inventory
 
                 int fillCount = Mathf.Min(remaining, count);
 
-                // fill slot as best we can
+                // Fill slot as best we can
                 slot.AddToStack(fillCount);
                 count -= fillCount;
 
@@ -381,11 +409,24 @@ namespace ToolkitEngine.Inventory
             return false;
         }
 
-        public bool TryRemoveItem(ItemType item, int amount = 1)
+		public bool TryRemoveItem(Item item)
         {
-            var slots = m_items.Where(i => i.slotType == item);
+			return TryRemoveItem(item?.itemType, item?.amount ?? 1);
+		}
 
-            if (slots.Sum(x => x.amount) > amount)
+		public bool TryRemoveItem(Item item, int amount = 1)
+        {
+            return TryRemoveItem(item?.itemType, amount);
+        }
+
+		public bool TryRemoveItem(ItemType item, int amount = 1)
+        {
+            if (item == null)
+                return false;
+
+            var slots = m_items.Where(i => Equals(i.slotType.id, item.id));
+
+            if (amount > slots.Sum(x => x.amount))
                 return false;
 
             foreach (ItemSlot slot in slots)
@@ -409,6 +450,30 @@ namespace ToolkitEngine.Inventory
                 TryRemoveItem(slot, slot.amount);
             }
         }
+
+        public void AddSlot(ItemSlot slot)
+        {
+            if (m_items.Contains(slot))
+                return;
+
+			slot.SlotChanged += ItemSlot_SlotChanged;
+			weight += slot.weight;
+
+			m_items.Add(slot);
+			m_onItemSlotChanged?.Invoke(new ItemEventArgs(this, slot));
+		}
+
+        public void RemoveSlot(ItemSlot slot)
+        {
+            if (!m_items.Contains(slot))
+                return;
+
+			slot.SlotChanged -= ItemSlot_SlotChanged;
+			weight -= slot.weight;
+
+            m_items.Remove(slot);
+            m_onItemSlotChanged?.Invoke(new ItemEventArgs(this, slot));
+		}
 
 		#endregion
 
