@@ -1132,6 +1132,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.AddItem
   nameWithType: Inventory.AddItem
+- uid: ToolkitEngine.Inventory.Inventory.AddSlot(ToolkitEngine.Inventory.ItemSlot)
+  name: AddSlot(ItemSlot)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddSlot_ToolkitEngine_Inventory_ItemSlot_
+  commentId: M:ToolkitEngine.Inventory.Inventory.AddSlot(ToolkitEngine.Inventory.ItemSlot)
+  fullName: ToolkitEngine.Inventory.Inventory.AddSlot(ToolkitEngine.Inventory.ItemSlot)
+  nameWithType: Inventory.AddSlot(ItemSlot)
+- uid: ToolkitEngine.Inventory.Inventory.AddSlot*
+  name: AddSlot
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_AddSlot_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.AddSlot
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.AddSlot
+  nameWithType: Inventory.AddSlot
 - uid: ToolkitEngine.Inventory.Inventory.Buy(ToolkitEngine.Inventory.ItemType)
   name: Buy(ItemType)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Buy_ToolkitEngine_Inventory_ItemType_
@@ -1225,6 +1238,25 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.ClearItems
   nameWithType: Inventory.ClearItems
+- uid: ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault
+  name: FirstEmptyOrDefault()
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault
+  commentId: M:ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault
+  fullName: ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault()
+  nameWithType: Inventory.FirstEmptyOrDefault()
+- uid: ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault(ToolkitEngine.Inventory.ItemType)
+  name: FirstEmptyOrDefault(ItemType)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault(ToolkitEngine.Inventory.ItemType)
+  nameWithType: Inventory.FirstEmptyOrDefault(ItemType)
+- uid: ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault*
+  name: FirstEmptyOrDefault
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault
+  nameWithType: Inventory.FirstEmptyOrDefault
 - uid: ToolkitEngine.Inventory.Inventory.GetCurrencyTotal(ToolkitEngine.Inventory.CurrencyType)
   name: GetCurrencyTotal(CurrencyType)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetCurrencyTotal_ToolkitEngine_Inventory_CurrencyType_
@@ -1238,6 +1270,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.GetCurrencyTotal
   nameWithType: Inventory.GetCurrencyTotal
+- uid: ToolkitEngine.Inventory.Inventory.GetItemTotal
+  name: GetItemTotal()
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetItemTotal
+  commentId: M:ToolkitEngine.Inventory.Inventory.GetItemTotal
+  fullName: ToolkitEngine.Inventory.Inventory.GetItemTotal()
+  nameWithType: Inventory.GetItemTotal()
 - uid: ToolkitEngine.Inventory.Inventory.GetItemTotal(ToolkitEngine.Inventory.ItemType)
   name: GetItemTotal(ItemType)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_GetItemTotal_ToolkitEngine_Inventory_ItemType_
@@ -1264,6 +1302,41 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.HasItem
   nameWithType: Inventory.HasItem
+- uid: ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemSlot)
+  name: IndexOf(ItemSlot)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_IndexOf_ToolkitEngine_Inventory_ItemSlot_
+  commentId: M:ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemSlot)
+  fullName: ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemSlot)
+  nameWithType: Inventory.IndexOf(ItemSlot)
+- uid: ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemType,System.Boolean)
+  name: IndexOf(ItemType, bool)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_IndexOf_ToolkitEngine_Inventory_ItemType_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemType,System.Boolean)
+  name.vb: IndexOf(ItemType, Boolean)
+  fullName: ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemType, bool)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemType, Boolean)
+  nameWithType: Inventory.IndexOf(ItemType, bool)
+  nameWithType.vb: Inventory.IndexOf(ItemType, Boolean)
+- uid: ToolkitEngine.Inventory.Inventory.IndexOf*
+  name: IndexOf
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_IndexOf_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.IndexOf
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.IndexOf
+  nameWithType: Inventory.IndexOf
+- uid: ToolkitEngine.Inventory.Inventory.RemoveSlot(ToolkitEngine.Inventory.ItemSlot)
+  name: RemoveSlot(ItemSlot)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_RemoveSlot_ToolkitEngine_Inventory_ItemSlot_
+  commentId: M:ToolkitEngine.Inventory.Inventory.RemoveSlot(ToolkitEngine.Inventory.ItemSlot)
+  fullName: ToolkitEngine.Inventory.Inventory.RemoveSlot(ToolkitEngine.Inventory.ItemSlot)
+  nameWithType: Inventory.RemoveSlot(ItemSlot)
+- uid: ToolkitEngine.Inventory.Inventory.RemoveSlot*
+  name: RemoveSlot
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_RemoveSlot_
+  commentId: Overload:ToolkitEngine.Inventory.Inventory.RemoveSlot
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Inventory.RemoveSlot
+  nameWithType: Inventory.RemoveSlot
 - uid: ToolkitEngine.Inventory.Inventory.Sell(ToolkitEngine.Inventory.ItemType)
   name: Sell(ItemType)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_Sell_ToolkitEngine_Inventory_ItemType_
@@ -1293,6 +1366,21 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.TryRemoveCurrency
   nameWithType: Inventory.TryRemoveCurrency
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item)
+  name: TryRemoveItem(Item)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_Item_
+  commentId: M:ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item)
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item)
+  nameWithType: Inventory.TryRemoveItem(Item)
+- uid: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item,System.Int32)
+  name: TryRemoveItem(Item, int)
+  href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_Item_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item,System.Int32)
+  name.vb: TryRemoveItem(Item, Integer)
+  fullName: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item, int)
+  fullName.vb: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item, Integer)
+  nameWithType: Inventory.TryRemoveItem(Item, int)
+  nameWithType.vb: Inventory.TryRemoveItem(Item, Integer)
 - uid: ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemSlot,System.Int32)
   name: TryRemoveItem(ItemSlot, int)
   href: api/ToolkitEngine.Inventory.Inventory.html#ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_ItemSlot_System_Int32_
@@ -1587,6 +1675,15 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemSlot.New(ToolkitEngine.Inventory.ItemType, Integer)
   nameWithType: ItemSlot.ItemSlot(ItemType, int)
   nameWithType.vb: ItemSlot.New(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Boolean)
+  name: ItemSlot(ItemType, int, bool)
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Boolean)
+  name.vb: New(ItemType, Integer, Boolean)
+  fullName: ToolkitEngine.Inventory.ItemSlot.ItemSlot(ToolkitEngine.Inventory.ItemType, int, bool)
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.New(ToolkitEngine.Inventory.ItemType, Integer, Boolean)
+  nameWithType: ItemSlot.ItemSlot(ItemType, int, bool)
+  nameWithType.vb: ItemSlot.New(ItemType, Integer, Boolean)
 - uid: ToolkitEngine.Inventory.ItemSlot.#ctor*
   name: ItemSlot
   href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor_
@@ -1683,6 +1780,25 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.ItemSlot.id
   nameWithType: ItemSlot.id
+- uid: ToolkitEngine.Inventory.ItemSlot.locked
+  name: locked
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_locked
+  commentId: P:ToolkitEngine.Inventory.ItemSlot.locked
+  fullName: ToolkitEngine.Inventory.ItemSlot.locked
+  nameWithType: ItemSlot.locked
+- uid: ToolkitEngine.Inventory.ItemSlot.locked*
+  name: locked
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_locked_
+  commentId: Overload:ToolkitEngine.Inventory.ItemSlot.locked
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemSlot.locked
+  nameWithType: ItemSlot.locked
+- uid: ToolkitEngine.Inventory.ItemSlot.m_locked
+  name: m_locked
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_m_locked
+  commentId: F:ToolkitEngine.Inventory.ItemSlot.m_locked
+  fullName: ToolkitEngine.Inventory.ItemSlot.m_locked
+  nameWithType: ItemSlot.m_locked
 - uid: ToolkitEngine.Inventory.ItemSlot.weight
   name: weight
   href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot_weight

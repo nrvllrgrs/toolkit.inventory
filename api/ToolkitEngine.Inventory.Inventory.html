@@ -449,7 +449,7 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_Inventory_AddDrop_ToolkitEngine_Inventory_DropEntry_" data-uid="ToolkitEngine.Inventory.Inventory.AddDrop(ToolkitEngine.Inventory.DropEntry)">
   AddDrop(DropEntry)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L482"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -480,14 +480,14 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_Item_System_Int32__" data-uid="ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.Item,System.Int32@)">
   AddItem(Item, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L338"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddItem(Item item, out int overflow)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddItem(Item item, out int overflow)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -498,6 +498,11 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
     <dd></dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -513,7 +518,7 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_Inventory_AddItem_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32__" data-uid="ToolkitEngine.Inventory.Inventory.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32@)">
   AddItem(ItemType, int, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L343"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -538,6 +543,37 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_AddSlot_" data-uid="ToolkitEngine.Inventory.Inventory.AddSlot*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_AddSlot_ToolkitEngine_Inventory_ItemSlot_" data-uid="ToolkitEngine.Inventory.Inventory.AddSlot(ToolkitEngine.Inventory.ItemSlot)">
+  AddSlot(ItemSlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSlot(ItemSlot slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
+    <dd></dd>
+  </dl>
+
 
 
 
@@ -879,7 +915,7 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_Inventory_ClearItems" data-uid="ToolkitEngine.Inventory.Inventory.ClearItems">
   ClearItems()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L405"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L446"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -890,6 +926,73 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
   </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault_" data-uid="ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault" data-uid="ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault">
+  FirstEmptyOrDefault()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSlot FirstEmptyOrDefault()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault_" data-uid="ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_FirstEmptyOrDefault_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.Inventory.FirstEmptyOrDefault(ToolkitEngine.Inventory.ItemType)">
+  FirstEmptyOrDefault(ItemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSlot FirstEmptyOrDefault(ItemType item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -939,9 +1042,40 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <a id="ToolkitEngine_Inventory_Inventory_GetItemTotal_" data-uid="ToolkitEngine.Inventory.Inventory.GetItemTotal*"></a>
 
+  <h3 id="ToolkitEngine_Inventory_Inventory_GetItemTotal" data-uid="ToolkitEngine.Inventory.Inventory.GetItemTotal">
+  GetItemTotal()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetItemTotal()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_GetItemTotal_" data-uid="ToolkitEngine.Inventory.Inventory.GetItemTotal*"></a>
+
   <h3 id="ToolkitEngine_Inventory_Inventory_GetItemTotal_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.Inventory.GetItemTotal(ToolkitEngine.Inventory.ItemType)">
   GetItemTotal(ItemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L292"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -977,7 +1111,7 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_Inventory_HasItem_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.Inventory.HasItem(ToolkitEngine.Inventory.ItemType)">
   HasItem(ItemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L298"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -998,6 +1132,111 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_IndexOf_" data-uid="ToolkitEngine.Inventory.Inventory.IndexOf*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_IndexOf_ToolkitEngine_Inventory_ItemSlot_" data-uid="ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemSlot)">
+  IndexOf(ItemSlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(ItemSlot slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_IndexOf_" data-uid="ToolkitEngine.Inventory.Inventory.IndexOf*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_IndexOf_ToolkitEngine_Inventory_ItemType_System_Boolean_" data-uid="ToolkitEngine.Inventory.Inventory.IndexOf(ToolkitEngine.Inventory.ItemType,System.Boolean)">
+  IndexOf(ItemType, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOf(ItemType item, bool hasAmount = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>hasAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_RemoveSlot_" data-uid="ToolkitEngine.Inventory.Inventory.RemoveSlot*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_RemoveSlot_ToolkitEngine_Inventory_ItemSlot_" data-uid="ToolkitEngine.Inventory.Inventory.RemoveSlot(ToolkitEngine.Inventory.ItemSlot)">
+  RemoveSlot(ItemSlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L466"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSlot(ItemSlot slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
+    <dd></dd>
+  </dl>
+
 
 
 
@@ -1085,9 +1324,83 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <a id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem*"></a>
 
+  <h3 id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_Item_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item)">
+  TryRemoveItem(Item)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemoveItem(Item item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_Item_System_Int32_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.Item,System.Int32)">
+  TryRemoveItem(Item, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemoveItem(Item item, int amount = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem*"></a>
+
   <h3 id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_ItemSlot_System_Int32_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemSlot,System.Int32)">
   TryRemoveItem(ItemSlot, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L402"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1125,7 +1438,7 @@ Class Inventory  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_Inventory_TryRemoveItem_ToolkitEngine_Inventory_ItemType_System_Int32_" data-uid="ToolkitEngine.Inventory.Inventory.TryRemoveItem(ToolkitEngine.Inventory.ItemType,System.Int32)">
   TryRemoveItem(ItemType, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L422"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
