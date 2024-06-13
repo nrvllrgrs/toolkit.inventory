@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace ToolkitEngine.Inventory
@@ -23,7 +25,18 @@ namespace ToolkitEngine.Inventory
 
         public DropEntry[] Generate()
         {
-            return m_lootTable.Get(m_picks);
+            List<DropEntry> list = new();
+            if (m_picks > 0)
+            {
+                list.AddRange(m_lootTable.Get(m_picks));
+            }
+
+            if (m_guaranteedDrops.Length > 0)
+            {
+                list.AddRange(m_guaranteedDrops);
+            }
+
+            return list.ToArray();
         }
 
         #endregion

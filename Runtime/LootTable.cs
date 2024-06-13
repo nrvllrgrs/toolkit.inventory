@@ -35,7 +35,17 @@ namespace ToolkitEngine.Inventory
                 if (Random.Range(0f, cachedTotalRates) <= m_noDropRate)
                     continue;
 
-                drops.Add(m_items.WeightedRandom());
+                var selected = m_items.WeightedRandom();
+                switch (selected.dropType)
+                {
+                    case DropEntry.DropType.LootTable:
+                        drops.AddRange(selected.lootTable.Get(selected.GetAmount()));
+                        break;
+
+                    default:
+                        drops.Add(selected);
+                        break;
+                }
             }
 
             return drops.ToArray();

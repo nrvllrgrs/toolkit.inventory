@@ -130,9 +130,19 @@ namespace ToolkitEngine.Inventory
 
         #region Methods
 
+        public void Instantiate()
+        {
+            Instantiate(onSpawnedAction: null);
+        }
+
         public void Instantiate(SpawnedAction onSpawnedAction, params object[] args)
         {
             m_spawner.Instantiate(onSpawnedAction, args);
+        }
+
+		public void Instantiate(Vector3 position, Quaternion rotation)
+        {
+            Instantiate(position, rotation, onSpawnedAction: null);
         }
 
 		public void Instantiate(Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)
@@ -140,14 +150,29 @@ namespace ToolkitEngine.Inventory
 			m_spawner.Instantiate(position, rotation, null, onSpawnedAction, args);
 		}
 
+        public void Instantiate(Vector3 position, Quaternion rotation, Transform parent)
+        {
+            Instantiate(position, rotation, parent, onSpawnedAction: null);
+        }
+
 		public void Instantiate(Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
         {
             m_spawner.Instantiate(position, rotation, parent, onSpawnedAction, args);
         }
 
+        public void Instantiate(Transform parent)
+        {
+            Instantiate(parent, onSpawnedAction: null);
+        }
+
 		public bool Instantiate(Transform parent, SpawnedAction onSpawnedAction, params object[] args)
         {
             return m_spawner.Instantiate(parent, onSpawnedAction, args);
+        }
+
+		public void Instantiate(Transform parent, bool instantiateInWorldSpace)
+        {
+            Instantiate(parent, instantiateInWorldSpace, onSpawnedAction: null);
         }
 
 		public void Instantiate(Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)

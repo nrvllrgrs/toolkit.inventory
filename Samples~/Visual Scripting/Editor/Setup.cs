@@ -24,6 +24,7 @@ namespace ToolkitEditor.Inventory.VisualScripting
 				typeof(LootTable),
 				typeof(LootEntry),
 				typeof(Loot),
+				typeof(DropEntry),
 				typeof(Recipes),
 			};
 
