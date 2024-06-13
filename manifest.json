@@ -75,6 +75,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.ObjectSpawnerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.Inventory.VisualScripting.Setup.yml",
       "output": {
         ".html": {
@@ -299,6 +309,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Inventory.LootEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.LootSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.LootSpawner.html"
         }
       },
       "version": ""

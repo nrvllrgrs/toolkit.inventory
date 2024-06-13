@@ -369,6 +369,111 @@ references:
   commentId: F:ToolkitEditor.Inventory.LootTableEditor.m_noDropRate
   fullName: ToolkitEditor.Inventory.LootTableEditor.m_noDropRate
   nameWithType: LootTableEditor.m_noDropRate
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor
+  name: ObjectSpawnerEditor
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html
+  commentId: T:ToolkitEditor.Inventory.ObjectSpawnerEditor
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor
+  nameWithType: ObjectSpawnerEditor
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_OnEnable
+  commentId: M:ToolkitEditor.Inventory.ObjectSpawnerEditor.OnEnable
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnEnable()
+  nameWithType: ObjectSpawnerEditor.OnEnable()
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Inventory.ObjectSpawnerEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnEnable
+  nameWithType: ObjectSpawnerEditor.OnEnable
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_OnInspectorGUI
+  commentId: M:ToolkitEditor.Inventory.ObjectSpawnerEditor.OnInspectorGUI
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnInspectorGUI()
+  nameWithType: ObjectSpawnerEditor.OnInspectorGUI()
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_OnInspectorGUI_
+  commentId: Overload:ToolkitEditor.Inventory.ObjectSpawnerEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnInspectorGUI
+  nameWithType: ObjectSpawnerEditor.OnInspectorGUI
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnSceneGUI
+  name: OnSceneGUI()
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_OnSceneGUI
+  commentId: M:ToolkitEditor.Inventory.ObjectSpawnerEditor.OnSceneGUI
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnSceneGUI()
+  nameWithType: ObjectSpawnerEditor.OnSceneGUI()
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnSceneGUI*
+  name: OnSceneGUI
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_OnSceneGUI_
+  commentId: Overload:ToolkitEditor.Inventory.ObjectSpawnerEditor.OnSceneGUI
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.OnSceneGUI
+  nameWithType: ObjectSpawnerEditor.OnSceneGUI
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_loot
+  name: m_loot
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_loot
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_loot
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_loot
+  nameWithType: ObjectSpawnerEditor.m_loot
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_lootSpawner
+  name: m_lootSpawner
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_lootSpawner
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_lootSpawner
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_lootSpawner
+  nameWithType: ObjectSpawnerEditor.m_lootSpawner
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_order
+  name: m_order
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_order
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_order
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_order
+  nameWithType: ObjectSpawnerEditor.m_order
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_parent
+  name: m_parent
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_parent
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_parent
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_parent
+  nameWithType: ObjectSpawnerEditor.m_parent
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_points
+  name: m_points
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_points
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_points
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_points
+  nameWithType: ObjectSpawnerEditor.m_points
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_position
+  name: m_position
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_position
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_position
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_position
+  nameWithType: ObjectSpawnerEditor.m_position
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_rotation
+  name: m_rotation
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_rotation
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_rotation
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_rotation
+  nameWithType: ObjectSpawnerEditor.m_rotation
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_sets
+  name: m_sets
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_sets
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_sets
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_sets
+  nameWithType: ObjectSpawnerEditor.m_sets
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_spawnOnStart
+  name: m_spawnOnStart
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_spawnOnStart
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_spawnOnStart
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_spawnOnStart
+  nameWithType: ObjectSpawnerEditor.m_spawnOnStart
+- uid: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_spawnSpace
+  name: m_spawnSpace
+  href: api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html#ToolkitEditor_Inventory_ObjectSpawnerEditor_m_spawnSpace
+  commentId: F:ToolkitEditor.Inventory.ObjectSpawnerEditor.m_spawnSpace
+  fullName: ToolkitEditor.Inventory.ObjectSpawnerEditor.m_spawnSpace
+  nameWithType: ObjectSpawnerEditor.m_spawnSpace
 - uid: ToolkitEditor.Inventory.VisualScripting
   name: ToolkitEditor.Inventory.VisualScripting
   href: api/ToolkitEditor.Inventory.VisualScripting.html
@@ -2140,6 +2245,12 @@ references:
   commentId: F:ToolkitEngine.Inventory.ItemType.Ingredient.item
   fullName: ToolkitEngine.Inventory.ItemType.Ingredient.item
   nameWithType: ItemType.Ingredient.item
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate
+  name: Instantiate()
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate()
+  nameWithType: ItemType.Instantiate()
 - uid: ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction,System.Object[])
   name: Instantiate(SpawnedAction, params object[])
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_SpawnedAction_System_Object___
@@ -2149,6 +2260,12 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction, ParamArray Object())
   nameWithType: ItemType.Instantiate(SpawnedAction, params object[])
   nameWithType.vb: ItemType.Instantiate(SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Transform)
+  name: Instantiate(Transform)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Transform_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Transform)
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Transform)
+  nameWithType: ItemType.Instantiate(Transform)
 - uid: ToolkitEngine.Inventory.ItemType.Instantiate(Transform,SpawnedAction,System.Object[])
   name: Instantiate(Transform, SpawnedAction, params object[])
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Transform_SpawnedAction_System_Object___
@@ -2158,6 +2275,15 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, SpawnedAction, ParamArray Object())
   nameWithType: ItemType.Instantiate(Transform, SpawnedAction, params object[])
   nameWithType.vb: ItemType.Instantiate(Transform, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean)
+  name: Instantiate(Transform, bool)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Transform_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean)
+  name.vb: Instantiate(Transform, Boolean)
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, bool)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, Boolean)
+  nameWithType: ItemType.Instantiate(Transform, bool)
+  nameWithType.vb: ItemType.Instantiate(Transform, Boolean)
 - uid: ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean,SpawnedAction,System.Object[])
   name: Instantiate(Transform, bool, SpawnedAction, params object[])
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Transform_System_Boolean_SpawnedAction_System_Object___
@@ -2167,6 +2293,12 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Transform, Boolean, SpawnedAction, ParamArray Object())
   nameWithType: ItemType.Instantiate(Transform, bool, SpawnedAction, params object[])
   nameWithType.vb: ItemType.Instantiate(Transform, Boolean, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion)
+  name: Instantiate(Vector3, Quaternion)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion)
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion)
+  nameWithType: ItemType.Instantiate(Vector3, Quaternion)
 - uid: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,SpawnedAction,System.Object[])
   name: Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_SpawnedAction_System_Object___
@@ -2176,6 +2308,12 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, ParamArray Object())
   nameWithType: ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
   nameWithType.vb: ItemType.Instantiate(Vector3, Quaternion, SpawnedAction, ParamArray Object())
+- uid: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform)
+  name: Instantiate(Vector3, Quaternion, Transform)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_Transform_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform)
+  fullName: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3, Quaternion, Transform)
+  nameWithType: ItemType.Instantiate(Vector3, Quaternion, Transform)
 - uid: ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])
   name: Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[])
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_Transform_SpawnedAction_System_Object___
@@ -2525,6 +2663,102 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.LootEntry.weight
   nameWithType: LootEntry.weight
+- uid: ToolkitEngine.Inventory.LootSpawner
+  name: LootSpawner
+  href: api/ToolkitEngine.Inventory.LootSpawner.html
+  commentId: T:ToolkitEngine.Inventory.LootSpawner
+  fullName: ToolkitEngine.Inventory.LootSpawner
+  nameWithType: LootSpawner
+- uid: ToolkitEngine.Inventory.LootSpawner.Awake
+  name: Awake()
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_Awake
+  commentId: M:ToolkitEngine.Inventory.LootSpawner.Awake
+  fullName: ToolkitEngine.Inventory.LootSpawner.Awake()
+  nameWithType: LootSpawner.Awake()
+- uid: ToolkitEngine.Inventory.LootSpawner.Awake*
+  name: Awake
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_Awake_
+  commentId: Overload:ToolkitEngine.Inventory.LootSpawner.Awake
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootSpawner.Awake
+  nameWithType: LootSpawner.Awake
+- uid: ToolkitEngine.Inventory.LootSpawner.Spawn
+  name: Spawn()
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_Spawn
+  commentId: M:ToolkitEngine.Inventory.LootSpawner.Spawn
+  fullName: ToolkitEngine.Inventory.LootSpawner.Spawn()
+  nameWithType: LootSpawner.Spawn()
+- uid: ToolkitEngine.Inventory.LootSpawner.Spawn*
+  name: Spawn
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_Spawn_
+  commentId: Overload:ToolkitEngine.Inventory.LootSpawner.Spawn
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootSpawner.Spawn
+  nameWithType: LootSpawner.Spawn
+- uid: ToolkitEngine.Inventory.LootSpawner.Start
+  name: Start()
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_Start
+  commentId: M:ToolkitEngine.Inventory.LootSpawner.Start
+  fullName: ToolkitEngine.Inventory.LootSpawner.Start()
+  nameWithType: LootSpawner.Start()
+- uid: ToolkitEngine.Inventory.LootSpawner.Start*
+  name: Start
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_Start_
+  commentId: Overload:ToolkitEngine.Inventory.LootSpawner.Start
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootSpawner.Start
+  nameWithType: LootSpawner.Start
+- uid: ToolkitEngine.Inventory.LootSpawner.hasPoints
+  name: hasPoints
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_hasPoints
+  commentId: P:ToolkitEngine.Inventory.LootSpawner.hasPoints
+  fullName: ToolkitEngine.Inventory.LootSpawner.hasPoints
+  nameWithType: LootSpawner.hasPoints
+- uid: ToolkitEngine.Inventory.LootSpawner.hasPoints*
+  name: hasPoints
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_hasPoints_
+  commentId: Overload:ToolkitEngine.Inventory.LootSpawner.hasPoints
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootSpawner.hasPoints
+  nameWithType: LootSpawner.hasPoints
+- uid: ToolkitEngine.Inventory.LootSpawner.m_onSpawned
+  name: m_onSpawned
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_m_onSpawned
+  commentId: F:ToolkitEngine.Inventory.LootSpawner.m_onSpawned
+  fullName: ToolkitEngine.Inventory.LootSpawner.m_onSpawned
+  nameWithType: LootSpawner.m_onSpawned
+- uid: ToolkitEngine.Inventory.LootSpawner.m_spawnOnStart
+  name: m_spawnOnStart
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_m_spawnOnStart
+  commentId: F:ToolkitEngine.Inventory.LootSpawner.m_spawnOnStart
+  fullName: ToolkitEngine.Inventory.LootSpawner.m_spawnOnStart
+  nameWithType: LootSpawner.m_spawnOnStart
+- uid: ToolkitEngine.Inventory.LootSpawner.onSpawned
+  name: onSpawned
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_onSpawned
+  commentId: P:ToolkitEngine.Inventory.LootSpawner.onSpawned
+  fullName: ToolkitEngine.Inventory.LootSpawner.onSpawned
+  nameWithType: LootSpawner.onSpawned
+- uid: ToolkitEngine.Inventory.LootSpawner.onSpawned*
+  name: onSpawned
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_onSpawned_
+  commentId: Overload:ToolkitEngine.Inventory.LootSpawner.onSpawned
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootSpawner.onSpawned
+  nameWithType: LootSpawner.onSpawned
+- uid: ToolkitEngine.Inventory.LootSpawner.points
+  name: points
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_points
+  commentId: P:ToolkitEngine.Inventory.LootSpawner.points
+  fullName: ToolkitEngine.Inventory.LootSpawner.points
+  nameWithType: LootSpawner.points
+- uid: ToolkitEngine.Inventory.LootSpawner.points*
+  name: points
+  href: api/ToolkitEngine.Inventory.LootSpawner.html#ToolkitEngine_Inventory_LootSpawner_points_
+  commentId: Overload:ToolkitEngine.Inventory.LootSpawner.points
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.LootSpawner.points
+  nameWithType: LootSpawner.points
 - uid: ToolkitEngine.Inventory.LootTable
   name: LootTable
   href: api/ToolkitEngine.Inventory.LootTable.html
