@@ -116,7 +116,7 @@ namespace ToolkitEngine.Inventory
 			protected set => base.amount = Mathf.Clamp(value, 0, m_slotType?.maxStack ?? 0);
 		}
 
-        public float weight => m_slotType.weight * m_amount;
+        public float weight => m_slotType != null ? m_slotType.weight * m_amount : 0f;
 		public bool locked => m_locked;
 
 		#endregion
