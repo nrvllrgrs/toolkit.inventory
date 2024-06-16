@@ -1615,6 +1615,31 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Inventory.weight
   nameWithType: Inventory.weight
+- uid: ToolkitEngine.Inventory.InventoryManager
+  name: InventoryManager
+  href: api/ToolkitEngine.Inventory.InventoryManager.html
+  commentId: T:ToolkitEngine.Inventory.InventoryManager
+  fullName: ToolkitEngine.Inventory.InventoryManager
+  nameWithType: InventoryManager
+- uid: ToolkitEngine.Inventory.InventoryManager.InventoryMap
+  name: InventoryManager.InventoryMap
+  href: api/ToolkitEngine.Inventory.InventoryManager.InventoryMap.html
+  commentId: T:ToolkitEngine.Inventory.InventoryManager.InventoryMap
+  fullName: ToolkitEngine.Inventory.InventoryManager.InventoryMap
+  nameWithType: InventoryManager.InventoryMap
+- uid: ToolkitEngine.Inventory.InventoryManager.map
+  name: map
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_map
+  commentId: P:ToolkitEngine.Inventory.InventoryManager.map
+  fullName: ToolkitEngine.Inventory.InventoryManager.map
+  nameWithType: InventoryManager.map
+- uid: ToolkitEngine.Inventory.InventoryManager.map*
+  name: map
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_map_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.map
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.map
+  nameWithType: InventoryManager.map
 - uid: ToolkitEngine.Inventory.Item
   name: Item
   href: api/ToolkitEngine.Inventory.Item.html
