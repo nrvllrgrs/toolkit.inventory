@@ -43,7 +43,7 @@ namespace ToolkitEngine.Inventory
 			return Dismantle(transform.position, transform.rotation, null);
 		}
 
-		public bool Dismantle(Inventory inventory, out int[] overflows)
+		public bool Dismantle(InventoryList inventory, out int[] overflows)
 		{
 			if (m_itemType.Dismantle(inventory, out overflows))
 			{

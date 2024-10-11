@@ -3,7 +3,7 @@ using UnityEditor;
 
 namespace ToolkitEditor.Inventory
 {
-    [CustomEditor(typeof(ToolkitEngine.Inventory.Inventory))]
+    [CustomEditor(typeof(ToolkitEngine.Inventory.InventoryList))]
     public class InventoryEditor : BaseToolkitEditor
     {
         #region Fields

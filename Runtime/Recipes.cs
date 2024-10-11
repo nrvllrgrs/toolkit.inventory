@@ -22,7 +22,7 @@ namespace ToolkitEngine.Inventory
 
         #region Methods
 
-        public ItemType[] GetRecipesByAnyIngredient(Inventory inventory)
+        public ItemType[] GetRecipesByAnyIngredient(InventoryList inventory)
         {
             return GetRecipesByAnyIngredient(inventory.items.Select(x => x.slotType));
         }
@@ -38,7 +38,7 @@ namespace ToolkitEngine.Inventory
             return GetRecipesByAnyIngredient(items.Select(x => x.itemType));
         }
 
-        public ItemType[] GetRecipesByAllIngredients(Inventory inventory)
+        public ItemType[] GetRecipesByAllIngredients(InventoryList inventory)
         {
             return GetRecipesByAllIngredients(inventory.items.Select(x => x.slotType));
         }

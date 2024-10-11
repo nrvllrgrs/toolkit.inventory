@@ -9,7 +9,7 @@ namespace ToolkitEngine.Inventory
 	{
 		#region Properties
 
-		public Inventory inventory { get; set; }
+		public InventoryList inventory { get; set; }
 		public T slot { get; private set; }
 		public int delta { get; private set; }
 
@@ -17,11 +17,11 @@ namespace ToolkitEngine.Inventory
 
 		#region Constructors
 
-		public BaseInventoryEventArgs(Inventory inventory, T slot)
+		public BaseInventoryEventArgs(InventoryList inventory, T slot)
 			: this(inventory, slot, 0)
 		{ }
 
-		public BaseInventoryEventArgs(Inventory inventory, T slot, int delta)
+		public BaseInventoryEventArgs(InventoryList inventory, T slot, int delta)
 		{
 			this.inventory = inventory;
 			this.slot = slot;
@@ -35,11 +35,11 @@ namespace ToolkitEngine.Inventory
     {
 		#region Constructors
 
-		public CurrencyEventArgs(Inventory inventory, CurrencySlot slot)
+		public CurrencyEventArgs(InventoryList inventory, CurrencySlot slot)
             : base(inventory, slot)
 		{ }
 
-		public CurrencyEventArgs(Inventory inventory, CurrencySlot slot, int delta)
+		public CurrencyEventArgs(InventoryList inventory, CurrencySlot slot, int delta)
             : base(inventory, slot, delta)
         { }
 
@@ -56,18 +56,18 @@ namespace ToolkitEngine.Inventory
 
 		#region Constructors
 
-		public ItemEventArgs(Inventory inventory, ItemSlot slot)
+		public ItemEventArgs(InventoryList inventory, ItemSlot slot)
             : base(inventory, slot)
         { }
 
-		public ItemEventArgs(Inventory inventory, ItemSlot slot, int delta)
+		public ItemEventArgs(InventoryList inventory, ItemSlot slot, int delta)
 			: base(inventory, slot, delta)
 		{ }
 
 		#endregion
 	}
 
-	public class Inventory : MonoBehaviour
+	public class InventoryList : MonoBehaviour
     {
         #region Fields
 
@@ -99,7 +99,7 @@ namespace ToolkitEngine.Inventory
         private UnityEvent<ItemEventArgs> m_onItemSlotChanged;
 
         [SerializeField]
-        private UnityEvent<Inventory, bool> m_onEncumbranceChanged;
+        private UnityEvent<InventoryList, bool> m_onEncumbranceChanged;
 
         #endregion
 
@@ -137,7 +137,7 @@ namespace ToolkitEngine.Inventory
 
         public UnityEvent<CurrencyEventArgs> onCurrencySlotChanged => m_onCurrencySlotChanged;
         public UnityEvent<ItemEventArgs> onItemSlotChanged => m_onItemSlotChanged;
-        public UnityEvent<Inventory, bool> onEncumbranceChanged => m_onEncumbranceChanged;
+        public UnityEvent<InventoryList, bool> onEncumbranceChanged => m_onEncumbranceChanged;
 
 		#endregion
 

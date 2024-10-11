@@ -235,7 +235,7 @@ namespace ToolkitEngine.Inventory
 
 		#region Buy Methods
 
-		public bool CanBuy(Inventory inventory)
+		public bool CanBuy(InventoryList inventory)
 		{
 		    var currencySlot = inventory.currencies.FirstOrDefault(x => Equals(x.slotType, buyPrice.currency));
 			if (currencySlot == null)
@@ -247,7 +247,7 @@ namespace ToolkitEngine.Inventory
 			return true;
 		}
 
-		public bool Buy(Inventory inventory)
+		public bool Buy(InventoryList inventory)
         {
 			if (!CanBuy(inventory))
 			{
@@ -262,7 +262,7 @@ namespace ToolkitEngine.Inventory
 		/// Buy item type, adding it to inventory and removing the necessary currencies
 		/// </summary>
 		/// <param name="itemType"></param>
-		public bool Buy(Inventory inventory, out int overflow)
+		public bool Buy(InventoryList inventory, out int overflow)
 		{
             if (!Buy(inventory))
             {
@@ -274,7 +274,7 @@ namespace ToolkitEngine.Inventory
 			return true;
 		}
 
-		public bool Buy(Inventory inventory, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Buy(InventoryList inventory, SpawnedAction onSpawnedAction, params object[] args)
 		{
 			if (!CanBuy(inventory))
 				return false;
@@ -284,12 +284,12 @@ namespace ToolkitEngine.Inventory
 			return true;
 		}
 
-		public bool Buy(Inventory inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Buy(InventoryList inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)
 		{
 			return Buy(inventory, position, rotation, null, onSpawnedAction, args);
 		}
 
-		public bool Buy(Inventory inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Buy(InventoryList inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
 		{
 			if (!CanBuy(inventory))
 				return false;
@@ -299,12 +299,12 @@ namespace ToolkitEngine.Inventory
 			return true;
 		}
 
-		public bool Buy(Inventory inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Buy(InventoryList inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
 		{
 			return Buy(inventory, parent, onSpawnedAction, args);
 		}
 
-		public bool Buy(Inventory inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Buy(InventoryList inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)
 		{
 			if (!CanBuy(inventory))
 				return false;
@@ -314,7 +314,7 @@ namespace ToolkitEngine.Inventory
 			return true;
 		}
 
-		private void RemoveCurrencies(Inventory inventory)
+		private void RemoveCurrencies(InventoryList inventory)
 		{
 			var currencySlot = inventory.currencies.FirstOrDefault(x => Equals(x.slotType, buyPrice.currency));
 			if (currencySlot == null)
@@ -330,7 +330,7 @@ namespace ToolkitEngine.Inventory
 
 		#region Sell Methods
 
-        public bool Sell(Inventory inventory)
+        public bool Sell(InventoryList inventory)
         {
             if (!m_sellable)
                 return false;
@@ -344,7 +344,7 @@ namespace ToolkitEngine.Inventory
 
 		#region Craft Methods
 
-		public bool CanCraft(Inventory inventory)
+		public bool CanCraft(InventoryList inventory)
         {
             if (inventory == null)
                 return false;
@@ -366,7 +366,7 @@ namespace ToolkitEngine.Inventory
             return m_ingredients.All(x => itemCounts.TryGetValue(x.item, out int value) && value >= x.amount);
         }
 
-        public bool Craft(Inventory inventory, out int overflow)
+        public bool Craft(InventoryList inventory, out int overflow)
         {
             if (!CanCraft(inventory))
             {
@@ -379,12 +379,12 @@ namespace ToolkitEngine.Inventory
             return true;
         }
 
-        public bool Craft(Inventory inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)
+        public bool Craft(InventoryList inventory, Vector3 position, Quaternion rotation, SpawnedAction onSpawnedAction, params object[] args)
         {
             return Craft(inventory, position, rotation, null, onSpawnedAction, args);
         }
 
-        public bool Craft(Inventory inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
+        public bool Craft(InventoryList inventory, Vector3 position, Quaternion rotation, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
         {
             if (!CanCraft(inventory))
                 return false;
@@ -394,12 +394,12 @@ namespace ToolkitEngine.Inventory
             return true;
         }
 
-		public bool Craft(Inventory inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Craft(InventoryList inventory, Transform parent, SpawnedAction onSpawnedAction, params object[] args)
         {
             return Craft(inventory, parent, false, onSpawnedAction, args);
         }
 
-		public bool Craft(Inventory inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)
+		public bool Craft(InventoryList inventory, Transform parent, bool instantiateInWorldSpace, SpawnedAction onSpawnedAction, params object[] args)
         {
             if (!CanCraft(inventory))
                 return false;
@@ -409,7 +409,7 @@ namespace ToolkitEngine.Inventory
             return true;
         }
 
-        public bool Craft(IEnumerable<Item> items, Inventory inventory, out int overflow)
+        public bool Craft(IEnumerable<Item> items, InventoryList inventory, out int overflow)
         {
             if (!CanCraft(items))
             {
@@ -453,7 +453,7 @@ namespace ToolkitEngine.Inventory
             return true;
         }
 
-        private void RemoveIngredients(Inventory inventory)
+        private void RemoveIngredients(InventoryList inventory)
         {
             foreach (var ingredient in m_ingredients)
             {
@@ -494,7 +494,7 @@ namespace ToolkitEngine.Inventory
 
         #region Dismantle Methods
 
-        public bool Dismantle(Inventory inventory, out int[] overflows)
+        public bool Dismantle(InventoryList inventory, out int[] overflows)
         {
             if (!dismantlable)
             {
