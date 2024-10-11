@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_ItemEventArgs" data-uid="ToolkitEngine.Inventory.ItemEventArgs" class="text-break">
-Class ItemEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L49"><i class="bi bi-code-slash"></i></a>
+Class ItemEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryList.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -168,21 +168,21 @@ Class ItemEventArgs  <a class="header-action link-secondary" title="View source"
 
   <a id="ToolkitEngine_Inventory_ItemEventArgs__ctor_" data-uid="ToolkitEngine.Inventory.ItemEventArgs.#ctor*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_ItemEventArgs__ctor_ToolkitEngine_Inventory_Inventory_ToolkitEngine_Inventory_ItemSlot_" data-uid="ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.ItemSlot)">
-  ItemEventArgs(Inventory, ItemSlot)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_ItemEventArgs__ctor_ToolkitEngine_Inventory_InventoryList_ToolkitEngine_Inventory_ItemSlot_" data-uid="ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.InventoryList,ToolkitEngine.Inventory.ItemSlot)">
+  ItemEventArgs(InventoryList, ItemSlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryList.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemEventArgs(Inventory inventory, ItemSlot slot)</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemEventArgs(InventoryList inventory, ItemSlot slot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.InventoryList.html">InventoryList</a></dt>
     <dd></dd>
     <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
     <dd></dd>
@@ -201,21 +201,21 @@ Class ItemEventArgs  <a class="header-action link-secondary" title="View source"
 
   <a id="ToolkitEngine_Inventory_ItemEventArgs__ctor_" data-uid="ToolkitEngine.Inventory.ItemEventArgs.#ctor*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_ItemEventArgs__ctor_ToolkitEngine_Inventory_Inventory_ToolkitEngine_Inventory_ItemSlot_System_Int32_" data-uid="ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.Inventory,ToolkitEngine.Inventory.ItemSlot,System.Int32)">
-  ItemEventArgs(Inventory, ItemSlot, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_ItemEventArgs__ctor_ToolkitEngine_Inventory_InventoryList_ToolkitEngine_Inventory_ItemSlot_System_Int32_" data-uid="ToolkitEngine.Inventory.ItemEventArgs.#ctor(ToolkitEngine.Inventory.InventoryList,ToolkitEngine.Inventory.ItemSlot,System.Int32)">
+  ItemEventArgs(InventoryList, ItemSlot, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryList.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemEventArgs(Inventory inventory, ItemSlot slot, int delta)</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemEventArgs(InventoryList inventory, ItemSlot slot, int delta)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.Inventory.html">Inventory</a></dt>
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.InventoryList.html">InventoryList</a></dt>
     <dd></dd>
     <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
     <dd></dd>
@@ -242,7 +242,7 @@ Class ItemEventArgs  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Inventory_ItemEventArgs_weightDelta" data-uid="ToolkitEngine.Inventory.ItemEventArgs.weightDelta">
   weightDelta
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Inventory.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryList.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

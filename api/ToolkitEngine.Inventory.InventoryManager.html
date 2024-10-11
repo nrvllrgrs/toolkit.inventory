@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -101,7 +101,7 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryManager : Singleton&lt;InventoryManager&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class InventoryManager : InstantiableSubsystem&lt;InventoryManager, InventoryManagerConfig&gt;</code></pre>
   </div>
 
 
@@ -127,18 +127,18 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="ToolkitEngine_Inventory_InventoryManager_map_" data-uid="ToolkitEngine.Inventory.InventoryManager.map*"></a>
+  <a id="ToolkitEngine_Inventory_InventoryManager_keys_" data-uid="ToolkitEngine.Inventory.InventoryManager.keys*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_InventoryManager_map" data-uid="ToolkitEngine.Inventory.InventoryManager.map">
-  map
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_keys" data-uid="ToolkitEngine.Inventory.InventoryManager.keys">
+  keys
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static InventoryManager.InventoryMap map { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string[] keys { get; }</code></pre>
   </div>
 
 
@@ -147,9 +147,113 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ToolkitEngine.Inventory.InventoryManager.html">InventoryManager</a>.<a class="xref" href="ToolkitEngine.Inventory.InventoryManager.InventoryMap.html">InventoryMap</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_Register_" data-uid="ToolkitEngine.Inventory.InventoryManager.Register*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_Register_ToolkitEngine_Inventory_KeyedInventoryList_" data-uid="ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.KeyedInventoryList)">
+  Register(KeyedInventoryList)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Register(KeyedInventoryList item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.KeyedInventoryList.html">KeyedInventoryList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_TryGetInventory_" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetInventory*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_TryGetInventory_System_String_ToolkitEngine_Inventory_InventoryList__" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetInventory(System.String,ToolkitEngine.Inventory.InventoryList@)">
+  TryGetInventory(string, out InventoryList)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetInventory(string key, out InventoryList inventory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.InventoryList.html">InventoryList</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_Unregister_" data-uid="ToolkitEngine.Inventory.InventoryManager.Unregister*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_Unregister_ToolkitEngine_Inventory_KeyedInventoryList_" data-uid="ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.KeyedInventoryList)">
+  Unregister(KeyedInventoryList)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unregister(KeyedInventoryList item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.KeyedInventoryList.html">KeyedInventoryList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
 
 
 

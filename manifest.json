@@ -205,20 +205,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Inventory.Inventory.yml",
+      "source_relative_path": "api/ToolkitEngine.Inventory.InventoryList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToolkitEngine.Inventory.Inventory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Inventory.InventoryManager.InventoryMap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Inventory.InventoryManager.InventoryMap.html"
+          "relative_path": "api/ToolkitEngine.Inventory.InventoryList.html"
         }
       },
       "version": ""
@@ -229,6 +219,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Inventory.InventoryManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.InventoryManagerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.InventoryManagerConfig.html"
         }
       },
       "version": ""
@@ -309,6 +309,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Inventory.ItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.KeyedInventoryList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.KeyedInventoryList.html"
         }
       },
       "version": ""
