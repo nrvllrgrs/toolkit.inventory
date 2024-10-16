@@ -2,337 +2,337 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.DropEntryDrawer.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.InventoryEditor.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.ItemEditor.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.ItemTypeEditor.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.LootEntryDrawer.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.LootTableEditor.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.VisualScripting.Setup.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.VisualScripting.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEditor.Inventory.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.BaseSlot-1.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.Currency.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.CurrencyEventArgs.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.CurrencySlot.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.CurrencyType.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.DropEntry.AmountType.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.DropEntry.DropType.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.DropEntry.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.InventoryList.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.InventoryManager.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.InventoryManagerConfig.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.Item.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemEventArgs.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemSlot.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemType.DismantleMode.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemType.Ingredient.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemType.Price.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemType.Scrap.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.ItemType.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.KeyedInventoryList.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.Loot.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.LootEntry.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.LootSpawner.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.LootTable.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.Recipes.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.VisualScripting.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/ToolkitEngine.Inventory.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/api/index.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/changelog/CHANGELOG.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/index.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/license/LICENSE.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.inventory/manual/index.html</loc>
-    <lastmod>2024-10-11T04:22:50+00:00</lastmod>
+    <lastmod>2024-10-16T07:49:21+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
