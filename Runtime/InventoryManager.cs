@@ -37,7 +37,9 @@ namespace ToolkitEngine.Inventory
 
 		public bool TryGetInventory(string key, out InventoryList inventory)
 		{
-			return m_inventories.TryGetValue(key, out inventory);
+			inventory = null;
+			return !string.IsNullOrWhiteSpace(key)
+				&& m_inventories.TryGetValue(key, out inventory);
 		}
 
 		#endregion
