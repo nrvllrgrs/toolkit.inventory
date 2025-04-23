@@ -335,12 +335,22 @@ namespace ToolkitEngine.Inventory
             return m_items.FirstOrDefault(x => Equals(x.id, item.id) && x.amount == 0);
         }
 
+        public bool AddItem(Item item)
+        {
+            return AddItem(item.itemType, item.amount, out int overflow);
+        }
+
         public bool AddItem(Item item, out int overflow)
         {
             return AddItem(item.itemType, item.amount, out overflow);
         }
-        
-        public bool AddItem(ItemType itemType, int count, out int overflow)
+
+		public bool AddItem(ItemType itemType, int count)
+		{
+			return AddItem(itemType, count, out int overflow);
+		}
+
+		public bool AddItem(ItemType itemType, int count, out int overflow)
         {
             int initialCount = count;
             overflow = 0;
