@@ -12,7 +12,7 @@ namespace ToolkitEditor.Inventory.VisualScripting
         {
 			var types = new List<Type>()
 			{
-				typeof(ToolkitEngine.Inventory.InventoryList),
+				typeof(InventoryList),
 				typeof(ItemSlot),
 				typeof(ItemEventArgs),
 				typeof(ItemType),
