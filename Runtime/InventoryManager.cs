@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ToolkitEngine.Inventory
 {
-	public class InventoryManager : InstantiableSubsystem<InventoryManager, InventoryManagerConfig>
+	public class InventoryManager : ConfigurableSubsystem<InventoryManager, InventoryManagerConfig>, IInstantiableSubsystem
     {
 		#region Fields
 
@@ -18,6 +18,11 @@ namespace ToolkitEngine.Inventory
 		#endregion
 
 		#region Methods
+
+		public void Instantiate()
+		{
+			IInstantiableSubsystem.Instantiate(Config?.template);
+		}
 
 		public void Register(KeyedInventoryList item)
 		{

@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace ToolkitEngine.Inventory
@@ -13,10 +12,10 @@ namespace ToolkitEngine.Inventory
 
 		#endregion
 
-		#region IInstantiableSubsystemConfig Methods
+		#region Properties
 
-		public GameObject GetTemplate() => m_template?.gameObject;
-		public Type GetManagerType() => typeof(InventoryManager);
+		public System.Type subsystemType => typeof(InventoryManager);
+		public GameObject template => m_template;
 
 		#endregion
 	}
