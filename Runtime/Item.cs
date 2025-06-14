@@ -36,6 +36,21 @@ namespace ToolkitEngine.Inventory
 
 		#endregion
 
+		#region Methods
+
+		public void Collect(InventoryList inventory)
+		{
+			if (inventory == null)
+				return;
+
+			if (inventory.AddItem(this))
+			{
+				m_onCollected?.Invoke(new ItemEventArgs(inventory, null));
+			}
+		}
+
+		#endregion
+
 		#region Dismantle Methods
 
 		public bool Dismantle()
