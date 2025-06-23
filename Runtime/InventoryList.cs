@@ -72,10 +72,10 @@ namespace ToolkitEngine.Inventory
         #region Fields
 
         [SerializeField]
-        private List<CurrencySlot> m_currencies;
+        private List<CurrencySlot> m_currencies = new();
 
         [SerializeField]
-        private List<ItemSlot> m_items;
+        private List<ItemSlot> m_items = new();
 
         [SerializeField, Tooltip("Indicates whether new slots can be added when out of room.")]
         private bool m_expandSlots = true;
