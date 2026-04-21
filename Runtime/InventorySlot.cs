@@ -19,7 +19,11 @@ namespace ToolkitEngine.Inventory
 
 		#region Properties
 
-		public T slotType => m_slotType;
+		public T slotType
+		{
+			get => m_slotType;
+			set => m_slotType = value;
+		}
 
 		/// <summary>
 		/// Current number of items in stack
@@ -47,7 +51,7 @@ namespace ToolkitEngine.Inventory
 
 		public virtual void Clear()
 		{
-			m_amount = 0;
+			amount = 0;
 		}
 
 		public void Set(T slotType, int amount = 1)
@@ -67,6 +71,7 @@ namespace ToolkitEngine.Inventory
 
 			if (this.amount == 0)
 			{
+				// May call subclass behaviour
 				Clear();
 			}
 		}
@@ -113,6 +118,7 @@ namespace ToolkitEngine.Inventory
 
 		public override int amount
 		{
+			get => base.amount;
 			protected set => base.amount = Mathf.Clamp(value, 0, m_slotType?.maxStack ?? 0);
 		}
 
@@ -129,7 +135,7 @@ namespace ToolkitEngine.Inventory
 		{ }
 
 		// Constructor for occupied slot
-		public ItemSlot(ItemType source, int amount)
+		public ItemSlot(ItemType source, int amount = 1)
 			: this(source, amount, false)
         { }
 
@@ -138,6 +144,10 @@ namespace ToolkitEngine.Inventory
 			Set(source, amount);
 			m_locked = locked;
 		}
+
+		public ItemSlot(ItemSlot slot)
+			: this(slot.slotType, slot.amount, slot.locked)
+		{ }
 
         #endregion
 
@@ -171,8 +181,8 @@ namespace ToolkitEngine.Inventory
 		#endregion
 	}
 
-    [Serializable]
-    public class CurrencySlot : BaseSlot<CurrencyType>
+	[Serializable]
+	public class CurrencySlot : BaseSlot<CurrencyType>
 	{
 		#region Events
 
@@ -188,10 +198,14 @@ namespace ToolkitEngine.Inventory
 		{ }
 
 		// Constructor for occupied slot
-		public CurrencySlot(CurrencyType source, int amount)
+		public CurrencySlot(CurrencyType source, int amount = 1)
 		{
 			Set(source, amount);
 		}
+
+		public CurrencySlot(CurrencySlot slot)
+			: this(slot.slotType, slot.amount)
+		{ }
 
 		#endregion
 

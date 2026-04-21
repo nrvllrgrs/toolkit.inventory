@@ -5,8 +5,8 @@ using ToolkitEngine.Inventory;
 
 namespace ToolkitEditor.Inventory
 {
-    [CustomEditor(typeof(ItemType))]
-    public class ItemTypeEditor : Editor
+	[CustomEditor(typeof(ItemType), true)]
+    public class ItemTypeEditor : BaseToolkitEditor
     {
         #region Fields
 
@@ -16,10 +16,16 @@ namespace ToolkitEditor.Inventory
         protected SerializedProperty m_parent;
         protected SerializedProperty m_spawner;
 
+#if USE_UNITY_LOCALIZATION
+        protected SerializedProperty m_localizedName;
+        protected SerializedProperty m_localizedDescription;
+#else
         protected SerializedProperty m_name;
         protected SerializedProperty m_description;
-        protected SerializedProperty m_icon;
-        protected SerializedProperty m_color;
+#endif
+
+		protected SerializedProperty m_icon;
+        protected SerializedProperty m_properties;
 
         protected SerializedProperty m_weight;
         protected SerializedProperty m_maxStack;
@@ -32,11 +38,11 @@ namespace ToolkitEditor.Inventory
         protected SerializedProperty m_dismantleMode;
         protected SerializedProperty m_scraps;
 
-        #endregion
+#endregion
 
         #region Methods
 
-        private void OnEnable()
+        protected virtual void OnEnable()
         {
             m_itemType = target as ItemType;
 
@@ -44,12 +50,17 @@ namespace ToolkitEditor.Inventory
             m_parent = serializedObject.FindProperty(nameof(m_parent));
             m_spawner = serializedObject.FindProperty(nameof(m_spawner));
 
+#if USE_UNITY_LOCALIZATION
+            m_localizedName = serializedObject.FindProperty(nameof(m_localizedName));
+            m_localizedDescription = serializedObject.FindProperty(nameof(m_localizedDescription));
+#else
             m_name = serializedObject.FindProperty(nameof(m_name));
             m_description = serializedObject.FindProperty(nameof(m_description));
+#endif
             m_icon = serializedObject.FindProperty(nameof(m_icon));
-            m_color = serializedObject.FindProperty(nameof(m_color));
+            m_properties = serializedObject.FindProperty(nameof(m_properties));
 
-            m_weight = serializedObject.FindProperty(nameof(m_weight));
+			m_weight = serializedObject.FindProperty(nameof(m_weight));
             m_maxStack = serializedObject.FindProperty(nameof(m_maxStack));
 
             m_price = serializedObject.FindProperty(nameof(m_price));
@@ -61,74 +72,85 @@ namespace ToolkitEditor.Inventory
             m_scraps = serializedObject.FindProperty(nameof(m_scraps));
         }
 
-        public override void OnInspectorGUI()
-        {
-            serializedObject.Update();
+		protected override void DrawProperties()
+		{
+            DrawIDProperty(m_id);
 
-            EditorGUI.BeginDisabledGroup(true);
-            EditorGUILayout.PropertyField(m_id, new GUIContent("ID"));
-            EditorGUI.EndDisabledGroup();
+			EditorGUI.BeginChangeCheck();
+
+			var lastParent = m_parent.objectReferenceValue;
+			EditorGUILayout.PropertyField(m_parent);
+
+			if (EditorGUI.EndChangeCheck())
+			{
+				if (m_parent.objectReferenceValue != null)
+				{
+					var parentItemType = m_parent.objectReferenceValue as ItemType;
+					if (!IsValidParent(parentItemType))
+					{
+						EditorUtility.DisplayDialog("Error", string.Format("{0} creates an invalid parental relationship!", parentItemType.name), "OK");
+						m_parent.objectReferenceValue = lastParent;
+					}
+				}
+			}
+
+			EditorGUILayout.PropertyField(m_spawner);
+
+			EditorGUILayout.Separator();
+
+			EditorGUILayout.LabelField("Info", EditorStyles.boldLabel);
+#if USE_UNITY_LOCALIZATION
+			EditorGUILayout.PropertyField(m_localizedName, new GUIContent("Name"));
+			EditorGUILayout.PropertyField(m_localizedDescription, new GUIContent("Description"));
+#else
+            EditorGUILayout.PropertyField(m_name);
+			EditorGUILayout.PropertyField(m_description);
+#endif
+			EditorGUILayoutUtility.SpriteField(m_icon);
+            EditorGUILayout.PropertyField(m_properties);
+
+			EditorGUILayout.Separator();
+
+			EditorGUILayout.LabelField("Size", EditorStyles.boldLabel);
+			EditorGUILayout.PropertyField(m_weight);
+			EditorGUILayout.PropertyField(m_maxStack);
+
+			EditorGUILayout.Separator();
+
+			EditorGUILayout.LabelField("Trading", EditorStyles.boldLabel);
+			EditorGUILayout.PropertyField(m_price);
 
             EditorGUI.BeginChangeCheck();
-
-            var lastParent = m_parent.objectReferenceValue;
-            EditorGUILayout.PropertyField(m_parent);
-
+			EditorGUILayout.PropertyField(m_sellable);
             if (EditorGUI.EndChangeCheck())
             {
-                if (m_parent.objectReferenceValue != null)
-                {
-                    var parentItemType = m_parent.objectReferenceValue as ItemType;
-                    if (!IsValidParent(parentItemType))
-                    {
-                        EditorUtility.DisplayDialog("Error", string.Format("{0} creates an invalid parental relationship!", parentItemType.name), "OK");
-                        m_parent.objectReferenceValue = lastParent;
-                    }
-                }
+                // Need to apply changes early so sellPrice is not null
+                serializedObject.ApplyModifiedProperties();
             }
 
-            EditorGUILayout.PropertyField(m_spawner);
+			if (m_sellable.boolValue)
+			{
+				++EditorGUI.indentLevel;
+				EditorGUILayout.PropertyField(m_sellFactor);
+				EditorGUI.BeginDisabledGroup(true);
+				{
+					EditorGUILayout.TextField("Sell Amount", m_itemType.sellPrice.amount.ToString());
+				}
+				EditorGUI.EndDisabledGroup();
+				--EditorGUI.indentLevel;
+			}
 
-            EditorGUILayout.Separator();
+			EditorGUILayout.Separator();
 
-            EditorGUILayout.LabelField("Info", EditorStyles.boldLabel);
-            EditorGUILayout.PropertyField(m_name);
-            EditorGUILayout.PropertyField(m_description);
-            EditorGUILayout.ObjectField(m_icon, typeof(Sprite), GUILayout.Height(64), GUILayout.Width(64 + EditorGUIUtility.labelWidth));
-            EditorGUILayout.PropertyField(m_color);
+			EditorGUILayout.LabelField("Crafting", EditorStyles.boldLabel);
+			EditorGUILayout.PropertyField(m_ingredients);
+			EditorGUILayout.PropertyField(m_dismantleMode);
 
-            EditorGUILayout.Separator();
-
-            EditorGUILayout.LabelField("Size", EditorStyles.boldLabel);
-            EditorGUILayout.PropertyField(m_weight);
-            EditorGUILayout.PropertyField(m_maxStack);
-
-            EditorGUILayout.Separator();
-
-            EditorGUILayout.LabelField("Trading", EditorStyles.boldLabel);
-            EditorGUILayout.PropertyField(m_price);
-            EditorGUILayout.PropertyField(m_sellable);
-
-            if (m_sellable.boolValue)
-            {
-                ++EditorGUI.indentLevel;
-                EditorGUILayout.PropertyField(m_sellFactor);
-                --EditorGUI.indentLevel;
-            }
-
-            EditorGUILayout.Separator();
-
-            EditorGUILayout.LabelField("Crafting", EditorStyles.boldLabel);
-            EditorGUILayout.PropertyField(m_ingredients);
-            EditorGUILayout.PropertyField(m_dismantleMode);
-
-            if ((ItemType.DismantleMode)m_dismantleMode.intValue == ItemType.DismantleMode.Scrap)
-            {
-                EditorGUILayout.PropertyField(m_scraps);
-            }
-
-            serializedObject.ApplyModifiedProperties();
-        }
+			if ((ItemType.DismantleMode)m_dismantleMode.intValue == ItemType.DismantleMode.Scrap)
+			{
+				EditorGUILayout.PropertyField(m_scraps);
+			}
+		}
 
         private bool IsValidParent(ItemType parent)
         {
@@ -151,6 +173,6 @@ namespace ToolkitEditor.Inventory
             return true;
         }
 
-        #endregion
+#endregion
     }
 }

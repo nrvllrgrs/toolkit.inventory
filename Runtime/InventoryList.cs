@@ -457,7 +457,7 @@ namespace ToolkitEngine.Inventory
         {
             foreach (ItemSlot slot in m_items)
             {
-                TryRemoveItem(slot, slot.amount);
+                slot.Clear();
             }
         }
 

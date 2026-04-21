@@ -10,12 +10,15 @@ namespace ToolkitEngine.Inventory
 		[SerializeField]
 		private ItemType m_itemType;
 
-		[SerializeField, Min(1)]
+		[SerializeField, Min(0)]
 		private int m_amount = 1;
 
 		#endregion
 
 		#region Events
+
+		[SerializeField]
+		private UnityEvent<Item> m_onChanged;
 
 		[SerializeField]
 		private UnityEvent<ItemEventArgs> m_onCollected;
@@ -24,19 +27,47 @@ namespace ToolkitEngine.Inventory
 
 		#region Properties
 
-		public ItemType itemType => m_itemType;
+		public ItemType itemType
+		{
+			get => m_itemType;
+			set
+			{
+				// No change, skip
+				if (m_itemType == value)
+					return;
+
+				m_itemType = value;
+				m_onChanged?.Invoke(this);
+			}
+		}
 
 		public int amount
 		{
 			get => m_amount;
-			set => m_amount = value;
+			set
+			{
+				// No change, skip
+				if (m_amount == value)
+					return;
+
+				m_amount = value;
+				m_onChanged?.Invoke(this);
+			}
 		}
 
+		public UnityEvent<Item> onChanged => m_onChanged;
 		public UnityEvent<ItemEventArgs> onCollected => m_onCollected;
 
 		#endregion
 
 		#region Methods
+
+		public void Set(ItemType itemType, int amount = 1)
+		{
+			m_itemType = itemType;
+			m_amount = amount;
+			m_onChanged?.Invoke(this);
+		}
 
 		public void Collect(InventoryList inventory)
 		{
@@ -45,6 +76,7 @@ namespace ToolkitEngine.Inventory
 
 			if (inventory.AddItem(this))
 			{
+				Set(null, 0);
 				m_onCollected?.Invoke(new ItemEventArgs(inventory, null));
 			}
 		}

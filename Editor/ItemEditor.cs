@@ -1,4 +1,3 @@
-using UnityEngine;
 using UnityEditor;
 using ToolkitEngine.Inventory;
 
@@ -12,6 +11,7 @@ namespace ToolkitEditor.Inventory
 		protected SerializedProperty m_itemType;
 		protected SerializedProperty m_amount;
 
+		protected SerializedProperty m_onChanged;
 		protected SerializedProperty m_onCollected;
 
 		#endregion
@@ -23,6 +23,7 @@ namespace ToolkitEditor.Inventory
 			m_itemType = serializedObject.FindProperty(nameof(m_itemType));
 			m_amount = serializedObject.FindProperty(nameof(m_amount));
 
+			m_onChanged = serializedObject.FindProperty(nameof(m_onChanged));
 			m_onCollected = serializedObject.FindProperty(nameof(m_onCollected));
 		}
 
@@ -34,8 +35,9 @@ namespace ToolkitEditor.Inventory
 
 		protected override void DrawEvents()
 		{
-			if (EditorGUILayoutUtility.Foldout(m_onCollected, "Events"))
+			if (EditorGUILayoutUtility.Foldout(m_onChanged, "Events"))
 			{
+				EditorGUILayout.PropertyField(m_onChanged);
 				EditorGUILayout.PropertyField(m_onCollected);
 
 				DrawNestedEvents();

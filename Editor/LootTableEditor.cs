@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using ToolkitEngine.Inventory;
+using System.Linq;
 
 namespace ToolkitEditor.Inventory
 {
@@ -36,7 +37,13 @@ namespace ToolkitEditor.Inventory
                 percentProp.floatValue = totalRates > 0f ? itemProp.FindPropertyRelative("m_rate").floatValue / totalRates : 0f;
             }
 
-            EditorGUILayout.PropertyField(m_items);
+			// Capture the layout cursor Y before drawing the property field so we
+			// can reconstruct the header rect for drag-and-drop hit-testing.
+			Rect cursorRect = EditorGUILayout.GetControlRect(false, 0f);
+			Rect itemsHeaderRect = new Rect(cursorRect.x, cursorRect.y, cursorRect.width, EditorGUIUtility.singleLineHeight);
+
+			HandleItemsDragAndDrop(itemsHeaderRect);
+			EditorGUILayout.PropertyField(m_items);
             EditorGUILayout.PropertyField(m_noDropRate);
 
             float percent = totalRates > 0f ? m_noDropRate.floatValue / totalRates : 0f;
@@ -53,6 +60,57 @@ namespace ToolkitEditor.Inventory
             serializedObject.ApplyModifiedProperties();
         }
 
-        #endregion
-    }
+		private void HandleItemsDragAndDrop(Rect headerRect)
+		{
+			Event evt = Event.current;
+			if (evt.type != EventType.DragUpdated && evt.type != EventType.DragPerform)
+				return;
+
+			if (!headerRect.Contains(evt.mousePosition))
+				return;
+
+			bool hasValidType = DragAndDrop.objectReferences.Any(x => x is ItemType
+				|| x is CurrencyType
+				|| x is LootTable);
+
+			if (!hasValidType)
+				return;
+
+			DragAndDrop.visualMode = DragAndDropVisualMode.Copy;
+
+			if (evt.type == EventType.DragPerform)
+			{
+				DragAndDrop.AcceptDrag();
+
+				foreach (Object obj in DragAndDrop.objectReferences)
+				{
+					if (obj is ItemType itemType)
+					{
+						var entry = new LootEntry(itemType, 1);
+						entry.weight = 1f;
+						m_lootTable.Add(entry);
+					}
+					else if (obj is CurrencyType currencyType)
+					{
+						var entry = new LootEntry(currencyType, 1);
+						entry.weight = 1f;
+						m_lootTable.Add(entry);
+					}
+					else if (obj is LootTable lootTable)
+					{
+						var entry = new LootEntry(lootTable, 1);
+						entry.weight = 1f;
+						m_lootTable.Add(entry);
+					}
+				}
+
+				// Sync the SerializedObject so the new entries appear immediately.
+				serializedObject.Update();
+			}
+
+			evt.Use();
+		}
+
+		#endregion
+	}
 }

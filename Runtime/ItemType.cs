@@ -4,11 +4,19 @@ using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+#if USE_UNITY_ADDRESSABLES
+using UnityEngine.AddressableAssets;
+#endif
+
+#if USE_UNITY_LOCALIZATION
+using UnityEngine.Localization;
+#endif
+
 namespace ToolkitEngine.Inventory
 {
-    [CreateAssetMenu(menuName = "Toolkit/Inventory/Item")]
-    public class ItemType : ScriptableObject
-    {
+	[CreateAssetMenu(menuName = "Toolkit/Inventory/Item")]
+    public class ItemType : ScriptableObject, IEquatable<ItemType>
+	{
         #region Enumerators
 
         public enum DismantleMode
@@ -31,26 +39,34 @@ namespace ToolkitEngine.Inventory
         [SerializeField]
         private Spawner m_spawner;
 
+#if USE_UNITY_LOCALIZATION
+        [SerializeField]
+        private LocalizedString m_localizedName;
+
+		[SerializeField]
+		private LocalizedString m_localizedDescription;
+#else
         [SerializeField]
         private string m_name;
 
         [SerializeField, TextArea]
         private string m_description;
+#endif
 
-        [SerializeField]
+		[SerializeField]
         private Sprite m_icon;
 
-        [SerializeField]
-        private Color m_color = Color.white;
+		[SerializeField]
+		private PropertyCollection m_properties = new();
 
-        [SerializeField, Min(0f)]
+		[SerializeField, Min(0f)]
         private float m_weight;
 
         [SerializeField, Min(1)]
         private int m_maxStack = 1;
 
         [SerializeField]
-        private Price m_price;
+        private Price m_price = new();
 
         [SerializeField]
         private bool m_sellable = true;
@@ -76,35 +92,125 @@ namespace ToolkitEngine.Inventory
         // (e.g. player must know a recipe or must have a minimum skill or level)
 
         [SerializeField]
-        private Ingredient[] m_ingredients;
+        private List<Ingredient> m_ingredients;
 
         [SerializeField]
         private DismantleMode m_dismantleMode;
 
         [SerializeField]
-        private Scrap[] m_scraps;
+        private List<Scrap> m_scraps;
 
         #endregion
 
         #region Properties
 
+        /// <summary>
+        /// Unique key
+        /// </summary>
         public string id => m_id;
-        public ItemType parent => m_parent;
-        public new string name { get => m_name; set => m_name = value; }
-        public string description => m_description;
-        public Sprite icon => m_icon;
-        public Color color => m_color;
+
+		/// <summary>
+		/// Name of asset
+		/// </summary>
+		public string assetName
+		{
+			get => base.name;
+			set => base.name = value;
+		}
+
+		public ItemType parent => m_parent;
+
+        public new string name
+        {
+            get
+            {
+#if USE_UNITY_LOCALIZATION
+				if (m_localizedName != null && !m_localizedName.IsEmpty)
+				{
+					try
+					{
+						return m_localizedName.GetLocalizedString();
+					}
+					catch (KeyNotFoundException)
+					{
+						Debug.LogWarning($"Localization key not found for {base.name} name, falling back to asset name");
+						return base.name;
+					}
+				}
+				return base.name;
+#else
+                return m_name;
+#endif
+			}
+#if UNITY_EDITOR && !USE_UNITY_LOCALIZATION
+            set => m_name = value;
+#endif
+        }
+
+        public string description
+        {
+            get
+            {
+#if USE_UNITY_LOCALIZATION
+                if (m_localizedDescription != null && !m_localizedDescription.IsEmpty)
+                {
+					try
+					{
+						return m_localizedDescription.GetLocalizedString();
+					}
+					catch (KeyNotFoundException)
+					{
+						Debug.LogWarning($"Localization key not found for {base.name} description");
+                        return string.Empty;
+					}
+				}
+				return string.Empty;
+#else
+                return m_description;
+#endif
+			}
+#if UNITY_EDITOR && !USE_UNITY_LOCALIZATION
+            set => m_description = value;
+#endif
+		}
+
+#if USE_UNITY_LOCALIZATION
+        public LocalizedString localizedName { get => m_localizedName; set => m_localizedName = value; }
+        public LocalizedString localizedDescription { get => m_localizedDescription; set => m_localizedDescription = value; }
+#endif
+
+        public Sprite icon
+        {
+            get => m_icon;
+            set => m_icon = value;
+        }
+
         public float weight => m_weight;
-        public int maxStack => m_maxStack;
-        public Price buyPrice => m_price;
+
+        public int maxStack
+		{
+			get => m_maxStack;
+			set => m_maxStack = value;
+		}
+
+		public Price buyPrice => m_price;
 
         /// <summary>
         /// Indicates whether item can be sold
         /// </summary>
-        public bool sellable => m_sellable;
-        public float sellFactor => m_sellable ? m_sellFactor : 0f;
+        public bool sellable
+        {
+            get => m_sellable;
+			set => m_sellable = value;
+		}
 
-        public Price sellPrice
+		public float sellFactor
+        {
+            get => m_sellable ? m_sellFactor : 0f;
+			set => m_sellFactor = value;
+		}
+
+		public Price sellPrice
         {
             get
             {
@@ -117,13 +223,20 @@ namespace ToolkitEngine.Inventory
                 return new Price()
                 {
                     currency = buyPrice.currency,
-                    amount = Mathf.RoundToInt(buyPrice.amount * m_sellFactor)
+                    amount = Mathf.FloorToInt(buyPrice.amount * m_sellFactor)
                 };
             }
         }
 
-        public Ingredient[] ingredients => m_ingredients;
-        public bool craftable => m_ingredients.Length > 0;
+        public PropertyCollection properties => m_properties;
+
+        public IEnumerable<Ingredient> ingredients
+        {
+            get => m_ingredients;
+            set => m_ingredients = value.ToList();
+        }
+
+		public bool craftable => m_ingredients.Count > 0;
         public bool dismantlable => m_dismantleMode != DismantleMode.None;
 
         #endregion
@@ -226,9 +339,33 @@ namespace ToolkitEngine.Inventory
 			return false;
 		}
 
+		public bool Equals(ItemType other)
+		{
+			if (other == null)
+				return false;
+
+			return m_id == other.m_id;
+		}
+
 		public override int GetHashCode()
 		{
 			return m_id.GetHashCode();
+		}
+
+		public static bool operator ==(ItemType a, ItemType b)
+		{
+			if (ReferenceEquals(a, b))
+				return true;
+
+			if (a is null || b is null)
+				return false;
+
+			return a.m_id == b.m_id;
+		}
+
+		public static bool operator !=(ItemType a, ItemType b)
+		{
+			return !(a == b);
 		}
 
 		#endregion
@@ -326,9 +463,9 @@ namespace ToolkitEngine.Inventory
 			currencySlot.RemoveFromStack(buyPrice.amount);
 		}
 
-		#endregion
+        #endregion
 
-		#region Sell Methods
+        #region Sell Methods
 
         public bool Sell(InventoryList inventory)
         {
@@ -340,9 +477,9 @@ namespace ToolkitEngine.Inventory
             return true;
         }
 
-		#endregion
+        #endregion
 
-		#region Craft Methods
+        #region Craft Methods
 
 		public bool CanCraft(InventoryList inventory)
         {
@@ -603,6 +740,26 @@ namespace ToolkitEngine.Inventory
 
         #endregion
 
+        #region Spawner Methods
+
+		public void Set(GameObject template)
+		{
+			m_spawner.Set(template);
+		}
+
+		public void Set(PoolItem poolItem)
+		{
+			m_spawner.Set(poolItem);
+		}
+
+#if USE_UNITY_ADDRESSABLES
+        public void Set(AssetReferenceGameObject assetReference)
+        {
+            m_spawner.Set(assetReference);
+        }
+#endif
+        #endregion
+
         #region Structures
 
         [Serializable]
@@ -637,4 +794,26 @@ namespace ToolkitEngine.Inventory
 
         #endregion
     }
+
+	public class ItemTypeComparer : IEqualityComparer<ItemType>
+	{
+		public bool Equals(ItemType x, ItemType y)
+		{
+			if (ReferenceEquals(x, y))
+				return true;
+
+			if (x is null || y is null)
+				return false;
+
+			return x.id == y.id;
+		}
+
+		public int GetHashCode(ItemType obj)
+		{
+			if (obj == null)
+				return 0;
+
+			return obj.id?.GetHashCode() ?? 0;
+		}
+	}
 }

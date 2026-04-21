@@ -3,7 +3,7 @@ using UnityEngine;
 namespace ToolkitEngine.Inventory
 {
 	[CreateAssetMenu(menuName = "Toolkit/Config/InventoryManager Config")]
-	public class InventoryManagerConfig : ScriptableObject, IInstantiableSubsystemConfig
+	public class InventoryManagerConfig : ScriptableObject
 	{
 		#region Fields
 
@@ -14,7 +14,6 @@ namespace ToolkitEngine.Inventory
 
 		#region Properties
 
-		public System.Type subsystemType => typeof(InventoryManager);
 		public GameObject template => m_template;
 
 		#endregion
