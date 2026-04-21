@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_CurrencySlot" data-uid="ToolkitEngine.Inventory.CurrencySlot" class="text-break">
-Class CurrencySlot  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L174"><i class="bi bi-code-slash"></i></a>
+Class CurrencySlot  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -185,7 +185,7 @@ public class CurrencySlot : BaseSlot&lt;CurrencyType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_CurrencySlot__ctor" data-uid="ToolkitEngine.Inventory.CurrencySlot.#ctor">
   CurrencySlot()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -209,16 +209,47 @@ public class CurrencySlot : BaseSlot&lt;CurrencyType&gt;</code></pre>
 
   <a id="ToolkitEngine_Inventory_CurrencySlot__ctor_" data-uid="ToolkitEngine.Inventory.CurrencySlot.#ctor*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_CurrencySlot__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
-  CurrencySlot(CurrencyType, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_CurrencySlot__ctor_ToolkitEngine_Inventory_CurrencySlot_" data-uid="ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencySlot)">
+  CurrencySlot(CurrencySlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CurrencySlot(CurrencyType source, int amount)</code></pre>
+    <pre><code class="lang-csharp hljs">public CurrencySlot(CurrencySlot slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencySlot.html">CurrencySlot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_CurrencySlot__ctor_" data-uid="ToolkitEngine.Inventory.CurrencySlot.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_CurrencySlot__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
+  CurrencySlot(CurrencyType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CurrencySlot(CurrencyType source, int amount = 1)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -248,7 +279,7 @@ public class CurrencySlot : BaseSlot&lt;CurrencyType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_CurrencySlot_InvokeSlotChanged_System_Int32_" data-uid="ToolkitEngine.Inventory.CurrencySlot.InvokeSlotChanged(System.Int32)">
   InvokeSlotChanged(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -282,7 +313,7 @@ public class CurrencySlot : BaseSlot&lt;CurrencyType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_CurrencySlot_SlotChanged" data-uid="ToolkitEngine.Inventory.CurrencySlot.SlotChanged">
   SlotChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

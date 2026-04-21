@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_InventoryManager" data-uid="ToolkitEngine.Inventory.InventoryManager" class="text-break">
-Class InventoryManager  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class InventoryManager  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryManager : InstantiableSubsystem&lt;InventoryManager, InventoryManagerConfig&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class InventoryManager : ConfigurableSubsystem&lt;InventoryManager, InventoryManagerConfig&gt;</code></pre>
   </div>
 
 
@@ -123,6 +123,70 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_CurrencyMaxStackOverrideChanged" data-uid="ToolkitEngine.Inventory.InventoryManager.CurrencyMaxStackOverrideChanged">
+  CurrencyMaxStackOverrideChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;CurrencyType&gt; CurrencyMaxStackOverrideChanged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_CurrencyPoolAmountChanged" data-uid="ToolkitEngine.Inventory.InventoryManager.CurrencyPoolAmountChanged">
+  CurrencyPoolAmountChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;CurrencyType&gt; CurrencyPoolAmountChanged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -131,7 +195,7 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_Inventory_InventoryManager_keys" data-uid="ToolkitEngine.Inventory.InventoryManager.keys">
   keys
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,11 +226,309 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
+  <a id="ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride_" data-uid="ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride" data-uid="ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride">
+  ClearMaxStackOverride()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearMaxStackOverride()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride_" data-uid="ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_" data-uid="ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)">
+  ClearMaxStackOverride(CurrencyType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ClearMaxStackOverride(CurrencyType currencyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_GetAmount_" data-uid="ToolkitEngine.Inventory.InventoryManager.GetAmount*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_GetAmount_ToolkitEngine_Inventory_CurrencyType_" data-uid="ToolkitEngine.Inventory.InventoryManager.GetAmount(ToolkitEngine.Inventory.CurrencyType)">
+  GetAmount(CurrencyType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetAmount(CurrencyType currencyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_GetMaxStackOverride_" data-uid="ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_GetMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_" data-uid="ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)">
+  GetMaxStackOverride(CurrencyType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetMaxStackOverride(CurrencyType currencyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_HasMaxStackOverride_" data-uid="ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_HasMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_" data-uid="ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)">
+  HasMaxStackOverride(CurrencyType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasMaxStackOverride(CurrencyType currencyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_Instantiate_" data-uid="ToolkitEngine.Inventory.InventoryManager.Instantiate*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_Instantiate" data-uid="ToolkitEngine.Inventory.InventoryManager.Instantiate">
+  Instantiate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Instantiate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_IsRegistered_" data-uid="ToolkitEngine.Inventory.InventoryManager.IsRegistered*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_IsRegistered_ToolkitEngine_Inventory_CurrencyType_" data-uid="ToolkitEngine.Inventory.InventoryManager.IsRegistered(ToolkitEngine.Inventory.CurrencyType)">
+  IsRegistered(CurrencyType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRegistered(CurrencyType currencyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_ModifyAmount_" data-uid="ToolkitEngine.Inventory.InventoryManager.ModifyAmount*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_ModifyAmount_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.InventoryManager.ModifyAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
+  ModifyAmount(CurrencyType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ModifyAmount(CurrencyType currencyType, int delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_Register_" data-uid="ToolkitEngine.Inventory.InventoryManager.Register*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_Register_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
+  Register(CurrencyType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register(CurrencyType currencyType, int amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Inventory_InventoryManager_Register_" data-uid="ToolkitEngine.Inventory.InventoryManager.Register*"></a>
 
   <h3 id="ToolkitEngine_Inventory_InventoryManager_Register_ToolkitEngine_Inventory_KeyedInventoryList_" data-uid="ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.KeyedInventoryList)">
   Register(KeyedInventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -193,11 +555,115 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="ToolkitEngine_Inventory_InventoryManager_SetAmount_" data-uid="ToolkitEngine.Inventory.InventoryManager.SetAmount*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_SetAmount_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.InventoryManager.SetAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
+  SetAmount(CurrencyType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAmount(CurrencyType currencyType, int amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_SetMaxStackOverride_" data-uid="ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_SetMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
+  SetMaxStackOverride(CurrencyType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMaxStackOverride(CurrencyType currencyType, int maxStack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>maxStack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_TryGetAmount_" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetAmount*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_TryGetAmount_ToolkitEngine_Inventory_CurrencyType_System_Int32__" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32@)">
+  TryGetAmount(CurrencyType, out int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetAmount(CurrencyType currencyType, out int amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Inventory_InventoryManager_TryGetInventory_" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetInventory*"></a>
 
   <h3 id="ToolkitEngine_Inventory_InventoryManager_TryGetInventory_System_String_ToolkitEngine_Inventory_InventoryList__" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetInventory(System.String,ToolkitEngine.Inventory.InventoryList@)">
   TryGetInventory(string, out InventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -231,11 +697,80 @@ Class InventoryManager  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="ToolkitEngine_Inventory_InventoryManager_TryGetMaxStackOverride_" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_TryGetMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_System_Int32__" data-uid="ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType,System.Int32@)">
+  TryGetMaxStackOverride(CurrencyType, out int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryGetMaxStackOverride(CurrencyType currencyType, out int maxStack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>maxStack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_InventoryManager_Unregister_" data-uid="ToolkitEngine.Inventory.InventoryManager.Unregister*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_InventoryManager_Unregister_ToolkitEngine_Inventory_CurrencyType_" data-uid="ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.CurrencyType)">
+  Unregister(CurrencyType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unregister(CurrencyType currencyType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currencyType</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Inventory_InventoryManager_Unregister_" data-uid="ToolkitEngine.Inventory.InventoryManager.Unregister*"></a>
 
   <h3 id="ToolkitEngine_Inventory_InventoryManager_Unregister_ToolkitEngine_Inventory_KeyedInventoryList_" data-uid="ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.KeyedInventoryList)">
   Unregister(KeyedInventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManager.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

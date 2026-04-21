@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_ItemSlot" data-uid="ToolkitEngine.Inventory.ItemSlot" class="text-break">
-Class ItemSlot  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L94"><i class="bi bi-code-slash"></i></a>
+Class ItemSlot  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -179,7 +179,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot__ctor" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor">
   ItemSlot()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -203,16 +203,47 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <a id="ToolkitEngine_Inventory_ItemSlot__ctor_" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)">
-  ItemSlot(ItemType, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemSlot_" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemSlot)">
+  ItemSlot(ItemSlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemSlot(ItemType source, int amount)</code></pre>
+    <pre><code class="lang-csharp hljs">public ItemSlot(ItemSlot slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="ToolkitEngine.Inventory.ItemSlot.html">ItemSlot</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemSlot__ctor_" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)">
+  ItemSlot(ItemType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSlot(ItemType source, int amount = 1)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -238,7 +269,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_System_Boolean_" data-uid="ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Boolean)">
   ItemSlot(ItemType, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -276,7 +307,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_m_locked" data-uid="ToolkitEngine.Inventory.ItemSlot.m_locked">
   m_locked
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -311,7 +342,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_amount" data-uid="ToolkitEngine.Inventory.ItemSlot.amount">
   amount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Current number of items in stack</p>
@@ -319,7 +350,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int amount { protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override int amount { get; protected set; }</code></pre>
   </div>
 
 
@@ -343,7 +374,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_id" data-uid="ToolkitEngine.Inventory.ItemSlot.id">
   id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -374,7 +405,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_locked" data-uid="ToolkitEngine.Inventory.ItemSlot.locked">
   locked
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -405,7 +436,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_weight" data-uid="ToolkitEngine.Inventory.ItemSlot.weight">
   weight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -440,7 +471,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_CanAdd_System_Int32_" data-uid="ToolkitEngine.Inventory.ItemSlot.CanAdd(System.Int32)">
   CanAdd(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -476,7 +507,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_CanAdd_System_Int32_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemSlot.CanAdd(System.Int32,System.Int32@)">
   CanAdd(int, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -514,7 +545,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_Clear" data-uid="ToolkitEngine.Inventory.ItemSlot.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -540,7 +571,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_InvokeSlotChanged_System_Int32_" data-uid="ToolkitEngine.Inventory.ItemSlot.InvokeSlotChanged(System.Int32)">
   InvokeSlotChanged(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -574,7 +605,7 @@ public class ItemSlot : BaseSlot&lt;ItemType&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_ItemSlot_SlotChanged" data-uid="ToolkitEngine.Inventory.ItemSlot.SlotChanged">
   SlotChanged
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventorySlot.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

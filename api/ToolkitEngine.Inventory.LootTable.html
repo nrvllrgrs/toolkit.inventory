@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_LootTable" data-uid="ToolkitEngine.Inventory.LootTable" class="text-break">
-Class LootTable  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class LootTable  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -131,7 +131,7 @@ Class LootTable  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="ToolkitEngine_Inventory_LootTable_totalRates" data-uid="ToolkitEngine.Inventory.LootTable.totalRates">
   totalRates
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -164,21 +164,67 @@ Class LootTable  <a class="header-action link-secondary" title="View source" hre
 
   <a id="ToolkitEngine_Inventory_LootTable_Get_" data-uid="ToolkitEngine.Inventory.LootTable.Get*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_LootTable_Get_System_Int32_" data-uid="ToolkitEngine.Inventory.LootTable.Get(System.Int32)">
-  Get(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_LootTable_Get_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_LootEntry__System_Int32_System_Random_System_Boolean_" data-uid="ToolkitEngine.Inventory.LootTable.Get(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.LootEntry},System.Int32,System.Random,System.Boolean)">
+  Get(IEnumerable&lt;LootEntry&gt;, int, Random, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DropEntry[] Get(int amount = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">public DropEntry[] Get(IEnumerable&lt;LootEntry&gt; excluded, int amount = 1, Random random = null, bool unique = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>excluded</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.LootEntry.html">LootEntry</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+    <dt><code>unique</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Inventory.DropEntry.html">DropEntry</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootTable_Get_" data-uid="ToolkitEngine.Inventory.LootTable.Get*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootTable_Get_System_Int32_System_Random_System_Boolean_" data-uid="ToolkitEngine.Inventory.LootTable.Get(System.Int32,System.Random,System.Boolean)">
+  Get(int, Random, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropEntry[] Get(int amount = 1, Random random = null, bool unique = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>random</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.random">Random</a></dt>
+    <dd></dd>
+    <dt><code>unique</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_Currency" data-uid="ToolkitEngine.Inventory.Currency" class="text-break">
-Class Currency  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Class Currency  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class Currency  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Currency : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Currency : MonoBehaviour, ICurrency</code></pre>
   </div>
 
 
@@ -115,6 +115,12 @@ Class Currency  <a class="header-action link-secondary" title="View source" href
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Inventory.ICurrency.html">ICurrency</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -131,7 +137,7 @@ Class Currency  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_Currency_amount" data-uid="ToolkitEngine.Inventory.Currency.amount">
   amount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,14 +168,14 @@ Class Currency  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_Currency_currencyType" data-uid="ToolkitEngine.Inventory.Currency.currencyType">
   currencyType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CurrencyType currencyType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CurrencyType currencyType { get; set; }</code></pre>
   </div>
 
 
@@ -179,6 +185,37 @@ Class Currency  <a class="header-action link-secondary" title="View source" href
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_Currency_onAmountChanged_" data-uid="ToolkitEngine.Inventory.Currency.onAmountChanged*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_Currency_onAmountChanged" data-uid="ToolkitEngine.Inventory.Currency.onAmountChanged">
+  onAmountChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/Currency.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; onAmountChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
   </dl>
 

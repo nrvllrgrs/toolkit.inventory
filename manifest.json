@@ -15,13 +15,45 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.CurrencyPoolEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.CurrencyPoolEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.CurrencyPoolEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.CurrencyTypeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.CurrencyTypeEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.CurrencyTypeEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.Inventory.DropEntryDrawer.yml",
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEditor.Inventory.DropEntryDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.DropEntryDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -31,7 +63,25 @@
           "relative_path": "api/ToolkitEditor.Inventory.InventoryEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.InventoryEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.InventoryTypePostProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.InventoryTypePostProcessor",
+      "Summary": "<p sourcefile=\"api/ToolkitEditor.Inventory.InventoryTypePostProcessor.yml\" sourcestartlinenumber=\"1\">Ensures every ItemType/CurrencyType ScriptableObject in the project has a unique m_id.\nRuns automatically whenever assets are imported, and can also be triggered\nmanually via  Tools &gt; Toolkit &gt; Validate Item IDs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -41,7 +91,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.ItemEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.ItemEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +105,25 @@
           "relative_path": "api/ToolkitEditor.Inventory.ItemTypeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.ItemTypeEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.LootEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.LootEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.LootEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +133,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.LootEntryDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.LootEntryDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,7 +147,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.LootTableEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.LootTableEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +161,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.ObjectSpawnerEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.ObjectSpawnerEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +175,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.VisualScripting.Setup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.VisualScripting.Setup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +189,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +203,11 @@
           "relative_path": "api/ToolkitEditor.Inventory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +217,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.BaseInventoryEventArgs-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.BaseInventoryEventArgs<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +231,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.BaseSlot-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.BaseSlot<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +245,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.Currency.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.Currency",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -151,7 +259,25 @@
           "relative_path": "api/ToolkitEngine.Inventory.CurrencyEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.CurrencyEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.CurrencyPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.CurrencyPool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.CurrencyPool",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -161,7 +287,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.CurrencySlot.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.CurrencySlot",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -171,7 +301,25 @@
           "relative_path": "api/ToolkitEngine.Inventory.CurrencyType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.CurrencyType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.CurrencyTypeProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.CurrencyTypeProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.CurrencyTypeProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -181,7 +329,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.DropEntry.AmountType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.DropEntry.AmountType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -191,7 +343,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.DropEntry.DropType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.DropEntry.DropType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -201,7 +357,39 @@
           "relative_path": "api/ToolkitEngine.Inventory.DropEntry.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.DropEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ICurrency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ICurrency.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ICurrency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.IngredientDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.IngredientDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.IngredientDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -211,7 +399,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.InventoryList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.InventoryList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -221,7 +413,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.InventoryManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.InventoryManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -231,7 +427,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.InventoryManagerConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.InventoryManagerConfig",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -241,7 +441,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.Item.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.Item",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -251,7 +455,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -261,7 +469,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemSlot.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemSlot",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -271,7 +483,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemType.DismantleMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemType.DismantleMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -281,7 +497,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemType.Ingredient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemType.Ingredient",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -291,7 +511,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemType.Price.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemType.Price",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -301,7 +525,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemType.Scrap.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemType.Scrap",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -311,7 +539,39 @@
           "relative_path": "api/ToolkitEngine.Inventory.ItemType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemTypeComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemTypeComparer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemTypeComparer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemTypeProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemTypeProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemTypeProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -321,7 +581,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.KeyedInventoryList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.KeyedInventoryList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -331,7 +595,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.Loot.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.Loot",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -341,7 +609,25 @@
           "relative_path": "api/ToolkitEngine.Inventory.LootEntry.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.LootEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.LootEntryProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.LootEntryProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.LootEntryProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -351,7 +637,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.LootSpawner.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.LootSpawner",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -361,7 +651,53 @@
           "relative_path": "api/ToolkitEngine.Inventory.LootTable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.LootTable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.LootTableProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.LootTableProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.LootTableProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.PriceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.PriceDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.PriceDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.PriceListProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.PriceListProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.PriceListProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -371,7 +707,53 @@
           "relative_path": "api/ToolkitEngine.Inventory.Recipes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.Recipes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.SaveManagement.ItemListDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.SaveManagement.ItemListDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.SaveManagement.ItemListDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.SaveManagement.SaveItemList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.SaveManagement.SaveItemList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.SaveManagement.SaveItemList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.SaveManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.SaveManagement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.SaveManagement",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -381,7 +763,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.BaseCurrencyEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -391,7 +777,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.BaseItemEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -401,7 +791,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.EventHooks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.EventHooks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -411,7 +805,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -421,7 +819,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnCurrencySlotChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -431,7 +833,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -441,7 +847,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnInventoryCurrencySlotChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -451,7 +861,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -461,7 +875,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnInventoryItemSlotChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -471,7 +889,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemCollected.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnItemCollected",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -481,7 +903,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnItemCollectedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -491,7 +917,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnItemSlotChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -501,7 +931,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -511,7 +945,11 @@
           "relative_path": "api/ToolkitEngine.Inventory.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -521,7 +959,207 @@
           "relative_path": "api/ToolkitEngine.Inventory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable",
+      "Summary": "<p sourcefile=\"api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.yml\" sourcestartlinenumber=\"1\">Companion component that persists an InventoryList to the SaveManager.\nAttach alongside an InventoryList and supply a save ID that is unique\nacross the scene. No SaveDefinition entry is required � this component\nregisters its own key dynamically via SaveManager.Add.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SaveManagement.Inventory.InventorySnapshot",
+      "Summary": "<p sourcefile=\"api/ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.yml\" sourcestartlinenumber=\"1\">Pure-data snapshot of an InventoryList. Contains no scene references �\nonly asset (ScriptableObject) references that OdinSerializer can safely\nround-trip through the binary save file.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SaveManagement.Inventory.ItemDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SaveManagement.Inventory.ItemDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SaveManagement.Inventory.ItemDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SaveManagement.Inventory.ItemStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SaveManagement.Inventory.ItemStorage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SaveManagement.Inventory.ItemStorage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SaveManagement.Inventory.SaveItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SaveManagement.Inventory.SaveItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SaveManagement.Inventory.SaveItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.SaveManagement.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.SaveManagement.Inventory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.SaveManagement.Inventory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.VisualScripting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.VisualScripting",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -537,11 +1175,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -560,11 +1198,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -593,11 +1231,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -616,11 +1254,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

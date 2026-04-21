@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_InventoryManagerConfig" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig" class="text-break">
-Class InventoryManagerConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManagerConfig.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class InventoryManagerConfig  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManagerConfig.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class InventoryManagerConfig  <a class="header-action link-secondary" title="Vie
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryManagerConfig : ScriptableObject, IInstantiableSubsystemConfig</code></pre>
+    <pre><code class="lang-csharp hljs">public class InventoryManagerConfig : ScriptableObject</code></pre>
   </div>
 
 
@@ -115,12 +115,6 @@ Class InventoryManagerConfig  <a class="header-action link-secondary" title="Vie
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><span class="xref">IInstantiableSubsystemConfig</span></div>
-    </dd>
-  </dl>
 
 
 
@@ -129,64 +123,33 @@ Class InventoryManagerConfig  <a class="header-action link-secondary" title="Vie
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="ToolkitEngine_Inventory_InventoryManagerConfig_GetManagerType_" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType*"></a>
+  <a id="ToolkitEngine_Inventory_InventoryManagerConfig_template_" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig.template*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_InventoryManagerConfig_GetManagerType" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType">
-  GetManagerType()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManagerConfig.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_InventoryManagerConfig_template" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig.template">
+  template
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManagerConfig.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Type GetManagerType()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject template { get; }</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
-
-
-
-
-
-
-
-
-  <a id="ToolkitEngine_Inventory_InventoryManagerConfig_GetTemplate_" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate*"></a>
-
-  <h3 id="ToolkitEngine_Inventory_InventoryManagerConfig_GetTemplate" data-uid="ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate">
-  GetTemplate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/InventoryManagerConfig.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject GetTemplate()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">GameObject</span></dt>
     <dd></dd>
   </dl>
-
-
-
 
 
 

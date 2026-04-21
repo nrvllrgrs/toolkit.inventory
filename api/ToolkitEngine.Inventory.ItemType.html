@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_ItemType" data-uid="ToolkitEngine.Inventory.ItemType" class="text-break">
-Class ItemType  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class ItemType  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ItemType : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class ItemType : ScriptableObject, IEquatable&lt;ItemType&gt;</code></pre>
   </div>
 
 
@@ -115,6 +115,12 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a>&gt;</div>
+    </dd>
+  </dl>
 
 
 
@@ -127,11 +133,43 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 </h2>
 
 
+  <a id="ToolkitEngine_Inventory_ItemType_assetName_" data-uid="ToolkitEngine.Inventory.ItemType.assetName*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_assetName" data-uid="ToolkitEngine.Inventory.ItemType.assetName">
+  assetName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Name of asset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string assetName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Inventory_ItemType_buyPrice_" data-uid="ToolkitEngine.Inventory.ItemType.buyPrice*"></a>
 
   <h3 id="ToolkitEngine_Inventory_ItemType_buyPrice" data-uid="ToolkitEngine.Inventory.ItemType.buyPrice">
   buyPrice
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -158,42 +196,11 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
 
 
-  <a id="ToolkitEngine_Inventory_ItemType_color_" data-uid="ToolkitEngine.Inventory.ItemType.color*"></a>
-
-  <h3 id="ToolkitEngine_Inventory_ItemType_color" data-uid="ToolkitEngine.Inventory.ItemType.color">
-  color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L96"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color color { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Color</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="ToolkitEngine_Inventory_ItemType_craftable_" data-uid="ToolkitEngine.Inventory.ItemType.craftable*"></a>
 
   <h3 id="ToolkitEngine_Inventory_ItemType_craftable" data-uid="ToolkitEngine.Inventory.ItemType.craftable">
   craftable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L239"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -224,7 +231,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_description" data-uid="ToolkitEngine.Inventory.ItemType.description">
   description
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,7 +262,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_dismantlable" data-uid="ToolkitEngine.Inventory.ItemType.dismantlable">
   dismantlable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,14 +293,14 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_icon" data-uid="ToolkitEngine.Inventory.ItemType.icon">
   icon
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Sprite icon { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Sprite icon { get; set; }</code></pre>
   </div>
 
 
@@ -317,10 +324,11 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_id" data-uid="ToolkitEngine.Inventory.ItemType.id">
   id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Unique key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -348,14 +356,14 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_ingredients" data-uid="ToolkitEngine.Inventory.ItemType.ingredients">
   ingredients
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ItemType.Ingredient[] ingredients { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ItemType.Ingredient&gt; ingredients { get; set; }</code></pre>
   </div>
 
 
@@ -364,7 +372,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ToolkitEngine.Inventory.ItemType.Ingredient.html">Ingredient</a>[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a>.<a class="xref" href="ToolkitEngine.Inventory.ItemType.Ingredient.html">Ingredient</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -379,14 +387,14 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_maxStack" data-uid="ToolkitEngine.Inventory.ItemType.maxStack">
   maxStack
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int maxStack { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int maxStack { get; set; }</code></pre>
   </div>
 
 
@@ -410,14 +418,14 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_name" data-uid="ToolkitEngine.Inventory.ItemType.name">
   name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
   </div>
 
 
@@ -441,7 +449,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_parent" data-uid="ToolkitEngine.Inventory.ItemType.parent">
   parent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -468,18 +476,49 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
 
 
-  <a id="ToolkitEngine_Inventory_ItemType_sellFactor_" data-uid="ToolkitEngine.Inventory.ItemType.sellFactor*"></a>
+  <a id="ToolkitEngine_Inventory_ItemType_properties_" data-uid="ToolkitEngine.Inventory.ItemType.properties*"></a>
 
-  <h3 id="ToolkitEngine_Inventory_ItemType_sellFactor" data-uid="ToolkitEngine.Inventory.ItemType.sellFactor">
-  sellFactor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_ItemType_properties" data-uid="ToolkitEngine.Inventory.ItemType.properties">
+  properties
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float sellFactor { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public PropertyCollection properties { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PropertyCollection</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_sellFactor_" data-uid="ToolkitEngine.Inventory.ItemType.sellFactor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_sellFactor" data-uid="ToolkitEngine.Inventory.ItemType.sellFactor">
+  sellFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sellFactor { get; set; }</code></pre>
   </div>
 
 
@@ -503,7 +542,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_sellPrice" data-uid="ToolkitEngine.Inventory.ItemType.sellPrice">
   sellPrice
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -534,7 +573,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_sellable" data-uid="ToolkitEngine.Inventory.ItemType.sellable">
   sellable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Indicates whether item can be sold</p>
@@ -542,7 +581,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool sellable { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool sellable { get; set; }</code></pre>
   </div>
 
 
@@ -566,7 +605,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_weight" data-uid="ToolkitEngine.Inventory.ItemType.weight">
   weight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -601,7 +640,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList)">
   Buy(InventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L387"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -637,7 +676,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList,SpawnedAction,System.Object[])">
   Buy(InventoryList, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L414"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -677,7 +716,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList,System.Int32@)">
   Buy(InventoryList, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L402"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Buy item type, adding it to inventory and removing the necessary currencies</p>
@@ -716,7 +755,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList,Transform,SpawnedAction,System.Object[])">
   Buy(InventoryList, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L439"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -758,7 +797,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList,Transform,System.Boolean,SpawnedAction,System.Object[])">
   Buy(InventoryList, Transform, bool, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L444"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -802,7 +841,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList,Vector3,Quaternion,SpawnedAction,System.Object[])">
   Buy(InventoryList, Vector3, Quaternion, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L424"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -846,7 +885,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Buy_ToolkitEngine_Inventory_InventoryList_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Buy(ToolkitEngine.Inventory.InventoryList,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
   Buy(InventoryList, Vector3, Quaternion, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L429"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -892,7 +931,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_CanBuy_ToolkitEngine_Inventory_InventoryList_" data-uid="ToolkitEngine.Inventory.ItemType.CanBuy(ToolkitEngine.Inventory.InventoryList)">
   CanBuy(InventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L375"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -928,7 +967,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_CanCraft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__" data-uid="ToolkitEngine.Inventory.ItemType.CanCraft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item})">
   CanCraft(IEnumerable&lt;Item&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L492"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -964,7 +1003,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_CanCraft_ToolkitEngine_Inventory_InventoryList_" data-uid="ToolkitEngine.Inventory.ItemType.CanCraft(ToolkitEngine.Inventory.InventoryList)">
   CanCraft(InventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L484"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1000,7 +1039,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__ToolkitEngine_Inventory_InventoryList_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},ToolkitEngine.Inventory.InventoryList,System.Int32@)">
   Craft(IEnumerable&lt;Item&gt;, InventoryList, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L549"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1040,7 +1079,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,SpawnedAction,System.Object[])">
   Craft(IEnumerable&lt;Item&gt;, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L440"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L577"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1082,7 +1121,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Transform,System.Boolean,SpawnedAction,System.Object[])">
   Craft(IEnumerable&lt;Item&gt;, Transform, bool, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L583"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1126,7 +1165,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,SpawnedAction,System.Object[])">
   Craft(IEnumerable&lt;Item&gt;, Vector3, Quaternion, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L562"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1170,7 +1209,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_Item__Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.Item},Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
   Craft(IEnumerable&lt;Item&gt;, Vector3, Quaternion, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L430"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L567"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1216,7 +1255,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_InventoryList_System_Int32__" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.InventoryList,System.Int32@)">
   Craft(InventoryList, out int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L506"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1254,7 +1293,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_InventoryList_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.InventoryList,Transform,SpawnedAction,System.Object[])">
   Craft(InventoryList, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L534"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1296,7 +1335,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_InventoryList_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.InventoryList,Transform,System.Boolean,SpawnedAction,System.Object[])">
   Craft(InventoryList, Transform, bool, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L539"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1340,7 +1379,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_InventoryList_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.InventoryList,Vector3,Quaternion,SpawnedAction,System.Object[])">
   Craft(InventoryList, Vector3, Quaternion, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L519"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1384,7 +1423,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Craft_ToolkitEngine_Inventory_InventoryList_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Craft(ToolkitEngine.Inventory.InventoryList,Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
   Craft(InventoryList, Vector3, Quaternion, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L524"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1430,7 +1469,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_ToolkitEngine_Inventory_InventoryList_System_Int32____" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(ToolkitEngine.Inventory.InventoryList,System.Int32[]@)">
   Dismantle(InventoryList, out int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L497"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L634"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1468,7 +1507,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Transform,SpawnedAction,System.Object[])">
   Dismantle(Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L544"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L681"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1508,7 +1547,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Transform,System.Boolean,SpawnedAction,System.Object[])">
   Dismantle(Transform, bool, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L549"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L686"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1550,7 +1589,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,SpawnedAction,System.Object[])">
   Dismantle(Vector3, Quaternion, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L523"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L660"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1592,7 +1631,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Dismantle_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Dismantle(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
   Dismantle(Vector3, Quaternion, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L528"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L665"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1636,7 +1675,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Equals_System_Object_" data-uid="ToolkitEngine.Inventory.ItemType.Equals(System.Object)">
   Equals(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L331"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1668,11 +1707,50 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="ToolkitEngine_Inventory_ItemType_Equals_" data-uid="ToolkitEngine.Inventory.ItemType.Equals*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Equals_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.Equals(ToolkitEngine.Inventory.ItemType)">
+  Equals(ItemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(ItemType other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Inventory_ItemType_GetHashCode_" data-uid="ToolkitEngine.Inventory.ItemType.GetHashCode*"></a>
 
   <h3 id="ToolkitEngine_Inventory_ItemType_GetHashCode" data-uid="ToolkitEngine.Inventory.ItemType.GetHashCode">
   GetHashCode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L350"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1703,7 +1781,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate">
   Instantiate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L246"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1729,7 +1807,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(SpawnedAction,System.Object[])">
   Instantiate(SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1762,7 +1840,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Transform_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Transform)">
   Instantiate(Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1793,7 +1871,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Transform,SpawnedAction,System.Object[])">
   Instantiate(Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1833,7 +1911,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Transform_System_Boolean_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean)">
   Instantiate(Transform, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L286"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1866,7 +1944,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Transform_System_Boolean_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Transform,System.Boolean,SpawnedAction,System.Object[])">
   Instantiate(Transform, bool, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L291"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1903,7 +1981,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion)">
   Instantiate(Vector3, Quaternion)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L256"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1936,7 +2014,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,SpawnedAction,System.Object[])">
   Instantiate(Vector3, Quaternion, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L261"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1973,7 +2051,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_Transform_" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform)">
   Instantiate(Vector3, Quaternion, Transform)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2008,7 +2086,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Instantiate_Vector3_Quaternion_Transform_SpawnedAction_System_Object___" data-uid="ToolkitEngine.Inventory.ItemType.Instantiate(Vector3,Quaternion,Transform,SpawnedAction,System.Object[])">
   Instantiate(Vector3, Quaternion, Transform, SpawnedAction, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L271"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2047,7 +2125,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_IsSubtypeOf_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.IsSubtypeOf(ToolkitEngine.Inventory.ItemType)">
   IsSubtypeOf(ItemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L301"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether item is a subtype of specified ItemType</p>
@@ -2086,7 +2164,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_IsSupertypeOf_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.IsSupertypeOf(ToolkitEngine.Inventory.ItemType)">
   IsSupertypeOf(ItemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether item is a supertype of specified ItemType</p>
@@ -2125,7 +2203,7 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="ToolkitEngine_Inventory_ItemType_Sell_ToolkitEngine_Inventory_InventoryList_" data-uid="ToolkitEngine.Inventory.ItemType.Sell(ToolkitEngine.Inventory.InventoryList)">
   Sell(InventoryList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L470"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2138,6 +2216,148 @@ Class ItemType  <a class="header-action link-secondary" title="View source" href
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inventory</code> <a class="xref" href="ToolkitEngine.Inventory.InventoryList.html">InventoryList</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Set_" data-uid="ToolkitEngine.Inventory.ItemType.Set*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Set_GameObject_" data-uid="ToolkitEngine.Inventory.ItemType.Set(GameObject)">
+  Set(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L745"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(GameObject template)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>template</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_Set_" data-uid="ToolkitEngine.Inventory.ItemType.Set*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_Set_PoolItem_" data-uid="ToolkitEngine.Inventory.ItemType.Set(PoolItem)">
+  Set(PoolItem)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L750"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(PoolItem poolItem)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>poolItem</code> <span class="xref">PoolItem</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_op_Equality_" data-uid="ToolkitEngine.Inventory.ItemType.op_Equality*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_op_Equality_ToolkitEngine_Inventory_ItemType_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.op_Equality(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)">
+  operator ==(ItemType, ItemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(ItemType a, ItemType b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_ItemType_op_Inequality_" data-uid="ToolkitEngine.Inventory.ItemType.op_Inequality*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_ItemType_op_Inequality_ToolkitEngine_Inventory_ItemType_ToolkitEngine_Inventory_ItemType_" data-uid="ToolkitEngine.Inventory.ItemType.op_Inequality(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)">
+  operator !=(ItemType, ItemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/ItemType.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(ItemType a, ItemType b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
     <dd></dd>
   </dl>
 

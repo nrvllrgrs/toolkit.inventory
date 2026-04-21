@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Inventory_LootEntry" data-uid="ToolkitEngine.Inventory.LootEntry" class="text-break">
-Class LootEntry  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L135"><i class="bi bi-code-slash"></i></a>
+Class LootEntry  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L510"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -165,6 +165,9 @@ public class LootEntry : DropEntry, IWeightedItem&lt;LootEntry&gt;</code></pre>
       <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_lootTable">DropEntry.lootTable</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amountType">DropEntry.amountType</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amount">DropEntry.amount</a>
     </div>
     <div>
@@ -177,13 +180,16 @@ public class LootEntry : DropEntry, IWeightedItem&lt;LootEntry&gt;</code></pre>
       <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetAmount">DropEntry.GetAmount()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_Combine_ToolkitEngine_Inventory_DropEntry_">DropEntry.Combine(DropEntry)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetHashCode">DropEntry.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_Equals_System_Object_">DropEntry.Equals(object)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
@@ -204,6 +210,240 @@ public class LootEntry : DropEntry, IWeightedItem&lt;LootEntry&gt;</code></pre>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor">
+  LootEntry()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L540"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)">
+  LootEntry(CurrencyType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L549"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry(CurrencyType currency, int amount = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currency</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_System_Int32_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32,System.Int32)">
+  LootEntry(CurrencyType, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry(CurrencyType currency, int min, int max)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currency</code> <a class="xref" href="ToolkitEngine.Inventory.CurrencyType.html">CurrencyType</a></dt>
+    <dd></dd>
+    <dt><code>min</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)">
+  LootEntry(ItemType, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L543"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry(ItemType item, int amount = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32)">
+  LootEntry(ItemType, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L546"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry(ItemType item, int min, int max)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>min</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_LootTable_System_Int32_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32)">
+  LootEntry(LootTable, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry(LootTable lootTable, int amount = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lootTable</code> <a class="xref" href="ToolkitEngine.Inventory.LootTable.html">LootTable</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Inventory_LootEntry__ctor_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_LootTable_System_Int32_System_Int32_" data-uid="ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32,System.Int32)">
+  LootEntry(LootTable, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L558"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LootEntry(LootTable lootTable, int min, int max)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lootTable</code> <a class="xref" href="ToolkitEngine.Inventory.LootTable.html">LootTable</a></dt>
+    <dd></dd>
+    <dt><code>min</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="fields">Fields
 </h2>
 
@@ -211,7 +451,7 @@ public class LootEntry : DropEntry, IWeightedItem&lt;LootEntry&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_LootEntry_m_rate" data-uid="ToolkitEngine.Inventory.LootEntry.m_rate">
   m_rate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L516"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -246,7 +486,7 @@ public class LootEntry : DropEntry, IWeightedItem&lt;LootEntry&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_LootEntry_item" data-uid="ToolkitEngine.Inventory.LootEntry.item">
   item
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L534"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +517,7 @@ public class LootEntry : DropEntry, IWeightedItem&lt;LootEntry&gt;</code></pre>
 
   <h3 id="ToolkitEngine_Inventory_LootEntry_weight" data-uid="ToolkitEngine.Inventory.LootEntry.weight">
   weight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Runtime/LootTable.cs/#L526"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

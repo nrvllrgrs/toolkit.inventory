@@ -7,28 +7,167 @@ references:
   commentId: N:ToolkitEditor.Inventory
   fullName: ToolkitEditor.Inventory
   nameWithType: ToolkitEditor.Inventory
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor
+  name: CurrencyPoolEditor
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html
+  commentId: T:ToolkitEditor.Inventory.CurrencyPoolEditor
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor
+  nameWithType: CurrencyPoolEditor
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawEvents
+  name: DrawEvents()
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_DrawEvents
+  commentId: M:ToolkitEditor.Inventory.CurrencyPoolEditor.DrawEvents
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawEvents()
+  nameWithType: CurrencyPoolEditor.DrawEvents()
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawEvents*
+  name: DrawEvents
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_DrawEvents_
+  commentId: Overload:ToolkitEditor.Inventory.CurrencyPoolEditor.DrawEvents
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawEvents
+  nameWithType: CurrencyPoolEditor.DrawEvents
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_DrawProperties
+  commentId: M:ToolkitEditor.Inventory.CurrencyPoolEditor.DrawProperties
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawProperties()
+  nameWithType: CurrencyPoolEditor.DrawProperties()
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Inventory.CurrencyPoolEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.DrawProperties
+  nameWithType: CurrencyPoolEditor.DrawProperties
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_OnEnable
+  commentId: M:ToolkitEditor.Inventory.CurrencyPoolEditor.OnEnable
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.OnEnable()
+  nameWithType: CurrencyPoolEditor.OnEnable()
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Inventory.CurrencyPoolEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.OnEnable
+  nameWithType: CurrencyPoolEditor.OnEnable
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.m_amount
+  name: m_amount
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_m_amount
+  commentId: F:ToolkitEditor.Inventory.CurrencyPoolEditor.m_amount
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.m_amount
+  nameWithType: CurrencyPoolEditor.m_amount
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.m_autoManaged
+  name: m_autoManaged
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_m_autoManaged
+  commentId: F:ToolkitEditor.Inventory.CurrencyPoolEditor.m_autoManaged
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.m_autoManaged
+  nameWithType: CurrencyPoolEditor.m_autoManaged
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.m_currencyType
+  name: m_currencyType
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_m_currencyType
+  commentId: F:ToolkitEditor.Inventory.CurrencyPoolEditor.m_currencyType
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.m_currencyType
+  nameWithType: CurrencyPoolEditor.m_currencyType
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.m_onAmountChanged
+  name: m_onAmountChanged
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_m_onAmountChanged
+  commentId: F:ToolkitEditor.Inventory.CurrencyPoolEditor.m_onAmountChanged
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.m_onAmountChanged
+  nameWithType: CurrencyPoolEditor.m_onAmountChanged
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.m_onCapacityEntered
+  name: m_onCapacityEntered
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_m_onCapacityEntered
+  commentId: F:ToolkitEditor.Inventory.CurrencyPoolEditor.m_onCapacityEntered
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.m_onCapacityEntered
+  nameWithType: CurrencyPoolEditor.m_onCapacityEntered
+- uid: ToolkitEditor.Inventory.CurrencyPoolEditor.m_onCapacityExited
+  name: m_onCapacityExited
+  href: api/ToolkitEditor.Inventory.CurrencyPoolEditor.html#ToolkitEditor_Inventory_CurrencyPoolEditor_m_onCapacityExited
+  commentId: F:ToolkitEditor.Inventory.CurrencyPoolEditor.m_onCapacityExited
+  fullName: ToolkitEditor.Inventory.CurrencyPoolEditor.m_onCapacityExited
+  nameWithType: CurrencyPoolEditor.m_onCapacityExited
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor
+  name: CurrencyTypeEditor
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html
+  commentId: T:ToolkitEditor.Inventory.CurrencyTypeEditor
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor
+  nameWithType: CurrencyTypeEditor
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_DrawProperties
+  commentId: M:ToolkitEditor.Inventory.CurrencyTypeEditor.DrawProperties
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.DrawProperties()
+  nameWithType: CurrencyTypeEditor.DrawProperties()
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Inventory.CurrencyTypeEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.DrawProperties
+  nameWithType: CurrencyTypeEditor.DrawProperties
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_OnEnable
+  commentId: M:ToolkitEditor.Inventory.CurrencyTypeEditor.OnEnable
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.OnEnable()
+  nameWithType: CurrencyTypeEditor.OnEnable()
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Inventory.CurrencyTypeEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.OnEnable
+  nameWithType: CurrencyTypeEditor.OnEnable
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_currencyType
+  name: m_currencyType
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_currencyType
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_currencyType
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_currencyType
+  nameWithType: CurrencyTypeEditor.m_currencyType
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_description
+  name: m_description
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_description
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_description
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_description
+  nameWithType: CurrencyTypeEditor.m_description
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_icon
+  name: m_icon
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_icon
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_icon
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_icon
+  nameWithType: CurrencyTypeEditor.m_icon
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_id
+  name: m_id
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_id
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_id
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_id
+  nameWithType: CurrencyTypeEditor.m_id
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_maxStack
+  name: m_maxStack
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_maxStack
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_maxStack
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_maxStack
+  nameWithType: CurrencyTypeEditor.m_maxStack
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_name
+  name: m_name
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_name
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_name
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_name
+  nameWithType: CurrencyTypeEditor.m_name
+- uid: ToolkitEditor.Inventory.CurrencyTypeEditor.m_properties
+  name: m_properties
+  href: api/ToolkitEditor.Inventory.CurrencyTypeEditor.html#ToolkitEditor_Inventory_CurrencyTypeEditor_m_properties
+  commentId: F:ToolkitEditor.Inventory.CurrencyTypeEditor.m_properties
+  fullName: ToolkitEditor.Inventory.CurrencyTypeEditor.m_properties
+  nameWithType: CurrencyTypeEditor.m_properties
 - uid: ToolkitEditor.Inventory.DropEntryDrawer
   name: DropEntryDrawer
   href: api/ToolkitEditor.Inventory.DropEntryDrawer.html
   commentId: T:ToolkitEditor.Inventory.DropEntryDrawer
   fullName: ToolkitEditor.Inventory.DropEntryDrawer
   nameWithType: DropEntryDrawer
-- uid: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(Rect@,SerializedProperty)
-  name: DrawDropGUI(ref Rect, SerializedProperty)
-  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_DrawDropGUI_Rect__SerializedProperty_
-  commentId: M:ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(Rect@,SerializedProperty)
-  name.vb: DrawDropGUI(Rect, SerializedProperty)
-  fullName: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(ref Rect, SerializedProperty)
-  fullName.vb: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI(Rect, SerializedProperty)
-  nameWithType: DropEntryDrawer.DrawDropGUI(ref Rect, SerializedProperty)
-  nameWithType.vb: DropEntryDrawer.DrawDropGUI(Rect, SerializedProperty)
-- uid: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI*
-  name: DrawDropGUI
-  href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_DrawDropGUI_
-  commentId: Overload:ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI
-  isSpec: "True"
-  fullName: ToolkitEditor.Inventory.DropEntryDrawer.DrawDropGUI
-  nameWithType: DropEntryDrawer.DrawDropGUI
 - uid: ToolkitEditor.Inventory.DropEntryDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
   name: GetPropertyHeight(SerializedProperty, GUIContent)
   href: api/ToolkitEditor.Inventory.DropEntryDrawer.html#ToolkitEditor_Inventory_DropEntryDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
@@ -135,6 +274,54 @@ references:
   commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
   fullName: ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
   nameWithType: InventoryEditor.m_useEncumbrance
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor
+  name: InventoryTypePostProcessor
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html
+  commentId: T:ToolkitEditor.Inventory.InventoryTypePostProcessor
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor
+  nameWithType: InventoryTypePostProcessor
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds
+  name: ValidateAllCurrencyIds()
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html#ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllCurrencyIds
+  commentId: M:ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds()
+  nameWithType: InventoryTypePostProcessor.ValidateAllCurrencyIds()
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds*
+  name: ValidateAllCurrencyIds
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html#ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllCurrencyIds_
+  commentId: Overload:ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds
+  nameWithType: InventoryTypePostProcessor.ValidateAllCurrencyIds
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds*
+  name: ValidateAllIds
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html#ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllIds_
+  commentId: Overload:ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds
+  nameWithType: InventoryTypePostProcessor.ValidateAllIds
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds``1
+  name: ValidateAllIds<T>()
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html#ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllIds__1
+  commentId: M:ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds``1
+  name.vb: ValidateAllIds(Of T)()
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds<T>()
+  fullName.vb: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds(Of T)()
+  nameWithType: InventoryTypePostProcessor.ValidateAllIds<T>()
+  nameWithType.vb: InventoryTypePostProcessor.ValidateAllIds(Of T)()
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds
+  name: ValidateAllItemIds()
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html#ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllItemIds
+  commentId: M:ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds()
+  nameWithType: InventoryTypePostProcessor.ValidateAllItemIds()
+- uid: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds*
+  name: ValidateAllItemIds
+  href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html#ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllItemIds_
+  commentId: Overload:ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds
+  nameWithType: InventoryTypePostProcessor.ValidateAllItemIds
 - uid: ToolkitEditor.Inventory.ItemEditor
   name: ItemEditor
   href: api/ToolkitEditor.Inventory.ItemEditor.html
@@ -179,6 +366,12 @@ references:
   commentId: F:ToolkitEditor.Inventory.ItemEditor.m_itemType
   fullName: ToolkitEditor.Inventory.ItemEditor.m_itemType
   nameWithType: ItemEditor.m_itemType
+- uid: ToolkitEditor.Inventory.ItemEditor.m_onChanged
+  name: m_onChanged
+  href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_m_onChanged
+  commentId: F:ToolkitEditor.Inventory.ItemEditor.m_onChanged
+  fullName: ToolkitEditor.Inventory.ItemEditor.m_onChanged
+  nameWithType: ItemEditor.m_onChanged
 - uid: ToolkitEditor.Inventory.ItemEditor.m_onCollected
   name: m_onCollected
   href: api/ToolkitEditor.Inventory.ItemEditor.html#ToolkitEditor_Inventory_ItemEditor_m_onCollected
@@ -191,25 +384,32 @@ references:
   commentId: T:ToolkitEditor.Inventory.ItemTypeEditor
   fullName: ToolkitEditor.Inventory.ItemTypeEditor
   nameWithType: ItemTypeEditor
-- uid: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
-  name: OnInspectorGUI()
-  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_OnInspectorGUI
-  commentId: M:ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
-  fullName: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI()
-  nameWithType: ItemTypeEditor.OnInspectorGUI()
-- uid: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI*
-  name: OnInspectorGUI
-  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_OnInspectorGUI_
-  commentId: Overload:ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_DrawProperties
+  commentId: M:ToolkitEditor.Inventory.ItemTypeEditor.DrawProperties
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.DrawProperties()
+  nameWithType: ItemTypeEditor.DrawProperties()
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Inventory.ItemTypeEditor.DrawProperties
   isSpec: "True"
-  fullName: ToolkitEditor.Inventory.ItemTypeEditor.OnInspectorGUI
-  nameWithType: ItemTypeEditor.OnInspectorGUI
-- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_color
-  name: m_color
-  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_color
-  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_color
-  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_color
-  nameWithType: ItemTypeEditor.m_color
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.DrawProperties
+  nameWithType: ItemTypeEditor.DrawProperties
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_OnEnable
+  commentId: M:ToolkitEditor.Inventory.ItemTypeEditor.OnEnable
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.OnEnable()
+  nameWithType: ItemTypeEditor.OnEnable()
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Inventory.ItemTypeEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.OnEnable
+  nameWithType: ItemTypeEditor.OnEnable
 - uid: ToolkitEditor.Inventory.ItemTypeEditor.m_description
   name: m_description
   href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_description
@@ -270,6 +470,12 @@ references:
   commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_price
   fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_price
   nameWithType: ItemTypeEditor.m_price
+- uid: ToolkitEditor.Inventory.ItemTypeEditor.m_properties
+  name: m_properties
+  href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_properties
+  commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_properties
+  fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_properties
+  nameWithType: ItemTypeEditor.m_properties
 - uid: ToolkitEditor.Inventory.ItemTypeEditor.m_scraps
   name: m_scraps
   href: api/ToolkitEditor.Inventory.ItemTypeEditor.html#ToolkitEditor_Inventory_ItemTypeEditor_m_scraps
@@ -300,6 +506,74 @@ references:
   commentId: F:ToolkitEditor.Inventory.ItemTypeEditor.m_weight
   fullName: ToolkitEditor.Inventory.ItemTypeEditor.m_weight
   nameWithType: ItemTypeEditor.m_weight
+- uid: ToolkitEditor.Inventory.LootEditor
+  name: LootEditor
+  href: api/ToolkitEditor.Inventory.LootEditor.html
+  commentId: T:ToolkitEditor.Inventory.LootEditor
+  fullName: ToolkitEditor.Inventory.LootEditor
+  nameWithType: LootEditor
+- uid: ToolkitEditor.Inventory.LootEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_DrawProperties
+  commentId: M:ToolkitEditor.Inventory.LootEditor.DrawProperties
+  fullName: ToolkitEditor.Inventory.LootEditor.DrawProperties()
+  nameWithType: LootEditor.DrawProperties()
+- uid: ToolkitEditor.Inventory.LootEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Inventory.LootEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.LootEditor.DrawProperties
+  nameWithType: LootEditor.DrawProperties
+- uid: ToolkitEditor.Inventory.LootEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_OnEnable
+  commentId: M:ToolkitEditor.Inventory.LootEditor.OnEnable
+  fullName: ToolkitEditor.Inventory.LootEditor.OnEnable()
+  nameWithType: LootEditor.OnEnable()
+- uid: ToolkitEditor.Inventory.LootEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Inventory.LootEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.LootEditor.OnEnable
+  nameWithType: LootEditor.OnEnable
+- uid: ToolkitEditor.Inventory.LootEditor.m_amountType
+  name: m_amountType
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_m_amountType
+  commentId: F:ToolkitEditor.Inventory.LootEditor.m_amountType
+  fullName: ToolkitEditor.Inventory.LootEditor.m_amountType
+  nameWithType: LootEditor.m_amountType
+- uid: ToolkitEditor.Inventory.LootEditor.m_guaranteedDrops
+  name: m_guaranteedDrops
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_m_guaranteedDrops
+  commentId: F:ToolkitEditor.Inventory.LootEditor.m_guaranteedDrops
+  fullName: ToolkitEditor.Inventory.LootEditor.m_guaranteedDrops
+  nameWithType: LootEditor.m_guaranteedDrops
+- uid: ToolkitEditor.Inventory.LootEditor.m_lootTable
+  name: m_lootTable
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_m_lootTable
+  commentId: F:ToolkitEditor.Inventory.LootEditor.m_lootTable
+  fullName: ToolkitEditor.Inventory.LootEditor.m_lootTable
+  nameWithType: LootEditor.m_lootTable
+- uid: ToolkitEditor.Inventory.LootEditor.m_pickRange
+  name: m_pickRange
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_m_pickRange
+  commentId: F:ToolkitEditor.Inventory.LootEditor.m_pickRange
+  fullName: ToolkitEditor.Inventory.LootEditor.m_pickRange
+  nameWithType: LootEditor.m_pickRange
+- uid: ToolkitEditor.Inventory.LootEditor.m_picks
+  name: m_picks
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_m_picks
+  commentId: F:ToolkitEditor.Inventory.LootEditor.m_picks
+  fullName: ToolkitEditor.Inventory.LootEditor.m_picks
+  nameWithType: LootEditor.m_picks
+- uid: ToolkitEditor.Inventory.LootEditor.m_seed
+  name: m_seed
+  href: api/ToolkitEditor.Inventory.LootEditor.html#ToolkitEditor_Inventory_LootEditor_m_seed
+  commentId: F:ToolkitEditor.Inventory.LootEditor.m_seed
+  fullName: ToolkitEditor.Inventory.LootEditor.m_seed
+  nameWithType: LootEditor.m_seed
 - uid: ToolkitEditor.Inventory.LootEntryDrawer
   name: LootEntryDrawer
   href: api/ToolkitEditor.Inventory.LootEntryDrawer.html
@@ -778,6 +1052,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Currency.currencyType
   nameWithType: Currency.currencyType
+- uid: ToolkitEngine.Inventory.Currency.onAmountChanged
+  name: onAmountChanged
+  href: api/ToolkitEngine.Inventory.Currency.html#ToolkitEngine_Inventory_Currency_onAmountChanged
+  commentId: P:ToolkitEngine.Inventory.Currency.onAmountChanged
+  fullName: ToolkitEngine.Inventory.Currency.onAmountChanged
+  nameWithType: Currency.onAmountChanged
+- uid: ToolkitEngine.Inventory.Currency.onAmountChanged*
+  name: onAmountChanged
+  href: api/ToolkitEngine.Inventory.Currency.html#ToolkitEngine_Inventory_Currency_onAmountChanged_
+  commentId: Overload:ToolkitEngine.Inventory.Currency.onAmountChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Currency.onAmountChanged
+  nameWithType: Currency.onAmountChanged
 - uid: ToolkitEngine.Inventory.CurrencyEventArgs
   name: CurrencyEventArgs
   href: api/ToolkitEngine.Inventory.CurrencyEventArgs.html
@@ -812,6 +1099,109 @@ references:
   fullName.vb: ToolkitEngine.Inventory.CurrencyEventArgs.New
   nameWithType: CurrencyEventArgs.CurrencyEventArgs
   nameWithType.vb: CurrencyEventArgs.New
+- uid: ToolkitEngine.Inventory.CurrencyPool
+  name: CurrencyPool
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html
+  commentId: T:ToolkitEngine.Inventory.CurrencyPool
+  fullName: ToolkitEngine.Inventory.CurrencyPool
+  nameWithType: CurrencyPool
+- uid: ToolkitEngine.Inventory.CurrencyPool.Add(System.Int32)
+  name: Add(int)
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_Add_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencyPool.Add(System.Int32)
+  name.vb: Add(Integer)
+  fullName: ToolkitEngine.Inventory.CurrencyPool.Add(int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyPool.Add(Integer)
+  nameWithType: CurrencyPool.Add(int)
+  nameWithType.vb: CurrencyPool.Add(Integer)
+- uid: ToolkitEngine.Inventory.CurrencyPool.Add*
+  name: Add
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_Add_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.Add
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.Add
+  nameWithType: CurrencyPool.Add
+- uid: ToolkitEngine.Inventory.CurrencyPool.Remove(System.Int32)
+  name: Remove(int)
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_Remove_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencyPool.Remove(System.Int32)
+  name.vb: Remove(Integer)
+  fullName: ToolkitEngine.Inventory.CurrencyPool.Remove(int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyPool.Remove(Integer)
+  nameWithType: CurrencyPool.Remove(int)
+  nameWithType.vb: CurrencyPool.Remove(Integer)
+- uid: ToolkitEngine.Inventory.CurrencyPool.Remove*
+  name: Remove
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_Remove_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.Remove
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.Remove
+  nameWithType: CurrencyPool.Remove
+- uid: ToolkitEngine.Inventory.CurrencyPool.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_amount
+  commentId: P:ToolkitEngine.Inventory.CurrencyPool.amount
+  fullName: ToolkitEngine.Inventory.CurrencyPool.amount
+  nameWithType: CurrencyPool.amount
+- uid: ToolkitEngine.Inventory.CurrencyPool.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_amount_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.amount
+  nameWithType: CurrencyPool.amount
+- uid: ToolkitEngine.Inventory.CurrencyPool.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_currencyType
+  commentId: P:ToolkitEngine.Inventory.CurrencyPool.currencyType
+  fullName: ToolkitEngine.Inventory.CurrencyPool.currencyType
+  nameWithType: CurrencyPool.currencyType
+- uid: ToolkitEngine.Inventory.CurrencyPool.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_currencyType_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.currencyType
+  nameWithType: CurrencyPool.currencyType
+- uid: ToolkitEngine.Inventory.CurrencyPool.onAmountChanged
+  name: onAmountChanged
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_onAmountChanged
+  commentId: P:ToolkitEngine.Inventory.CurrencyPool.onAmountChanged
+  fullName: ToolkitEngine.Inventory.CurrencyPool.onAmountChanged
+  nameWithType: CurrencyPool.onAmountChanged
+- uid: ToolkitEngine.Inventory.CurrencyPool.onAmountChanged*
+  name: onAmountChanged
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_onAmountChanged_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.onAmountChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.onAmountChanged
+  nameWithType: CurrencyPool.onAmountChanged
+- uid: ToolkitEngine.Inventory.CurrencyPool.onCapacityEntered
+  name: onCapacityEntered
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_onCapacityEntered
+  commentId: P:ToolkitEngine.Inventory.CurrencyPool.onCapacityEntered
+  fullName: ToolkitEngine.Inventory.CurrencyPool.onCapacityEntered
+  nameWithType: CurrencyPool.onCapacityEntered
+- uid: ToolkitEngine.Inventory.CurrencyPool.onCapacityEntered*
+  name: onCapacityEntered
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_onCapacityEntered_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.onCapacityEntered
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.onCapacityEntered
+  nameWithType: CurrencyPool.onCapacityEntered
+- uid: ToolkitEngine.Inventory.CurrencyPool.onCapacityExited
+  name: onCapacityExited
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_onCapacityExited
+  commentId: P:ToolkitEngine.Inventory.CurrencyPool.onCapacityExited
+  fullName: ToolkitEngine.Inventory.CurrencyPool.onCapacityExited
+  nameWithType: CurrencyPool.onCapacityExited
+- uid: ToolkitEngine.Inventory.CurrencyPool.onCapacityExited*
+  name: onCapacityExited
+  href: api/ToolkitEngine.Inventory.CurrencyPool.html#ToolkitEngine_Inventory_CurrencyPool_onCapacityExited_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyPool.onCapacityExited
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyPool.onCapacityExited
+  nameWithType: CurrencyPool.onCapacityExited
 - uid: ToolkitEngine.Inventory.CurrencySlot
   name: CurrencySlot
   href: api/ToolkitEngine.Inventory.CurrencySlot.html
@@ -827,6 +1217,15 @@ references:
   fullName.vb: ToolkitEngine.Inventory.CurrencySlot.New()
   nameWithType: CurrencySlot.CurrencySlot()
   nameWithType.vb: CurrencySlot.New()
+- uid: ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencySlot)
+  name: CurrencySlot(CurrencySlot)
+  href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot__ctor_ToolkitEngine_Inventory_CurrencySlot_
+  commentId: M:ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencySlot)
+  name.vb: New(CurrencySlot)
+  fullName: ToolkitEngine.Inventory.CurrencySlot.CurrencySlot(ToolkitEngine.Inventory.CurrencySlot)
+  fullName.vb: ToolkitEngine.Inventory.CurrencySlot.New(ToolkitEngine.Inventory.CurrencySlot)
+  nameWithType: CurrencySlot.CurrencySlot(CurrencySlot)
+  nameWithType.vb: CurrencySlot.New(CurrencySlot)
 - uid: ToolkitEngine.Inventory.CurrencySlot.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
   name: CurrencySlot(CurrencyType, int)
   href: api/ToolkitEngine.Inventory.CurrencySlot.html#ToolkitEngine_Inventory_CurrencySlot__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_
@@ -903,19 +1302,51 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.CurrencyType.GetHashCode
   nameWithType: CurrencyType.GetHashCode
-- uid: ToolkitEngine.Inventory.CurrencyType.color
-  name: color
-  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_color
-  commentId: P:ToolkitEngine.Inventory.CurrencyType.color
-  fullName: ToolkitEngine.Inventory.CurrencyType.color
-  nameWithType: CurrencyType.color
-- uid: ToolkitEngine.Inventory.CurrencyType.color*
-  name: color
-  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_color_
-  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.color
+- uid: ToolkitEngine.Inventory.CurrencyType.ModifyAmount(System.Int32@,System.Int32)
+  name: ModifyAmount(ref int, int)
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_ModifyAmount_System_Int32__System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencyType.ModifyAmount(System.Int32@,System.Int32)
+  name.vb: ModifyAmount(Integer, Integer)
+  fullName: ToolkitEngine.Inventory.CurrencyType.ModifyAmount(ref int, int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyType.ModifyAmount(Integer, Integer)
+  nameWithType: CurrencyType.ModifyAmount(ref int, int)
+  nameWithType.vb: CurrencyType.ModifyAmount(Integer, Integer)
+- uid: ToolkitEngine.Inventory.CurrencyType.ModifyAmount*
+  name: ModifyAmount
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_ModifyAmount_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.ModifyAmount
   isSpec: "True"
-  fullName: ToolkitEngine.Inventory.CurrencyType.color
-  nameWithType: CurrencyType.color
+  fullName: ToolkitEngine.Inventory.CurrencyType.ModifyAmount
+  nameWithType: CurrencyType.ModifyAmount
+- uid: ToolkitEngine.Inventory.CurrencyType.SetAmount(System.Int32@,System.Int32)
+  name: SetAmount(ref int, int)
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_SetAmount_System_Int32__System_Int32_
+  commentId: M:ToolkitEngine.Inventory.CurrencyType.SetAmount(System.Int32@,System.Int32)
+  name.vb: SetAmount(Integer, Integer)
+  fullName: ToolkitEngine.Inventory.CurrencyType.SetAmount(ref int, int)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyType.SetAmount(Integer, Integer)
+  nameWithType: CurrencyType.SetAmount(ref int, int)
+  nameWithType.vb: CurrencyType.SetAmount(Integer, Integer)
+- uid: ToolkitEngine.Inventory.CurrencyType.SetAmount*
+  name: SetAmount
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_SetAmount_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.SetAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.SetAmount
+  nameWithType: CurrencyType.SetAmount
+- uid: ToolkitEngine.Inventory.CurrencyType.assetName
+  name: assetName
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_assetName
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.assetName
+  fullName: ToolkitEngine.Inventory.CurrencyType.assetName
+  nameWithType: CurrencyType.assetName
+- uid: ToolkitEngine.Inventory.CurrencyType.assetName*
+  name: assetName
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_assetName_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.assetName
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.assetName
+  nameWithType: CurrencyType.assetName
 - uid: ToolkitEngine.Inventory.CurrencyType.description
   name: description
   href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_description
@@ -929,6 +1360,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.CurrencyType.description
   nameWithType: CurrencyType.description
+- uid: ToolkitEngine.Inventory.CurrencyType.effectiveMaxStack
+  name: effectiveMaxStack
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_effectiveMaxStack
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.effectiveMaxStack
+  fullName: ToolkitEngine.Inventory.CurrencyType.effectiveMaxStack
+  nameWithType: CurrencyType.effectiveMaxStack
+- uid: ToolkitEngine.Inventory.CurrencyType.effectiveMaxStack*
+  name: effectiveMaxStack
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_effectiveMaxStack_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.effectiveMaxStack
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.effectiveMaxStack
+  nameWithType: CurrencyType.effectiveMaxStack
 - uid: ToolkitEngine.Inventory.CurrencyType.icon
   name: icon
   href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_icon
@@ -955,6 +1399,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.CurrencyType.id
   nameWithType: CurrencyType.id
+- uid: ToolkitEngine.Inventory.CurrencyType.maxStack
+  name: maxStack
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_maxStack
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.maxStack
+  fullName: ToolkitEngine.Inventory.CurrencyType.maxStack
+  nameWithType: CurrencyType.maxStack
+- uid: ToolkitEngine.Inventory.CurrencyType.maxStack*
+  name: maxStack
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_maxStack_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.maxStack
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.maxStack
+  nameWithType: CurrencyType.maxStack
 - uid: ToolkitEngine.Inventory.CurrencyType.name
   name: name
   href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_name
@@ -968,12 +1425,141 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.CurrencyType.name
   nameWithType: CurrencyType.name
+- uid: ToolkitEngine.Inventory.CurrencyType.properties
+  name: properties
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_properties
+  commentId: P:ToolkitEngine.Inventory.CurrencyType.properties
+  fullName: ToolkitEngine.Inventory.CurrencyType.properties
+  nameWithType: CurrencyType.properties
+- uid: ToolkitEngine.Inventory.CurrencyType.properties*
+  name: properties
+  href: api/ToolkitEngine.Inventory.CurrencyType.html#ToolkitEngine_Inventory_CurrencyType_properties_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyType.properties
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.CurrencyType.properties
+  nameWithType: CurrencyType.properties
+- uid: ToolkitEngine.Inventory.CurrencyTypeProperty
+  name: CurrencyTypeProperty
+  href: api/ToolkitEngine.Inventory.CurrencyTypeProperty.html
+  commentId: T:ToolkitEngine.Inventory.CurrencyTypeProperty
+  fullName: ToolkitEngine.Inventory.CurrencyTypeProperty
+  nameWithType: CurrencyTypeProperty
+- uid: ToolkitEngine.Inventory.CurrencyTypeProperty.#ctor
+  name: CurrencyTypeProperty()
+  href: api/ToolkitEngine.Inventory.CurrencyTypeProperty.html#ToolkitEngine_Inventory_CurrencyTypeProperty__ctor
+  commentId: M:ToolkitEngine.Inventory.CurrencyTypeProperty.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.CurrencyTypeProperty.CurrencyTypeProperty()
+  fullName.vb: ToolkitEngine.Inventory.CurrencyTypeProperty.New()
+  nameWithType: CurrencyTypeProperty.CurrencyTypeProperty()
+  nameWithType.vb: CurrencyTypeProperty.New()
+- uid: ToolkitEngine.Inventory.CurrencyTypeProperty.#ctor(ToolkitEngine.Inventory.CurrencyType)
+  name: CurrencyTypeProperty(CurrencyType)
+  href: api/ToolkitEngine.Inventory.CurrencyTypeProperty.html#ToolkitEngine_Inventory_CurrencyTypeProperty__ctor_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.CurrencyTypeProperty.#ctor(ToolkitEngine.Inventory.CurrencyType)
+  name.vb: New(CurrencyType)
+  fullName: ToolkitEngine.Inventory.CurrencyTypeProperty.CurrencyTypeProperty(ToolkitEngine.Inventory.CurrencyType)
+  fullName.vb: ToolkitEngine.Inventory.CurrencyTypeProperty.New(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: CurrencyTypeProperty.CurrencyTypeProperty(CurrencyType)
+  nameWithType.vb: CurrencyTypeProperty.New(CurrencyType)
+- uid: ToolkitEngine.Inventory.CurrencyTypeProperty.#ctor*
+  name: CurrencyTypeProperty
+  href: api/ToolkitEngine.Inventory.CurrencyTypeProperty.html#ToolkitEngine_Inventory_CurrencyTypeProperty__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.CurrencyTypeProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.CurrencyTypeProperty.CurrencyTypeProperty
+  fullName.vb: ToolkitEngine.Inventory.CurrencyTypeProperty.New
+  nameWithType: CurrencyTypeProperty.CurrencyTypeProperty
+  nameWithType.vb: CurrencyTypeProperty.New
 - uid: ToolkitEngine.Inventory.DropEntry
   name: DropEntry
   href: api/ToolkitEngine.Inventory.DropEntry.html
   commentId: T:ToolkitEngine.Inventory.DropEntry
   fullName: ToolkitEngine.Inventory.DropEntry
   nameWithType: DropEntry
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor
+  name: DropEntry()
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry()
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New()
+  nameWithType: DropEntry.DropEntry()
+  nameWithType.vb: DropEntry.New()
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: DropEntry(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: New(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: DropEntry.DropEntry(CurrencyType, int)
+  nameWithType.vb: DropEntry.New(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32,System.Int32)
+  name: DropEntry(CurrencyType, int, int)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32,System.Int32)
+  name.vb: New(CurrencyType, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.CurrencyType, int, int)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.CurrencyType, Integer, Integer)
+  nameWithType: DropEntry.DropEntry(CurrencyType, int, int)
+  nameWithType.vb: DropEntry.New(CurrencyType, Integer, Integer)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.DropEntry)
+  name: DropEntry(DropEntry)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_DropEntry_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.DropEntry)
+  name.vb: New(DropEntry)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.DropEntry)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.DropEntry)
+  nameWithType: DropEntry.DropEntry(DropEntry)
+  nameWithType.vb: DropEntry.New(DropEntry)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name: DropEntry(ItemType, int)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name.vb: New(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.ItemType, int)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: DropEntry.DropEntry(ItemType, int)
+  nameWithType.vb: DropEntry.New(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32)
+  name: DropEntry(ItemType, int, int)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32)
+  name.vb: New(ItemType, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.ItemType, int, int)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.ItemType, Integer, Integer)
+  nameWithType: DropEntry.DropEntry(ItemType, int, int)
+  nameWithType.vb: DropEntry.New(ItemType, Integer, Integer)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32)
+  name: DropEntry(LootTable, int)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_LootTable_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32)
+  name.vb: New(LootTable, Integer)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.LootTable, int)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.LootTable, Integer)
+  nameWithType: DropEntry.DropEntry(LootTable, int)
+  nameWithType.vb: DropEntry.New(LootTable, Integer)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32,System.Int32)
+  name: DropEntry(LootTable, int, int)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_ToolkitEngine_Inventory_LootTable_System_Int32_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32,System.Int32)
+  name.vb: New(LootTable, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry(ToolkitEngine.Inventory.LootTable, int, int)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New(ToolkitEngine.Inventory.LootTable, Integer, Integer)
+  nameWithType: DropEntry.DropEntry(LootTable, int, int)
+  nameWithType.vb: DropEntry.New(LootTable, Integer, Integer)
+- uid: ToolkitEngine.Inventory.DropEntry.#ctor*
+  name: DropEntry
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.DropEntry.DropEntry
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.New
+  nameWithType: DropEntry.DropEntry
+  nameWithType.vb: DropEntry.New
 - uid: ToolkitEngine.Inventory.DropEntry.AmountType
   name: DropEntry.AmountType
   href: api/ToolkitEngine.Inventory.DropEntry.AmountType.html
@@ -992,6 +1578,19 @@ references:
   commentId: F:ToolkitEngine.Inventory.DropEntry.AmountType.Range
   fullName: ToolkitEngine.Inventory.DropEntry.AmountType.Range
   nameWithType: DropEntry.AmountType.Range
+- uid: ToolkitEngine.Inventory.DropEntry.Combine(ToolkitEngine.Inventory.DropEntry)
+  name: Combine(DropEntry)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_Combine_ToolkitEngine_Inventory_DropEntry_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.Combine(ToolkitEngine.Inventory.DropEntry)
+  fullName: ToolkitEngine.Inventory.DropEntry.Combine(ToolkitEngine.Inventory.DropEntry)
+  nameWithType: DropEntry.Combine(DropEntry)
+- uid: ToolkitEngine.Inventory.DropEntry.Combine*
+  name: Combine
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_Combine_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.Combine
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.Combine
+  nameWithType: DropEntry.Combine
 - uid: ToolkitEngine.Inventory.DropEntry.DropType
   name: DropEntry.DropType
   href: api/ToolkitEngine.Inventory.DropEntry.DropType.html
@@ -1016,6 +1615,22 @@ references:
   commentId: F:ToolkitEngine.Inventory.DropEntry.DropType.LootTable
   fullName: ToolkitEngine.Inventory.DropEntry.DropType.LootTable
   nameWithType: DropEntry.DropType.LootTable
+- uid: ToolkitEngine.Inventory.DropEntry.Equals(System.Object)
+  name: Equals(object)
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_Equals_System_Object_
+  commentId: M:ToolkitEngine.Inventory.DropEntry.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: ToolkitEngine.Inventory.DropEntry.Equals(object)
+  fullName.vb: ToolkitEngine.Inventory.DropEntry.Equals(Object)
+  nameWithType: DropEntry.Equals(object)
+  nameWithType.vb: DropEntry.Equals(Object)
+- uid: ToolkitEngine.Inventory.DropEntry.Equals*
+  name: Equals
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_Equals_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.Equals
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.Equals
+  nameWithType: DropEntry.Equals
 - uid: ToolkitEngine.Inventory.DropEntry.GetAmount
   name: GetAmount()
   href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetAmount
@@ -1029,6 +1644,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.DropEntry.GetAmount
   nameWithType: DropEntry.GetAmount
+- uid: ToolkitEngine.Inventory.DropEntry.GetHashCode
+  name: GetHashCode()
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetHashCode
+  commentId: M:ToolkitEngine.Inventory.DropEntry.GetHashCode
+  fullName: ToolkitEngine.Inventory.DropEntry.GetHashCode()
+  nameWithType: DropEntry.GetHashCode()
+- uid: ToolkitEngine.Inventory.DropEntry.GetHashCode*
+  name: GetHashCode
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_GetHashCode_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.GetHashCode
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.GetHashCode
+  nameWithType: DropEntry.GetHashCode
 - uid: ToolkitEngine.Inventory.DropEntry.amount
   name: amount
   href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amount
@@ -1042,6 +1670,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.DropEntry.amount
   nameWithType: DropEntry.amount
+- uid: ToolkitEngine.Inventory.DropEntry.amountType
+  name: amountType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amountType
+  commentId: P:ToolkitEngine.Inventory.DropEntry.amountType
+  fullName: ToolkitEngine.Inventory.DropEntry.amountType
+  nameWithType: DropEntry.amountType
+- uid: ToolkitEngine.Inventory.DropEntry.amountType*
+  name: amountType
+  href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_amountType_
+  commentId: Overload:ToolkitEngine.Inventory.DropEntry.amountType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.DropEntry.amountType
+  nameWithType: DropEntry.amountType
 - uid: ToolkitEngine.Inventory.DropEntry.currencyType
   name: currencyType
   href: api/ToolkitEngine.Inventory.DropEntry.html#ToolkitEngine_Inventory_DropEntry_currencyType
@@ -1168,6 +1809,83 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.DropEntry.minAmount
   nameWithType: DropEntry.minAmount
+- uid: ToolkitEngine.Inventory.ICurrency
+  name: ICurrency
+  href: api/ToolkitEngine.Inventory.ICurrency.html
+  commentId: T:ToolkitEngine.Inventory.ICurrency
+  fullName: ToolkitEngine.Inventory.ICurrency
+  nameWithType: ICurrency
+- uid: ToolkitEngine.Inventory.ICurrency.amount
+  name: amount
+  href: api/ToolkitEngine.Inventory.ICurrency.html#ToolkitEngine_Inventory_ICurrency_amount
+  commentId: P:ToolkitEngine.Inventory.ICurrency.amount
+  fullName: ToolkitEngine.Inventory.ICurrency.amount
+  nameWithType: ICurrency.amount
+- uid: ToolkitEngine.Inventory.ICurrency.amount*
+  name: amount
+  href: api/ToolkitEngine.Inventory.ICurrency.html#ToolkitEngine_Inventory_ICurrency_amount_
+  commentId: Overload:ToolkitEngine.Inventory.ICurrency.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ICurrency.amount
+  nameWithType: ICurrency.amount
+- uid: ToolkitEngine.Inventory.ICurrency.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.ICurrency.html#ToolkitEngine_Inventory_ICurrency_currencyType
+  commentId: P:ToolkitEngine.Inventory.ICurrency.currencyType
+  fullName: ToolkitEngine.Inventory.ICurrency.currencyType
+  nameWithType: ICurrency.currencyType
+- uid: ToolkitEngine.Inventory.ICurrency.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.Inventory.ICurrency.html#ToolkitEngine_Inventory_ICurrency_currencyType_
+  commentId: Overload:ToolkitEngine.Inventory.ICurrency.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ICurrency.currencyType
+  nameWithType: ICurrency.currencyType
+- uid: ToolkitEngine.Inventory.ICurrency.onAmountChanged
+  name: onAmountChanged
+  href: api/ToolkitEngine.Inventory.ICurrency.html#ToolkitEngine_Inventory_ICurrency_onAmountChanged
+  commentId: P:ToolkitEngine.Inventory.ICurrency.onAmountChanged
+  fullName: ToolkitEngine.Inventory.ICurrency.onAmountChanged
+  nameWithType: ICurrency.onAmountChanged
+- uid: ToolkitEngine.Inventory.ICurrency.onAmountChanged*
+  name: onAmountChanged
+  href: api/ToolkitEngine.Inventory.ICurrency.html#ToolkitEngine_Inventory_ICurrency_onAmountChanged_
+  commentId: Overload:ToolkitEngine.Inventory.ICurrency.onAmountChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ICurrency.onAmountChanged
+  nameWithType: ICurrency.onAmountChanged
+- uid: ToolkitEngine.Inventory.IngredientDrawer
+  name: IngredientDrawer
+  href: api/ToolkitEngine.Inventory.IngredientDrawer.html
+  commentId: T:ToolkitEngine.Inventory.IngredientDrawer
+  fullName: ToolkitEngine.Inventory.IngredientDrawer
+  nameWithType: IngredientDrawer
+- uid: ToolkitEngine.Inventory.IngredientDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEngine.Inventory.IngredientDrawer.html#ToolkitEngine_Inventory_IngredientDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEngine.Inventory.IngredientDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEngine.Inventory.IngredientDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: IngredientDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEngine.Inventory.IngredientDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEngine.Inventory.IngredientDrawer.html#ToolkitEngine_Inventory_IngredientDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEngine.Inventory.IngredientDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.IngredientDrawer.GetPropertyHeight
+  nameWithType: IngredientDrawer.GetPropertyHeight
+- uid: ToolkitEngine.Inventory.IngredientDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEngine.Inventory.IngredientDrawer.html#ToolkitEngine_Inventory_IngredientDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEngine.Inventory.IngredientDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEngine.Inventory.IngredientDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: IngredientDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEngine.Inventory.IngredientDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEngine.Inventory.IngredientDrawer.html#ToolkitEngine_Inventory_IngredientDrawer_OnGUI_
+  commentId: Overload:ToolkitEngine.Inventory.IngredientDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.IngredientDrawer.OnGUI
+  nameWithType: IngredientDrawer.OnGUI
 - uid: ToolkitEngine.Inventory.InventoryList
   name: InventoryList
   href: api/ToolkitEngine.Inventory.InventoryList.html
@@ -1212,6 +1930,12 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.InventoryList.AddDrop
   nameWithType: InventoryList.AddDrop
+- uid: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.Item)
+  name: AddItem(Item)
+  href: api/ToolkitEngine.Inventory.InventoryList.html#ToolkitEngine_Inventory_InventoryList_AddItem_ToolkitEngine_Inventory_Item_
+  commentId: M:ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.Item)
+  fullName: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.Item)
+  nameWithType: InventoryList.AddItem(Item)
 - uid: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.Item,System.Int32@)
   name: AddItem(Item, out int)
   href: api/ToolkitEngine.Inventory.InventoryList.html#ToolkitEngine_Inventory_InventoryList_AddItem_ToolkitEngine_Inventory_Item_System_Int32__
@@ -1221,6 +1945,15 @@ references:
   fullName.vb: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.Item, Integer)
   nameWithType: InventoryList.AddItem(Item, out int)
   nameWithType.vb: InventoryList.AddItem(Item, Integer)
+- uid: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name: AddItem(ItemType, int)
+  href: api/ToolkitEngine.Inventory.InventoryList.html#ToolkitEngine_Inventory_InventoryList_AddItem_ToolkitEngine_Inventory_ItemType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name.vb: AddItem(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.ItemType, int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: InventoryList.AddItem(ItemType, int)
+  nameWithType.vb: InventoryList.AddItem(ItemType, Integer)
 - uid: ToolkitEngine.Inventory.InventoryList.AddItem(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32@)
   name: AddItem(ItemType, int, out int)
   href: api/ToolkitEngine.Inventory.InventoryList.html#ToolkitEngine_Inventory_InventoryList_AddItem_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32__
@@ -1621,6 +2354,127 @@ references:
   commentId: T:ToolkitEngine.Inventory.InventoryManager
   fullName: ToolkitEngine.Inventory.InventoryManager
   nameWithType: InventoryManager
+- uid: ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride
+  name: ClearMaxStackOverride()
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride
+  fullName: ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride()
+  nameWithType: InventoryManager.ClearMaxStackOverride()
+- uid: ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  name: ClearMaxStackOverride(CurrencyType)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: InventoryManager.ClearMaxStackOverride(CurrencyType)
+- uid: ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride*
+  name: ClearMaxStackOverride
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_ClearMaxStackOverride_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.ClearMaxStackOverride
+  nameWithType: InventoryManager.ClearMaxStackOverride
+- uid: ToolkitEngine.Inventory.InventoryManager.CurrencyMaxStackOverrideChanged
+  name: CurrencyMaxStackOverrideChanged
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_CurrencyMaxStackOverrideChanged
+  commentId: F:ToolkitEngine.Inventory.InventoryManager.CurrencyMaxStackOverrideChanged
+  fullName: ToolkitEngine.Inventory.InventoryManager.CurrencyMaxStackOverrideChanged
+  nameWithType: InventoryManager.CurrencyMaxStackOverrideChanged
+- uid: ToolkitEngine.Inventory.InventoryManager.CurrencyPoolAmountChanged
+  name: CurrencyPoolAmountChanged
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_CurrencyPoolAmountChanged
+  commentId: F:ToolkitEngine.Inventory.InventoryManager.CurrencyPoolAmountChanged
+  fullName: ToolkitEngine.Inventory.InventoryManager.CurrencyPoolAmountChanged
+  nameWithType: InventoryManager.CurrencyPoolAmountChanged
+- uid: ToolkitEngine.Inventory.InventoryManager.GetAmount(ToolkitEngine.Inventory.CurrencyType)
+  name: GetAmount(CurrencyType)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_GetAmount_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.GetAmount(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.InventoryManager.GetAmount(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: InventoryManager.GetAmount(CurrencyType)
+- uid: ToolkitEngine.Inventory.InventoryManager.GetAmount*
+  name: GetAmount
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_GetAmount_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.GetAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.GetAmount
+  nameWithType: InventoryManager.GetAmount
+- uid: ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  name: GetMaxStackOverride(CurrencyType)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_GetMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: InventoryManager.GetMaxStackOverride(CurrencyType)
+- uid: ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride*
+  name: GetMaxStackOverride
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_GetMaxStackOverride_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.GetMaxStackOverride
+  nameWithType: InventoryManager.GetMaxStackOverride
+- uid: ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  name: HasMaxStackOverride(CurrencyType)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_HasMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: InventoryManager.HasMaxStackOverride(CurrencyType)
+- uid: ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride*
+  name: HasMaxStackOverride
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_HasMaxStackOverride_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride
+  nameWithType: InventoryManager.HasMaxStackOverride
+- uid: ToolkitEngine.Inventory.InventoryManager.Instantiate
+  name: Instantiate()
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Instantiate
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.Instantiate
+  fullName: ToolkitEngine.Inventory.InventoryManager.Instantiate()
+  nameWithType: InventoryManager.Instantiate()
+- uid: ToolkitEngine.Inventory.InventoryManager.Instantiate*
+  name: Instantiate
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Instantiate_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.Instantiate
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.Instantiate
+  nameWithType: InventoryManager.Instantiate
+- uid: ToolkitEngine.Inventory.InventoryManager.IsRegistered(ToolkitEngine.Inventory.CurrencyType)
+  name: IsRegistered(CurrencyType)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_IsRegistered_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.IsRegistered(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.InventoryManager.IsRegistered(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: InventoryManager.IsRegistered(CurrencyType)
+- uid: ToolkitEngine.Inventory.InventoryManager.IsRegistered*
+  name: IsRegistered
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_IsRegistered_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.IsRegistered
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.IsRegistered
+  nameWithType: InventoryManager.IsRegistered
+- uid: ToolkitEngine.Inventory.InventoryManager.ModifyAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: ModifyAmount(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_ModifyAmount_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.ModifyAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: ModifyAmount(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryManager.ModifyAmount(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryManager.ModifyAmount(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: InventoryManager.ModifyAmount(CurrencyType, int)
+  nameWithType.vb: InventoryManager.ModifyAmount(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.InventoryManager.ModifyAmount*
+  name: ModifyAmount
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_ModifyAmount_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.ModifyAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.ModifyAmount
+  nameWithType: InventoryManager.ModifyAmount
+- uid: ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: Register(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Register_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: Register(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: InventoryManager.Register(CurrencyType, int)
+  nameWithType.vb: InventoryManager.Register(CurrencyType, Integer)
 - uid: ToolkitEngine.Inventory.InventoryManager.Register(ToolkitEngine.Inventory.KeyedInventoryList)
   name: Register(KeyedInventoryList)
   href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Register_ToolkitEngine_Inventory_KeyedInventoryList_
@@ -1634,6 +2488,54 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.InventoryManager.Register
   nameWithType: InventoryManager.Register
+- uid: ToolkitEngine.Inventory.InventoryManager.SetAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: SetAmount(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_SetAmount_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.SetAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: SetAmount(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryManager.SetAmount(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryManager.SetAmount(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: InventoryManager.SetAmount(CurrencyType, int)
+  nameWithType.vb: InventoryManager.SetAmount(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.InventoryManager.SetAmount*
+  name: SetAmount
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_SetAmount_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.SetAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.SetAmount
+  nameWithType: InventoryManager.SetAmount
+- uid: ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: SetMaxStackOverride(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_SetMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: SetMaxStackOverride(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: InventoryManager.SetMaxStackOverride(CurrencyType, int)
+  nameWithType.vb: InventoryManager.SetMaxStackOverride(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride*
+  name: SetMaxStackOverride
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_SetMaxStackOverride_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.SetMaxStackOverride
+  nameWithType: InventoryManager.SetMaxStackOverride
+- uid: ToolkitEngine.Inventory.InventoryManager.TryGetAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32@)
+  name: TryGetAmount(CurrencyType, out int)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_TryGetAmount_ToolkitEngine_Inventory_CurrencyType_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.TryGetAmount(ToolkitEngine.Inventory.CurrencyType,System.Int32@)
+  name.vb: TryGetAmount(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryManager.TryGetAmount(ToolkitEngine.Inventory.CurrencyType, out int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryManager.TryGetAmount(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: InventoryManager.TryGetAmount(CurrencyType, out int)
+  nameWithType.vb: InventoryManager.TryGetAmount(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.InventoryManager.TryGetAmount*
+  name: TryGetAmount
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_TryGetAmount_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.TryGetAmount
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.TryGetAmount
+  nameWithType: InventoryManager.TryGetAmount
 - uid: ToolkitEngine.Inventory.InventoryManager.TryGetInventory(System.String,ToolkitEngine.Inventory.InventoryList@)
   name: TryGetInventory(string, out InventoryList)
   href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_TryGetInventory_System_String_ToolkitEngine_Inventory_InventoryList__
@@ -1650,6 +2552,28 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.InventoryManager.TryGetInventory
   nameWithType: InventoryManager.TryGetInventory
+- uid: ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType,System.Int32@)
+  name: TryGetMaxStackOverride(CurrencyType, out int)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_TryGetMaxStackOverride_ToolkitEngine_Inventory_CurrencyType_System_Int32__
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType,System.Int32@)
+  name.vb: TryGetMaxStackOverride(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType, out int)
+  fullName.vb: ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: InventoryManager.TryGetMaxStackOverride(CurrencyType, out int)
+  nameWithType.vb: InventoryManager.TryGetMaxStackOverride(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride*
+  name: TryGetMaxStackOverride
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_TryGetMaxStackOverride_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.TryGetMaxStackOverride
+  nameWithType: InventoryManager.TryGetMaxStackOverride
+- uid: ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.CurrencyType)
+  name: Unregister(CurrencyType)
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Unregister_ToolkitEngine_Inventory_CurrencyType_
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.CurrencyType)
+  fullName: ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.CurrencyType)
+  nameWithType: InventoryManager.Unregister(CurrencyType)
 - uid: ToolkitEngine.Inventory.InventoryManager.Unregister(ToolkitEngine.Inventory.KeyedInventoryList)
   name: Unregister(KeyedInventoryList)
   href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Unregister_ToolkitEngine_Inventory_KeyedInventoryList_
@@ -1682,38 +2606,38 @@ references:
   commentId: T:ToolkitEngine.Inventory.InventoryManagerConfig
   fullName: ToolkitEngine.Inventory.InventoryManagerConfig
   nameWithType: InventoryManagerConfig
-- uid: ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType
-  name: GetManagerType()
-  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_GetManagerType
-  commentId: M:ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType
-  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType()
-  nameWithType: InventoryManagerConfig.GetManagerType()
-- uid: ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType*
-  name: GetManagerType
-  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_GetManagerType_
-  commentId: Overload:ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType
+- uid: ToolkitEngine.Inventory.InventoryManagerConfig.template
+  name: template
+  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_template
+  commentId: P:ToolkitEngine.Inventory.InventoryManagerConfig.template
+  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.template
+  nameWithType: InventoryManagerConfig.template
+- uid: ToolkitEngine.Inventory.InventoryManagerConfig.template*
+  name: template
+  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_template_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManagerConfig.template
   isSpec: "True"
-  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.GetManagerType
-  nameWithType: InventoryManagerConfig.GetManagerType
-- uid: ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate
-  name: GetTemplate()
-  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_GetTemplate
-  commentId: M:ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate
-  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate()
-  nameWithType: InventoryManagerConfig.GetTemplate()
-- uid: ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate*
-  name: GetTemplate
-  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_GetTemplate_
-  commentId: Overload:ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate
-  isSpec: "True"
-  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.GetTemplate
-  nameWithType: InventoryManagerConfig.GetTemplate
+  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.template
+  nameWithType: InventoryManagerConfig.template
 - uid: ToolkitEngine.Inventory.Item
   name: Item
   href: api/ToolkitEngine.Inventory.Item.html
   commentId: T:ToolkitEngine.Inventory.Item
   fullName: ToolkitEngine.Inventory.Item
   nameWithType: Item
+- uid: ToolkitEngine.Inventory.Item.Collect(ToolkitEngine.Inventory.InventoryList)
+  name: Collect(InventoryList)
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Collect_ToolkitEngine_Inventory_InventoryList_
+  commentId: M:ToolkitEngine.Inventory.Item.Collect(ToolkitEngine.Inventory.InventoryList)
+  fullName: ToolkitEngine.Inventory.Item.Collect(ToolkitEngine.Inventory.InventoryList)
+  nameWithType: Item.Collect(InventoryList)
+- uid: ToolkitEngine.Inventory.Item.Collect*
+  name: Collect
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Collect_
+  commentId: Overload:ToolkitEngine.Inventory.Item.Collect
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.Collect
+  nameWithType: Item.Collect
 - uid: ToolkitEngine.Inventory.Item.Dismantle
   name: Dismantle()
   href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Dismantle
@@ -1763,6 +2687,22 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Item.Dismantle
   nameWithType: Item.Dismantle
+- uid: ToolkitEngine.Inventory.Item.Set(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name: Set(ItemType, int)
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Set_ToolkitEngine_Inventory_ItemType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Item.Set(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name.vb: Set(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.Item.Set(ToolkitEngine.Inventory.ItemType, int)
+  fullName.vb: ToolkitEngine.Inventory.Item.Set(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: Item.Set(ItemType, int)
+  nameWithType.vb: Item.Set(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.Item.Set*
+  name: Set
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_Set_
+  commentId: Overload:ToolkitEngine.Inventory.Item.Set
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.Set
+  nameWithType: Item.Set
 - uid: ToolkitEngine.Inventory.Item.amount
   name: amount
   href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_amount
@@ -1789,6 +2729,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Item.itemType
   nameWithType: Item.itemType
+- uid: ToolkitEngine.Inventory.Item.onChanged
+  name: onChanged
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_onChanged
+  commentId: P:ToolkitEngine.Inventory.Item.onChanged
+  fullName: ToolkitEngine.Inventory.Item.onChanged
+  nameWithType: Item.onChanged
+- uid: ToolkitEngine.Inventory.Item.onChanged*
+  name: onChanged
+  href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_onChanged_
+  commentId: Overload:ToolkitEngine.Inventory.Item.onChanged
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Item.onChanged
+  nameWithType: Item.onChanged
 - uid: ToolkitEngine.Inventory.Item.onCollected
   name: onCollected
   href: api/ToolkitEngine.Inventory.Item.html#ToolkitEngine_Inventory_Item_onCollected
@@ -1864,6 +2817,15 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemSlot.New()
   nameWithType: ItemSlot.ItemSlot()
   nameWithType.vb: ItemSlot.New()
+- uid: ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemSlot)
+  name: ItemSlot(ItemSlot)
+  href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemSlot_
+  commentId: M:ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemSlot)
+  name.vb: New(ItemSlot)
+  fullName: ToolkitEngine.Inventory.ItemSlot.ItemSlot(ToolkitEngine.Inventory.ItemSlot)
+  fullName.vb: ToolkitEngine.Inventory.ItemSlot.New(ToolkitEngine.Inventory.ItemSlot)
+  nameWithType: ItemSlot.ItemSlot(ItemSlot)
+  nameWithType.vb: ItemSlot.New(ItemSlot)
 - uid: ToolkitEngine.Inventory.ItemSlot.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
   name: ItemSlot(ItemType, int)
   href: api/ToolkitEngine.Inventory.ItemSlot.html#ToolkitEngine_Inventory_ItemSlot__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_
@@ -2300,6 +3262,12 @@ references:
   fullName.vb: ToolkitEngine.Inventory.ItemType.Equals(Object)
   nameWithType: ItemType.Equals(object)
   nameWithType.vb: ItemType.Equals(Object)
+- uid: ToolkitEngine.Inventory.ItemType.Equals(ToolkitEngine.Inventory.ItemType)
+  name: Equals(ItemType)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Equals_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Equals(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.ItemType.Equals(ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemType.Equals(ItemType)
 - uid: ToolkitEngine.Inventory.ItemType.Equals*
   name: Equals
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Equals_
@@ -2504,6 +3472,38 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.ItemType.Sell
   nameWithType: ItemType.Sell
+- uid: ToolkitEngine.Inventory.ItemType.Set(GameObject)
+  name: Set(GameObject)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Set_GameObject_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Set(GameObject)
+  fullName: ToolkitEngine.Inventory.ItemType.Set(GameObject)
+  nameWithType: ItemType.Set(GameObject)
+- uid: ToolkitEngine.Inventory.ItemType.Set(PoolItem)
+  name: Set(PoolItem)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Set_PoolItem_
+  commentId: M:ToolkitEngine.Inventory.ItemType.Set(PoolItem)
+  fullName: ToolkitEngine.Inventory.ItemType.Set(PoolItem)
+  nameWithType: ItemType.Set(PoolItem)
+- uid: ToolkitEngine.Inventory.ItemType.Set*
+  name: Set
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_Set_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.Set
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.Set
+  nameWithType: ItemType.Set
+- uid: ToolkitEngine.Inventory.ItemType.assetName
+  name: assetName
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_assetName
+  commentId: P:ToolkitEngine.Inventory.ItemType.assetName
+  fullName: ToolkitEngine.Inventory.ItemType.assetName
+  nameWithType: ItemType.assetName
+- uid: ToolkitEngine.Inventory.ItemType.assetName*
+  name: assetName
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_assetName_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.assetName
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.assetName
+  nameWithType: ItemType.assetName
 - uid: ToolkitEngine.Inventory.ItemType.buyPrice
   name: buyPrice
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_buyPrice
@@ -2517,19 +3517,6 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.ItemType.buyPrice
   nameWithType: ItemType.buyPrice
-- uid: ToolkitEngine.Inventory.ItemType.color
-  name: color
-  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_color
-  commentId: P:ToolkitEngine.Inventory.ItemType.color
-  fullName: ToolkitEngine.Inventory.ItemType.color
-  nameWithType: ItemType.color
-- uid: ToolkitEngine.Inventory.ItemType.color*
-  name: color
-  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_color_
-  commentId: Overload:ToolkitEngine.Inventory.ItemType.color
-  isSpec: "True"
-  fullName: ToolkitEngine.Inventory.ItemType.color
-  nameWithType: ItemType.color
 - uid: ToolkitEngine.Inventory.ItemType.craftable
   name: craftable
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_craftable
@@ -2634,6 +3621,44 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.ItemType.name
   nameWithType: ItemType.name
+- uid: ToolkitEngine.Inventory.ItemType.op_Equality(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)
+  name: operator ==(ItemType, ItemType)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_op_Equality_ToolkitEngine_Inventory_ItemType_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemType.op_Equality(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)
+  name.vb: =(ItemType, ItemType)
+  fullName: ToolkitEngine.Inventory.ItemType.operator ==(ToolkitEngine.Inventory.ItemType, ToolkitEngine.Inventory.ItemType)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.=(ToolkitEngine.Inventory.ItemType, ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemType.operator ==(ItemType, ItemType)
+  nameWithType.vb: ItemType.=(ItemType, ItemType)
+- uid: ToolkitEngine.Inventory.ItemType.op_Equality*
+  name: operator ==
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_op_Equality_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: ToolkitEngine.Inventory.ItemType.operator ==
+  fullName.vb: ToolkitEngine.Inventory.ItemType.=
+  nameWithType: ItemType.operator ==
+  nameWithType.vb: ItemType.=
+- uid: ToolkitEngine.Inventory.ItemType.op_Inequality(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)
+  name: operator !=(ItemType, ItemType)
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_op_Inequality_ToolkitEngine_Inventory_ItemType_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemType.op_Inequality(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)
+  name.vb: <>(ItemType, ItemType)
+  fullName: ToolkitEngine.Inventory.ItemType.operator !=(ToolkitEngine.Inventory.ItemType, ToolkitEngine.Inventory.ItemType)
+  fullName.vb: ToolkitEngine.Inventory.ItemType.<>(ToolkitEngine.Inventory.ItemType, ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemType.operator !=(ItemType, ItemType)
+  nameWithType.vb: ItemType.<>(ItemType, ItemType)
+- uid: ToolkitEngine.Inventory.ItemType.op_Inequality*
+  name: operator !=
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_op_Inequality_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: ToolkitEngine.Inventory.ItemType.operator !=
+  fullName.vb: ToolkitEngine.Inventory.ItemType.<>
+  nameWithType: ItemType.operator !=
+  nameWithType.vb: ItemType.<>
 - uid: ToolkitEngine.Inventory.ItemType.parent
   name: parent
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_parent
@@ -2647,6 +3672,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.ItemType.parent
   nameWithType: ItemType.parent
+- uid: ToolkitEngine.Inventory.ItemType.properties
+  name: properties
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_properties
+  commentId: P:ToolkitEngine.Inventory.ItemType.properties
+  fullName: ToolkitEngine.Inventory.ItemType.properties
+  nameWithType: ItemType.properties
+- uid: ToolkitEngine.Inventory.ItemType.properties*
+  name: properties
+  href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_properties_
+  commentId: Overload:ToolkitEngine.Inventory.ItemType.properties
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemType.properties
+  nameWithType: ItemType.properties
 - uid: ToolkitEngine.Inventory.ItemType.sellFactor
   name: sellFactor
   href: api/ToolkitEngine.Inventory.ItemType.html#ToolkitEngine_Inventory_ItemType_sellFactor
@@ -2699,6 +3737,72 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.ItemType.weight
   nameWithType: ItemType.weight
+- uid: ToolkitEngine.Inventory.ItemTypeComparer
+  name: ItemTypeComparer
+  href: api/ToolkitEngine.Inventory.ItemTypeComparer.html
+  commentId: T:ToolkitEngine.Inventory.ItemTypeComparer
+  fullName: ToolkitEngine.Inventory.ItemTypeComparer
+  nameWithType: ItemTypeComparer
+- uid: ToolkitEngine.Inventory.ItemTypeComparer.Equals(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)
+  name: Equals(ItemType, ItemType)
+  href: api/ToolkitEngine.Inventory.ItemTypeComparer.html#ToolkitEngine_Inventory_ItemTypeComparer_Equals_ToolkitEngine_Inventory_ItemType_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemTypeComparer.Equals(ToolkitEngine.Inventory.ItemType,ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.ItemTypeComparer.Equals(ToolkitEngine.Inventory.ItemType, ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemTypeComparer.Equals(ItemType, ItemType)
+- uid: ToolkitEngine.Inventory.ItemTypeComparer.Equals*
+  name: Equals
+  href: api/ToolkitEngine.Inventory.ItemTypeComparer.html#ToolkitEngine_Inventory_ItemTypeComparer_Equals_
+  commentId: Overload:ToolkitEngine.Inventory.ItemTypeComparer.Equals
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemTypeComparer.Equals
+  nameWithType: ItemTypeComparer.Equals
+- uid: ToolkitEngine.Inventory.ItemTypeComparer.GetHashCode(ToolkitEngine.Inventory.ItemType)
+  name: GetHashCode(ItemType)
+  href: api/ToolkitEngine.Inventory.ItemTypeComparer.html#ToolkitEngine_Inventory_ItemTypeComparer_GetHashCode_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemTypeComparer.GetHashCode(ToolkitEngine.Inventory.ItemType)
+  fullName: ToolkitEngine.Inventory.ItemTypeComparer.GetHashCode(ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemTypeComparer.GetHashCode(ItemType)
+- uid: ToolkitEngine.Inventory.ItemTypeComparer.GetHashCode*
+  name: GetHashCode
+  href: api/ToolkitEngine.Inventory.ItemTypeComparer.html#ToolkitEngine_Inventory_ItemTypeComparer_GetHashCode_
+  commentId: Overload:ToolkitEngine.Inventory.ItemTypeComparer.GetHashCode
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemTypeComparer.GetHashCode
+  nameWithType: ItemTypeComparer.GetHashCode
+- uid: ToolkitEngine.Inventory.ItemTypeProperty
+  name: ItemTypeProperty
+  href: api/ToolkitEngine.Inventory.ItemTypeProperty.html
+  commentId: T:ToolkitEngine.Inventory.ItemTypeProperty
+  fullName: ToolkitEngine.Inventory.ItemTypeProperty
+  nameWithType: ItemTypeProperty
+- uid: ToolkitEngine.Inventory.ItemTypeProperty.#ctor
+  name: ItemTypeProperty()
+  href: api/ToolkitEngine.Inventory.ItemTypeProperty.html#ToolkitEngine_Inventory_ItemTypeProperty__ctor
+  commentId: M:ToolkitEngine.Inventory.ItemTypeProperty.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.ItemTypeProperty.ItemTypeProperty()
+  fullName.vb: ToolkitEngine.Inventory.ItemTypeProperty.New()
+  nameWithType: ItemTypeProperty.ItemTypeProperty()
+  nameWithType.vb: ItemTypeProperty.New()
+- uid: ToolkitEngine.Inventory.ItemTypeProperty.#ctor(ToolkitEngine.Inventory.ItemType)
+  name: ItemTypeProperty(ItemType)
+  href: api/ToolkitEngine.Inventory.ItemTypeProperty.html#ToolkitEngine_Inventory_ItemTypeProperty__ctor_ToolkitEngine_Inventory_ItemType_
+  commentId: M:ToolkitEngine.Inventory.ItemTypeProperty.#ctor(ToolkitEngine.Inventory.ItemType)
+  name.vb: New(ItemType)
+  fullName: ToolkitEngine.Inventory.ItemTypeProperty.ItemTypeProperty(ToolkitEngine.Inventory.ItemType)
+  fullName.vb: ToolkitEngine.Inventory.ItemTypeProperty.New(ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemTypeProperty.ItemTypeProperty(ItemType)
+  nameWithType.vb: ItemTypeProperty.New(ItemType)
+- uid: ToolkitEngine.Inventory.ItemTypeProperty.#ctor*
+  name: ItemTypeProperty
+  href: api/ToolkitEngine.Inventory.ItemTypeProperty.html#ToolkitEngine_Inventory_ItemTypeProperty__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.ItemTypeProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.ItemTypeProperty.ItemTypeProperty
+  fullName.vb: ToolkitEngine.Inventory.ItemTypeProperty.New
+  nameWithType: ItemTypeProperty.ItemTypeProperty
+  nameWithType.vb: ItemTypeProperty.New
 - uid: ToolkitEngine.Inventory.KeyedInventoryList
   name: KeyedInventoryList
   href: api/ToolkitEngine.Inventory.KeyedInventoryList.html
@@ -2711,12 +3815,109 @@ references:
   commentId: T:ToolkitEngine.Inventory.Loot
   fullName: ToolkitEngine.Inventory.Loot
   nameWithType: Loot
+- uid: ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.HashSet{ToolkitEngine.Inventory.DropEntry},ToolkitEngine.Inventory.DropEntry)
+  name: AddDrop(HashSet<DropEntry>, DropEntry)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddDrop_System_Collections_Generic_HashSet_ToolkitEngine_Inventory_DropEntry__ToolkitEngine_Inventory_DropEntry_
+  commentId: M:ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.HashSet{ToolkitEngine.Inventory.DropEntry},ToolkitEngine.Inventory.DropEntry)
+  name.vb: AddDrop(HashSet(Of DropEntry), DropEntry)
+  fullName: ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.HashSet<ToolkitEngine.Inventory.DropEntry>, ToolkitEngine.Inventory.DropEntry)
+  fullName.vb: ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.HashSet(Of ToolkitEngine.Inventory.DropEntry), ToolkitEngine.Inventory.DropEntry)
+  nameWithType: Loot.AddDrop(HashSet<DropEntry>, DropEntry)
+  nameWithType.vb: Loot.AddDrop(HashSet(Of DropEntry), DropEntry)
+- uid: ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.IList{ToolkitEngine.Inventory.DropEntry},ToolkitEngine.Inventory.DropEntry)
+  name: AddDrop(IList<DropEntry>, DropEntry)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddDrop_System_Collections_Generic_IList_ToolkitEngine_Inventory_DropEntry__ToolkitEngine_Inventory_DropEntry_
+  commentId: M:ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.IList{ToolkitEngine.Inventory.DropEntry},ToolkitEngine.Inventory.DropEntry)
+  name.vb: AddDrop(IList(Of DropEntry), DropEntry)
+  fullName: ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.IList<ToolkitEngine.Inventory.DropEntry>, ToolkitEngine.Inventory.DropEntry)
+  fullName.vb: ToolkitEngine.Inventory.Loot.AddDrop(System.Collections.Generic.IList(Of ToolkitEngine.Inventory.DropEntry), ToolkitEngine.Inventory.DropEntry)
+  nameWithType: Loot.AddDrop(IList<DropEntry>, DropEntry)
+  nameWithType.vb: Loot.AddDrop(IList(Of DropEntry), DropEntry)
+- uid: ToolkitEngine.Inventory.Loot.AddDrop*
+  name: AddDrop
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddDrop_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.AddDrop
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.AddDrop
+  nameWithType: Loot.AddDrop
+- uid: ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.HashSet{ToolkitEngine.Inventory.DropEntry},System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.DropEntry})
+  name: AddDrops(HashSet<DropEntry>, IEnumerable<DropEntry>)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddDrops_System_Collections_Generic_HashSet_ToolkitEngine_Inventory_DropEntry__System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_DropEntry__
+  commentId: M:ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.HashSet{ToolkitEngine.Inventory.DropEntry},System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.DropEntry})
+  name.vb: AddDrops(HashSet(Of DropEntry), IEnumerable(Of DropEntry))
+  fullName: ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.HashSet<ToolkitEngine.Inventory.DropEntry>, System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.DropEntry>)
+  fullName.vb: ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.HashSet(Of ToolkitEngine.Inventory.DropEntry), System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.DropEntry))
+  nameWithType: Loot.AddDrops(HashSet<DropEntry>, IEnumerable<DropEntry>)
+  nameWithType.vb: Loot.AddDrops(HashSet(Of DropEntry), IEnumerable(Of DropEntry))
+- uid: ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.IList{ToolkitEngine.Inventory.DropEntry},System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.DropEntry})
+  name: AddDrops(IList<DropEntry>, IEnumerable<DropEntry>)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddDrops_System_Collections_Generic_IList_ToolkitEngine_Inventory_DropEntry__System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_DropEntry__
+  commentId: M:ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.IList{ToolkitEngine.Inventory.DropEntry},System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.DropEntry})
+  name.vb: AddDrops(IList(Of DropEntry), IEnumerable(Of DropEntry))
+  fullName: ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.IList<ToolkitEngine.Inventory.DropEntry>, System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.DropEntry>)
+  fullName.vb: ToolkitEngine.Inventory.Loot.AddDrops(System.Collections.Generic.IList(Of ToolkitEngine.Inventory.DropEntry), System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.DropEntry))
+  nameWithType: Loot.AddDrops(IList<DropEntry>, IEnumerable<DropEntry>)
+  nameWithType.vb: Loot.AddDrops(IList(Of DropEntry), IEnumerable(Of DropEntry))
+- uid: ToolkitEngine.Inventory.Loot.AddDrops*
+  name: AddDrops
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddDrops_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.AddDrops
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.AddDrops
+  nameWithType: Loot.AddDrops
+- uid: ToolkitEngine.Inventory.Loot.AddGuaranteedDrops(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.DropEntry})
+  name: AddGuaranteedDrops(IEnumerable<DropEntry>)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddGuaranteedDrops_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_DropEntry__
+  commentId: M:ToolkitEngine.Inventory.Loot.AddGuaranteedDrops(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.DropEntry})
+  name.vb: AddGuaranteedDrops(IEnumerable(Of DropEntry))
+  fullName: ToolkitEngine.Inventory.Loot.AddGuaranteedDrops(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.DropEntry>)
+  fullName.vb: ToolkitEngine.Inventory.Loot.AddGuaranteedDrops(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.DropEntry))
+  nameWithType: Loot.AddGuaranteedDrops(IEnumerable<DropEntry>)
+  nameWithType.vb: Loot.AddGuaranteedDrops(IEnumerable(Of DropEntry))
+- uid: ToolkitEngine.Inventory.Loot.AddGuaranteedDrops*
+  name: AddGuaranteedDrops
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_AddGuaranteedDrops_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.AddGuaranteedDrops
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.AddGuaranteedDrops
+  nameWithType: Loot.AddGuaranteedDrops
+- uid: ToolkitEngine.Inventory.Loot.ClearGuaranteedDrops
+  name: ClearGuaranteedDrops()
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_ClearGuaranteedDrops
+  commentId: M:ToolkitEngine.Inventory.Loot.ClearGuaranteedDrops
+  fullName: ToolkitEngine.Inventory.Loot.ClearGuaranteedDrops()
+  nameWithType: Loot.ClearGuaranteedDrops()
+- uid: ToolkitEngine.Inventory.Loot.ClearGuaranteedDrops*
+  name: ClearGuaranteedDrops
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_ClearGuaranteedDrops_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.ClearGuaranteedDrops
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.ClearGuaranteedDrops
+  nameWithType: Loot.ClearGuaranteedDrops
 - uid: ToolkitEngine.Inventory.Loot.Generate
   name: Generate()
   href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_Generate
   commentId: M:ToolkitEngine.Inventory.Loot.Generate
   fullName: ToolkitEngine.Inventory.Loot.Generate()
   nameWithType: Loot.Generate()
+- uid: ToolkitEngine.Inventory.Loot.Generate(System.Boolean)
+  name: Generate(bool)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_Generate_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.Loot.Generate(System.Boolean)
+  name.vb: Generate(Boolean)
+  fullName: ToolkitEngine.Inventory.Loot.Generate(bool)
+  fullName.vb: ToolkitEngine.Inventory.Loot.Generate(Boolean)
+  nameWithType: Loot.Generate(bool)
+  nameWithType.vb: Loot.Generate(Boolean)
+- uid: ToolkitEngine.Inventory.Loot.Generate(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.LootEntry},System.Boolean)
+  name: Generate(IEnumerable<LootEntry>, bool)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_Generate_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_LootEntry__System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.Loot.Generate(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.LootEntry},System.Boolean)
+  name.vb: Generate(IEnumerable(Of LootEntry), Boolean)
+  fullName: ToolkitEngine.Inventory.Loot.Generate(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.LootEntry>, bool)
+  fullName.vb: ToolkitEngine.Inventory.Loot.Generate(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.LootEntry), Boolean)
+  nameWithType: Loot.Generate(IEnumerable<LootEntry>, bool)
+  nameWithType.vb: Loot.Generate(IEnumerable(Of LootEntry), Boolean)
 - uid: ToolkitEngine.Inventory.Loot.Generate*
   name: Generate
   href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_Generate_
@@ -2724,12 +3925,127 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Loot.Generate
   nameWithType: Loot.Generate
+- uid: ToolkitEngine.Inventory.Loot.SetLootTable(ToolkitEngine.Inventory.LootTable)
+  name: SetLootTable(LootTable)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_SetLootTable_ToolkitEngine_Inventory_LootTable_
+  commentId: M:ToolkitEngine.Inventory.Loot.SetLootTable(ToolkitEngine.Inventory.LootTable)
+  fullName: ToolkitEngine.Inventory.Loot.SetLootTable(ToolkitEngine.Inventory.LootTable)
+  nameWithType: Loot.SetLootTable(LootTable)
+- uid: ToolkitEngine.Inventory.Loot.SetLootTable*
+  name: SetLootTable
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_SetLootTable_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.SetLootTable
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.SetLootTable
+  nameWithType: Loot.SetLootTable
+- uid: ToolkitEngine.Inventory.Loot.SetSeed(System.Int32)
+  name: SetSeed(int)
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_SetSeed_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.Loot.SetSeed(System.Int32)
+  name.vb: SetSeed(Integer)
+  fullName: ToolkitEngine.Inventory.Loot.SetSeed(int)
+  fullName.vb: ToolkitEngine.Inventory.Loot.SetSeed(Integer)
+  nameWithType: Loot.SetSeed(int)
+  nameWithType.vb: Loot.SetSeed(Integer)
+- uid: ToolkitEngine.Inventory.Loot.SetSeed*
+  name: SetSeed
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_SetSeed_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.SetSeed
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.SetSeed
+  nameWithType: Loot.SetSeed
+- uid: ToolkitEngine.Inventory.Loot.totalPicks
+  name: totalPicks
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_totalPicks
+  commentId: P:ToolkitEngine.Inventory.Loot.totalPicks
+  fullName: ToolkitEngine.Inventory.Loot.totalPicks
+  nameWithType: Loot.totalPicks
+- uid: ToolkitEngine.Inventory.Loot.totalPicks*
+  name: totalPicks
+  href: api/ToolkitEngine.Inventory.Loot.html#ToolkitEngine_Inventory_Loot_totalPicks_
+  commentId: Overload:ToolkitEngine.Inventory.Loot.totalPicks
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.Loot.totalPicks
+  nameWithType: Loot.totalPicks
 - uid: ToolkitEngine.Inventory.LootEntry
   name: LootEntry
   href: api/ToolkitEngine.Inventory.LootEntry.html
   commentId: T:ToolkitEngine.Inventory.LootEntry
   fullName: ToolkitEngine.Inventory.LootEntry
   nameWithType: LootEntry
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor
+  name: LootEntry()
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry()
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New()
+  nameWithType: LootEntry.LootEntry()
+  nameWithType.vb: LootEntry.New()
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name: LootEntry(CurrencyType, int)
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32)
+  name.vb: New(CurrencyType, Integer)
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry(ToolkitEngine.Inventory.CurrencyType, int)
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New(ToolkitEngine.Inventory.CurrencyType, Integer)
+  nameWithType: LootEntry.LootEntry(CurrencyType, int)
+  nameWithType.vb: LootEntry.New(CurrencyType, Integer)
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32,System.Int32)
+  name: LootEntry(CurrencyType, int, int)
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_CurrencyType_System_Int32_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.CurrencyType,System.Int32,System.Int32)
+  name.vb: New(CurrencyType, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry(ToolkitEngine.Inventory.CurrencyType, int, int)
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New(ToolkitEngine.Inventory.CurrencyType, Integer, Integer)
+  nameWithType: LootEntry.LootEntry(CurrencyType, int, int)
+  nameWithType.vb: LootEntry.New(CurrencyType, Integer, Integer)
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name: LootEntry(ItemType, int)
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32)
+  name.vb: New(ItemType, Integer)
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry(ToolkitEngine.Inventory.ItemType, int)
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New(ToolkitEngine.Inventory.ItemType, Integer)
+  nameWithType: LootEntry.LootEntry(ItemType, int)
+  nameWithType.vb: LootEntry.New(ItemType, Integer)
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32)
+  name: LootEntry(ItemType, int, int)
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_ItemType_System_Int32_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.ItemType,System.Int32,System.Int32)
+  name.vb: New(ItemType, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry(ToolkitEngine.Inventory.ItemType, int, int)
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New(ToolkitEngine.Inventory.ItemType, Integer, Integer)
+  nameWithType: LootEntry.LootEntry(ItemType, int, int)
+  nameWithType.vb: LootEntry.New(ItemType, Integer, Integer)
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32)
+  name: LootEntry(LootTable, int)
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_LootTable_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32)
+  name.vb: New(LootTable, Integer)
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry(ToolkitEngine.Inventory.LootTable, int)
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New(ToolkitEngine.Inventory.LootTable, Integer)
+  nameWithType: LootEntry.LootEntry(LootTable, int)
+  nameWithType.vb: LootEntry.New(LootTable, Integer)
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32,System.Int32)
+  name: LootEntry(LootTable, int, int)
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_ToolkitEngine_Inventory_LootTable_System_Int32_System_Int32_
+  commentId: M:ToolkitEngine.Inventory.LootEntry.#ctor(ToolkitEngine.Inventory.LootTable,System.Int32,System.Int32)
+  name.vb: New(LootTable, Integer, Integer)
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry(ToolkitEngine.Inventory.LootTable, int, int)
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New(ToolkitEngine.Inventory.LootTable, Integer, Integer)
+  nameWithType: LootEntry.LootEntry(LootTable, int, int)
+  nameWithType.vb: LootEntry.New(LootTable, Integer, Integer)
+- uid: ToolkitEngine.Inventory.LootEntry.#ctor*
+  name: LootEntry
+  href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.LootEntry.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.LootEntry.LootEntry
+  fullName.vb: ToolkitEngine.Inventory.LootEntry.New
+  nameWithType: LootEntry.LootEntry
+  nameWithType.vb: LootEntry.New
 - uid: ToolkitEngine.Inventory.LootEntry.item
   name: item
   href: api/ToolkitEngine.Inventory.LootEntry.html#ToolkitEngine_Inventory_LootEntry_item
@@ -2762,6 +4078,40 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.LootEntry.weight
   nameWithType: LootEntry.weight
+- uid: ToolkitEngine.Inventory.LootEntryProperty
+  name: LootEntryProperty
+  href: api/ToolkitEngine.Inventory.LootEntryProperty.html
+  commentId: T:ToolkitEngine.Inventory.LootEntryProperty
+  fullName: ToolkitEngine.Inventory.LootEntryProperty
+  nameWithType: LootEntryProperty
+- uid: ToolkitEngine.Inventory.LootEntryProperty.#ctor
+  name: LootEntryProperty()
+  href: api/ToolkitEngine.Inventory.LootEntryProperty.html#ToolkitEngine_Inventory_LootEntryProperty__ctor
+  commentId: M:ToolkitEngine.Inventory.LootEntryProperty.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.LootEntryProperty.LootEntryProperty()
+  fullName.vb: ToolkitEngine.Inventory.LootEntryProperty.New()
+  nameWithType: LootEntryProperty.LootEntryProperty()
+  nameWithType.vb: LootEntryProperty.New()
+- uid: ToolkitEngine.Inventory.LootEntryProperty.#ctor(ToolkitEngine.Inventory.LootEntry)
+  name: LootEntryProperty(LootEntry)
+  href: api/ToolkitEngine.Inventory.LootEntryProperty.html#ToolkitEngine_Inventory_LootEntryProperty__ctor_ToolkitEngine_Inventory_LootEntry_
+  commentId: M:ToolkitEngine.Inventory.LootEntryProperty.#ctor(ToolkitEngine.Inventory.LootEntry)
+  name.vb: New(LootEntry)
+  fullName: ToolkitEngine.Inventory.LootEntryProperty.LootEntryProperty(ToolkitEngine.Inventory.LootEntry)
+  fullName.vb: ToolkitEngine.Inventory.LootEntryProperty.New(ToolkitEngine.Inventory.LootEntry)
+  nameWithType: LootEntryProperty.LootEntryProperty(LootEntry)
+  nameWithType.vb: LootEntryProperty.New(LootEntry)
+- uid: ToolkitEngine.Inventory.LootEntryProperty.#ctor*
+  name: LootEntryProperty
+  href: api/ToolkitEngine.Inventory.LootEntryProperty.html#ToolkitEngine_Inventory_LootEntryProperty__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.LootEntryProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.LootEntryProperty.LootEntryProperty
+  fullName.vb: ToolkitEngine.Inventory.LootEntryProperty.New
+  nameWithType: LootEntryProperty.LootEntryProperty
+  nameWithType.vb: LootEntryProperty.New
 - uid: ToolkitEngine.Inventory.LootSpawner
   name: LootSpawner
   href: api/ToolkitEngine.Inventory.LootSpawner.html
@@ -2864,15 +4214,24 @@ references:
   commentId: T:ToolkitEngine.Inventory.LootTable
   fullName: ToolkitEngine.Inventory.LootTable
   nameWithType: LootTable
-- uid: ToolkitEngine.Inventory.LootTable.Get(System.Int32)
-  name: Get(int)
-  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_Get_System_Int32_
-  commentId: M:ToolkitEngine.Inventory.LootTable.Get(System.Int32)
-  name.vb: Get(Integer)
-  fullName: ToolkitEngine.Inventory.LootTable.Get(int)
-  fullName.vb: ToolkitEngine.Inventory.LootTable.Get(Integer)
-  nameWithType: LootTable.Get(int)
-  nameWithType.vb: LootTable.Get(Integer)
+- uid: ToolkitEngine.Inventory.LootTable.Get(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.LootEntry},System.Int32,System.Random,System.Boolean)
+  name: Get(IEnumerable<LootEntry>, int, Random, bool)
+  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_Get_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_LootEntry__System_Int32_System_Random_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.LootTable.Get(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.LootEntry},System.Int32,System.Random,System.Boolean)
+  name.vb: Get(IEnumerable(Of LootEntry), Integer, Random, Boolean)
+  fullName: ToolkitEngine.Inventory.LootTable.Get(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.LootEntry>, int, System.Random, bool)
+  fullName.vb: ToolkitEngine.Inventory.LootTable.Get(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.LootEntry), Integer, System.Random, Boolean)
+  nameWithType: LootTable.Get(IEnumerable<LootEntry>, int, Random, bool)
+  nameWithType.vb: LootTable.Get(IEnumerable(Of LootEntry), Integer, Random, Boolean)
+- uid: ToolkitEngine.Inventory.LootTable.Get(System.Int32,System.Random,System.Boolean)
+  name: Get(int, Random, bool)
+  href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_Get_System_Int32_System_Random_System_Boolean_
+  commentId: M:ToolkitEngine.Inventory.LootTable.Get(System.Int32,System.Random,System.Boolean)
+  name.vb: Get(Integer, Random, Boolean)
+  fullName: ToolkitEngine.Inventory.LootTable.Get(int, System.Random, bool)
+  fullName.vb: ToolkitEngine.Inventory.LootTable.Get(Integer, System.Random, Boolean)
+  nameWithType: LootTable.Get(int, Random, bool)
+  nameWithType.vb: LootTable.Get(Integer, Random, Boolean)
 - uid: ToolkitEngine.Inventory.LootTable.Get*
   name: Get
   href: api/ToolkitEngine.Inventory.LootTable.html#ToolkitEngine_Inventory_LootTable_Get_
@@ -2893,6 +4252,106 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.LootTable.totalRates
   nameWithType: LootTable.totalRates
+- uid: ToolkitEngine.Inventory.LootTableProperty
+  name: LootTableProperty
+  href: api/ToolkitEngine.Inventory.LootTableProperty.html
+  commentId: T:ToolkitEngine.Inventory.LootTableProperty
+  fullName: ToolkitEngine.Inventory.LootTableProperty
+  nameWithType: LootTableProperty
+- uid: ToolkitEngine.Inventory.LootTableProperty.#ctor
+  name: LootTableProperty()
+  href: api/ToolkitEngine.Inventory.LootTableProperty.html#ToolkitEngine_Inventory_LootTableProperty__ctor
+  commentId: M:ToolkitEngine.Inventory.LootTableProperty.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.LootTableProperty.LootTableProperty()
+  fullName.vb: ToolkitEngine.Inventory.LootTableProperty.New()
+  nameWithType: LootTableProperty.LootTableProperty()
+  nameWithType.vb: LootTableProperty.New()
+- uid: ToolkitEngine.Inventory.LootTableProperty.#ctor(ToolkitEngine.Inventory.LootTable)
+  name: LootTableProperty(LootTable)
+  href: api/ToolkitEngine.Inventory.LootTableProperty.html#ToolkitEngine_Inventory_LootTableProperty__ctor_ToolkitEngine_Inventory_LootTable_
+  commentId: M:ToolkitEngine.Inventory.LootTableProperty.#ctor(ToolkitEngine.Inventory.LootTable)
+  name.vb: New(LootTable)
+  fullName: ToolkitEngine.Inventory.LootTableProperty.LootTableProperty(ToolkitEngine.Inventory.LootTable)
+  fullName.vb: ToolkitEngine.Inventory.LootTableProperty.New(ToolkitEngine.Inventory.LootTable)
+  nameWithType: LootTableProperty.LootTableProperty(LootTable)
+  nameWithType.vb: LootTableProperty.New(LootTable)
+- uid: ToolkitEngine.Inventory.LootTableProperty.#ctor*
+  name: LootTableProperty
+  href: api/ToolkitEngine.Inventory.LootTableProperty.html#ToolkitEngine_Inventory_LootTableProperty__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.LootTableProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.LootTableProperty.LootTableProperty
+  fullName.vb: ToolkitEngine.Inventory.LootTableProperty.New
+  nameWithType: LootTableProperty.LootTableProperty
+  nameWithType.vb: LootTableProperty.New
+- uid: ToolkitEngine.Inventory.PriceDrawer
+  name: PriceDrawer
+  href: api/ToolkitEngine.Inventory.PriceDrawer.html
+  commentId: T:ToolkitEngine.Inventory.PriceDrawer
+  fullName: ToolkitEngine.Inventory.PriceDrawer
+  nameWithType: PriceDrawer
+- uid: ToolkitEngine.Inventory.PriceDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/ToolkitEngine.Inventory.PriceDrawer.html#ToolkitEngine_Inventory_PriceDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEngine.Inventory.PriceDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: ToolkitEngine.Inventory.PriceDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: PriceDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: ToolkitEngine.Inventory.PriceDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/ToolkitEngine.Inventory.PriceDrawer.html#ToolkitEngine_Inventory_PriceDrawer_GetPropertyHeight_
+  commentId: Overload:ToolkitEngine.Inventory.PriceDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.PriceDrawer.GetPropertyHeight
+  nameWithType: PriceDrawer.GetPropertyHeight
+- uid: ToolkitEngine.Inventory.PriceDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/ToolkitEngine.Inventory.PriceDrawer.html#ToolkitEngine_Inventory_PriceDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:ToolkitEngine.Inventory.PriceDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ToolkitEngine.Inventory.PriceDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: PriceDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: ToolkitEngine.Inventory.PriceDrawer.OnGUI*
+  name: OnGUI
+  href: api/ToolkitEngine.Inventory.PriceDrawer.html#ToolkitEngine_Inventory_PriceDrawer_OnGUI_
+  commentId: Overload:ToolkitEngine.Inventory.PriceDrawer.OnGUI
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.PriceDrawer.OnGUI
+  nameWithType: PriceDrawer.OnGUI
+- uid: ToolkitEngine.Inventory.PriceListProperty
+  name: PriceListProperty
+  href: api/ToolkitEngine.Inventory.PriceListProperty.html
+  commentId: T:ToolkitEngine.Inventory.PriceListProperty
+  fullName: ToolkitEngine.Inventory.PriceListProperty
+  nameWithType: PriceListProperty
+- uid: ToolkitEngine.Inventory.PriceListProperty.#ctor
+  name: PriceListProperty()
+  href: api/ToolkitEngine.Inventory.PriceListProperty.html#ToolkitEngine_Inventory_PriceListProperty__ctor
+  commentId: M:ToolkitEngine.Inventory.PriceListProperty.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.Inventory.PriceListProperty.PriceListProperty()
+  fullName.vb: ToolkitEngine.Inventory.PriceListProperty.New()
+  nameWithType: PriceListProperty.PriceListProperty()
+  nameWithType.vb: PriceListProperty.New()
+- uid: ToolkitEngine.Inventory.PriceListProperty.#ctor(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.ItemType.Price})
+  name: PriceListProperty(IEnumerable<Price>)
+  href: api/ToolkitEngine.Inventory.PriceListProperty.html#ToolkitEngine_Inventory_PriceListProperty__ctor_System_Collections_Generic_IEnumerable_ToolkitEngine_Inventory_ItemType_Price__
+  commentId: M:ToolkitEngine.Inventory.PriceListProperty.#ctor(System.Collections.Generic.IEnumerable{ToolkitEngine.Inventory.ItemType.Price})
+  name.vb: New(IEnumerable(Of Price))
+  fullName: ToolkitEngine.Inventory.PriceListProperty.PriceListProperty(System.Collections.Generic.IEnumerable<ToolkitEngine.Inventory.ItemType.Price>)
+  fullName.vb: ToolkitEngine.Inventory.PriceListProperty.New(System.Collections.Generic.IEnumerable(Of ToolkitEngine.Inventory.ItemType.Price))
+  nameWithType: PriceListProperty.PriceListProperty(IEnumerable<ItemType.Price>)
+  nameWithType.vb: PriceListProperty.New(IEnumerable(Of ItemType.Price))
+- uid: ToolkitEngine.Inventory.PriceListProperty.#ctor*
+  name: PriceListProperty
+  href: api/ToolkitEngine.Inventory.PriceListProperty.html#ToolkitEngine_Inventory_PriceListProperty__ctor_
+  commentId: Overload:ToolkitEngine.Inventory.PriceListProperty.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.Inventory.PriceListProperty.PriceListProperty
+  fullName.vb: ToolkitEngine.Inventory.PriceListProperty.New
+  nameWithType: PriceListProperty.PriceListProperty
+  nameWithType.vb: PriceListProperty.New
 - uid: ToolkitEngine.Inventory.Recipes
   name: Recipes
   href: api/ToolkitEngine.Inventory.Recipes.html
@@ -2974,6 +4433,24 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Recipes.items
   nameWithType: Recipes.items
+- uid: ToolkitEngine.Inventory.SaveManagement
+  name: ToolkitEngine.Inventory.SaveManagement
+  href: api/ToolkitEngine.Inventory.SaveManagement.html
+  commentId: N:ToolkitEngine.Inventory.SaveManagement
+  fullName: ToolkitEngine.Inventory.SaveManagement
+  nameWithType: ToolkitEngine.Inventory.SaveManagement
+- uid: ToolkitEngine.Inventory.SaveManagement.ItemListDefinition
+  name: ItemListDefinition
+  href: api/ToolkitEngine.Inventory.SaveManagement.ItemListDefinition.html
+  commentId: T:ToolkitEngine.Inventory.SaveManagement.ItemListDefinition
+  fullName: ToolkitEngine.Inventory.SaveManagement.ItemListDefinition
+  nameWithType: ItemListDefinition
+- uid: ToolkitEngine.Inventory.SaveManagement.SaveItemList
+  name: SaveItemList
+  href: api/ToolkitEngine.Inventory.SaveManagement.SaveItemList.html
+  commentId: T:ToolkitEngine.Inventory.SaveManagement.SaveItemList
+  fullName: ToolkitEngine.Inventory.SaveManagement.SaveItemList
+  nameWithType: SaveItemList
 - uid: ToolkitEngine.Inventory.VisualScripting
   name: ToolkitEngine.Inventory.VisualScripting
   href: api/ToolkitEngine.Inventory.VisualScripting.html
@@ -3141,3 +4618,618 @@ references:
   commentId: T:ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener
   fullName: ToolkitEngine.Inventory.VisualScripting.OnItemSlotChangedMessageListener
   nameWithType: OnItemSlotChangedMessageListener
+- uid: ToolkitEngine.SaveManagement.Inventory
+  name: ToolkitEngine.SaveManagement.Inventory
+  href: api/ToolkitEngine.SaveManagement.Inventory.html
+  commentId: N:ToolkitEngine.SaveManagement.Inventory
+  fullName: ToolkitEngine.SaveManagement.Inventory
+  nameWithType: ToolkitEngine.SaveManagement.Inventory
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable
+  name: InventoryListSaveable
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html
+  commentId: T:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable
+  nameWithType: InventoryListSaveable
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.Awake
+  name: Awake()
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html#ToolkitEngine_SaveManagement_Inventory_InventoryListSaveable_Awake
+  commentId: M:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.Awake
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.Awake()
+  nameWithType: InventoryListSaveable.Awake()
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.Awake*
+  name: Awake
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html#ToolkitEngine_SaveManagement_Inventory_InventoryListSaveable_Awake_
+  commentId: Overload:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.Awake
+  isSpec: "True"
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.Awake
+  nameWithType: InventoryListSaveable.Awake
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.LoadInternal
+  name: LoadInternal()
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html#ToolkitEngine_SaveManagement_Inventory_InventoryListSaveable_LoadInternal
+  commentId: M:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.LoadInternal
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.LoadInternal()
+  nameWithType: InventoryListSaveable.LoadInternal()
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.LoadInternal*
+  name: LoadInternal
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html#ToolkitEngine_SaveManagement_Inventory_InventoryListSaveable_LoadInternal_
+  commentId: Overload:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.LoadInternal
+  isSpec: "True"
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.LoadInternal
+  nameWithType: InventoryListSaveable.LoadInternal
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.SaveInternal
+  name: SaveInternal()
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html#ToolkitEngine_SaveManagement_Inventory_InventoryListSaveable_SaveInternal
+  commentId: M:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.SaveInternal
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.SaveInternal()
+  nameWithType: InventoryListSaveable.SaveInternal()
+- uid: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.SaveInternal*
+  name: SaveInternal
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.html#ToolkitEngine_SaveManagement_Inventory_InventoryListSaveable_SaveInternal_
+  commentId: Overload:ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.SaveInternal
+  isSpec: "True"
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventoryListSaveable.SaveInternal
+  nameWithType: InventoryListSaveable.SaveInternal
+- uid: ToolkitEngine.SaveManagement.Inventory.InventorySnapshot
+  name: InventorySnapshot
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.html
+  commentId: T:ToolkitEngine.SaveManagement.Inventory.InventorySnapshot
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventorySnapshot
+  nameWithType: InventorySnapshot
+- uid: ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.currencies
+  name: currencies
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.html#ToolkitEngine_SaveManagement_Inventory_InventorySnapshot_currencies
+  commentId: F:ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.currencies
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.currencies
+  nameWithType: InventorySnapshot.currencies
+- uid: ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.items
+  name: items
+  href: api/ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.html#ToolkitEngine_SaveManagement_Inventory_InventorySnapshot_items
+  commentId: F:ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.items
+  fullName: ToolkitEngine.SaveManagement.Inventory.InventorySnapshot.items
+  nameWithType: InventorySnapshot.items
+- uid: ToolkitEngine.SaveManagement.Inventory.ItemDefinition
+  name: ItemDefinition
+  href: api/ToolkitEngine.SaveManagement.Inventory.ItemDefinition.html
+  commentId: T:ToolkitEngine.SaveManagement.Inventory.ItemDefinition
+  fullName: ToolkitEngine.SaveManagement.Inventory.ItemDefinition
+  nameWithType: ItemDefinition
+- uid: ToolkitEngine.SaveManagement.Inventory.ItemDefinition.#ctor
+  name: ItemDefinition()
+  href: api/ToolkitEngine.SaveManagement.Inventory.ItemDefinition.html#ToolkitEngine_SaveManagement_Inventory_ItemDefinition__ctor
+  commentId: M:ToolkitEngine.SaveManagement.Inventory.ItemDefinition.#ctor
+  name.vb: New()
+  fullName: ToolkitEngine.SaveManagement.Inventory.ItemDefinition.ItemDefinition()
+  fullName.vb: ToolkitEngine.SaveManagement.Inventory.ItemDefinition.New()
+  nameWithType: ItemDefinition.ItemDefinition()
+  nameWithType.vb: ItemDefinition.New()
+- uid: ToolkitEngine.SaveManagement.Inventory.ItemDefinition.#ctor*
+  name: ItemDefinition
+  href: api/ToolkitEngine.SaveManagement.Inventory.ItemDefinition.html#ToolkitEngine_SaveManagement_Inventory_ItemDefinition__ctor_
+  commentId: Overload:ToolkitEngine.SaveManagement.Inventory.ItemDefinition.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ToolkitEngine.SaveManagement.Inventory.ItemDefinition.ItemDefinition
+  fullName.vb: ToolkitEngine.SaveManagement.Inventory.ItemDefinition.New
+  nameWithType: ItemDefinition.ItemDefinition
+  nameWithType.vb: ItemDefinition.New
+- uid: ToolkitEngine.SaveManagement.Inventory.ItemStorage
+  name: ItemStorage
+  href: api/ToolkitEngine.SaveManagement.Inventory.ItemStorage.html
+  commentId: T:ToolkitEngine.SaveManagement.Inventory.ItemStorage
+  fullName: ToolkitEngine.SaveManagement.Inventory.ItemStorage
+  nameWithType: ItemStorage
+- uid: ToolkitEngine.SaveManagement.Inventory.SaveItem
+  name: SaveItem
+  href: api/ToolkitEngine.SaveManagement.Inventory.SaveItem.html
+  commentId: T:ToolkitEngine.SaveManagement.Inventory.SaveItem
+  fullName: ToolkitEngine.SaveManagement.Inventory.SaveItem
+  nameWithType: SaveItem
+- uid: ToolkitEngine.VisualScripting
+  name: ToolkitEngine.VisualScripting
+  href: api/ToolkitEngine.VisualScripting.html
+  commentId: N:ToolkitEngine.VisualScripting
+  fullName: ToolkitEngine.VisualScripting
+  nameWithType: ToolkitEngine.VisualScripting
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit
+  name: ClearCurrencyMaxStackOverrideUnit
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit
+  nameWithType: ClearCurrencyMaxStackOverrideUnit
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.Definition()
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.Definition
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.Definition
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.clearAll
+  name: clearAll
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_clearAll
+  commentId: F:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.clearAll
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.clearAll
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.clearAll
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.currencyType
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.currencyType
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.enter
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.enter
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.enter
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.exit
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.exit
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_ClearCurrencyMaxStackOverrideUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ClearCurrencyMaxStackOverrideUnit.exit
+  nameWithType: ClearCurrencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit
+  name: GetCurrencyMaxStackOverrideUnit
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit
+  nameWithType: GetCurrencyMaxStackOverrideUnit
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.Definition()
+  nameWithType: GetCurrencyMaxStackOverrideUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.Definition
+  nameWithType: GetCurrencyMaxStackOverrideUnit.Definition
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.amount
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_amount
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.amount
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.amount
+  nameWithType: GetCurrencyMaxStackOverrideUnit.amount
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.amount*
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_amount_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.amount
+  nameWithType: GetCurrencyMaxStackOverrideUnit.amount
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.currencyType
+  nameWithType: GetCurrencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.currencyType
+  nameWithType: GetCurrencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.enter
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.enter
+  nameWithType: GetCurrencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.enter
+  nameWithType: GetCurrencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.exit
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.exit
+  nameWithType: GetCurrencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_GetCurrencyMaxStackOverrideUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyMaxStackOverrideUnit.exit
+  nameWithType: GetCurrencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit
+  name: GetCurrencyPoolAmountUnit
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit
+  nameWithType: GetCurrencyPoolAmountUnit
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.Definition()
+  nameWithType: GetCurrencyPoolAmountUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.Definition
+  nameWithType: GetCurrencyPoolAmountUnit.Definition
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.amount
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_amount
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.amount
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.amount
+  nameWithType: GetCurrencyPoolAmountUnit.amount
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.amount*
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_amount_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.amount
+  nameWithType: GetCurrencyPoolAmountUnit.amount
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.currencyType
+  nameWithType: GetCurrencyPoolAmountUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.currencyType
+  nameWithType: GetCurrencyPoolAmountUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.enter
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.enter
+  nameWithType: GetCurrencyPoolAmountUnit.enter
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.enter
+  nameWithType: GetCurrencyPoolAmountUnit.enter
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.exit
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.exit
+  nameWithType: GetCurrencyPoolAmountUnit.exit
+- uid: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_GetCurrencyPoolAmountUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.GetCurrencyPoolAmountUnit.exit
+  nameWithType: GetCurrencyPoolAmountUnit.exit
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit
+  name: HasCurrencyMaxStackOverrideUnit
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit
+  nameWithType: HasCurrencyMaxStackOverrideUnit
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.Definition()
+  nameWithType: HasCurrencyMaxStackOverrideUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.Definition
+  nameWithType: HasCurrencyMaxStackOverrideUnit.Definition
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.currencyType
+  nameWithType: HasCurrencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.currencyType
+  nameWithType: HasCurrencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.enter
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.enter
+  nameWithType: HasCurrencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.enter
+  nameWithType: HasCurrencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.exit
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.exit
+  nameWithType: HasCurrencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.exit
+  nameWithType: HasCurrencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.result
+  name: result
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_result
+  commentId: P:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.result
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.result
+  nameWithType: HasCurrencyMaxStackOverrideUnit.result
+- uid: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.result*
+  name: result
+  href: api/ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_HasCurrencyMaxStackOverrideUnit_result_
+  commentId: Overload:ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.result
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.HasCurrencyMaxStackOverrideUnit.result
+  nameWithType: HasCurrencyMaxStackOverrideUnit.result
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit
+  name: ModifyCurrencyPoolAmountUnit
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit
+  nameWithType: ModifyCurrencyPoolAmountUnit
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.Definition()
+  nameWithType: ModifyCurrencyPoolAmountUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.Definition
+  nameWithType: ModifyCurrencyPoolAmountUnit.Definition
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.amount
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_amount
+  commentId: P:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.amount
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.amount
+  nameWithType: ModifyCurrencyPoolAmountUnit.amount
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.amount*
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_amount_
+  commentId: Overload:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.amount
+  nameWithType: ModifyCurrencyPoolAmountUnit.amount
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.currencyType
+  nameWithType: ModifyCurrencyPoolAmountUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.currencyType
+  nameWithType: ModifyCurrencyPoolAmountUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.delta
+  name: delta
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_delta
+  commentId: P:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.delta
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.delta
+  nameWithType: ModifyCurrencyPoolAmountUnit.delta
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.delta*
+  name: delta
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_delta_
+  commentId: Overload:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.delta
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.delta
+  nameWithType: ModifyCurrencyPoolAmountUnit.delta
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.enter
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.enter
+  nameWithType: ModifyCurrencyPoolAmountUnit.enter
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.enter
+  nameWithType: ModifyCurrencyPoolAmountUnit.enter
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.exit
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.exit
+  nameWithType: ModifyCurrencyPoolAmountUnit.exit
+- uid: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_ModifyCurrencyPoolAmountUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.ModifyCurrencyPoolAmountUnit.exit
+  nameWithType: ModifyCurrencyPoolAmountUnit.exit
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit
+  name: SetCurencyMaxStackOverrideUnit
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit
+  nameWithType: SetCurencyMaxStackOverrideUnit
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.Definition()
+  nameWithType: SetCurencyMaxStackOverrideUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.Definition
+  nameWithType: SetCurencyMaxStackOverrideUnit.Definition
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.currencyType
+  nameWithType: SetCurencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.currencyType
+  nameWithType: SetCurencyMaxStackOverrideUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.enter
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.enter
+  nameWithType: SetCurencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.enter
+  nameWithType: SetCurencyMaxStackOverrideUnit.enter
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.exit
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.exit
+  nameWithType: SetCurencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.exit
+  nameWithType: SetCurencyMaxStackOverrideUnit.exit
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.maxStack
+  name: maxStack
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_maxStack
+  commentId: P:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.maxStack
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.maxStack
+  nameWithType: SetCurencyMaxStackOverrideUnit.maxStack
+- uid: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.maxStack*
+  name: maxStack
+  href: api/ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.html#ToolkitEngine_VisualScripting_SetCurencyMaxStackOverrideUnit_maxStack_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.maxStack
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurencyMaxStackOverrideUnit.maxStack
+  nameWithType: SetCurencyMaxStackOverrideUnit.maxStack
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit
+  name: SetCurrencyPoolAmountUnit
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html
+  commentId: T:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit
+  nameWithType: SetCurrencyPoolAmountUnit
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.Definition
+  name: Definition()
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_Definition
+  commentId: M:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.Definition
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.Definition()
+  nameWithType: SetCurrencyPoolAmountUnit.Definition()
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.Definition*
+  name: Definition
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_Definition_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.Definition
+  nameWithType: SetCurrencyPoolAmountUnit.Definition
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.amount
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_amount
+  commentId: P:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.amount
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.amount
+  nameWithType: SetCurrencyPoolAmountUnit.amount
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.amount*
+  name: amount
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_amount_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.amount
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.amount
+  nameWithType: SetCurrencyPoolAmountUnit.amount
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.currencyType
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_currencyType
+  commentId: P:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.currencyType
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.currencyType
+  nameWithType: SetCurrencyPoolAmountUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.currencyType*
+  name: currencyType
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_currencyType_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.currencyType
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.currencyType
+  nameWithType: SetCurrencyPoolAmountUnit.currencyType
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.enter
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_enter
+  commentId: P:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.enter
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.enter
+  nameWithType: SetCurrencyPoolAmountUnit.enter
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.enter*
+  name: enter
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_enter_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.enter
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.enter
+  nameWithType: SetCurrencyPoolAmountUnit.enter
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.exit
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_exit
+  commentId: P:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.exit
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.exit
+  nameWithType: SetCurrencyPoolAmountUnit.exit
+- uid: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.exit*
+  name: exit
+  href: api/ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.html#ToolkitEngine_VisualScripting_SetCurrencyPoolAmountUnit_exit_
+  commentId: Overload:ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.exit
+  isSpec: "True"
+  fullName: ToolkitEngine.VisualScripting.SetCurrencyPoolAmountUnit.exit
+  nameWithType: SetCurrencyPoolAmountUnit.exit
