@@ -71,6 +71,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Inventory.InventorySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Inventory.InventorySettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Inventory.InventorySettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.Inventory.InventoryTypePostProcessor.yml",
       "output": {
         ".html": {
@@ -449,6 +463,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.ItemDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.ItemDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.ItemDatabase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Inventory.ItemEventArgs.yml",
       "output": {
         ".html": {
@@ -726,6 +754,20 @@
       "IsMRef": true,
       "Title": "ToolkitEngine.Inventory.SaveManagement.ItemListDefinition",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter",
+      "Summary": "<p sourcefile=\"api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.yml\" sourcestartlinenumber=\"1\">Custom Odin Serializer formatter for <xref href=\"ToolkitEngine.Inventory.ItemType\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",

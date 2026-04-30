@@ -274,6 +274,25 @@ references:
   commentId: F:ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
   fullName: ToolkitEditor.Inventory.InventoryEditor.m_useEncumbrance
   nameWithType: InventoryEditor.m_useEncumbrance
+- uid: ToolkitEditor.Inventory.InventorySettings
+  name: InventorySettings
+  href: api/ToolkitEditor.Inventory.InventorySettings.html
+  commentId: T:ToolkitEditor.Inventory.InventorySettings
+  fullName: ToolkitEditor.Inventory.InventorySettings
+  nameWithType: InventorySettings
+- uid: ToolkitEditor.Inventory.InventorySettings.itemDatabase
+  name: itemDatabase
+  href: api/ToolkitEditor.Inventory.InventorySettings.html#ToolkitEditor_Inventory_InventorySettings_itemDatabase
+  commentId: P:ToolkitEditor.Inventory.InventorySettings.itemDatabase
+  fullName: ToolkitEditor.Inventory.InventorySettings.itemDatabase
+  nameWithType: InventorySettings.itemDatabase
+- uid: ToolkitEditor.Inventory.InventorySettings.itemDatabase*
+  name: itemDatabase
+  href: api/ToolkitEditor.Inventory.InventorySettings.html#ToolkitEditor_Inventory_InventorySettings_itemDatabase_
+  commentId: Overload:ToolkitEditor.Inventory.InventorySettings.itemDatabase
+  isSpec: "True"
+  fullName: ToolkitEditor.Inventory.InventorySettings.itemDatabase
+  nameWithType: InventorySettings.itemDatabase
 - uid: ToolkitEditor.Inventory.InventoryTypePostProcessor
   name: InventoryTypePostProcessor
   href: api/ToolkitEditor.Inventory.InventoryTypePostProcessor.html
@@ -2424,6 +2443,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.InventoryManager.HasMaxStackOverride
   nameWithType: InventoryManager.HasMaxStackOverride
+- uid: ToolkitEngine.Inventory.InventoryManager.Initialize
+  name: Initialize()
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Initialize
+  commentId: M:ToolkitEngine.Inventory.InventoryManager.Initialize
+  fullName: ToolkitEngine.Inventory.InventoryManager.Initialize()
+  nameWithType: InventoryManager.Initialize()
+- uid: ToolkitEngine.Inventory.InventoryManager.Initialize*
+  name: Initialize
+  href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Initialize_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManager.Initialize
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManager.Initialize
+  nameWithType: InventoryManager.Initialize
 - uid: ToolkitEngine.Inventory.InventoryManager.Instantiate
   name: Instantiate()
   href: api/ToolkitEngine.Inventory.InventoryManager.html#ToolkitEngine_Inventory_InventoryManager_Instantiate
@@ -2606,6 +2638,19 @@ references:
   commentId: T:ToolkitEngine.Inventory.InventoryManagerConfig
   fullName: ToolkitEngine.Inventory.InventoryManagerConfig
   nameWithType: InventoryManagerConfig
+- uid: ToolkitEngine.Inventory.InventoryManagerConfig.itemDatabase
+  name: itemDatabase
+  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_itemDatabase
+  commentId: P:ToolkitEngine.Inventory.InventoryManagerConfig.itemDatabase
+  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.itemDatabase
+  nameWithType: InventoryManagerConfig.itemDatabase
+- uid: ToolkitEngine.Inventory.InventoryManagerConfig.itemDatabase*
+  name: itemDatabase
+  href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_itemDatabase_
+  commentId: Overload:ToolkitEngine.Inventory.InventoryManagerConfig.itemDatabase
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.InventoryManagerConfig.itemDatabase
+  nameWithType: InventoryManagerConfig.itemDatabase
 - uid: ToolkitEngine.Inventory.InventoryManagerConfig.template
   name: template
   href: api/ToolkitEngine.Inventory.InventoryManagerConfig.html#ToolkitEngine_Inventory_InventoryManagerConfig_template
@@ -2755,6 +2800,44 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Inventory.Item.onCollected
   nameWithType: Item.onCollected
+- uid: ToolkitEngine.Inventory.ItemDatabase
+  name: ItemDatabase
+  href: api/ToolkitEngine.Inventory.ItemDatabase.html
+  commentId: T:ToolkitEngine.Inventory.ItemDatabase
+  fullName: ToolkitEngine.Inventory.ItemDatabase
+  nameWithType: ItemDatabase
+- uid: ToolkitEngine.Inventory.ItemDatabase.GetItem(System.String)
+  name: GetItem(string)
+  href: api/ToolkitEngine.Inventory.ItemDatabase.html#ToolkitEngine_Inventory_ItemDatabase_GetItem_System_String_
+  commentId: M:ToolkitEngine.Inventory.ItemDatabase.GetItem(System.String)
+  name.vb: GetItem(String)
+  fullName: ToolkitEngine.Inventory.ItemDatabase.GetItem(string)
+  fullName.vb: ToolkitEngine.Inventory.ItemDatabase.GetItem(String)
+  nameWithType: ItemDatabase.GetItem(string)
+  nameWithType.vb: ItemDatabase.GetItem(String)
+- uid: ToolkitEngine.Inventory.ItemDatabase.GetItem*
+  name: GetItem
+  href: api/ToolkitEngine.Inventory.ItemDatabase.html#ToolkitEngine_Inventory_ItemDatabase_GetItem_
+  commentId: Overload:ToolkitEngine.Inventory.ItemDatabase.GetItem
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemDatabase.GetItem
+  nameWithType: ItemDatabase.GetItem
+- uid: ToolkitEngine.Inventory.ItemDatabase.TryGetItem(System.String,ToolkitEngine.Inventory.ItemType@)
+  name: TryGetItem(string, out ItemType)
+  href: api/ToolkitEngine.Inventory.ItemDatabase.html#ToolkitEngine_Inventory_ItemDatabase_TryGetItem_System_String_ToolkitEngine_Inventory_ItemType__
+  commentId: M:ToolkitEngine.Inventory.ItemDatabase.TryGetItem(System.String,ToolkitEngine.Inventory.ItemType@)
+  name.vb: TryGetItem(String, ItemType)
+  fullName: ToolkitEngine.Inventory.ItemDatabase.TryGetItem(string, out ToolkitEngine.Inventory.ItemType)
+  fullName.vb: ToolkitEngine.Inventory.ItemDatabase.TryGetItem(String, ToolkitEngine.Inventory.ItemType)
+  nameWithType: ItemDatabase.TryGetItem(string, out ItemType)
+  nameWithType.vb: ItemDatabase.TryGetItem(String, ItemType)
+- uid: ToolkitEngine.Inventory.ItemDatabase.TryGetItem*
+  name: TryGetItem
+  href: api/ToolkitEngine.Inventory.ItemDatabase.html#ToolkitEngine_Inventory_ItemDatabase_TryGetItem_
+  commentId: Overload:ToolkitEngine.Inventory.ItemDatabase.TryGetItem
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.ItemDatabase.TryGetItem
+  nameWithType: ItemDatabase.TryGetItem
 - uid: ToolkitEngine.Inventory.ItemEventArgs
   name: ItemEventArgs
   href: api/ToolkitEngine.Inventory.ItemEventArgs.html
@@ -4445,6 +4528,44 @@ references:
   commentId: T:ToolkitEngine.Inventory.SaveManagement.ItemListDefinition
   fullName: ToolkitEngine.Inventory.SaveManagement.ItemListDefinition
   nameWithType: ItemListDefinition
+- uid: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter
+  name: ItemTypeFormatter
+  href: api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.html
+  commentId: T:ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter
+  fullName: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter
+  nameWithType: ItemTypeFormatter
+- uid: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read(ToolkitEngine.Inventory.ItemType@,IDataReader)
+  name: Read(ref ItemType, IDataReader)
+  href: api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.html#ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Read_ToolkitEngine_Inventory_ItemType__IDataReader_
+  commentId: M:ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read(ToolkitEngine.Inventory.ItemType@,IDataReader)
+  name.vb: Read(ItemType, IDataReader)
+  fullName: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read(ref ToolkitEngine.Inventory.ItemType, IDataReader)
+  fullName.vb: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read(ToolkitEngine.Inventory.ItemType, IDataReader)
+  nameWithType: ItemTypeFormatter.Read(ref ItemType, IDataReader)
+  nameWithType.vb: ItemTypeFormatter.Read(ItemType, IDataReader)
+- uid: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read*
+  name: Read
+  href: api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.html#ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Read_
+  commentId: Overload:ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read
+  nameWithType: ItemTypeFormatter.Read
+- uid: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write(ToolkitEngine.Inventory.ItemType@,IDataWriter)
+  name: Write(ref ItemType, IDataWriter)
+  href: api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.html#ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Write_ToolkitEngine_Inventory_ItemType__IDataWriter_
+  commentId: M:ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write(ToolkitEngine.Inventory.ItemType@,IDataWriter)
+  name.vb: Write(ItemType, IDataWriter)
+  fullName: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write(ref ToolkitEngine.Inventory.ItemType, IDataWriter)
+  fullName.vb: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write(ToolkitEngine.Inventory.ItemType, IDataWriter)
+  nameWithType: ItemTypeFormatter.Write(ref ItemType, IDataWriter)
+  nameWithType.vb: ItemTypeFormatter.Write(ItemType, IDataWriter)
+- uid: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write*
+  name: Write
+  href: api/ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.html#ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Write_
+  commentId: Overload:ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write
+  isSpec: "True"
+  fullName: ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write
+  nameWithType: ItemTypeFormatter.Write
 - uid: ToolkitEngine.Inventory.SaveManagement.SaveItemList
   name: SaveItemList
   href: api/ToolkitEngine.Inventory.SaveManagement.SaveItemList.html

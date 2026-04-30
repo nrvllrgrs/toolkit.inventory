@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class InventoryTypePostProcessor | Inventory Toolkit | 1.0.0 </title>
+      <title>Class ItemTypeFormatter | Inventory Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class InventoryTypePostProcessor | Inventory Toolkit | 1.0.0 ">
+      <meta name="title" content="Class ItemTypeFormatter | Inventory Toolkit | 1.0.0 ">
       
-      <meta name="description" content="Ensures every ItemType/CurrencyType ScriptableObject in the project has a unique m_id. Runs automatically whenever assets are imported, and can also be triggered manually via  Tools &amp;gt; Toolkit &amp;gt; Validate Item IDs.">
+      <meta name="description" content="Custom Odin Serializer formatter for .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.inventory/new/master/apiSpec/new?filename=ToolkitEditor_Inventory_InventoryTypePostProcessor.md&amp;value=---%0Auid%3A%20ToolkitEditor.Inventory.InventoryTypePostProcessor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.inventory/new/master/apiSpec/new?filename=ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter.md&amp;value=---%0Auid%3A%20ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,27 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor">
+        <article data-uid="ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter">
 
 
 
-  <h1 id="ToolkitEditor_Inventory_InventoryTypePostProcessor" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor" class="text-break">
-Class InventoryTypePostProcessor  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Editor/InventoryTypePostProcessor.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter" data-uid="ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter" class="text-break">
+Class ItemTypeFormatter  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Samples~/Save Management/Scripts/ItemTypeFormatter.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEditor.html">ToolkitEditor</a>.<a class="xref" href="ToolkitEditor.Inventory.html">Inventory</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.Inventory.html">Inventory</a>.<a class="xref" href="ToolkitEngine.Inventory.SaveManagement.html">SaveManagement</a></dd></dl>
   
   </div>
 
-  <div class="markdown summary"><p>Ensures every ItemType/CurrencyType ScriptableObject in the project has a unique m_id.
-Runs automatically whenever assets are imported, and can also be triggered
-manually via  Tools &gt; Toolkit &gt; Validate Item IDs.</p>
+  <div class="markdown summary"><p>Custom Odin Serializer formatter for <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryTypePostProcessor : AssetPostprocessor</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ItemTypeFormatter : MinimalBaseFormatter&lt;ItemType&gt;</code></pre>
   </div>
 
 
@@ -114,7 +112,7 @@ manually via  Tools &gt; Toolkit &gt; Validate Item IDs.</p>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">InventoryTypePostProcessor</span></div>
+      <div><span class="xref">ItemTypeFormatter</span></div>
     </dd>
   </dl>
 
@@ -130,51 +128,25 @@ manually via  Tools &gt; Toolkit &gt; Validate Item IDs.</p>
 </h2>
 
 
-  <a id="ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllCurrencyIds_" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds*"></a>
+  <a id="ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Read_" data-uid="ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read*"></a>
 
-  <h3 id="ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllCurrencyIds" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllCurrencyIds">
-  ValidateAllCurrencyIds()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Editor/InventoryTypePostProcessor.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Read_ToolkitEngine_Inventory_ItemType__IDataReader_" data-uid="ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Read(ToolkitEngine.Inventory.ItemType@,IDataReader)">
+  Read(ref ItemType, IDataReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Samples~/Save Management/Scripts/ItemTypeFormatter.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ValidateAllCurrencyIds()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Read(ref ItemType value, IDataReader reader)</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllIds_" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds*"></a>
-
-  <h3 id="ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllIds__1" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllIds``1">
-  ValidateAllIds&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Editor/InventoryTypePostProcessor.cs/#L23"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ValidateAllIds&lt;T&gt;() where T : ScriptableObject</code></pre>
-  </div>
-
-
-
-  <h4 class="section">Type Parameters</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>T</code></dt>
+    <dt><code>value</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>reader</code> <span class="xref">IDataReader</span></dt>
     <dd></dd>
   </dl>
 
@@ -187,20 +159,29 @@ manually via  Tools &gt; Toolkit &gt; Validate Item IDs.</p>
 
 
 
-  <a id="ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllItemIds_" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds*"></a>
 
-  <h3 id="ToolkitEditor_Inventory_InventoryTypePostProcessor_ValidateAllItemIds" data-uid="ToolkitEditor.Inventory.InventoryTypePostProcessor.ValidateAllItemIds">
-  ValidateAllItemIds()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Editor/InventoryTypePostProcessor.cs/#L17"><i class="bi bi-code-slash"></i></a>
+
+  <a id="ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Write_" data-uid="ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write*"></a>
+
+  <h3 id="ToolkitEngine_Inventory_SaveManagement_ItemTypeFormatter_Write_ToolkitEngine_Inventory_ItemType__IDataWriter_" data-uid="ToolkitEngine.Inventory.SaveManagement.ItemTypeFormatter.Write(ToolkitEngine.Inventory.ItemType@,IDataWriter)">
+  Write(ref ItemType, IDataWriter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.inventory/blob/master/Samples~/Save Management/Scripts/ItemTypeFormatter.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ValidateAllItemIds()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Write(ref ItemType value, IDataWriter writer)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="ToolkitEngine.Inventory.ItemType.html">ItemType</a></dt>
+    <dd></dd>
+    <dt><code>writer</code> <span class="xref">IDataWriter</span></dt>
+    <dd></dd>
+  </dl>
 
 
 
