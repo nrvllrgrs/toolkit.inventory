@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using ToolkitEngine.Inventory;
+using Gilzoide.EasyProjectSettings;
 
 namespace ToolkitEditor.Inventory
 {
@@ -56,6 +57,7 @@ namespace ToolkitEditor.Inventory
 
 			EnforceUniqueIds<ItemType>(false);
 			EnforceUniqueIds<CurrencyType>(false);
+			RebuildItemDatabases();
 		}
 
 		/// <summary>
@@ -136,6 +138,52 @@ namespace ToolkitEditor.Inventory
 			}
 
 			return fixedCount;
+		}
+
+		// <summary>
+		/// Finds every ItemDatabase asset in the project and repopulates its
+		/// m_items list with all ItemType assets currently in the project.
+		/// </summary>
+		private static void RebuildItemDatabases()
+		{
+			var settings = ProjectSettings.Load<InventorySettings>();
+			if (settings?.itemDatabase == null)
+				return;
+
+			var allItemTypes = new List<ItemType>();
+
+			// Collect every ItemType asset in the project.
+			var itemTypes = AssetUtil.GetAssetsOfType<ItemType>();
+			foreach (var itemType in itemTypes)
+			{
+				if (itemType != null)
+				{
+					allItemTypes.Add(itemType);
+				}
+			}
+
+			AssetDatabase.StartAssetEditing();
+			try
+			{
+				var serializedDatabase = new SerializedObject(settings.itemDatabase);
+				var itemsProp = serializedDatabase.FindProperty("m_items");
+				if (itemsProp == null || !itemsProp.isArray)
+					return;
+
+				itemsProp.ClearArray();
+				for (int i = 0; i < allItemTypes.Count; i++)
+				{
+					itemsProp.InsertArrayElementAtIndex(i);
+					itemsProp.GetArrayElementAtIndex(i).objectReferenceValue = allItemTypes[i];
+				}
+
+				serializedDatabase.ApplyModifiedPropertiesWithoutUndo();
+				EditorUtility.SetDirty(settings.itemDatabase);
+			}
+			finally
+			{
+				AssetDatabase.StopAssetEditing();
+			}
 		}
 	}
 }

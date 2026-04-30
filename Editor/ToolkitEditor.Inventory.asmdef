@@ -4,7 +4,9 @@
     "references": [
         "ToolkitEngine.Inventory",
         "ToolkitEditor",
-        "ToolkitEngine"
+        "ToolkitEngine",
+        "Gilzoide.EasyProjectSettings",
+        "Gilzoide.EasyProjectSettings.Editor"
     ],
     "includePlatforms": [
         "Editor"

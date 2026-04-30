@@ -42,7 +42,7 @@ namespace ToolkitEngine.Inventory
                     if (RandomUtil.Next(0f, cachedTotalRates, random) <= m_noDropRate)
                         continue;
 
-                    var selected = m_items.WeightedRandom();
+                    var selected = m_items.WeightedRandom(random);
                     switch (selected.dropType)
                     {
                         case DropEntry.DropType.LootTable:
@@ -75,7 +75,7 @@ namespace ToolkitEngine.Inventory
 				if (RandomUtil.Next(0f, cachedTotalRates, random) <= m_noDropRate)
 					continue;
 
-				var selected = m_items.WeightedRandom();
+				var selected = m_items.WeightedRandom(random);
 
 				switch (selected.dropType)
 				{
@@ -115,7 +115,7 @@ namespace ToolkitEngine.Inventory
 					if (RandomUtil.Next(0f, filteredTotalRates, random) <= m_noDropRate)
 						continue;
 
-					var selected = filteredItems.WeightedRandom();
+					var selected = filteredItems.WeightedRandom(random);
 					switch (selected.dropType)
 					{
 						case DropEntry.DropType.LootTable:
@@ -148,7 +148,7 @@ namespace ToolkitEngine.Inventory
 				if (RandomUtil.Next(0f, filteredTotalRates, random) <= m_noDropRate)
 					continue;
 
-				var selected = filteredItems.WeightedRandom();
+				var selected = filteredItems.WeightedRandom(random);
 				switch (selected.dropType)
 				{
 					case DropEntry.DropType.LootTable:
@@ -403,7 +403,7 @@ namespace ToolkitEngine.Inventory
 
 		public DropEntry(LootTable lootTable, int min, int max)
 		{
-			m_dropType = DropType.Currency;
+			m_dropType = DropType.LootTable;
 			m_lootTable = lootTable;
 			m_amountType = AmountType.Range;
 			m_minAmount = min;

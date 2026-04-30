@@ -30,6 +30,12 @@ namespace ToolkitEngine.Inventory
 
 		#region Methods
 
+		protected override void Initialize()
+		{
+			base.Initialize();
+			Config.itemDatabase?.Initialize();
+		}
+
 		public void Instantiate()
 		{
 			IInstantiableSubsystem.Instantiate(Config?.template);
