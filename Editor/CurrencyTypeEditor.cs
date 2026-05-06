@@ -52,19 +52,7 @@ namespace ToolkitEditor.Inventory
 
 		protected override void DrawProperties()
 		{
-			EditorGUILayout.BeginHorizontal();
-			{
-
-				EditorGUI.BeginDisabledGroup(true);
-				EditorGUILayout.PropertyField(m_id, new GUIContent("ID"));
-				EditorGUI.EndDisabledGroup();
-
-				if (GUILayout.Button(EditorGUIUtility.IconContent("TreeEditor.Refresh"), GUILayout.Width(20)))
-				{
-					m_id.stringValue = System.Guid.NewGuid().ToString();
-				}
-			}
-			EditorGUILayout.EndHorizontal();
+			DrawIDProperty(m_id);
 
 			EditorGUILayout.Separator();
 
@@ -76,7 +64,7 @@ namespace ToolkitEditor.Inventory
             EditorGUILayout.PropertyField(m_name);
 			EditorGUILayout.PropertyField(m_description);
 #endif
-			EditorGUILayout.ObjectField(m_icon, typeof(Sprite), GUILayout.Height(64), GUILayout.Width(64 + EditorGUIUtility.labelWidth));
+			DrawIconProperty(m_icon);
 			EditorGUILayout.PropertyField(m_properties);
 
 			EditorGUILayout.Separator();
